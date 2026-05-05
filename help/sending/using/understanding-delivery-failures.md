@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1337'
+workflow-type: ht
+source-wordcount: '1403'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Nachrichten können während der Versandvorbereitung auch ausgeschlossen werden,
 * [Funktionsweise des Opt-in- und Opt-out-Verfahrens in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 * [Bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=de#metrics-for-deliverability)
 
-## Fehlgeschlagene Sendungen für eine Nachricht identifizieren             {#identifying-delivery-failures-for-a-message}
+## Fehlgeschlagene Sendungen für eine Nachricht identifizieren {#identifying-delivery-failures-for-a-message}
 
 Nachdem eine Nachricht gesendet wurde, können Sie im Tab **[!UICONTROL Versandlogs]** (siehe [diesen Abschnitt](../../sending/using/monitoring-a-delivery.md#sending-logs)) den Versandstatus für jedes Profil sowie den damit verbundenen Fehlertyp und die Ursache einsehen (siehe [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons)).
 
@@ -45,7 +45,7 @@ Nachdem eine Nachricht gesendet wurde, können Sie im Tab **[!UICONTROL Versandl
 
 Es steht auch ein entsprechender Bericht zur Verfügung. Dieser Bericht zeigt die Gesamtheit aller Statistiken zu bei Sendungen aufgetretenen Hard- und Softbounces und der automatischen Bounce-Verarbeitung. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../reporting/using/bounce-summary.md).
 
-## Typen und Ursachen für fehlgeschlagene Sendungen             {#delivery-failure-types-and-reasons}
+## Typen und Ursachen für fehlgeschlagene Sendungen {#delivery-failure-types-and-reasons}
 
 Bei Fehlschlägen des Versands gibt es drei Typen von Fehlern:
 
@@ -57,7 +57,7 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
 | Bezeichnung des Fehlers | Fehlertyp | Beschreibung |
 | ---------|----------|---------|
-| **[!UICONTROL Unbekannter Nutzer]** | Hard | Die Adresse existiert nicht. An dieses Profil werden keine weiteren Zustellversuche unternommen. |
+| **[!UICONTROL Unbekannter Nutzer]** | Hard | Die Adresse existiert nicht. Für dieses Profil werden keine weiteren Sendungen durchgeführt. |
 | **[!UICONTROL Adresse in Quarantäne]** | Hard | Die Adresse wurde unter Quarantäne gestellt. |
 | **[!UICONTROL Unerreichbar]** | Softbounce / Hardbounce | In der Versandkette der Nachricht ist ein Fehler aufgetreten (zum Beispiel zeitweilig unerreichbare Domain). Entsprechend dem vom Provider zurückgegebenen Fehler wird die Adresse direkt unter Quarantäne gestellt oder der Zustellversuch wiederholt, bis Campaign einen Fehler empfängt, der den Quarantänestatus auslöst oder bis die Fehleranzahl 5 erreicht hat. |
 | **[!UICONTROL Adresse leer]** | Hard | Die Adresse ist nicht definiert. |
@@ -69,7 +69,7 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 | **[!UICONTROL Adresse auf Blockierungsliste]** | Hard | Die Adresse wurde zum Zeitpunkt des Versands der Blockierungsliste hinzugefügt. |
 | **[!UICONTROL Konto deaktiviert]** | Softbounce / Hardbounce | Wenn das Konto längere Zeit nicht abgefragt wird, kann es vom Internetanbieter geschlossen werden, was den Versand an diese Empfängeradresse unmöglich macht. Ob es sich um einen Softbounce oder Hardbounce handelt, hängt vom empfangenen Fehlertyp ab: Wenn das Konto vorübergehend wegen einer sechsmonatigen Inaktivität deaktiviert ist und wieder aktiviert werden kann, wird der Status **[!UICONTROL Mit Fehlern]** zugewiesen und der Zustellversuch wird wiederholt. Wenn das Konto permanent deaktiviert ist, wird es sofort unter Quarantäne gestellt. |
 | **[!UICONTROL Nicht angemeldet]** | Ignoriert | Das Mobiltelefon des Profils war beim Versand der Nachricht ausgeschaltet oder verfügte über keinen Netzempfang. |
-| **[!UICONTROL Ungültige Domain]** | Soft | Die Domain der E-Mail-Adresse ist fehlerhaft oder existiert nicht mehr. An dieses Profil werden wiederholte Zustellversuche unternommen, bis die Fehleranzahl 5 erreicht. Danach wird der Datensatz in den Quarantänestatus versetzt und die Zustellversuche werden eingestellt. |
+| **[!UICONTROL Ungültige Domain]** | Soft | Die Domain der E-Mail-Adresse ist falsch oder nicht mehr vorhanden. An dieses Profil werden wiederholte Zustellversuche unternommen, bis die Fehleranzahl 5 erreicht. Danach wird der Datensatz in den Quarantänestatus versetzt und die Zustellversuche werden eingestellt. |
 | **[!UICONTROL Text zu lang]** | Ignoriert | Die Zeichenanzahl der SMS-Nachricht übersteigt das Limit. Weiterführende Informationen dazu finden Sie im Abschnitt [Kodierung, Länge und Tansliteration von SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
 | **[!UICONTROL Zeichen wird in der Kodierung nicht unterstützt]** | Ignoriert | Die SMS-Nachricht enthält ein oder mehrere Zeichen, die von der Kodierung nicht unterstützt werden. Weiterführende Informationen dazu finden Sie im Abschnitt [Zeichensatztabelle – GSM-Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
@@ -78,7 +78,7 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 * [Hardbounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=de#hard-bounces)
 * [Softbounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=de#soft-bounces)
 
-## Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand             {#retries-after-a-delivery-temporary-failure}
+## Weitere Zustellversuche nach einem vorübergehend fehlgeschlagenen Versand {#retries-after-a-delivery-temporary-failure}
 
 Wenn die Zustellung einer Nachricht wegen eines vorübergehenden Fehlers fehlschlägt, werden während der Versandlaufzeit weitere Zustellversuche unternommen. Weiterführende Informationen zu Fehlertypen finden Sie im Abschnitt [Typen und Ursachen für fehlgeschlagene Sendungen](#delivery-failure-types-and-reasons).
 
@@ -90,7 +90,7 @@ Um die Dauer eines Versands zu ändern, gehen Sie zu den erweiterten Parametern 
 
 >[!IMPORTANT]
 >
->**Der Parameter**[!UICONTROL  Versandlaufzeit ]**in Ihren Campaign-Sendungen wird jetzt nur verwendet, wenn er 3,5 Tage oder weniger beträgt.** Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt.
+>**Der Parameter**[!UICONTROL  Versandlaufzeit ]**in Ihren Campaign-Sendungen wird jetzt nur verwendet, wenn er auf 3,5 Tage oder weniger festgelegt ist.** Wenn Sie einen Wert von mehr als 3,5 Tagen definieren, wird dieser nicht berücksichtigt.
 
 Wenn Sie beispielsweise möchten, dass weitere Zustellversuche für einen Versand nach einem Tag gestoppt werden, können Sie die Versandlaufzeit mit **1d** festlegen. Die Nachrichten in der Wiederholungswarteschlange werden daraufhin nach einem Tag entfernt.
 
@@ -103,7 +103,7 @@ MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).
 -->
 
-## Synchrone und asynchrone Fehler     {#synchronous-and-asynchronous-errors}
+## Synchrone und asynchrone Fehler {#synchronous-and-asynchronous-errors}
 
 Ein Versand kann sofort fehlschlagen (synchroner Fehler) oder zu einem späteren Zeitpunkt nach dem Versand (asynchroner Fehler).
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
 ht-degree: 100%
 
@@ -21,4 +21,4 @@ Zielgruppen-Mappings sind technische Objekte, die Campaign zum Versenden von Nac
 
 Administratoren können über das Menü **[!UICONTROL Administration > Anwendungskonfiguration > Zielgruppen-Mappings]** auf Zielgruppen-Mappings zugreifen.
 
-Zielgruppen-Mappings können entsprechend bestimmten Anforderungen an den Nachrichtenversand erstellt oder angepasst werden. Die Zielgruppendimension sollte sich dabei immer auf Profile beziehen (Tabelle **[!UICONTROL nms:recipient]**). Weiterführende Informationen zum Thema Zielgruppendimension finden Sie auf [dieser Seite](../../automating/using/query.md#targeting-dimensions-and-resources).
+Zielgruppen-Mappings können entsprechend bestimmten Anforderungen an den Nachrichtenversand erstellt oder angepasst werden. In jedem Fall sollte ihre Zielgruppendimension immer Profilen entsprechen (Tabelle **[!UICONTROL nms:recipient]**). Weiterführende Informationen zum Thema Zielgruppendimension finden Sie auf [dieser Seite](../../automating/using/query.md#targeting-dimensions-and-resources).

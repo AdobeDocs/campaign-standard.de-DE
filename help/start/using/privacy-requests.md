@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1636'
+workflow-type: ht
+source-wordcount: '1732'
 ht-degree: 100%
 
 ---
@@ -79,7 +79,7 @@ Weitere Informationen zum Erstellen eines Namespace finden Sie in diesem [Tutori
 
    ![](assets/privacy-namespace-target-mapping.png)
 
-1. Wählen Sie den **[!UICONTROL Abstimmschlüssel]** aus. Das ist das Feld, das zur Identifikation der betroffenen Person in der Adobe Campaign-Datenbank herangezogen wird.
+1. Wählen Sie den **[!UICONTROL Abstimmschlüssel]** aus. Dies ist das Feld, das zur Identifizierung der betroffenen Person in der Adobe Campaign-Datenbank herangezogen wird.
 
    ![](assets/privacy-namespace-reconciliation-key.png)
 
@@ -123,7 +123,7 @@ Dies sind die Ressourcen, die bei der Durchführung von Datenschutzanfragen stan
 * Profilanmeldungen (subscriptionRcp)
 * Besucher (visitor)
 
-Wenn Sie benutzerdefinierte Ressourcen erstellt haben, für die eine Relation zur Profilressource (Typ „own“) besteht, werden auch diese berücksichtigt. Wenn Sie beispielsweise eine Transaktionen-Ressource haben, für die eine Relation mit der Profilressource vorhanden ist und eine Transaktionendetails-Ressource, für die eine Relation mit der Transaktionen-Ressource besteht, werden beide berücksichtigt.
+Wenn Sie benutzerdefinierte Ressourcen erstellt haben, die über einen Link zur Profilressource (Typ „own“) verfügen, werden diese ebenfalls berücksichtigt.Wenn Sie über eine Transaktionsressource verfügen, die mit der Profilressource verknüpft ist, und eine Transaktionsdetailressource, die mit der Transaktionsressource verknüpft ist, werden beide berücksichtigt.
 
 Weitere Informationen zum Ändern benutzerdefinierter Ressourcen finden Sie in [diesem Tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=de#privacy).
 
@@ -243,6 +243,6 @@ Stellen Sie sicher, dass Sie die personenbezogenen Daten in den Profilen von Ben
 
    ![](assets/privacy-ccpa-profile-configure-list.png)
 
-1. Sie können auf die Spalte klicken, um Empfänger gemäß den Opt-out-Informationen zu sortieren.
+1. Sie können auf die Spalte klicken, um Empfangende gemäß den Opt-out-Informationen zu sortieren.
 
    ![](assets/privacy-ccpa-profile-sorting.png)

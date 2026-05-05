@@ -8,8 +8,8 @@ role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
-source-wordcount: '725'
+workflow-type: ht
+source-wordcount: '730'
 ht-degree: 100%
 
 ---
@@ -23,18 +23,18 @@ ht-degree: 100%
                   <th>Name</th>
                   <th>Titel</th>
                   <th>Typ (Länge)</th>
-                  <th>Auflistungswerte</th>
+                  <th>Aufzählungswerte</th>
                </tr>
                <tr>
                   <td>FCP</td>
                   <td>Proof</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>Main resource ID</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
@@ -46,7 +46,7 @@ ht-degree: 100%
                <tr>
                   <td>advanced</td>
                   <td>Advanced delivery</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,13 +64,13 @@ ht-degree: 100%
                <tr>
                   <td>alertMessage</td>
                   <td>Warning message</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>alertMode</td>
                   <td>Warning type</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
@@ -94,12 +94,12 @@ ht-degree: 100%
                <tr>
                   <td>builtIn</td>
                   <td>Built-in application object</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>campaign (campaignBase)</td>
-                  <td>Campaign</td>
+                  <td>Kampagne</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -136,12 +136,12 @@ ht-degree: 100%
                <tr>
                   <td>contextResourceType</td>
                   <td>Resource type</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
-                  <td>Created</td>
+                  <td>Erstellt</td>
+                  <td>Erstellt</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -173,7 +173,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>desc</td>
-                  <td>Beschreibung </td>
+                  <td>Beschreibung</td>
                   <td>string (512)</td>
                   <td> </td>
                </tr>
@@ -229,7 +229,7 @@ ht-degree: 100%
                <tr>
                   <td>hasAttachments</td>
                   <td>Add attached files</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
@@ -256,24 +256,24 @@ ht-degree: 100%
                <tr>
                   <td>isExternal</td>
                   <td>Is external resource</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isMaster</td>
                   <td>Master</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>Template</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>iterations</td>
-                  <td>Deliveries</td>
+                  <td>Sendungen</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
@@ -297,7 +297,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Titel</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -330,13 +330,13 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>mainDate</td>
-                  <td>Date</td>
+                  <td>Datum</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mapping (deliveryMapping)</td>
-                  <td>Target mapping</td>
+                  <td>Zielgruppen-Mapping</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -354,7 +354,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>messageType</td>
-                  <td>Channel</td>
+                  <td>Kanal</td>
                   <td>enumeration (byte) </td>
                   <td>
                      <ul>
@@ -383,7 +383,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>offerManagement</td>
-                  <td>Offer Management</td>
+                  <td>Angebotsverwaltung</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -450,7 +450,7 @@ ht-degree: 100%
                <tr>
                   <td>ribbonMessage</td>
                   <td>Ribbon message</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
@@ -494,14 +494,14 @@ ht-degree: 100%
                         <li>Paused - paused - 75</li>
                         <li>Editing - edition - 0</li>
                         <li>Finished - finished - 95</li>
-                        <li>Counting in progress - targetSelection - 12</li>
+                        <li>Counting in progress – targetSelection – 12</li>
                         <li>Message finalized - messageReady - 25</li>
                         <li>Personalization or count failed - preparationError - 37</li>
                         <li>Stopped - cancelled - 85</li>
                         <li>Personalization in progress - messagePreparation - 22</li>
-                        <li>Target ready - targetReady - 15</li>
+                        <li>Target ready – targetReady – 15</li>
                         <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
-                        <li>Arbitration in progress - targetArbitration - 13</li>
+                        <li>Arbitration in progress – targetArbitration – 13</li>
                      </ul>
                   </td>
                </tr>
@@ -525,7 +525,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>title</td>
-                  <td>Delivery</td>
+                  <td>Versand</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -537,7 +537,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>trackingLogs</td>
-                  <td>Tracking logs</td>
+                  <td>Trackinglogs</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
@@ -561,7 +561,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>workflow (workflowBase)</td>
-                  <td>Targeting workflow</td>
+                  <td>Zielgruppenbestimmungs-Workflow</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -632,11 +632,11 @@ Nach Name oder Titel (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
     <tr>
     <td>mc</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
 </table>
 
@@ -649,7 +649,7 @@ Nach Zeiträumen (byPeriod)
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
 </table>
 
@@ -666,7 +666,7 @@ Nach Zeiträumen (byStartPeriod)
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
 </table>
 
@@ -705,7 +705,7 @@ Folgenachrichten (showFollowup)
     </tr>
     <tr>
     <td>followup</td>
-    <td>boolean</td>
+    <td>Boolesch</td>
     </tr>
 </table>
 
@@ -718,7 +718,7 @@ Erweiterte Sendungen einschließen (withAdvanced)
     </tr>
     <tr>
     <td>advanced</td>
-    <td>boolean</td>
+    <td>Boolesch</td>
     </tr>
 </table>
 
@@ -731,7 +731,7 @@ Kontinuierliche Sendungen aus einer heterogenen Liste einschließen (withContinu
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>boolean</td>
+    <td>Boolesch</td>
     </tr>
 </table>
 
@@ -744,7 +744,7 @@ Testsendungen einschließen (withFCP)
     </tr>
     <tr>
     <td>withFCP</td>
-    <td>boolean</td>
+    <td>Boolesch</td>
     </tr>
 </table>
 
@@ -791,6 +791,6 @@ Vordefinierte anzeigen (showOob)
     </tr>
     <tr>
     <td>oob</td>
-    <td>boolean</td>
+    <td>Boolesch</td>
     </tr>
 </table>

@@ -10,15 +10,15 @@ role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '327'
+workflow-type: ht
+source-wordcount: '330'
 ht-degree: 100%
 
 ---
 
 # Überwachen der Zustellbarkeit{#monitor-deliverability}
 
-Im Folgenden finden Sie Details zum **[!UICONTROL Versanddurchsatz]**-Bericht sowie zu den unterschiedlichen von Adobe Campaign bereitgestellten Monitoring-Werkzeugen. Hier sind zusätzliche Tipps für das Monitoring der Zustellbarkeit:
+Im Folgenden finden Sie Details zum Bericht **[!UICONTROL Versanddurchsatz]** sowie zu den unterschiedlichen von Adobe Campaign bereitgestellten Monitoring-Tools.Im Folgenden finden Sie einige zusätzliche Richtlinien zum Zustellbarkeits-Monitoring:
 
 * Prüfen Sie regelmäßig den Versanddurchsatz für die gesamte Plattform, um festzustellen, ob er der ursprünglichen Einstellung entspricht.
 * Achten Sie darauf, dass weitere Versuche in den Versandvorlagen korrekt eingerichtet sind (30 Minuten für das Versuchsintervall und mehr als 20 weitere Versuche).
@@ -41,9 +41,9 @@ Es stehen weitere Berichte zur Verfügung, z. B. **[!UICONTROL Versandzusammenf
 
 ## Sendungen überwachen {#monitoring-deliveries}
 
-Über das Nachrichten-Dashboard können Sie auf diese Versandlogs zugreifen: **[!UICONTROL Versandlogs]**, **[!UICONTROL Ausschlusslogs]**, **[!UICONTROL Ausschlussgründe]**, **[!UICONTROL Trackinglogs]** und **[!UICONTROL Getrackte URLs]**. In ihnen erfahren Sie Versanddetails, welche Zielgruppe ausgeschlossen war und den Ausschlussgrund sowie Tracking-Informationen wie Öffnungen und Klicks.
+Das Nachrichten-Dashboard bietet Ihnen Zugriff auf die Versandlogs: **[!UICONTROL Versandprotokolle]**, **[!UICONTROL Ausschlussprotokolle]**, **[!UICONTROL Ausschlussgründe]**, **[!UICONTROL Trackinglogs]** und **[!UICONTROL Tracking-URLs]**. In ihnen werden Details zum Versand dargestellt und Sie erfahren, welche Zielgruppe warum ausgeschlossen wurde sowie Tracking-Informationen wie z. B. Öffnungen und Klicks.
 
-Weiterführende Informationen dazu finden Sie unter [Sendungen beobachten](../../sending/using/monitoring-a-delivery.md).
+Weiterführende Informationen dazu finden Sie unter [Überwachen von Sendungen](../../sending/using/monitoring-a-delivery.md).
 
 ![](assets/sending_delivery1.png)
 

@@ -1,18 +1,18 @@
 ---
-title: Versionshinweise 2025
+title: Versionshinweise 2025
 description: Auf dieser Seite werden alle Versionen von Adobe Campaign Standard von 2025 aufgelistet.
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89114
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
-workflow-type: tm+mt
+exl-id: 9046db34-f610-4721-b6eb-92334149366d
+source-git-commit: 4e39100c19fa7bd943b16e3ed87b8c2d82bdf814
+workflow-type: ht
 source-wordcount: '290'
 ht-degree: 100%
 
 ---
 
-# Versionshinweise 2025 {#release-notes-2025}
+# Versionshinweise 2025 {#release-notes-2025}
 
 ## Version 25.2 – Version Sommer 2025 {#summer-25}
 
@@ -58,4 +58,3 @@ ht-degree: 100%
 * Fehlerkorrektur – Beim Abrechnungsprozess treten jetzt keine Leistungsprobleme mehr auf (CAMP-56796).
 * Fehlerkorrektur – Es wurde ein HTML-Kodierungsproblem mit dem Zeichen „`>`“ auf JSSP-Web-Seiten behoben (CAMP-56497).
 * Fehlerkorrektur – Bei der Verwendung der Option **In ausgewählten Zeilen anzeigen** in dynamischen Berichten tritt jetzt kein Fehler mehr auf (CAMP-55895).
-

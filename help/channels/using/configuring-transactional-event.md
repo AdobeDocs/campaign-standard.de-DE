@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1779'
+workflow-type: ht
+source-wordcount: '1797'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Die Konfiguration variiert je nach dem zu sendenden [Typ der Transaktionsnachric
 
 Nach Abschluss der Konfiguration muss das Ereignis veröffentlicht werden. Siehe [Transaktionsereignisse veröffentlichen](../../channels/using/publishing-transactional-event.md).
 
-## Ereignis erstellen          {#creating-an-event}
+## Ereignis erstellen {#creating-an-event}
 
 Erstellen Sie zunächst ein Ereignis, das Ihren Anforderungen entspricht.
 
@@ -52,7 +52,7 @@ Erstellen Sie zunächst ein Ereignis, das Ihren Anforderungen entspricht.
 >
 >Die Anzahl der Transaktionsereignisse kann sich auf Ihre Plattform auswirken. Um eine optimale Performance zu gewährleisten, müssen Sie sicherstellen, dass nicht verwendete Ereignisse gelöscht werden. Siehe [Ereignis löschen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Ereignisattribute definieren          {#defining-the-event-attributes}
+## Ereignisattribute definieren {#defining-the-event-attributes}
 
 Definieren Sie im Bereich **[!UICONTROL Felder]** die Attribute, die in den Ereignisinhalt integriert werden und im Anschluss zur Personalisierung der Transaktionsnachricht verwendet werden können.
 
@@ -64,11 +64,11 @@ Alle das Hinzufügen oder Ändern von Feldern betreffenden Schritte folgen dem g
 >
 >Wenn Sie eine mehrsprachige Transaktionsnachricht erstellen möchten, definieren Sie ein zusätzliches Ereignisattribut mit der ID **[!UICONTROL AC_language]**. Dies gilt nur für Ereignis-Transaktionsnachrichten. Nach der Veröffentlichung des Ereignisses sind die Schritte zur Bearbeitung des Inhalts einer mehrsprachigen Transaktionsnachricht dieselben wie für eine mehrsprachige Standard-E-Mail. Siehe [Mehrsprachige E-Mail erstellen](../../channels/using/creating-a-multilingual-email.md).
 
-## Datenkollektionen definieren          {#defining-data-collections}
+## Datenkollektionen definieren {#defining-data-collections}
 
 Sie können zum Ereignisinhalt eine Sammlung von Elementen hinzufügen, wobei jedes Element mehrere Attribute enthält.
 
-Diese Sammlung kann in Transaktions-E-Mails verwendet werden, um [Produktlisten](../../designing/using/using-product-listings.md) zum Nachrichteninhalt hinzuzufügen, wie z. B. eine Liste mit Produkten einschließlich Preis, Referenznummer, Menge usw. für jedes Produkt auf der Liste.
+Diese Sammlung kann in Transaktions-E-Mails verwendet werden, um [Produktlisten](../../designing/using/using-product-listings.md) zum Nachrichteninhalt hinzuzufügen, wie z. B. eine Liste mit Produkten, einschließlich Preis, Referenznummer, Menge für jedes Produkt in der Liste.
 
 1. Wählen Sie im Bereich **[!UICONTROL Sammlungen]** die Schaltfläche **[!UICONTROL Element erstellen]** aus.
 
@@ -193,7 +193,7 @@ Um eine ereignisbasierte Transaktionsnachricht zu senden, erstellen und konfigur
 
 1. Integrieren Sie das Ereignis in Ihre Website (siehe [Ereignis-Aktivierung integrieren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-### Profilbasierte Transaktionsnachrichten          {#profile-based-transactional-messages}
+### Profilbasierte Transaktionsnachrichten {#profile-based-transactional-messages}
 
 Sie können Transaktionsnachrichten auf der Grundlage von Kundenprofilen versenden, was Ihnen die Anwendung von Marketing-Typologieregeln, das Einfügen eines „Abo stornieren“-Links, das Hinzufügen der Nachricht zu den globalen Versandberichten und die Nutzung der Nachricht in der Customer Journey ermöglicht.
 

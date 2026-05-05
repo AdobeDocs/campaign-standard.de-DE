@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '298'
+workflow-type: ht
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
@@ -32,11 +32,11 @@ Mehrere Optionen sind verfügbar:
 
 * **[!UICONTROL Keine Optimierung]**: Der Versandzeitpunkt basiert auf der Zeitzone des Benutzers.
 
-  Wenn Ihre Zeitzone beispielsweise GMT+1 ist und Sie 9 Uhr in das Feld **[!UICONTROL Start des Versands am]** eingeben, erhält ein Empfänger in der Zeitzone GMT+3 die Nachricht um 11 Uhr Ortszeit.
+  Wenn Ihre Zeitzone beispielsweise GMT+1 ist und Sie im Feld **[!UICONTROL Start des Versands am]** „9:00 Uhr“ eingeben, erhält ein Empfänger bzw. eine Empfängerin in der Zeitzone GMT+3 die Nachricht um 11:00 Uhr Ortszeit für diesen Empfänger bzw. diese Empfängerin.
 
 * **[!UICONTROL In der Zeitzone des Empfängers senden]**: Alle Empfänger erhalten die Nachricht unter Berücksichtigung ihrer Zeitzone.
 
-  Wenn Sie beispielsweise 9 Uhr in das Feld **[!UICONTROL Start des Versands am]** eingeben, erhält ein Empfänger in der Zeitzone GMT+3 die Nachricht um 9 Uhr Ortszeit.
+  Wenn Sie beispielsweise „9:00 Uhr“ in das Feld **[!UICONTROL Start des Versands am]** eingeben, erhält ein Empfänger bzw. eine Empfängerin in der Zeitzone GMT+3 die Nachricht um 9:00 Uhr Ortszeit für diesen Empfänger bzw. diese Empfängerin.
 
   Siehe [Nachrichten in der Zeitzone des Empfängers senden](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 

@@ -12,8 +12,8 @@ level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: true
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: tm+mt
-source-wordcount: '335'
+workflow-type: ht
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -30,8 +30,8 @@ Adobe Campaign Standard verwendet dann den Dienst **Audience Destinations**, um 
 
 **Audiences** werden durch anfängliches Einrichten von **Segmenten** erstellt, bei denen es sich im Prinzip um einen Regelsatz handelt, der auf praktisch jeder Variablen (z. B. Profil-, Ereignis-, Multi-Entitäts-Daten) innerhalb eines Kundenprofils von Adobe Experience Platform basieren kann, um eine multidimensionale Zielgruppe zu erstellen. Allgemeine Konzepte zu Diensten für Echtzeit-Kundenprofile und Segmentierung werden in diesen Dokumenten erläutert:
 
-* [Echtzeit-Kundenprofil – Überblick ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de)
-* [Übersicht über den Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de)
+* [Überblick über das Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de)
+* [Überblick über den Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de)
 
 Nach dem Erstellen eines Segments können Sie es als Zielgruppe für einen Versand in [Campaign Standard-Workflows](../../integrating/using/aep-targeting-audiences.md) aktivieren. Darüber hinaus können Sie kontextuelle Daten aus Adobe Experience Platform verwenden, um Nachrichten zu [personalisieren](../../integrating/using/aep-personalizing-campaigns.md) und dynamische Inhalte zu Ihren Kampagnen hinzuzufügen.
 

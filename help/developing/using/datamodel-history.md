@@ -8,8 +8,8 @@ role: Developer
 level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
-source-wordcount: '1347'
+workflow-type: ht
+source-wordcount: '1348'
 ht-degree: 100%
 
 ---
@@ -23,12 +23,12 @@ ht-degree: 100%
                   <th>Name</th>
                   <th>Titel</th>
                   <th>Typ (Länge)</th>
-                  <th>Auflistungswerte</th>
+                  <th>Aufzählungswerte</th>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>Main resource ID</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
@@ -46,43 +46,43 @@ ht-degree: 100%
                <tr>
                   <td>blackList</td>
                   <td>No longer contact (by any channel)</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListEmail</td>
                   <td>No longer contact by email</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListFax</td>
                   <td>No longer contact by fax</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListMobile</td>
                   <td>No longer contact by SMS</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPhone</td>
                   <td>No longer contact by phone</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPostalMail</td>
                   <td>No longer contact by direct mail</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPushnotification</td>
                   <td>No longer contact by push notification</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
@@ -110,8 +110,8 @@ ht-degree: 100%
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
-                  <td>Created</td>
+                  <td>Erstellt</td>
+                  <td>Erstellt</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -141,7 +141,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>email</td>
-                  <td>Email</td>
+                  <td>E-Mail</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -179,7 +179,7 @@ ht-degree: 100%
                <tr>
                   <td>isExternal</td>
                   <td>Is external resource</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
@@ -238,7 +238,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>phone</td>
-                  <td>Phone</td>
+                  <td>Telefon</td>
                   <td>string (32)</td>
                   <td> </td>
                </tr>
@@ -262,7 +262,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>timeZone</td>
-                  <td>Time zone</td>
+                  <td>Zeitzone</td>
                   <td>enumeration (string) (64)</td>
                   <td>
                      <ul>
@@ -403,7 +403,7 @@ Geburtstag (birthday)
 </tr>
 <tr>
 <td>includeStart</td>
-<td>boolean</td>
+<td>Boolesch</td>
 </tr>
 <tr>
 <td>previousUnitsValue</td>
@@ -423,7 +423,7 @@ Geburtstag (birthday)
 </tr>
 <tr>
 <td>relativeValue</td>
-<td>string</td>
+<td>Zeichenfolge</td>
 </tr>
 <tr>
 <td>month</td>
@@ -435,7 +435,7 @@ Geburtstag (birthday)
 </tr>
 <tr>
 <td>includeEnd</td>
-<td>boolean</td>
+<td>Boolesch</td>
 </tr>
 <tr>
 <td>endMonth</td>
@@ -460,7 +460,7 @@ Nach E-Mail (byEmail)
 </tr>
 <tr>
 <td>email</td>
-<td>string</td>
+<td>Zeichenfolge</td>
 </tr>
 </table>
 
@@ -473,7 +473,7 @@ Nach Schlüssel (byKeysProfile)
 </tr>
 <tr>
 <td>email</td>
-<td>string</td>
+<td>Zeichenfolge</td>
 </tr>
 </table>
 
@@ -486,11 +486,11 @@ Nach Name oder E-Mail (byText)
 </tr>
 <tr>
 <td>text</td>
-<td>string</td>
+<td>Zeichenfolge</td>
 </tr>
 </table>
 
-Nach statischer Audience (byStaticAudience)
+Nach statischer Zielgruppe (byStaticAudience)
 
 <table>
 <tr>
@@ -498,7 +498,7 @@ Nach statischer Audience (byStaticAudience)
 <th>Typ</th>
 </tr>
 <tr>
-<td>audience</td>
+<td>Zielgruppe</td>
 <td>link</td>
 </tr>
 </table>

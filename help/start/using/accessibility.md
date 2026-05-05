@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '648'
+workflow-type: ht
+source-wordcount: '661'
 ht-degree: 100%
 
 ---
@@ -29,11 +29,11 @@ Adobe Campaign Standard bietet Funktionen, die die Nutzung erleichtern, wie z. B
 
 Es wurde versucht, in der Benutzeroberfläche von Adobe Campaign Standard genügend Kontrast bereitzustellen, um Benutzern mit Sehbehinderung oder eingeschränkter farblicher Wahrnehmungsfähigkeit ein barrierefreies Seherlebnis zu bieten.
 
-* Großer Text und Überschriften wurden verbessert, um ein Kontrastverhältnis von 3:1 zu erreichen.
+* Großer Text und Überschriften wurden verbessert, um ein Kontrastverhältnis von 3:1 zu erzielen.
 
   ![](assets/accessibility_2.png)
 
-* Hilfeinhalte und der Textkörper in der Anwendung wurden aktualisiert, um ein Kontrastverhältnis von 4,5:1 zu erreichen.
+* Hilfeinhalt und Textkörper im Programm wurden aktualisiert, um ein Kontrastverhältnis von 4,5:1 zu erzielen.
 
 * Die Symbole zum Aussetzen und Abbrechen von Workflows wurden aktualisiert, um den Kontrast zwischen Hintergrund und Vordergrund zu verbessern.
 
@@ -49,7 +49,7 @@ Die Adobe Campaign Standard-Benutzeroberfläche erleichtert allen Benutzern die 
 
   ![](assets/accessibility_3.png)
 
-* Inhalte, die beim Bewegen des Mauszeigers oder beim Fokussieren angezeigt werden, können vom Benutzer verworfen werden und verdecken keine anderen Inhalte.
+* Inhalte, die beim Bewegen des Mauszeigers oder beim Fokussieren angezeigt werden, können von Benutzenden verworfen werden und verdecken keine anderen Inhalte.
 
   ![](assets/accessibility_4.png)
 

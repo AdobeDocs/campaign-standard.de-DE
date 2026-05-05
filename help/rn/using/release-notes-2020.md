@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '5272'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '5444'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 <tr> 
   <td> <p>Sie können jetzt <strong>Kontrollgruppen</strong> verwenden, um die Wirkung Ihrer Kampagnen zu messen, indem Sie einen Teil ihrer Zielgruppe ausschließen. Sie können dann das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielpopulation enthalten waren. Anhand der Versandlogs können Sie auch eine Kontrollgruppe in zukünftigen Kampagnen auswählen.
 </p>
-<p>Weiterführende Informationen finden Sie im <a href="../../sending/using/control-group.md">entsprechenden Handbuch</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=de">Anleitungsvideo</a>.
+<p>Weiterführende Informationen finden Sie im <a href="../../sending/using/control-group.md">entsprechenden Handbuch</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">Anleitungsvideo</a>.
 </p>
 </td> 
 </tr> 
@@ -98,7 +98,7 @@ ht-degree: 99%
 * Fehlerkorrektur – Das Hochladen von Inhalten aus einer angehängten HTML-Datei funktioniert jetzt richtig. Nachdem die Nachricht an eine Gmail-Adresse gesendet wurde, wurde das CSS nicht angewendet, was zu einem Rendering-Problem führte. (CAMP-44085)
 * Fehlerkorrektur – Zuvor in einer Nachricht verwendete Inhaltsfragmente werden jetzt aktualisiert, wenn sie direkt in der Inhaltsvorlage geändert werden. (CAMP-43973)
 * Fehlerkorrektur – Die Suchleiste **Fragmente** funktioniert jetzt richtig. Bei der Suche nach einem vorhandenen Fragment wurde in der Suchleiste kein Ergebnis angezeigt. (CAMP-44223)
-* Fehlerkorrektur – Die Suchleisten **Inhaltsbausteine** und **Fragmente** funktionieren jetzt richtig. Bei Verwendung einer der Suchleisten wurden die Ergebnisse nur angezeigt, wenn Sie **Weitere Ergebnisse anzeigen...** geklickt haben. (CAMP-44205)
+* Fehlerkorrektur – Die Suchleisten **Inhaltsbausteine** und **Fragmente** funktionieren jetzt richtig. Bei Verwendung einer der Suchleisten wurden die Ergebnisse nur angezeigt, wenn Sie auf **Mehr Ergebnisse anzeigen…** geklickt haben. (CAMP-44205)
 * Fehlerkorrektur – Der Abstand zwischen Text und Bildern in Microsoft Outlook kann jetzt korrekt angewendet werden. (CAMP-45370)
 * Fehlerkorrektur – Das Duplizieren eines Fragments funktioniert jetzt richtig. Nach dem Duplizieren des Fragments fehlten im ursprünglichen Fragment HTML-Zeilen. (CAMP-45207)
 * Fehlerkorrektur – Rendering ist jetzt in Microsoft Outlook ohne Probleme möglich. (CAMP-44749)
@@ -111,8 +111,8 @@ ht-degree: 99%
 * Organisationseinheiten werden jetzt automatisch auf die Organisationseinheit des Benutzers eingestellt, der das Profil oder die Entität erstellt. Organisationseinheiten können nicht mehr entfernt und leer gelassen werden.
 * Beim Veröffentlichen einer benutzerdefinierten Ressource wird jetzt nach der Vorbereitung ein Bestätigungs-Popup angezeigt.
 * Die Popup-Meldung, die angezeigt wird, wenn eine benutzerdefinierte Ressource fehlschlägt, wurde verbessert.
-* Der Ausdruckseditor in Workflows wurde verbessert, um Ausführungsfehler zu vermeiden.  Es stehen [neue Funktionen](../../automating/using/customizing-workflow-external-parameters.md) zur Verfügung: Sie können in allen Aktivitäten verwendet werden, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen. Zusätzlich wird jetzt im Ausdruckseditor eine QuickInfo mit der Funktionsbeschreibung angezeigt.
-* [Zur Liste der Transaktionsereignisse wurden neue Filter hinzugefügt. &#x200B;](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Mit ihnen können Sie die Ereigniskonfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses filtern.
+* Der Ausdruckseditor in Workflows wurde verbessert, um Ausführungsfehler zu vermeiden. Es stehen [neue Funktionen](../../automating/using/customizing-workflow-external-parameters.md) zur Verfügung: Sie können in allen Aktivitäten verwendet werden, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen. Zusätzlich wird jetzt im Ausdruckseditor eine QuickInfo mit der Funktionsbeschreibung angezeigt.
+* [Zur Liste der Transaktionsereignisse wurden neue Filter hinzugefügt. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Mit ihnen können Sie die Ereigniskonfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses filtern.
 * Die Protokolle, die beim Exportieren von Packages angezeigt werden, wurden im Fehlerfall spezifischer und detaillierter hinsichtlich der aufgetretenen Fehler gestaltet.
 * Nach dem Senden einer Nachricht können Sie jetzt die Liste der [getrackten URLs](../../sending/using/tracking-messages.md) durchsuchen, filtern und exportieren.
 * Die automatische [Synchronisation zwischen Launch und Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ist jetzt allgemein verfügbar und standardmäßig aktiviert.
@@ -141,10 +141,10 @@ ht-degree: 99%
 * Fehlerkorrektur – Die Prozentwerte für Klicks-Berichte werden jetzt angezeigt, wenn Inhalte aus einer URL importiert werden. (CAMP-44468)
 * Fehlerkorrektur – Beim Auswählen eines Profils, das im Zusammenhang mit der Profilersetzung verwendet werden sollte, wird kein Timeout-Fehler mehr angezeigt. (CAMP-44746)
 * Fehlerkorrektur – Instanzen funktionieren jetzt nach der Bereitstellung von benutzerdefinierten Ressourcen, die falsche Link-Definitionen enthalten. (CAMP-44406)
-* Fehlerkorrektur - Jetzt werden keine leeren verknüpften Entitäten (Typologien, Marken usw.) mehr erstellt, nachdem ein Versand kopiert und in eine Kampagnenvorlage eingefügt wurde. (CAMP-44765)
+* Es wurde ein Problem behoben, durch das leere verknüpfte Entitäten (Typologien, Marken) erstellt wurden, nachdem ein Versand kopiert und in eine Kampagnenvorlage eingefügt wurde. (CAMP-44765)
 * Fehlerkorrektur – Im Falle eines Datenbankabsturzes oder eines einfachen Datenbankneustarts unter Azure werden Testsendungen nicht mehr aufgrund einer fehlerhaften Handhabung von Versandvorbereitungstabellen verhindert.
 * Fehlerkorrektur – Es können jetzt Links mit Experience Manager-Inhalten in einem Versand mit mehrsprachigen Inhalten gelöscht werden. (CAMP-44029)
-* Fehlerkorrektur – In dynamischen Berichten können Dimensionen jetzt gefiltert werden, ohne dass eine Fehlermeldung angezeigt wird. (CAMP-43097)
+* Fehlerkorrektur – In dynamischen Berichten können Dimensionen jetzt gefiltert werden, ohne dass eine Fehlermeldung angezeigt wird.  (CAMP-43097)
 * Fehlerkorrektur – Beim Zugriff auf ein Profil in einer Instanz, die mit benutzerdefinierten Ressourcen konfiguriert ist, die bestimmte Linkdefinitionen enthalten, wird kein leerer Bildschirm mehr angezeigt. (CAMP-41009)
 * Fehlerkorrektur – Jetzt tritt kein Fehler mehr in Workflows auf, wenn eine Aktivität vom Typ **Anreicherung** mit zwei Eingabeaktivitäten verwendet wird, bei denen beide Zielgruppenressourcen verknüpft sind. (CAMP-42133)
 * Fehlerkorrektur – Import-Workflows werden bei Verwendung der Aktivität **Dateiübertragung** nicht mehr wiederholt. (CAMP-43754)
@@ -160,7 +160,7 @@ ht-degree: 99%
 * Fehlerkorrektur – Bei der Verwendung der Profilersetzung mit targetData-Personalisierung treten keine Fehler mehr auf. (CAMP-44996)
 * Fehlerkorrektur – Die Versandvorschau kann beim Exportieren einer Versandvorlage in einem Package problemlos angezeigt werden. (CAMP-44084)
 * Fehlerkorrektur – Testsendungen können jetzt an Testprofile gesendet werden, wenn benutzerdefinierte Zielgruppen-Mappings verwendet werden. (CAMP-43701)
-* Fehlerkorrektur – In einem Workflow kann jetzt die Aktivität **Audience lesen** mit einer Audience mit einer anderen Zielgruppendimension als **Profil** verwendet werden. (CAMP-41885)
+* Fehlerkorrektur – In einem Workflow kann jetzt die Aktivität **Audience lesen** mit einer Audience mit einer anderen Zielgruppendimension als **Profil** verwendet werden.  (CAMP-41885)
 * Fehlerkorrektur – Wenn der technische Workflow **updateEventsStatus** zum Abrufen des Ereignisverlaufs zu lange benötigt (wenn der Workflow angehalten wird), treten keine Fehler mehr auf. Das nicht verwendete Aggregatfeld &quot;sumQueueTime&quot; wurde aus dem Workflow entfernt, um das Problem zu lösen. (CAMP-43920)
 * Fehlerkorrektur – Bei der Bereitstellung benutzerdefinierter Ressourcen treten keine Speicherprobleme mehr auf. (CAMP-42909)
 * Fehlerkorrektur – Wenn Attribute in Sammlungen fehlen, treten in Transaktionsnachrichten keine Fehler mehr auf. Jetzt werden alle fehlenden Attribute mit einem Standardwert definiert und in die Payload aufgenommen. (CAMP-42882)
@@ -405,7 +405,7 @@ ht-degree: 99%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Experience Platform Data Connector ist jetzt in Adobe Campaign Standard integriert. Sie können Ihre Campaign-Daten in Adobe Experience Platform bereitstellen, indem Sie XTK-Daten (in Campaign aufgenommene Daten) auf das Adobe Experience Platform-Datenmodell (XDM) abbilden. </p>
+   <td> <p>Adobe Experience Platform Data Connector ist jetzt mit Adobe Campaign Standard integriert. Sie können Ihre Campaign-Daten in Adobe Experience Platform bereitstellen, indem Sie XTK-Daten (in Campaign aufgenommene Daten) auf das Adobe Experience Platform-Datenmodell (XDM) abbilden. </p>
     <p>Bitte beachten Sie, dass diese Funktion nur für Kundinnen und Kunden verfügbar ist, die auf Azure gehostet werden.</p>
    </td> 
   </tr> 

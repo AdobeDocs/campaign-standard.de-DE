@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1049'
+workflow-type: ht
+source-wordcount: '1053'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Die Grundlagen der Personalisierung werden in [diesem Abschnitt](../../designing
 
 Stellen Sie sicher, dass Ihr Nachrichteninhalt korrekt aufgebaut ist, um oft mit der Personalisierung in Verbindung stehende Fehler zu verhindern.
 
-Dynamische Inhalte können manuell hinzugefügt werden, um Ihren Empfängern entsprechend den im Ausdruckseditor definierten Bedingungen unterschiedliche Inhalte anzuzeigen. Wenn Sie dynamische Inhalte hinzufügen, müssen Sie immer eine Standardvariante für Empfänger angeben, die nicht die ausgewählten Bedingungen erfüllen.
+Dynamische Inhalte können manuell hinzugefügt werden, um Ihren Empfängern bzw. Empfängerinnen entsprechend den im Ausdruckseditor definierten Bedingungen unterschiedliche Inhalte anzuzeigen.Beim Hinzufügen dynamischer Inhalte müssen Sie für Empfänger bzw. Empfängerinnen, die die ausgewählten Bedingungen nicht erfüllen, immer eine Standardvariante beibehalten.
 Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 **Tipps:** Sehen Sie sich Ihre E-Mail mit unterschiedlichen Testprofilen in der Vorschau an, um zu überprüfen, ob der dynamische Inhalt korrekt konfiguriert wurde.
@@ -64,11 +64,11 @@ Beziehen Sie stets einen Link zur Mirrorseite ein. Die bevorzugte Position ist a
 
 ### Abmelde-Link
 
-Ein Abmelde-Link muss unbedingt vorhanden sein. Er muss gut sichtbar und gültig sein, und das Formular muss funktionieren. Hier erfahren Sie [die Richtlinien zu Abmelde-Links](../../designing/using/personalization.md#about-targeting-dimension).
+Ein Abmelde-Link muss unbedingt vorhanden sein.Er muss gut sichtbar und gültig sein und das Formular muss funktionieren. Hier erfahren Sie [die Richtlinien zu Abmelde-Links](../../designing/using/personalization.md#about-targeting-dimension).
 
 Bei der Analyse einer Nachricht wird standardmäßig von einer [Typologieregel](../../sending/using/control-rules.md) überprüft, ob ein Abmelde-Link vorhanden ist. Ist dies nicht der Fall, wird ein Warnhinweis erstellt.
 
-**Tipp**: Da menschliche Fehler immer möglich sind, prüfen Sie vor jedem Versand, ob der Abmelde-Link ordnungsgemäß funktioniert. Achten Sie beispielsweise beim Testversand darauf, dass der Link gültig ist, das Formular online ist und dass sich das Feld „Diese Person nicht mehr kontaktieren“ auf „Ja“ ändert.
+**Tipp**: Da menschliche Fehler immer möglich sind, prüfen Sie vor jedem Versand, ob der Ausschluss-Link ordnungsgemäß funktioniert. Achten Sie beispielsweise beim Testversand darauf, dass der Link gültig ist, dass das Formular online ist und dass sich das Feld „Diese Person nicht mehr kontaktieren“ in „Ja“ ändert.
 
 [In diesem Abschnitt](../../designing/using/personalization.md#adding-a-content-block) erfahren Sie, wie man einen Ausschluss-Link einfügt.
 
@@ -100,7 +100,7 @@ Adobe empfiehlt, den Standardwert für die maximale Nachrichtengröße beizubeha
 
 Standardmäßig kommt in Bezug auf die maximal zulässige Zeichenanzahl einer SMS der Mobilfunkstandard GSM (Global System for Mobile Communications) zur Anwendung. SMS, die das GSM-Alphabet verwenden, sind auf 160 Zeichen begrenzt oder auf 153 Zeichen pro SMS bei Nachrichten, die in mehreren Teilen gesendet werden.
 
-Die Transliteration besteht darin, ein Zeichen einer SMS durch ein anderes zu ersetzen, wenn dieses Zeichen vom GSM-Standard nicht berücksichtigt wird. Beachten Sie, dass durch das Einfügen von Personalisierungsfeldern in den Inhalt Ihrer SMS-Nachricht Zeichen eingeführt werden können, die von der GSM-Kodierung nicht berücksichtigt werden. Sie können die Transliteration von Zeichen zulassen, indem Sie das entsprechende Kästchen auf der Registerkarte „SMPP-Kanaleinstellungen“ des entsprechenden **[!UICONTROL externen Kontos]** markieren.
+Transliteration bezeichnet in einer SMS die Ersetzung eines Zeichens durch ein anderes, wenn das erste Zeichen nicht von GSM unterstützt wird. Beachten Sie, dass die Verwendung von Personalisierungsfeldern im SMS-Inhalt dazu führen kann, dass von der GSM-Codierung nicht unterstützte Zeichen eingefügt werden. Sie können die Transliteration von Zeichen zulassen, indem Sie das entsprechende Kästchen auf der Registerkarte „SMPP-Kanaleinstellungen“ des entsprechenden **[!UICONTROL externen Kontos]** markieren.
 Weiterführende Informationen finden Sie [in diesem Abschnitt](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Tipps**:
@@ -147,4 +147,4 @@ Damit Empfänger auf die Bilder zugreifen können, müssen die in E-Mails und ö
 
 Adobe empfiehlt eine Vorschau Ihrer Nachricht, um die Personalisierung zu überprüfen und festzustellen, wie Ihre Empfängerinnen und Empfänger den Versand sehen werden.
 
-In Email Designer können Sie mit der Schaltfläche **[!UICONTROL Vorschau]** das Rendering der einzelnen Inhalte für einen Empfänger anzeigen. Die Personalisierungsfelder und bedingten Inhaltselemente werden durch die entsprechenden Informationen für das ausgewählte Profil ersetzt.  [Weitere Informationen](../../sending/using/previewing-messages.md)
+In Email Designer können Sie mit der Schaltfläche **[!UICONTROL Vorschau]** das Rendering der einzelnen Inhalte für einen Empfänger anzeigen. Die Personalisierungsfelder und bedingten Inhaltselemente werden durch die entsprechenden Informationen für das ausgewählte Profil ersetzt. [Weitere Informationen](../../sending/using/previewing-messages.md)

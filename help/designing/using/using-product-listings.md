@@ -1,5 +1,5 @@
 ---
-title: 'Produktlisten in Transaktionsnachrichten verwenden            '
+title: Produktlisten in Transaktionsnachrichten verwenden
 description: Erfahren Sie, wie Sie Produktlisten in Transaktionsnachrichten verwenden.
 audience: designing
 content-type: reference
@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '922'
+workflow-type: ht
+source-wordcount: '944'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Sie können sich die erforderlichen Schritte zur Konfiguration von Produktlisten
 >
 >Adobe Campaign unterstützt keine verschachtelten Produktlisten, was bedeutet, dass Sie keine Produktliste in eine andere einfügen können.
 
-## Produktliste definieren            {#defining-a-product-listing}
+## Produktliste definieren {#defining-a-product-listing}
 
 Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, müssen Sie zuerst auf Ereignisebene die Liste der Produkte und die Felder für jedes Produkt der Liste definieren, die angezeigt werden sollen. Weiterführende Informationen dazu finden Sie im Abschnitt [Datenkollektionen definieren](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
@@ -45,7 +45,7 @@ Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, m�
 
    ![](assets/message-center_loop_create.png)
 
-   Die Strukturkomponente wird durch einen orangen Rahmen hervorgehoben und die Einstellungsoptionen für **[!UICONTROL Produktliste]** werden auf der linken Seite geöffnet.
+   Die Strukturkomponente ist durch einen orangefarbenen Rahmen hervorgehoben und die Einstellungsoptionen für **[!UICONTROL Produktliste]** sind auf der linken Seite geöffnet.
 
    ![](assets/message-center_loop_palette.png)
 
@@ -56,7 +56,7 @@ Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, m�
 
    >[!NOTE]
    >
-   >Die Option **[!UICONTROL Spalte]** ist nur verfügbar, wenn eine mehrspaltige Strukturkomponente verwendet wird (**[!UICONTROL 2-2-Spalte]**, **[!UICONTROL 3-3-Spalte]** und **[!UICONTROL 4-4-Spalte]** ). Füllen Sie bei der Bearbeitung der Produktliste nur die erste Spalte aus. Die anderen Spalten werden nicht berücksichtigt. Weiterführende Informationen zur Auswahl von Strukturkomponenten finden Sie unter [E-Mail-Aufbau definieren](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >Die Option **[!UICONTROL Spalte]** ist nur bei Verwendung einer mehrspaltigen Strukturkomponente verfügbar (**[!UICONTROL 2:2 Spalte]**, **[!UICONTROL 3:3 Spalte]** und **[!UICONTROL 4:4 Spalte]**). Füllen Sie bei der Bearbeitung der Produktliste nur die erste Spalte aus. Die anderen Spalten werden nicht berücksichtigt. Weiterführende Informationen zur Auswahl von Strukturkomponenten finden Sie unter [E-Mail-Aufbau definieren](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Wählen Sie die Datenkollektion aus, die Sie erstellt haben, als Sie das mit der Transaktionsnachricht in Verbindung stehende Ereignis konfiguriert haben. Sie finden sie im Knoten **[!UICONTROL Kontext]** > **[!UICONTROL Echtzeit-Ereignis]** > **[!UICONTROL Ereignis-Kontext]**.
 
@@ -74,7 +74,7 @@ Damit Sie eine Produktliste in einer Transaktionsnachricht verwenden können, m�
    >
    >Wenn die Elemente in Ihrer Liste senkrecht dargestellt werden sollen (**[!UICONTROL Spalte]**), entspricht die Höchstzahl der Elemente der ausgewählten Strukturkomponente (2, 3 oder 4 Spalten). Weiterführende Informationen zur Auswahl von Strukturkomponenten finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-## Produktliste befüllen            {#populating-the-product-listing}
+## Produktliste befüllen {#populating-the-product-listing}
 
 Gehen Sie folgendermaßen vor, um eine Liste mit Produkten darzustellen, die von dem Ereignis stammen, das mit der Transaktions-E-Mail verknüpft ist.
 
@@ -86,7 +86,7 @@ Weiterführende Informationen zur Erstellung einer Kollektion und der entspreche
 
 1. Wählen Sie im sich öffnenden Fenster **[!UICONTROL Bildquellen-URL]** die Option **[!UICONTROL Personalisierungsfeld hinzufügen]** aus.
 
-   Öffnen Sie im Knoten **[!UICONTROL Kontext]** > **[!UICONTROL Echtzeit-Ereignis]** > **[!UICONTROL Ereignis-Kontext]** den Knoten der von Ihnen erstellten Kollektion (hier **[!UICONTROL Produktliste]**) und wählen Sie das von Ihnen definierte Bild-Feld aus (hier **[!UICONTROL Produktbild]** ). Wählen Sie **[!UICONTROL Speichern]** aus.
+   Öffnen Sie im Knoten **[!UICONTROL Kontext]** > **[!UICONTROL Echtzeit-Ereignis]** > **[!UICONTROL Ereignis-Kontext]** den Knoten der von Ihnen erstellten Kollektion (hier **[!UICONTROL Produktliste]**) und wählen Sie das von Ihnen definierte Bild-Feld aus (hier **[!UICONTROL Produktbild]** ). Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/message-center_loop_product-image.png)
 
@@ -96,7 +96,7 @@ Weiterführende Informationen zur Erstellung einer Kollektion und der entspreche
 
    ![](assets/message-center_loop_product.png)
 
-1. Öffnen Sie im Knoten **[!UICONTROL Kontext]** > **[!UICONTROL Echtzeit-Ereignis]** > **[!UICONTROL Ereignis-Kontext]** den Knoten der von Ihnen erstellten Kollektion (hier **[!UICONTROL Produktliste]**) und wählen Sie das von Ihnen erstellte Feld aus (hier **[!UICONTROL Produktname]**). Wählen Sie **[!UICONTROL Bestätigen]** aus.
+1. Öffnen Sie im Knoten **[!UICONTROL Kontext]** > **[!UICONTROL Echtzeit-Ereignis]** > **[!UICONTROL Ereignis-Kontext]** den Knoten der von Ihnen erstellten Kollektion (hier **[!UICONTROL Produktliste]**) und wählen Sie das von Ihnen erstellte Feld aus (hier **[!UICONTROL Produktname]**). Klicken Sie auf **[!UICONTROL Bestätigen]**.
 
    ![](assets/message-center_loop_product_node.png)
 
@@ -109,7 +109,7 @@ Weiterführende Informationen zur Erstellung einer Kollektion und der entspreche
 
 1. Wählen Sie im sich öffnenden Fenster **[!UICONTROL Link einfügen]** die Option **[!UICONTROL Personalisierungsfeld hinzufügen]** aus.
 
-   Öffnen Sie im Knoten **[!UICONTROL Kontext]** > **[!UICONTROL Echtzeit-Ereignis]** > **[!UICONTROL Ereignis-Kontext]** den Knoten der von Ihnen erstellten Kollektion (hier **[!UICONTROL Produktliste]**) und wählen Sie das von Ihnen erstellte URL-Feld aus (hier **[!UICONTROL Produkt-URL]**). Wählen Sie **[!UICONTROL Speichern]** aus.
+   Öffnen Sie im Knoten **[!UICONTROL Kontext]** > **[!UICONTROL Echtzeit-Ereignis]** > **[!UICONTROL Ereignis-Kontext]** den Knoten der von Ihnen erstellten Kollektion (hier **[!UICONTROL Produktliste]**) und wählen Sie das von Ihnen erstellte URL-Feld aus (hier **[!UICONTROL Produkt-URL]**). Klicken Sie auf **[!UICONTROL Speichern]**.
 
    >[!IMPORTANT]
    >

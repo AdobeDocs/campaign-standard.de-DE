@@ -10,15 +10,15 @@ role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '433'
+workflow-type: ht
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
 
 # Verfolgen und überwachen {#track-and-monitor}
 
-Sie haben auf die Senden-Schaltfläche geklickt? Lassen Sie uns sehen, was dann passiert. Nach dem Versand der Nachrichten ermöglicht es Ihnen Adobe Campaign die gesendeten Nachrichten zu verfolgen und festzustellen, wie Ihre Empfänger darauf reagieren. Dadurch können Sie den zukünftigen Versand verbessern und Ihre nächsten Kampagnen optimieren.
+Sie haben auf die Schaltfläche „Senden“ geklickt? Sehen wir uns an, was passiert.Nach dem Versand der Nachrichten ermöglicht es Ihnen Adobe Campaign die gesendeten Nachrichten zu verfolgen und festzustellen, wie Ihre Empfänger darauf reagieren. Dadurch können Sie den zukünftigen Versand verbessern und Ihre nächsten Kampagnen optimieren.
 
 ## Überwachen von Sendungen {#monitoring-deliveries}
 
@@ -36,7 +36,7 @@ Weiterführende Informationen dazu finden Sie unter [Sendungen beobachten](../..
 
 ## Tracking {#tracking-deliveries}
 
-Um das Verhalten Ihrer Empfängerprofile besser kennenzulernen, können Sie ihre Reaktion auf einen Versand verfolgen: Empfang, Öffnung, Klicks auf Links, Abmeldungen usw. Siehe die Registerkarte **Trackinglogs** des Versands.
+Um das Verhalten Ihrer Empfängerprofile besser kennenzulernen, können Sie ihre Reaktion auf einen Versand verfolgen: Empfang, Öffnung, Klicks auf Links, Abmeldungen. Weitere Informationen finden Sie auf der Registerkarte **Trackinglogs** des Versands.
 
 **Tipp:** Das Nachrichten-Tracking ist standardmäßig aktiviert. Um URLs zu konfigurieren, wählen Sie im unteren Bereich des Versand-Assistenten die Option „URLs anzeigen“ aus. Sie können für jede URL der Nachricht festlegen, ob Sie die Nachverfolgung aktivieren möchten.
 
@@ -62,7 +62,7 @@ Weiterführende Informationen dazu finden Sie auf der Seite [Klicks-Bericht](../
 
 * Entfernen Sie nicht mehr benötigte Sendungen und inaktive Empfänger aus der Datenbank, um eine hohe Qualität der Adressen zu gewährleisten.
 
-* Planen Sie nicht die gleichzeitige Durchführung umfangreicher Sendungen. Beachten Sie, dass es 5 bis 10 Minuten dauern kann, bis die Last gleichmäßig über das System verteilt wurde.
+* Versuchen Sie nicht, große Sendungen gleichzeitig zu terminieren. Beachten Sie, dass es 5 bis 10 Minuten dauern kann, bis die Last gleichmäßig über das System verteilt wurde.
 
 **Verwandte Themen:**
 

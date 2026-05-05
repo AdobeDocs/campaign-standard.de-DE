@@ -8,13 +8,13 @@ role: Developer
 level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
-source-wordcount: '214'
+workflow-type: ht
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
 
-# Audience (nms:audience)
+# Zielgruppe (nms:audience)
 
 ## Objektbeschreibung
 
@@ -23,12 +23,12 @@ ht-degree: 100%
                   <th>Name</th>
                   <th>Titel</th>
                   <th>Typ (Länge)</th>
-                  <th>Auflistungswerte</th>
+                  <th>Aufzählungswerte</th>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>Main resource ID</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 100%
                <tr>
                   <td>collectLineNumber</td>
                   <td>Use a line number as ID</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
@@ -86,8 +86,8 @@ ht-degree: 100%
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
-                  <td>Created</td>
+                  <td>Erstellt</td>
+                  <td>Erstellt</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -99,14 +99,14 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>desc</td>
-                  <td>Beschreibung </td>
+                  <td>Beschreibung</td>
                   <td>string (512)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>doNotPersist</td>
                   <td>Do not historize this job</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,19 +130,19 @@ ht-degree: 100%
                <tr>
                   <td>hasSchema</td>
                   <td>HasSchema</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isAMC</td>
                   <td>Adobe Marketing Cloud audience</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>Is external resource</td>
-                  <td>boolean </td>
+                  <td>Boolesch </td>
                   <td> </td>
                </tr>
                <tr>
@@ -153,7 +153,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Titel</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -184,12 +184,12 @@ ht-degree: 100%
                <tr>
                   <td>rejectFilename</td>
                   <td>Rejection file</td>
-                  <td>string </td>
+                  <td>Zeichenfolge </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sharedAudience</td>
-                  <td>Name of the shared audience</td>
+                  <td>Name der freigegebenen Zielgruppe</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -213,7 +213,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>type</td>
-                  <td>Type</td>
+                  <td>Typ</td>
                   <td>enumeration (string) (100)</td>
                   <td>
                      <ul>
@@ -249,7 +249,7 @@ Nach Filterdimension (byFilteringResource)
     </tr>
     <tr>
     <td>filteringResource</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
 </table>
 
@@ -262,7 +262,7 @@ Nach Name oder Titel (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
 </table>
 
@@ -279,6 +279,6 @@ Nach Typ (byType)
     </tr>
     <tr>
     <td>isAMC</td>
-    <td>string</td>
+    <td>Zeichenfolge</td>
     </tr>
 </table>

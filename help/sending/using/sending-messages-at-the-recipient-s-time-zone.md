@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
-source-wordcount: '417'
+workflow-type: ht
+source-wordcount: '421'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Wenn bei einer Kampagne das Datum und die Uhrzeit wichtig sind, können Sie den 
 
 Zum Senden einer Nachricht in der Zeitzone des Empfängers können Sie auch die Aktivität **[!UICONTROL Planung]** in einem Workflow verwenden. Weiterführende Informationen hierzu finden Sie auf dieser [Seite](../../automating/using/scheduler.md).
 
-Im folgenden Beispiel möchten wir allen Kunden auf der ganzen Welt einen nur am Valentinstag gültigen Gutschein-Code senden. Damit die Empfänger genügend Zeit haben, den Gutschein noch am selben Tag einzulösen, müssen sie Ihre Nachricht am 14. Februar um 8 Uhr in ihrer jeweiligen Zeitzone erhalten.
+Im folgenden Beispiel möchten wir allen Kunden auf der ganzen Welt einen nur am Valentinstag gültigen Gutschein-Code senden. Um ausreichend Zeit für die Verwendung im Verlauf des Tages zu haben, müssen alle Kundinnen und Kunden Ihre Nachricht je nach ihrer Zeitzone am 14. Februar um 8:00 Uhr erhalten.
 
 1. Beginnen Sie mit der Erstellung Ihres Versands – in unserem Fall einer E-Mail – im Tab **[!UICONTROL Marketing-Aktivitäten]**. Weiterführende Informationen zur Versanderstellung finden Sie in diesem [Abschnitt](../../channels/using/creating-an-email.md).
 1. Klicken Sie nach der Erstellung Ihrer Valentinstags-E-Mail auf **[!UICONTROL Erstellen]**, um das Versand-Dashboard zu öffnen. Weiterführende Informationen zur Erstellung von E-Mails finden Sie auf dieser [Seite](../../designing/using/personalization.md#example-email-personalization).
@@ -36,7 +36,7 @@ Im folgenden Beispiel möchten wir allen Kunden auf der ganzen Welt einen nur am
 
    ![](assets/send-time_opt_valentine_2.png)
 
-1. Wählen Sie die Option **[!UICONTROL Nachrichtenversand am unten angegebenen Datum]** aus. Definieren Sie dann das Kontaktdatum im Feld **[!UICONTROL Start des Versands am]**, in unserem Fall den 14. Februar um 8:00 Uhr, sodass jeder Empfänger die Nachricht am Valentinstag erhält.
+1. Wählen Sie die Option **[!UICONTROL Nachrichtenversand am unten angegebenen Datum]** aus. Legen Sie dann im Feld **[!UICONTROL Start des Versands am]** das Kontaktdatum fest, in unserem Fall den 14. Februar um 8:00 Uhr, sodass jeder Empfänger bzw. jede Empfängerin die Nachricht am Valentinstag erhält.
 
    ![](assets/send-time_opt_valentine.png)
 
@@ -54,4 +54,4 @@ Im folgenden Beispiel möchten wir allen Kunden auf der ganzen Welt einen nur am
 
    ![](assets/send-time_opt_valentine_4.png)
 
-Alle Empfänger auf der ganzen Welt erhalten daraufhin die Nachricht am 14. Februar um 8 Uhr Ortszeit.
+Unabhängig davon, wo sie sich befinden, erhalten alle Empfänger bzw. Empfängerinnen die Nachricht am 14. Februar um 8:00 Uhr Ortszeit.

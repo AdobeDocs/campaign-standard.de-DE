@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
-workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '1268'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Dies sind die wichtigsten Schritte zum Erstellen und Gestalten eines neuen E-Mai
 1. Sehen Sie sich die E-Mail in der Vorschau an.
 1. Speichern Sie den Inhalt und fahren Sie mit der Nachricht fort, nachdem Sie eine Zielgruppe definiert und den Versandzeitpunkt festgelegt haben.
 
-Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v/330101/?captions=ger&autoplay=true&hidetitle=true) an.
+Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true) an.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
 
    ![](assets/email_designer_structure.png)
 
-1. Wählen Sie die für Ihre E-Mail benötigten Strukturkomponenten mit Drag &amp; Drop aus.
+1. Wählen Sie die für Ihre E-Mail benötigten Strukturkomponenten per Drag-and-Drop aus.
 
    ![](assets/email_designer_structure_components.png)
 
@@ -71,7 +71,7 @@ Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
 
 1. Mehrere Strukturkomponenten bestehend aus einer oder mehreren Spalten sind verfügbar.
 
-   Wählen Sie die Komponente **[!UICONTROL n:n Column]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
+   Wählen Sie die Komponente **[!UICONTROL n:n Spalte]** aus, um die gewünschte Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -98,7 +98,7 @@ Sie können einen **[!UICONTROL Inhaltsbaustein]**, einen **[!UICONTROL dynamisc
 
 >[!NOTE]
 >
->Preheader sind nicht mit allen E-Mail-Programmen kompatibel. Wenn Preheader nicht unterstützt werden, werden sie nicht angezeigt.
+>Beachten Sie, dass Preheader nicht mit allen E-Mail-Programmen kompatibel sind.Wenn Preheader nicht unterstützt werden, werden sie nicht angezeigt.
 
 ## Verwenden von Inhaltskomponenten {#about-content-components}
 
@@ -162,7 +162,7 @@ Fügen Sie die Videokomponente in eine Strukturkomponente Ihrer E-Mail ein und g
 
 >[!NOTE]
 >
->Beachten Sie, dass das Video nicht mit allen E-Mail-Programmen kompatibel ist. Wenn es nicht unterstützt wird, wird eine Ausweichansicht angezeigt.
+>Beachten Sie, dass die Video-Komponente nicht mit allen E-Mail-Programmen kompatibel ist.Wenn sie nicht unterstützt wird, wird ein Fallback angezeigt.
 
 ### Bild
 
@@ -179,7 +179,7 @@ Verwenden Sie diese Komponente, um Links zu Social-Media-Seiten in Ihre E-Mail e
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Karusselleinstellungen"
->abstract="Erfahren Sie, wie Sie ein Karussell in Ihren Inhalt einfügen und konfigurieren können. Beachten Sie, dass Karusselle nicht auf allen E-Mail-Clients funktionieren und ein Reservebild angezeigt wird, falls sie nicht unterstützt werden."
+>abstract="Informationen zum Einfügen und Konfigurieren eines Karussells in Ihren Inhalt.Beachten Sie, dass Karusselle nicht in allen E-Mail-Clients funktionieren und ein Fallback-Bild angezeigt wird, falls sie nicht unterstützt werden."
 
 1. Ziehen Sie die Komponente **[!UICONTROL Karussell]** in eine Strukturkomponente.
 1. Durchsuchen Sie Ihre Festplatte nach Bildern.
