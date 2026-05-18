@@ -8,9 +8,18 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
-workflow-type: ht
-source-wordcount: '1268'
+TQID: https://experienceleague.adobe.com/RK13F3Nw-2wxI9rKip-XKDJ3xi0hgpwI-F1uGcKoFKM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1268
 ht-degree: 100%
 
 ---
@@ -98,7 +107,7 @@ Sie können einen **[!UICONTROL Inhaltsbaustein]**, einen **[!UICONTROL dynamisc
 
 >[!NOTE]
 >
->Beachten Sie, dass Preheader nicht mit allen E-Mail-Programmen kompatibel sind.Wenn Preheader nicht unterstützt werden, werden sie nicht angezeigt.
+>Beachten Sie, dass Preheader nicht mit allen E-Mail-Programmen kompatibel sind. Wenn Preheader nicht unterstützt werden, werden sie nicht angezeigt.
 
 ## Verwenden von Inhaltskomponenten {#about-content-components}
 
@@ -162,7 +171,7 @@ Fügen Sie die Videokomponente in eine Strukturkomponente Ihrer E-Mail ein und g
 
 >[!NOTE]
 >
->Beachten Sie, dass die Video-Komponente nicht mit allen E-Mail-Programmen kompatibel ist.Wenn sie nicht unterstützt wird, wird ein Fallback angezeigt.
+>Beachten Sie, dass die Video-Komponente nicht mit allen E-Mail-Programmen kompatibel ist. Wenn sie nicht unterstützt wird, wird ein Fallback angezeigt.
 
 ### Bild
 

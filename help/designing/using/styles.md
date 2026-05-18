@@ -8,9 +8,16 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
-source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
+TQID: https://experienceleague.adobe.com/L-X9Edd4xtAsuGslGuiCDQg5Ih06Cm83FNQIh4PeUak
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: 1077
 ht-degree: 100%
 
 ---
@@ -20,7 +27,7 @@ ht-degree: 100%
 
 In Email Designer werden bei der Auswahl eines Elements mehrere für den Inhaltstyp spezifische Optionen im Bereich **[!UICONTROL Einstellungen]** angezeigt. Mit diesen Optionen können Sie den Stil Ihrer E-Mail ändern.
 
-## Element auswählen         {#selecting-an-element}
+## Element auswählen {#selecting-an-element}
 
 Um ein Element in der Benutzeroberfläche von Email Designer auszuwählen, können Sie entweder:
 
@@ -44,7 +51,7 @@ Um eine Spalte auszuwählen, können Sie auch folgendermaßen vorgehen:
 
 In [diesem Abschnitt](#example--adjusting-vertical-alignment-and-padding) finden Sie ein Beispiel.
 
-## Einstellungen des Stils anpassen         {#adjusting-style-settings}
+## Einstellungen des Stils anpassen {#adjusting-style-settings}
 
 1. Wählen Sie in Ihrer E-Mail ein Element aus. Weiterführende Informationen dazu finden Sie unter [Element auswählen](#selecting-an-element).
 1. Passen Sie die Einstellungen nach Bedarf an. Für jedes ausgewählte Element sind unterschiedliche Einstellungen verfügbar.
@@ -102,7 +109,7 @@ Wählen Sie für sowohl **[!UICONTROL Abstand]** als auch **[!UICONTROL Spanne]*
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Hintergrundeinstellungen"
->abstract="Mit Email Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihre Inhalte personalisieren. Beachten Sie, dass das Hintergrundbild nicht von allen E-Mail-Clients unterstützt wird."
+>abstract="Mit dem E-Mail-Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihre Inhalte personalisieren.Beachten Sie, dass Hintergrundbilder nicht von allen E-Mail-Clients unterstützt werden."
 
 Für die Einstellung von Hintergründen mit E-Mail-Designer empfiehlt Adobe Folgendes:
 
@@ -197,7 +204,7 @@ Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Zie
 
 1. Speichern Sie Ihre Änderungen.
 
-## Inline-Styling-Attribute hinzufügen         {#adding-inline-styling-attributes}
+## Inline-Styling-Attribute hinzufügen {#adding-inline-styling-attributes}
 
 Wenn Sie in der Benutzeroberfläche von Email Designer ein Element auswählen und im seitlichen Fenster seine Einstellungen anzeigen, können Sie seine Inline-Attribute und deren Werte ändern.
 
