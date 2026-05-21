@@ -10,10 +10,14 @@ role: Developer
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
 TQID: https://experienceleague.adobe.com/PRwXxoE4v-Nn8gLT-7-2hbEe3IOiXT2dXTylTwHcmGs
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 738
@@ -37,7 +41,7 @@ Die Microsoft Dynamics 365-Anmeldedaten geben der Integrationsanwendung die Bere
 
 * **[!UICONTROL Client-Geheimnis]**: In [diesem Abschnitt](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret) erfahren Sie, wie Sie Ihr Client-Geheimnis generieren.
 
-* **[!UICONTROL Mandant]**: In [diesem Abschnitt ](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id) erfahren Sie, wie Sie Ihre Mandantenkennung finden.
+* **[!UICONTROL Mandant]**: In [diesem Abschnitt &#x200B;](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id) erfahren Sie, wie Sie Ihre Mandantenkennung finden.
 
 * **[!UICONTROL URL]**: Die URL hat das Format `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
