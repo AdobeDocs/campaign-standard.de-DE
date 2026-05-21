@@ -8,9 +8,19 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: ht
-source-wordcount: '977'
+TQID: https://experienceleague.adobe.com/OM-y0enczhi0WBeNrYFx-BQnlJXOymyzdpud4D8T-J4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 981
 ht-degree: 100%
 
 ---
@@ -80,7 +90,7 @@ Vor der Personalisierung der mehrsprachigen Push-Benachrichtigung müssen erst d
 
 Jetzt können Sie mit der Personalisierung Ihrer mehrsprachigen Push-Benachrichtigung beginnen.
 
-## Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig.       {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## Schritt 2: Sehen Sie sich die Push-Benachrichtigung in der Vorschau an und stellen Sie sie mithilfe der mehrsprachigen Inhaltsvarianten fertig. {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 Nach dem Hochladen der Datei mit den Inhaltsvarianten können Sie sich jetzt die verschiedenen Varianten über den Push-Benachrichtigungsversand in der Vorschau ansehen.
 
@@ -108,7 +118,7 @@ Zusätzlich zu den von der Datei hochgeladenen Varianten können Sie auch weiter
 
 Ihre mehrsprachige Push-Benachrichtigung kann jetzt gesendet werden.
 
-## Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand.       {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Schritt 3: Senden Sie eine mehrsprachige Push-Benachrichtigung und analysieren Sie den Versand. {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Ihre mehrsprachigen Push-Benachrichtigungen mit Inhaltsvarianten sind jetzt bereit zum Versenden.
 

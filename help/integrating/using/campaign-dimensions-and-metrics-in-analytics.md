@@ -9,10 +9,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6516c71a-efa8-4778-82bb-10615378f985
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/PSAzSStMFWofMteBu3jMSizD2kj1M9F7-0iO3dcugjY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 322
+ht-degree: 89%
 
 ---
 
@@ -40,7 +47,7 @@ Unten finden Sie die in Analytics verfügbaren **[!UICONTROL Campaign-Dimensione
   </tr> 
   <tr> 
    <td> Versandkennung<br /> </td> 
-   <td> Interner Name des Versands, wie er in Campaign angezeigt wird<br /> Beispiel: DM1 ist ein wiederkehrender Versand, gemäß dem jede Woche ein untergeordneter Versand erfolgt. DM2, DM3 und DM4 werden in den ersten drei Wochen gesendet. In der Dimension "Versandkennung" werden dann die Ergebnisse für jeden Versand, also DM1 bis DM4, angezeigt. <br /> </td> 
+   <td> Interner Name des Versands, wie in Campaign angezeigt.<br /> DM1 ist beispielsweise ein wiederkehrender Versand, der wöchentlich untergeordnete Sendungen durchführen soll. DM2, DM3 und DM4 werden in den ersten drei Wochen gesendet. In der Dimension "Versandkennung" werden dann die Ergebnisse für jeden Versand, also DM1 bis DM4, angezeigt. <br /> </td> 
   </tr> 
   <tr> 
    <td> Versandtitel<br /> </td> 
@@ -48,7 +55,7 @@ Unten finden Sie die in Analytics verfügbaren **[!UICONTROL Campaign-Dimensione
   </tr> 
   <tr> 
    <td> Kennung des ausgeführten Versands<br /> </td> 
-   <td> Interner Name des Versands, wie er in Campaign angezeigt wird Dies betrifft nur Sendungen, die in Campaign bereits ausgeführt wurden.<br /> Beispiel: DM1 ist ein wiederkehrender Versand, gemäß dem jede Woche ein untergeordneter Versand erfolgt. DM2, DM3 und DM4 werden in den ersten drei Wochen gesendet. In der Dimension "Kennung des ausgeführten Versands" werden die Ergebnisse für die ausgeführten Sendungen, nämlich die untergeordneten Sendungen DM2, DM3 und DM4, aufgeführt. <br /> </td> 
+   <td> Interner Name des Versands, wie er in Campaign angezeigt wird Dies betrifft nur Sendungen, die in Campaign bereits ausgeführt wurden.<br /> DM1 ist beispielsweise ein wiederkehrender Versand, der wöchentlich untergeordnete Sendungen durchführen soll. DM2, DM3 und DM4 werden in den ersten drei Wochen gesendet. In der Dimension "Kennung des ausgeführten Versands" werden die Ergebnisse für die ausgeführten Sendungen, nämlich die untergeordneten Sendungen DM2, DM3 und DM4, aufgeführt. <br /> </td> 
   </tr> 
   <tr> 
    <td> Titel des ausgeführten Versands<br /> </td> 

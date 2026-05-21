@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '865'
+TQID: https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 865
 ht-degree: 100%
 
 ---
@@ -31,7 +38,7 @@ Mithilfe der **[!UICONTROL Zielgruppe-speichern]**-Aktivität können existieren
 
 Außerdem ermöglicht diese Aktivität den Export von Profilen in Form von Adobe-Experience-Cloud-Zielgruppen/Segmenten. Diese Zielgruppen können anschließend in anderen Lösungen in Adobe Experience Cloud verwendet werden. Weiterführende Informationen zu freigegebenen Zielgruppen finden Sie in [Campaign und People Core Service verwenden](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
-## Anwendungskontext     {#context-of-use}
+## Anwendungskontext {#context-of-use}
 
 Die **[!UICONTROL Zielgruppe-speichern]**-Aktivität wird in erster Linie verwendet, um innerhalb eines Workflows berechnete Populationen in dauerhaft wiederverwendbare Zielgruppen umzuwandeln.
 

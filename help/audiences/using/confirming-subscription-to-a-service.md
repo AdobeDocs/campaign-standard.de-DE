@@ -8,9 +8,18 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
-source-wordcount: '1419'
+TQID: https://experienceleague.adobe.com/ztI-eJdW855g7S99FTujQ6RyRm3iRF0ApASHNi3a6Pk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1422
 ht-degree: 100%
 
 ---
@@ -45,7 +54,7 @@ Eine Bestätigungs-E-Mail wird automatisch an jedes Profil gesendet, das den New
 
 Die Schritte zum Erstellen der Bestätigungs-E-Mail werden unten beschrieben. Da im Dienst auf die Transaktionsnachricht verwiesen wird, müssen Sie diesen zuerst erstellen.
 
-#### Ereignis erstellen        {#create-the-event-1}
+#### Ereignis erstellen {#create-the-event-1}
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, da sie auf ein Ereignis reagiert, nämlich das Abonnement eines Dienstes. Diese Nachricht wird gesendet, um die Anmeldung zu einem Abonnement für Ihren Newsletter zu bestätigen.
 
@@ -78,7 +87,7 @@ Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, da sie auf ein Ereignis
 
 Das Ereignis ist somit fertig eingerichtet. Jetzt können Sie die Transaktions-E-Mail erstellen.
 
-#### Bestätigungsnachricht erstellen        {#design-the-confirmation-message-1}
+#### Bestätigungsnachricht erstellen {#design-the-confirmation-message-1}
 
 Die Bestätigungs-E-Mail ist eine Transaktionsnachricht, die auf dem soeben veröffentlichten Ereignis basiert.
 
@@ -134,7 +143,7 @@ Beim Verweisen auf die Bestätigungsnachricht über die Landingpage wird jedes M
 
 Die Schritte zur Erstellung dieser Elemente werden unten beschrieben. Da der Verweis auf die Transaktionsnachricht über die Landingpage erfolgt, müssen Sie diese zuerst erstellen.
 
-#### Ereignis erstellen        {#create-the-event-2}
+#### Ereignis erstellen {#create-the-event-2}
 
 Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/getting-started-with-transactional-msg.md), da sie auf ein Ereignis reagiert, nämlich das Abonnement eines Dienstes. Diese Nachricht wird gesendet, um die Anmeldung zu einem Abonnement für Ihren Newsletter zu bestätigen.
 
@@ -160,7 +169,7 @@ Die Bestätigungs-E-Mail ist eine [Transaktionsnachricht](../../channels/using/g
    >
    >Auf diese Weise können Sie Personalisierungsfelder aus der Ressource [!UICONTROL Dienst] in der Transaktionsnachricht verwenden.
 
-#### Bestätigungsnachricht erstellen        {#design-the-confirmation-message-2}
+#### Bestätigungsnachricht erstellen {#design-the-confirmation-message-2}
 
 Die Schritte zum Erstellen der Transaktionsnachricht werden in diesem [Abschnitt](#design-the-confirmation-message-1) beschrieben.
 

@@ -9,9 +9,19 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
-workflow-type: ht
-source-wordcount: '1850'
+TQID: https://experienceleague.adobe.com/Ol-6IkRGAr7OGkXQgHhMSYhPfjmg-DY7s2dr6wxFenU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1853
 ht-degree: 100%
 
 ---
@@ -71,7 +81,7 @@ Sie können einer Ressource neue Felder hinzufügen, um Daten zu speichern, die 
 
 Die Felder Ihrer Ressource sind jetzt definiert.
 
-## Identifizierungsschlüssel definieren        {#defining-identification-keys}
+## Identifizierungsschlüssel definieren {#defining-identification-keys}
 
 Jede Ressource muss mindestens einen Schlüssel zu ihrer eindeutigen Identifizierung aufweisen. Sie können beispielsweise einen Schlüssel definieren, der besagt, dass zwei Produkte in einer Verkaufstabelle nicht dieselbe ID aufweisen können.
 
@@ -99,7 +109,7 @@ Ihre Identifizierungsschlüssel für die Ressource werden jetzt erstellt.
 >
 >Weitere Informationen zu Best Practices beim Erstellen von Identifizierungsschlüsseln finden Sie in diesem [Abschnitt](../../developing/using/data-model-best-practices.md#keys).
 
-## Indexe definieren        {#defining-indexes}
+## Indexe definieren {#defining-indexes}
 
 Indexe können eines oder mehrere Felder der Ressource referenzieren. Indexe ermöglichen es, Datensätze in der Datenbank zu sortieren, um sie leichter auffindbar zu machen. Auf diese Weise werden die SQL-Abfragen optimiert.
 
@@ -256,7 +266,7 @@ Weiterführende Informationen zu dynamischen Berichten finden Sie in der [Liste 
 >
 >Die Anzahl der an dynamische Berichte gesendeten Felder ist auf 20 begrenzt.
 
-## Eigenschaften einer Ressource bearbeiten        {#editing-resource-properties}
+## Eigenschaften einer Ressource bearbeiten {#editing-resource-properties}
 
 Im Bildschirm der benutzerdefinierten Ressource werden im Bereich der **[!UICONTROL Zusammenfassung]** der Typ und der Status der neu erstellten Ressource angezeigt. Sie können den Zugriff auf die Ressource und ihre allgemeinen Eigenschaften bearbeiten.
 

@@ -9,10 +9,15 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '2013'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/lpfCIMUH03d9zMB-R1Uq9ZwxnD1G-LG8b-iN3TQc7o8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 2022
+ht-degree: 96%
 
 ---
 
@@ -26,7 +31,7 @@ Ziehen Sie das Element in den Workflow-Arbeitsbereich und geben Sie die gewünsc
 
 Je nach gesuchtem Ergebnis und verwendeten Daten stehen verschiedene Arten an Funktionen zur Verfügung:
 
-* Datum-Funktionen       
+* Datum-Funktionen
 * Geomarketing
 * Numerische Funktionen
 * Sonstige Funktionen
@@ -38,7 +43,7 @@ Je nach gesuchtem Ergebnis und verwendeten Daten stehen verschiedene Arten an Fu
 >
 >Es stehen zusätzliche Funktionen in allen Aktivitäten zur Verfügung, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen. Weitere Informationen dazu finden Sie in [diesem Abschnitt](../../automating/using/customizing-workflow-external-parameters.md).
 
-## Datum-Funktionen        {#dates}
+## Datum-Funktionen {#dates}
 
 Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 
@@ -221,7 +226,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Konvertiert einen String in Datum+Zeitzone.<br /> Beispiel: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asien/Teheran")<br /> </td> 
+   <td> Konvertiert eine Zeichenfolge in ein Datum + Zeitzone.<br /> Beispiel: ToDateTimeWithTimezone („2019-02-19 08:09:00“, „Asien/Teheran„)<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -657,7 +662,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
-   <td> Nutzt den AES-Algorithmus (CBC-Blockmodus) zur Verschlüsselung einer Zeichenfolge (1. Parameter) mit einem Schlüssel (2. Parameter) und einem Initialisierungsvektor (3. Parameter). Der Schlüssel und der Initialisierungsvektor müssen in einer hexadezimalen Darstellung vorliegen (beginnend mit <strong>\x</strong>). Das Ergebnis wird in hexadezimaler Darstellung ohne <strong>\x</strong> dargestellt.<br /> Beachten Sie, dass die Schlüsselgröße 128 Bit, 192 Bit oder 256 Bit (16, 24, 32 hexadezimale Zeichen) betragen kann, wir aber die Verwendung von 256 Bit und einen zufälligen Initialisierungsvektor derselben Länge als Schlüssel empfehlen.<br /> </td> 
+   <td> Nutzt den AES-Algorithmus (CBC-Blockmodus) zur Verschlüsselung einer Zeichenfolge (1. Parameter) mit einem Schlüssel (2. Parameter) und einem Initialisierungsvektor (3. Parameter). Der Schlüssel und der Initialisierungsvektor müssen in einer hexadezimalen Darstellung vorliegen (beginnend mit <strong>\x</strong>). Das Ergebnis ist im Hexadezimalwert ohne <strong>\x</strong>.<br /> Beachten Sie, dass die Schlüsselgröße 128 Bit, 192 Bit, 256 Bit (16, 24, 32 Hexadezimalzeichen) betragen kann. Wir empfehlen Ihnen jedoch, 256 Bit und eine randomisierte IV mit der gleichen Länge wie der Schlüssel zu verwenden.<br /> </td> 
    <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> Beispiel: encryption_aescbcEncrypt(michaelmuster@beispiel.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 

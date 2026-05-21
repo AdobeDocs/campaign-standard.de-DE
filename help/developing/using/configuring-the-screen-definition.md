@@ -9,9 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '681'
+TQID: https://experienceleague.adobe.com/oqbuWT87B-EkgJVioe5VMlsuqfOoI3tZA9RKM0LG4RI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 683
 ht-degree: 100%
 
 ---
@@ -28,7 +33,7 @@ Im Tab **[!UICONTROL Bildschirmdefinition]** haben Sie folgende Möglichkeiten:
 * Anpassung der Anzeige der Liste mit den einzelnen Elementen der benutzerdefinierten Ressource;
 * Konfiguration des Detailbildschirms der einzelnen Elemente der Ressource.
 
-## Zugriff vom Navigationsmenü aus einrichten      {#enabling-access-from-the-navigation-menu}
+## Zugriff vom Navigationsmenü aus einrichten {#enabling-access-from-the-navigation-menu}
 
 Wenn Sie für Ihre Ressource einen eigenen Bildschirm einrichten möchten, können Sie einen vom Navigationsmenü aus verfügbar machen.
 
@@ -61,7 +66,7 @@ Im Bereich **[!UICONTROL Listenkonfiguration]** des Bildschirms können Sie die 
 
 Der Übersichtsbildschirm der Ressource ist somit definiert.
 
-## Konfiguration des Detailbildschirms definieren      {#defining-the-detail-screen-configuration}
+## Konfiguration des Detailbildschirms definieren {#defining-the-detail-screen-configuration}
 
 In der Bildschirmdefinition können Sie im Bereich **[!UICONTROL Konfiguration des Detailbildschirms]** die Spalten und Informationen definieren, die im Detailbildschirm eines jeden Elements der Ressource dargestellt werden sollen.
 
@@ -88,7 +93,7 @@ In der Bildschirmdefinition können Sie im Bereich **[!UICONTROL Konfiguration d
 
 Der Detailbildschirm der Ressource ist somit konfiguriert.
 
-## Aktionen zur Datenbearbeitung      {#actions-on-data-section}
+## Aktionen zur Datenbearbeitung {#actions-on-data-section}
 
 An dieser Stelle kann eine dedizierte Symbolleiste für den Bildschirm der benutzerdefinierten Ressource definiert werden. Dabei stehen drei Optionen zur Verfügung:
 

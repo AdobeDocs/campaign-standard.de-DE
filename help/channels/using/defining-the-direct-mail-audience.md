@@ -9,9 +9,16 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: ea167fec-d4df-4147-9dcd-33001d8a1c9b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '283'
+TQID: https://experienceleague.adobe.com/iYqxhsfsz95pTh8V-sP-xwGSSQ39YyIov9OHHyfepDI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 283
 ht-degree: 100%
 
 ---
@@ -22,7 +29,7 @@ Sie können die Zielgruppe entweder im Erstellungsassistenten oder durch Klicken
 
 ![](assets/direct_mail_15.png)
 
-## Hauptzielgruppe definieren       {#defining-the-main-target}
+## Hauptzielgruppe definieren {#defining-the-main-target}
 
 Bei Briefpost werden die Zielgruppenprofile in die Extraktionsdatei eingefügt, die Sie an Ihren Briefpost-Dienstleister senden.
 
@@ -32,7 +39,7 @@ Für jedes Zielgruppenprofil wird eine neue Zeile der Extraktionsdatei hinzugef�
 >
 >Achten Sie darauf, dass Ihre Profile eine Anschrift enthalten, da diese Information für den Briefpost-Dienstleister wesentlich ist. Beachten Sie außerdem, dass in der Profilinformation die Option **[!UICONTROL Anschrift angegeben]** aktiviert ist. Siehe [Empfehlungen](../../channels/using/about-direct-mail.md#recommendations).
 
-## Hinzufügen von Test- und Fallen-Profilen       {#adding-test-and-trap-profiles}
+## Hinzufügen von Test- und Fallen-Profilen {#adding-test-and-trap-profiles}
 
 Fügen Sie Testprofile hinzu, sodass Sie Ihre Datei mit einer kleinen Anzahl von Profilen testen können. Dadurch können Sie rasch eine Beispieldatei erstellen, um ihren Aufbau zu testen und zu validieren, bevor Sie die eigentliche Datei vorbereiten. Siehe [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
 

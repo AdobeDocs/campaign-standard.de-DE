@@ -5,9 +5,37 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: ht
-source-wordcount: '5533'
+TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 5533
 ht-degree: 100%
 
 ---
@@ -202,7 +230,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> Erweiterung der Versandlogs<br /> </td> 
-   <td> Mit der Erweiterung von Versandlogs können Sie Versandlogs mit Profildaten und Segment-Code aus Workflows erweitern. Diese Daten können dann in dynamischen Berichten verwendet werden, sodass Sie zum Versandzeitpunkt einen aktuellen Überblick über einige Daten erhalten.<br /> Es gibt zwei weitere Anwendungsfälle:<br />
+   <td> Mit der Erweiterung von Versandlogs können Sie Versandlogs mit Profildaten und Segment-Code aus Workflows erweitern. Diese Daten können dann in dynamischen Berichten verwendet werden, sodass Sie zum Versandzeitpunkt einen aktuellen Überblick über einige Daten erhalten.<br /> Es gibt zwei weitere Anwendungsfälle:<br /> 
     <ul> 
      <li> Export erweiterter Broadlogs mit „eingefrorenen“ Daten: Eine Marketing-Fachkraft möchte alle Profile exportieren, in denen der Segment-Code gleich „A“ ist (aus der Workflow-Engine abgerufen). </li> 
      <li> Segmentierung „eingefrorener“ Daten: Eine Marketing-Fachkraft möchte alle Profile, die seit dem letzten Versand 1.000 Treuepunkte gesammelt haben oder deren Segment-Code gleich „A“ war, <strong>erneut ansprechen</strong>. </li> 
@@ -210,7 +238,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> Dynamisches Reporting mit benutzerdefinierten Profildaten<br /> </td> 
-   <td> Diese Funktion ermöglicht die Erstellung und Verwaltung von Berichten auf der Basis benutzerdefinierter Profildaten, die während der Profil-Ressourcenerweiterung generiert wurden. Sie können Berichte nach Profilattributen wie beispielsweise dem Treueprogramm oder dem bevorzugten Kanal aufschlüsseln.<br /> Weitere Informationen finden Sie in der <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">detaillierten Dokumentation</a>.<br />  </td> 
+   <td> Diese Funktion ermöglicht die Erstellung und Verwaltung von Berichten auf der Basis benutzerdefinierter Profildaten, die während der Profil-Ressourcenerweiterung generiert wurden. Sie können Berichte nach Profilattributen wie beispielsweise dem Treueprogramm oder dem bevorzugten Kanal aufschlüsseln.<br /> Weitere Informationen finden Sie in der <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">detaillierten Dokumentation</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -310,7 +338,7 @@ _Benutzerdefinierte Ressourcen_
   </tr> 
   <tr> 
    <td> Versand mehrsprachiger Push-Sendungen<br /> </td> 
-   <td> Dieselbe mehrsprachige Benutzeroberfläche, die bereits für den E-Mail- und SMS-Kanal verfügbar ist, wurde zum Push-Kanal hinzugefügt, damit Sie Kundinnen und Kunden unabhängig von ihrer bevorzugten Sprache ansprechen können.<br /> Diese Funktion bietet eine skalierbare, automatische Lösung für Kundinnen und Kunden, die Push-Kampagnen verwalten, die sich über mehrere Regionen erstrecken, und Benutzende in ihrer bevorzugten Sprache ansprechen möchten.Sie können damit per Klick alle Sprachvarianten über eine Vorlage in einen Push-Versand hochladen. Adobe Campaign führt daraufhin eine automatische Segmentierung auf der Basis der Spracheinstellungen der Benutzenden durch und hilft dadurch, unnötige Arbeitsschritte durch die Vereinfachung von Workflows und Reporting zu vermeiden.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/creating-a-multilingual-push-notification.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Dieselbe mehrsprachige Benutzeroberfläche, die bereits für den E-Mail- und SMS-Kanal verfügbar ist, wurde zum Push-Kanal hinzugefügt, damit Sie Kundinnen und Kunden unabhängig von ihrer bevorzugten Sprache ansprechen können.<br /> Diese Funktion bietet eine skalierbare, automatische Lösung für Kundinnen und Kunden, die Push-Kampagnen verwalten, die sich über mehrere Regionen erstrecken, und Benutzende in ihrer bevorzugten Sprache ansprechen möchten. Sie können damit per Klick alle Sprachvarianten über eine Vorlage in einen Push-Versand hochladen. Adobe Campaign führt daraufhin eine automatische Segmentierung auf der Basis der Spracheinstellungen der Benutzenden durch und hilft dadurch, unnötige Arbeitsschritte durch die Vereinfachung von Workflows und Reporting zu vermeiden.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/creating-a-multilingual-push-notification.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Verwendung von benutzerdefinierten Ressourcen in Transaktionsnachrichten<br /> </td> 
@@ -454,7 +482,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
   </tr> 
   <tr> 
    <td> Neue Push-Funktionen<br /> </td> 
-   <td> Push-Nachrichtenvorschau – Zeigen Sie Push-Benachrichtigungen auf iOS- und Android-Geräten im Inhaltseditor für Push-Benachrichtigungen in der Vorschau an, um genau zu sehen, was Ihren Empfangenden angezeigt wird, bevor Sie den Versand testen oder ausführen.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">entsprechende Handbuch</a>.<br /> Inhalt verfügbar – Wenn Apps über einen längeren Zeitraum hinweg nicht geöffnet werden, sind ihre Daten möglicherweise veraltet.Folglich müssen die Daten bei der nächsten Öffnung der App aktualisiert oder ersetzt werden, was zu einer Verzögerung bei der Verwendung der App führen kann. Mit der Funktion „Inhalt verfügbar“ können Adobe Campaign-Benutzende eine App aktivieren, damit ihre Daten beim Senden einer Push-Benachrichtigung im Hintergrund aktualisiert werden. So lässt sich die Konsistenz verbessern und die Kontrolle über das In-App-Erlebnis eines Benutzers bzw. einer Benutzerin erhöhen.<br /> Veränderlicher Inhalt – Dank der zusätzlichen Unterstützung von veränderlichen Inhalten können Adobe Campaign-Benutzende nun ihre App-Erweiterungen nutzen, um den Inhalt oder die Darstellung eingehender Push-Benachrichtigungen weiter anzupassen, die von Adobe Campaign gesendet wurden.Mit der Funktion „Veränderlicher Inhalt“ haben Sie beispielsweise folgende Möglichkeiten: <br /> 
+   <td> Push-Nachrichtenvorschau – Zeigen Sie Push-Benachrichtigungen auf iOS- und Android-Geräten im Inhaltseditor für Push-Benachrichtigungen in der Vorschau an, um genau zu sehen, was Ihren Empfangenden angezeigt wird, bevor Sie den Versand testen oder ausführen.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">entsprechende Handbuch</a>.<br /> Inhalt verfügbar – Wenn Apps über einen längeren Zeitraum hinweg nicht geöffnet werden, sind ihre Daten möglicherweise veraltet. Folglich müssen die Daten bei der nächsten Öffnung der App aktualisiert oder ersetzt werden, was zu einer Verzögerung bei der Verwendung der App führen kann. Mit der Funktion „Inhalt verfügbar“ können Adobe Campaign-Benutzende eine App aktivieren, damit ihre Daten beim Senden einer Push-Benachrichtigung im Hintergrund aktualisiert werden. So lässt sich die Konsistenz verbessern und die Kontrolle über das In-App-Erlebnis eines Benutzers bzw. einer Benutzerin erhöhen.<br /> Veränderlicher Inhalt – Dank der zusätzlichen Unterstützung von veränderlichen Inhalten können Adobe Campaign-Benutzende nun ihre App-Erweiterungen nutzen, um den Inhalt oder die Darstellung eingehender Push-Benachrichtigungen weiter anzupassen, die von Adobe Campaign gesendet wurden. Mit der Funktion „Veränderlicher Inhalt“ haben Sie beispielsweise folgende Möglichkeiten: <br /> 
     <ul> 
      <li> In einem verschlüsselten Format gesendete Daten entschlüsseln </li> 
      <li> Bilder oder andere Mediendateien herunterladen und als Anhänge zu einer Benachrichtigung hinzufügen </li> 

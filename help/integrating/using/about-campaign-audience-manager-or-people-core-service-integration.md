@@ -9,10 +9,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/3fzlYFnLX04veuXAXTrUz4jM-Q-P3d--eqyY9xrYiIc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 523
+ht-degree: 93%
 
 ---
 
@@ -36,7 +43,7 @@ Die Integration unterstützt zwei Typen von Adobe Experience Cloud-Kennungen:
 
   Unter der Voraussetzung, dass sie denselben CNAME aufweisen, erkennen die anderen Lösungen der Adobe Marketing Cloud diese Kennung.
 
-* **Declared ID**: Dieser Kennungstyp ermöglicht die Abstimmung beliebiger Datentypen mit Elementen der Adobe Campaign-Datenbank. Sie wird in Adobe Campaign als vordefinierter Abstimmschlüssel dargestellt. Beim Datenaustausch werden die Kennungen der Adobe Campaign-Datenbank verschlüsselt übertragen. Die verschlüsselten Kennungen werden mit den verschlüsselten Kennungen der importierten oder exportierten Adobe Marketing Cloud-Zielgruppe verglichen.
+* **Declared ID**: Dieser Kennungstyp ermöglicht die Abstimmung beliebiger Datentypen mit Elementen der Adobe Campaign-Datenbank. Sie wird in Adobe Campaign als vordefinierter Abstimmschlüssel dargestellt. Beim Datenaustausch werden die Adobe Campaign-Datenbankkennungen in einen Hash-Wert umgewandelt. Diese Hash-IDs werden dann mit den Hash-IDs der Adobe Marketing Cloud-Zielgruppe verglichen, die am Import oder Export beteiligt ist.
   <br>Diese Integration unterstützt reguläre Declared IDs, Declared IDs mit Hash-Kennung und verschlüsselte Declared IDs.
 
   >[!NOTE]

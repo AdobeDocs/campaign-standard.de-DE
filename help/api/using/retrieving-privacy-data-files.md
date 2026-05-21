@@ -9,9 +9,18 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '161'
+TQID: https://experienceleague.adobe.com/aqCklLkZJarsWcg55ztcgs4-YLRKltIh3puXmEkYaSg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 169
 ht-degree: 100%
 
 ---
@@ -28,7 +37,7 @@ Gehen Sie wie folgt in drei Schritten vor, um die Datei abzurufen, die alle mit 
 
 1. Führen Sie eine **GET**-Anfrage aus, um Informationen zur Anfrage abzurufen.
 
-1. Rufen Sie die Datendatei ab, indem Sie eine **POST**-Anfrage für die zurückgegebene **privacyRequestData**-URL mit dem internen Namen der Datenschutzanfrage innerhalb der Payload ausführen.  Beispiel: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Rufen Sie die Datendatei ab, indem Sie eine **POST**-Anfrage für die zurückgegebene **privacyRequestData**-URL mit dem internen Namen der Datenschutzanfrage innerhalb der Payload ausführen. Beispiel: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 

@@ -9,10 +9,29 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: ht
-source-wordcount: '1227'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/xwmywhEboE06iVgZJo2DTSqg2f1F1XHEAHGKjkKoqC4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1297
+ht-degree: 97%
 
 ---
 
@@ -32,7 +51,7 @@ Diese Ressource muss erweitert werden, damit die gewünschten, vom Mobilgerät a
 
 In Adobe Campaign sind zwei Arten von Push-Benachrichtigungen verfügbar:
 
-* Mit Benachrichtigungen vom Typ **[!UICONTROL Warnung/Nachricht/Badge]** können Sie standardmäßige textbasierte Nachrichten mit zusätzlichem Inhalt versenden (Ton, Badge, Deeplink usw.), die Sie im Abschnitt **[!UICONTROL Erweiterte Optionen]** definieren können.
+* **[!UICONTROL Warnhinweis/Nachricht/Badge]**-Benachrichtigungen ermöglichen den Versand von standardmäßigen textbasierten Nachrichten mit zusätzlichen Inhalten (Ton, Badge, Deeplink usw.) die Sie im Abschnitt &quot;**[!UICONTROL Optionen“]** können.
 
   Diese Benachrichtigungstypen ermöglichen es Ihnen, einen Titel und eine Nachricht hinzuzufügen, in denen Sie Personalisierungsfelder verwenden können. Zum Personalisieren der Nachricht muss die Vorlage **[!UICONTROL Push-Benachrichtigung für Profile senden]** ausgewählt sein.
 
@@ -54,7 +73,7 @@ Mithilfe bestimmter Konfigurationen kann das Verhalten von Benachrichtigungen ge
 ## Voraussetzungen {#prerequisites}
 
 >[!NOTE]
->Um die Funktion für Push-Benachrichtigungen in Campaign zu nutzen, benötigen Sie ein gültiges Push-Zertifikat im PEM-Format ohne Passwörter. 
+>Um die Funktion für Push-Benachrichtigungen in Campaign zu nutzen, benötigen Sie ein gültiges Push-Zertifikat im PEM-Format ohne Passwörter.
 >
 >Wenn Sie über ein gültiges p12-Zertifikat verfügen, können Sie es mithilfe von Online-Ressourcen einfach in eine PEM-Datei konvertieren.
 
@@ -70,7 +89,7 @@ Vor dem Versand Ihrer Push-Benachrichtigungen sollten Sie auf Folgendes achten:
 
 1. Konfigurieren Sie in Adobe Campaign Standard die Eigenschaft für Mobilgeräte, die Sie in der Datenerfassungs-UI erstellt haben. Weiterführende Informationen finden Sie unter [Einrichten der Tag-App in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
-1. Fügen Sie die kanalspezifische Konfiguration für Ihre Mobile App-Einrichtung hinzu. Weiterführende Informationen finden Sie unter [Kanalspezifische Anwendungskonfiguration in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. Fügen Sie die kanalspezifische Konfiguration für Ihre Mobile-App-Einrichtung hinzu. Weiterführende Informationen finden Sie unter [Kanalspezifische Anwendungskonfiguration in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 1. Informationen zu Fallimplementierungen für Mobilgeräte finden Sie in den ausführlichen Anweisungen zu Erweiterungen, Tag-Regeln und der SDK-Implementierung in [Mobile Anwendungsfälle, die in Adobe Campaign Standard mit den Adobe Experience Platform SDKs unterstützt werden](../../administration/using/configuring-rules-launch.md).
 

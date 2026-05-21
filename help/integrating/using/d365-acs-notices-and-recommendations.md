@@ -9,10 +9,23 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '2526'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 2585
+ht-degree: 91%
 
 ---
 
@@ -20,7 +33,7 @@ ht-degree: 100%
 
 ## Verwalten von Daten {#acs-msdyn-manage-data}
 
-Bei der Synchronisation von Kontakten und benutzerdefinierten Entitäten verwendet diese Integration **Microsoft Dynamics 365 als &quot;Source of Truth&quot;**. Änderungen an synchronisierten Attributen sollten in Dynamics 365 und nicht in Adobe Campaign Standard vorgenommen werden. Wenn Änderungen in Campaign vorgenommen werden, können diese bei der Synchronisation in Campaign überschrieben werden, da die Synchronisation in eine Richtung verläuft.
+Für die Synchronisierung von Kontakten und benutzerdefinierten Entitäten behandelt diese Integration **Microsoft Dynamics 365 als die Quelle der Wahrheit**. Alle Änderungen an synchronisierten Attributen sollten in Dynamics 365 und nicht in Adobe Campaign Standard vorgenommen werden. Wenn Änderungen in Campaign vorgenommen werden, können sie möglicherweise während der Synchronisierung in Campaign überschrieben werden, da die Synchronisierung in eine Richtung erfolgt.
 
 Die Integration kann optional so konfiguriert werden, dass beim Löschen eines Kontakts in Dynamics 365 Aufrufe zum Löschen von Profilen an Campaign ausgegeben werden, um die Datenintegrität zu bewahren. Der Löschvorgang eines Profils unterscheidet sich von einem datenschutzbezogenen Löschvorgang. Durch einen datenschutzbezogenen Löschvorgang in Campaign werden der Campaign-Profildatensatz und die zugehörigen Protokolleinträge entfernt, wohingegen bei einem regulären Profillöschvorgang nur der Campaign-Profildatensatz gelöscht wird, in den Campaign-Protokollen aber restliche Daten verbleiben. Wenn die Funktion zum Löschen von Profilen in der Integration aktiviert ist, müssen weitere Schritte ausgeführt werden, um Datenschutzanfragen für betroffene Personen ordnungsgemäß zu verarbeiten. Beachten Sie die Schritte im Abschnitt [Datenschutz](#manage-privacy-requests) weiter unten.
 
@@ -28,7 +41,7 @@ Die Integration kann optional so konfiguriert werden, dass beim Löschen eines K
 
 Mit dieser Integration lassen sich Endbenutzerdaten zwischen Microsoft Dynamics 365 und Adobe Campaign Standard übertragen. Endbenutzerdaten enthalten personenbezogene Informationen.  Als Datenverantwortlicher ist Ihr Unternehmen zur Einhaltung der für die Erhebung und Nutzung personenbezogener Daten geltenden Datenschutzgesetze und -vorschriften verpflichtet.
 
-Mit dieser Integration lassen sich Endbenutzerdaten (darunter auch personenbezogene Daten, sofern diese in Ihren Endbenutzerdaten enthalten sind) zwischen Microsoft Dynamics 365 und Adobe Campaign Standard übertragen. Als Datenverantwortlicher ist Ihr Unternehmen zur Einhaltung der für die Erhebung und Nutzung personenbezogener Daten geltenden Datenschutzgesetze und -vorschriften verpflichtet.
+Diese Integration dient der Übertragung von Endbenutzerdaten (einschließlich, aber nicht beschränkt auf personenbezogene Daten, wenn diese in Ihren Endbenutzerdaten enthalten sind) zwischen Microsoft Dynamics 365 und Adobe Campaign Standard. Als Datenverantwortlicher ist Ihr Unternehmen zur Einhaltung der für die Erhebung und Nutzung personenbezogener Daten geltenden Datenschutzgesetze und -vorschriften verpflichtet.
 
 Bei der Integration werden keine datenschutzbezogenen Löschvorgänge für betroffene Personen ausgegeben (z. B. DSGVO) oder andere Datenschutzanfragen bearbeitet (mit Ausnahme von Opt-out). Wenn Sie Datenschutzanfragen bearbeiten, sollten Sie dies unabhängig voneinander in Microsoft Dynamics 365 und in Campaign (über den Adobe Experience Platform Privacy Service) tun.
 
@@ -51,7 +64,7 @@ Wenn Sie die Integration so konfiguriert haben, dass beim Löschen eines Kontakt
 
 ## Opt-out {#opt-out}
 
-Aufgrund der unterschiedlichen Opt-out-Attribute zwischen Microsoft Dynamics 365 und Campaign sowie der unterschiedlichen Geschäftsanforderungen einzelner Kunden wurde das Opt-out-Mapping als vom Kunden auszuführende Option konzipiert. Es ist wichtig, dass die Opt-out-Option zwischen den Systemen ordnungsgemäß zugeordnet wird, damit die Voreinstellungen für die Opt-out-Option des Endbenutzers beibehalten werden und er keine Kommunikation über einen Kanal erhält, den er abgewählt hat.
+Aufgrund der Unterschiede bei den Opt-out-Attributen zwischen Microsoft Dynamics 365 und Campaign und den unterschiedlichen Geschäftsanforderungen der einzelnen Kunden wurde die Opt-out-Zuordnung als eine Übung belassen, die der Kunde abschließen muss. Es ist wichtig sicherzustellen, dass Opt-outs ordnungsgemäß auf den verschiedenen Systemen zugeordnet werden, damit die Voreinstellungen für die Endbenutzer-Opt-out beibehalten werden und er keine Nachricht über einen Kanal erhält, für den er sich entschieden hat.
 
 Bitte beachten Sie, dass nur Folgendes in Opt-out-Mappings verwendet werden kann:
 
@@ -127,7 +140,7 @@ Wenn Sie sich in der Region EMEA oder APAC befinden, werden einige Ihrer Daten i
 
 >[!IMPORTANT]
 >
->Bestimmte Aktionen Ihrerseits (z. B. die anfängliche Aufnahme von Einträgen, die Wiederholung von Eintragsdaten usw.) können dazu führen, dass eine große Anzahl von Einträgen aus Microsoft Dynamics 365 in Ihre Adobe Campaign-Instanz aufgenommen wird. Zur Reduzierung des Risikos von Leistungsproblemen wird empfohlen, alle Campaign-Prozesse zu stoppen (z. B. keine Marketing-Aktivität, keine Ausführung von Workflows usw.), bis die große Menge an Einträgen in Campaign aufgenommen wurde.
+>Bestimmte Aktionen Ihrerseits (z. B. erstes Aufnehmen von Datensätzen, Wiederholen von Datensatzdaten usw.) könnte dazu führen, dass viele Datensätze von Microsoft Dynamics 365 in Ihre Adobe Campaign-Instanz aufgenommen werden. Um das Risiko von Leistungsproblemen zu verringern, wird empfohlen, alle Campaign-Prozesse zu stoppen (z. B. keine Marketing-Aktivität, keine Ausführung von Workflows usw.) bis nach Aufnahme der großen Datensatzmenge in Campaign.
 
 ### Benutzerdefinierte Entitäten
 

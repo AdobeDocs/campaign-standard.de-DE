@@ -6,10 +6,23 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '493'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/4hy5-pubF9F2FDQGaC7GF-BfMHqMDykC4mtypRc-zsk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 514
+ht-degree: 79%
 
 ---
 
@@ -29,7 +42,7 @@ Campaign Standard bietet verschiedene Möglichkeiten zur Überwachung Ihrer Inst
 
 **Systembenachrichtigungen**
 
-Die Benutzeroberfläche von Campaign Standard verfügt über einen Benachrichtigungsbereich, der Sie über die Vorgänge im System auf dem Laufenden hält: Ereignisstatus, Systemaktualisierungen, erforderliche Aktionen usw. [Weitere Informationen](../../start/using/interface-description.md#top-bar)
+Die Campaign Standard-Benutzeroberfläche bietet einen Benachrichtigungsbereich, in dem Sie über die Vorgänge im System auf dem Laufenden gehalten werden können: Ereignisstatus, Systemaktualisierungen, erforderliche Aktionen usw[&#x200B; (weitere Informationen](../../start/using/interface-description.md#top-bar)
 
 
 **Technische Workflows**
@@ -38,7 +51,7 @@ Technische Workflows dienen der programmierten periodischen Ausführung von Serv
 
 **Control Panel**
 
-Das Control Panel erlaubt Ihnen, verschiedene Einstellungen Ihrer Instanz zu verwalten: URL-Berechtigungen, Überprüfung Ihrer Instanzdetails wie die Build-Versionen Ihrer Server, Überwachung der Nutzung aktiver Profile usw. Das Control Panel ermöglicht Ihnen auch, den verfügbaren Speicherplatz auf den SFTP-Servern zu überwachen, die mit Ihrer Instanz verbunden sind. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)
+Im Control Panel können Sie mehrere Einstellungen Ihrer Instanz verwalten: URL-Berechtigungen, Überprüfen Ihrer Instanzdetails wie die Build-Versionen Ihrer Server, Überwachen der Nutzung aktiver Profile usw. Außerdem können Sie den verfügbaren Speicherplatz auf den SFTP-Servern überwachen, die mit Ihrer Instanz verbunden sind. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)
 
 >[!NOTE]
 >
@@ -46,7 +59,7 @@ Das Control Panel erlaubt Ihnen, verschiedene Einstellungen Ihrer Instanz zu ver
 
 **Technische Objekte**
 
-Das Menü **[!UICONTROL Diagnose]** ist ein wichtiges Werkzeug zur Überwachung und Analyse der verschiedenen technischen Objekte, die von der Anwendung generiert werden: Datenschemata, Web-Seiten, Batch-Aufträge usw. [Weitere Informationen](../../developing/using/monitoring-data-model-changes.md)
+Das **[!UICONTROL Diagnose]**-Menü ist ein wichtiges Tool zur Überwachung und Analyse der verschiedenen technischen Objekte, die von der Anwendung generiert werden: Datenschemata, Web-Seiten, Batch-Vorgänge usw[&#x200B; (mehr dazu](../../developing/using/monitoring-data-model-changes.md)
 
 **Export-Audits**
 
@@ -77,7 +90,7 @@ Die Überwachung von Workflow-Protokollen ist ein wichtiger Schritt, um Ihre Wor
 Mit Campaign Standard können Sie Benachrichtigungen an Verantwortliche senden, um die Ausführung Ihrer Workflows zu überwachen und festzustellen, ob ein Fehler vorliegt, der Ihre Aufmerksamkeit erfordert.
 [Weitere Informationen](../../automating/using/monitoring-workflow-execution.md#error-management)
 
-## Überwachen von Sendungen {#monitoring-deliveries}
+## Sendungen überwachen {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 

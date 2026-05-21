@@ -10,9 +10,18 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '663'
+TQID: https://experienceleague.adobe.com/pU8TR9TKVwM7-YcCHkxrSZ07UkBxE652McpBXxIp-Ik
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 663
 ht-degree: 100%
 
 ---
@@ -29,7 +38,7 @@ Mithilfe eines dedizierten Tabs können Sie **[!UICONTROL Zusatzdaten]** für di
 
 Die Aktivität verwendet den Abfrage-Editor, dessen Funktionsweise in einem [gesonderten Kapitel](../../automating/using/editing-queries.md#about-query-editor) behandelt wird.
 
-## Anwendungskontext       {#context-of-use}
+## Anwendungskontext {#context-of-use}
 
 Eine **[!UICONTROL Inkrementelle Abfrage]** muss mit einer **[!UICONTROL Planung]** einhergehen, um die Häufigkeit der Ausführung des Workflows und damit der Abfrage zu definieren.
 
@@ -43,7 +52,7 @@ Der für diese Aktivität spezifische Tab **[!UICONTROL Verarbeitete Daten]** er
 
   Mit der Aktivität **[!UICONTROL Inkrementelle Abfrage]** können Sie regelmäßig neue Logs in Dateien exportieren. Diese Funktion kann verwendet werden, wenn Sie beispielsweise Ihre Log-Daten in externen Berichterstattungs- oder Business Intelligence Tools verwenden möchten. Ein vollständiges Beispiel finden Sie im Abschnitt [Logs exportieren](../../automating/using/exporting-logs.md).
 
-**Verwandte Themen** 
+**Verwandte Themen**
 
 * [Anwendungsfall: Inkrementelle Abfrage bezüglich Service-Abonnenten](../../automating/using/incremental-query-on-subscribers.md)
 
@@ -61,7 +70,7 @@ Der für diese Aktivität spezifische Tab **[!UICONTROL Verarbeitete Daten]** er
    * **[!UICONTROL Ergebnisse früherer Ausführungen ausschließen]**: Bei jeder neuen Ausführung werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen.
    * **[!UICONTROL Datumsfeld verwenden]**: Bei den nächsten Ausführungen werden nur die Ergebnisse berücksichtigt, deren ausgewählte Datumsangaben größer oder gleich dem letzten Ausführungsdatum der Aktivität **[!UICONTROL Inkrementelle Abfrage]** ist. Im Tab **[!UICONTROL Eigenschaften]** können Sie jedes zur ausgewählten Ressource gehörige Datumsfeld auswählen. Dieser Modus weist eine bessere Performance auf, wenn große Ressourcen wie zum Beispiel Log-Daten abgefragt werden.
 
-     In diesem Tab ist nach der ersten Ausführung des Workflows das Datum der jeweils letzten Ausführung zu sehen, welches wiederum für die nächste Ausführung herangezogen wird. Es wird automatisch bei jeder Ausführung des Workflows aktualisiert. Sie können bei Bedarf diesen Wert auch überschreiben, indem Sie einen neuen eingeben.
+     In diesem Tab ist nach der ersten Ausführung des Workflows das Datum der jeweils letzten Ausführung zu sehen, welches wiederum für die nächste Ausführung herangezogen wird. Es wird automatisch bei jeder Ausführung des Workflows aktualisiert. Sie können diesen Wert auch überschreiben, indem Sie einen neuen eingeben.
 
    >[!NOTE]
    >

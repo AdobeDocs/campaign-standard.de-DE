@@ -9,10 +9,20 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/Uqi4pPlzFEn-MLvjRPOU5Tu3tC1BDvOM49U1LKbA2lE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 827
+ht-degree: 92%
 
 ---
 
@@ -24,11 +34,11 @@ Um sicherzustellen, dass Ihre E-Mails Ihre Empfänger erreichen und um Ihre E-Ma
 
 Befolgen Sie beim Entwerfen Ihrer Nachrichteninhalte die folgenden Grundsätze:
 
-* [Name und Adresse des Absenders](#sender-name) Die Adresse muss die Identität eines Absenders explizit enthalten. Die Domain muss im Besitz des Absenders und auf ihn registriert sein. Die Domain-Registrierung darf nicht anonymisiert sein.
+* [Name und Adresse des Absenders](#sender-name): Die Adresse muss den Absender explizit identifizieren. Die Domain muss im Besitz des Absenders und auf ihn registriert sein. Die Domain-Registrierung darf nicht privat erfolgen.
   <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
 * [Personalisierung und Optimierung der Sendezeit](#perso-send-time-optimization): Die Personalisierung von Inhalten und das Definieren einer Sendezeit pro Empfänger erhöhen die Wahrscheinlichkeit, dass Ihre Nachricht geöffnet wird.
 * Bilder und Text: Achten Sie auf ein angemessenes Verhältnis zwischen Text und Bildern (z. B. 60 % Text und 40 % Bilder).
-* [Abmelde-Link](#opt-out) und Landingpage: Ein Abmelde-Link muss unbedingt vorhanden sein. Er muss gut sichtbar und gültig sein; außerdem muss das Formular funktionieren.
+* [Abmelde-Link](#opt-out) und -Landingpage: Der Abmelde-Link ist unverzichtbar. Er muss gut sichtbar und gültig sein und das Formular muss funktionieren.
 * Vorschau: Verwenden Sie die von Adobe Campaign angebotenen Tools, um den Inhalt Ihrer E-Mails zu überprüfen und zu optimieren ([Anti-Spam-Analyse](#anti-spam-analysis), [E-Mail-Rendering](#message-responsiveness)).
 
 Weitere Tipps zur Optimierung der Zustellbarkeit beim Entwerfen von Inhalten finden Sie im [Adobe-Handbuch mit den Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=de).
@@ -39,7 +49,7 @@ Weitere Tipps zur Optimierung der Zustellbarkeit beim Entwerfen von Inhalten fin
 
 ## Name und Adresse des Absenders {#sender-name}
 
-Bestimmte Internet-Anbieter überprüfen die Gültigkeit der Absenderadresse (**[!UICONTROL Von]**), bevor sie Nachrichten annehmen. Eine fehlerhafte Adresse kann dazu führen, dass sie vom empfangenden Server abgelehnt wird.
+Bestimmte ISPs überprüfen die Gültigkeit der Absenderadresse (**[!UICONTROL From]**), bevor sie Nachrichten akzeptieren. Eine schlecht formulierte Adresse könnte vom Empfangs-Server abgelehnt werden.
 
 ![](assets/delivery_content_edition16.png)
 
@@ -71,7 +81,7 @@ Das Anfordern einer zusätzlichen Bestätigung ist keine zuverlässige Methode: 
 
 Der Nachrichteneditor von Adobe Campaign ist mit einer **Anti-Spam-Analyse** ausgestattet, mit der sich für E-Mails das Risiko bestimmen lässt, von Anti-Spam-Tools des Empfängers als Spam eingestuft zu werden. Lesen Sie diesbezüglich auch den Abschnitt [Vorschau der Nachricht erzeugen](../../sending/using/previewing-messages.md).
 
-Wählen Sie im Inhaltseditor für die Nachricht die Option **[!UICONTROL Vorschau]** aus. Wenn die Anti-Spam-Prüfung ein hohes Risiko für die Nachricht feststellt, werden Sie durch eine Mitteilung gewarnt. Klicken Sie auf **[!UICONTROL Anti-Spam-Analyse]**, um Details anzuzeigen.
+Klicken Sie im Editor für Nachrichteninhalte auf **[!UICONTROL Vorschau]**. Eine Meldung warnt Sie, wenn die Anti-Spam-Überprüfung ein hohes Risiko für diese Nachricht erkannt hat. Klicken Sie auf **[!UICONTROL Anti-Spam-Analyse]**, um Details anzuzeigen.
 
 ![](assets/sending_anti-spam_analysis.png)
 

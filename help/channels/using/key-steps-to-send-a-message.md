@@ -8,10 +8,22 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/jEwlV4sdPtwlYNW-3uSWMBJOOCiffDv1GbCFMN1wNF4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 376
+ht-degree: 93%
 
 ---
 
@@ -62,7 +74,7 @@ Die Nachricht [vorbereiten](../../sending/using/preparing-the-send.md). Im Rahme
 
 ![](assets/steps-prepare.png)
 
-**Überprüfen und testen Sie Ihre Nachricht** anhand der Campaign Standard-Funktionen für Vorschau, E-Mail-Rendering, Testversand usw., bevor Sie sie absenden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/previewing-messages.md).
+**Prüfen und testen Sie Ihre Nachricht** bevor Sie sie mit Campaign Standard-Funktionen versenden: Vorschau, E-Mail-Rendering, Proofing usw. Weiterführende Informationen hierzu finden Sie [diesem Abschnitt](../../sending/using/previewing-messages.md).
 
 Verwenden Sie den Block **[!UICONTROL Planung]**, um zu definieren, wann Ihre Nachrichten gesendet werden (siehe [Versandplanung](../../sending/using/about-scheduling-messages.md)).
 

@@ -9,9 +9,19 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: ht
-source-wordcount: '1504'
+TQID: https://experienceleague.adobe.com/dS7csVOV5g64DQCssB9Nzz2ByX3t1gAe2HXdGJo1N50
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1574
 ht-degree: 100%
 
 ---
@@ -48,7 +58,7 @@ Benutzer werden durch den Ton auf den Empfang einer Push-Benachrichtigung hingew
 
 Der Benutzer empfängt die Push-Benachrichtigung und den Ton nur, wenn sein Telefon nicht stummgeschaltet ist.
 
-## Badge-Wert aktualisieren        {#refresh-the-badge-value}
+## Badge-Wert aktualisieren {#refresh-the-badge-value}
 
 Mit einem Badge wird die Anzahl der neuen ungelesenen Nachrichten direkt auf dem App-Symbol angezeigt. Der Badge-Wert verschwindet, sobald der Benutzer den neuen Inhalt in der Anwendung öffnet oder liest.
 
@@ -69,7 +79,7 @@ Wenn eine Benachrichtigung auf einem Gerät empfangen wird, kann der Badge-Wert 
 
    ![](assets/push_notif_advanced_1.png)
 
-## Deeplink hinzufügen        {#add-a-deeplink}
+## Deeplink hinzufügen {#add-a-deeplink}
 
 Mit einem Deeplink gelangen Benutzer direkt zu Inhalten, die in der Anwendung enthalten sind (anstatt eine Webseite zu öffnen).
 
@@ -86,7 +96,7 @@ Gehen Sie folgendermaßen vor, um einen Deeplink zu einer Push-Benachrichtigung 
 
    ![](assets/push_notif_advanced_4.png)
 
-## Aktion definieren        {#define-an-action}
+## Aktion definieren {#define-an-action}
 
 Sie können eine Kategorie-Kennung hinzufügen, sofern eine in der Mobile App verfügbar ist, und dann Aktionsschaltflächen anzeigen. Mit diesen Benachrichtigungen können Benutzer rascher unterschiedliche Aufgaben ausführen, ohne die Anwendung öffnen oder darin navigieren zu müssen.
 
@@ -123,7 +133,7 @@ So fügen Sie Ihrer Push-Benachrichtigung ein Ablaufdatum hinzu:
 
 Wenn die Push-Benachrichtigung aber nicht vor dem Ende der Gültigkeitsdauer gesendet werden kann, wird sie verworfen.
 
-## Benutzerdefinierte Felder hinzufügen        {#add-custom-fields}
+## Benutzerdefinierte Felder hinzufügen {#add-custom-fields}
 
 Mit benutzerdefinierten Feldern können Sie benutzerdefinierte Daten in der Payload in Form eines Schlüssel-/Werte-Paares übermitteln. Mit dieser Option haben Sie die Möglichkeit, neben den vordefinierten Schlüsseln auch Zusatzdaten an die Anwendung zu senden.
 
@@ -160,7 +170,7 @@ Gehen Sie folgendermaßen vor, um Rich-Media-Inhalte in Push-Benachrichtigungen 
 
    ![](assets/push_notif_advanced_2.png)
 
-## Verhalten von Benachrichtigungen für iOS ändern        {#change-the-notification-behavior-for-ios}
+## Verhalten von Benachrichtigungen für iOS ändern {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 

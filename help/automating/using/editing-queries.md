@@ -10,9 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '793'
+TQID: https://experienceleague.adobe.com/s3em827G4rbFW4oJicP0iQC5PPUqsVWFBoofC3c094Q
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 803
 ht-degree: 100%
 
 ---
@@ -31,13 +36,13 @@ Der Abfrageeditor kommt in verschiedenen Funktionen zum Einsatz:
 * Definition von **E-Mail-Zielgruppen**,
 * Definition von Populationen in **Workflow-Aktivitäten**.
 
-## Benutzeroberfläche des Abfrage-Editors     {#query-editor-interface}
+## Benutzeroberfläche des Abfrage-Editors {#query-editor-interface}
 
 Die Benutzeroberfläche des Abfrage-Editors enthält eine **Palette** und einen **Arbeitsbereich**.
 
 ![](assets/query_editor_overview.png)
 
-### Palette     {#palette}
+### Palette {#palette}
 
 Die Palette befindet sich auf der linken Seite des Tools und ist in zwei Tabs unterteilt, die wiederum aus mehreren, in thematische Blöcke aufgeteilten Elementen bestehen. Diese Tabs sind:
 
@@ -51,13 +56,13 @@ Die in den Tabs enthaltenen Elemente müssen im Arbeitsbereich platziert werden,
 * Definition von einfachen Regeln für frei wählbare Felder,
 * Definition von erweiterten Regeln zur Anwendung von Funktionen auf gewisse Felder.
 
-### Arbeitsbereich     {#workspace}
+### Arbeitsbereich {#workspace}
 
 Der Arbeitsbereich ist der zentrale Bereich des Bildschirms, in dem Sie die Regeln, Zielgruppen und Filter konfigurieren und kombinieren können, die aus der Palette hier abgelegt werden.
 
 Wenn Sie ein Element aus der Palette in den Arbeitsbereich ziehen, öffnet sich ein neues Fenster, mit dem sich [Abfragen erstellen](#creating-queries) lassen.
 
-## Abfragen erstellen     {#creating-queries}
+## Abfragen erstellen {#creating-queries}
 
 Mit dem Abfrage-Editor können Sie eine Zielgruppe oder ein Testprofil in einer Nachricht oder eine Population in einem Workflow definieren und eine Zielgruppe vom Typ &quot;Abfrage&quot; erstellen.
 

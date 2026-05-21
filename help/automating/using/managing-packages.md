@@ -10,9 +10,20 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '1112'
+TQID: https://experienceleague.adobe.com/38gc6pZv3d9g2c9X1F3Xhx97xt-mwj-Ey03ZdAwWvgo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1122
 ht-degree: 100%
 
 ---
@@ -31,7 +42,7 @@ Die einzelnen Elemente der Export- oder Importliste werden standardmäßig in ab
 
 Klicken Sie zur Anzeige und Bearbeitung des Inhalts eines Elements auf dessen Titel. Lesen Sie diesbezüglich auch die Abschnitte [Package exportieren](#exporting-a-package) und [Package importieren](#importing-a-package).
 
-## Package-Exporte      {#package-exports}
+## Package-Exporte {#package-exports}
 
 ### Standard-Packages {#standard-packages}
 
@@ -56,7 +67,7 @@ Der Package-Export wird im Abschnitt [Package exportieren](#exporting-a-package)
 >
 >Der Inhalt dieser beiden Packages kann nicht verändert werden. Diese Packages enthalten immer die aktuellsten Daten. Sie können [Ihre eigenen Packages erstellen](#creating-a-package), um bestimmte Elemente zu exportieren.
 
-### Package-Erstellung      {#creating-a-package}
+### Package-Erstellung {#creating-a-package}
 
 Zum Export bestimmter Datensätze müssen Sie ein Package erstellen.
 
@@ -95,7 +106,7 @@ Zur Erstellung eines Packages benötigen Sie Administratorrechte.
 
 Ihr Package wurde erstellt und kann jetzt exportiert werden.
 
-### Package exportieren      {#exporting-a-package}
+### Package exportieren {#exporting-a-package}
 
 Durch den Export von Packages können Sie einen bestimmten Status einer Ressource speichern. Diese können Sie in eine andere Instanz oder zu einem späteren Zeitpunkt in derselben Instanz wieder importieren
 
@@ -139,7 +150,7 @@ In der **[!UICONTROL Ausführungslogs]**-Ansicht werden alle Importetappen angez
 >
 >Diese Informationen sind schreibgeschützt.
 
-### Package importieren      {#importing-a-package}
+### Package importieren {#importing-a-package}
 
 Ein Administrator kann ein zuvor aus einer Adobe Campaign-Instanz exportiertes Package manuell importieren. Weiterführende Informationen finden Sie im Abschnitt [Package-Exporte](#package-exports).
 

@@ -9,10 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '451'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/PPDlvoeHKNpeLfYe4qYFq7mzQUb3oR7XkrMK-jQFpmY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 454
+ht-degree: 98%
 
 ---
 
@@ -45,7 +56,7 @@ Sie können Daten mithilfe der folgenden Aktivitäten auswählen:
 
 * Eine **[!UICONTROL Abfrage]** dient der Filterung und Extraktion einer Population, die sich aus Elementen der Adobe Campaign-Datenbank zusammensetzt. Siehe den Abschnitt [Abfrage](../../automating/using/query.md).
 * Eine **[!UICONTROL Inkrementelle Abfrage]** dient der Filterung und Extraktion einer Population, die sich aus Elementen der Adobe Campaign-Datenbank zusammensetzt. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen. Siehe den Abschnitt [Inkrementelle Abfrage](../../automating/using/incremental-query.md).
-* Die Aktivität **[!UICONTROL Zielgruppe lesen]** ermöglicht es Ihnen, eine vorhandene Zielgruppe abzurufen und sie durch zusätzliche Filterbedingungen einzuengen. Siehe den Abschnitt [Zielgruppe lesen](../../automating/using/read-audience.md).
+* Die Aktivität **[!UICONTROL Zielgruppe lesen]** ermöglicht es Ihnen, eine vorhandene Zielgruppe abzurufen und sie durch zusätzliche Filterbedingungen einzuengen.Siehe den Abschnitt [Zielgruppe lesen](../../automating/using/read-audience.md).
 
 ## Daten segmentieren {#segmenting-data}
 
@@ -54,7 +65,7 @@ Adobe Campaign bietet die Möglichkeit, eingehende Daten zusammenzufassen oder a
 * Eine **[!UICONTROL Vereinigung]** dient der Zusammenfassung der Ergebnisse mehrerer Aktivitäten in einer Zielgruppe. Siehe den Abschnitt [Vereinigung](../../automating/using/union.md).
 * Eine **[!UICONTROL Schnittmenge]** dient der Extraktion der gemeinsamen Population aus den eingehenden Aktivitäten. Siehe den Abschnitt [Schnittmenge](../../automating/using/intersection.md).
 * Ein **[!UICONTROL Ausschluss]** ermöglicht es, bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen. Siehe den Abschnitt [Ausschluss](../../automating/using/exclusion.md).
-* Mit der Aktivität **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Aktivitäten im Workflow berechneten Population ausgehend ein oder mehrere Segmente erstellen. Diese können bei Abschluss der Aktivität in einer einzigen oder verschiedenen Transition(en) verarbeitet werden. Siehe den Abschnitt [Segmentierung](../../automating/using/segmentation.md).
+* Mit der Aktivität **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Aktivitäten im Workflow berechneten Population ausgehend ein oder mehrere Segmente erstellen. Diese können bei Abschluss der Aktivität in einer einzigen oder in verschiedenen Transitionen verarbeitet werden. Siehe den Abschnitt [Segmentierung](../../automating/using/segmentation.md).
 
 ## Anreicherung von Daten {#enriching-data}
 

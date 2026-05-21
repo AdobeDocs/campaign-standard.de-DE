@@ -10,10 +10,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '917'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/zcoFbPtWA5lcopKI6FfXdj3I3Ypvl6FZvAiZMh7oDw0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 924
+ht-degree: 97%
 
 ---
 
@@ -53,7 +64,7 @@ Ziehen Sie eine Abfrage in Ihren Workflow, um die mittels Ihrer Sendungen zu kon
 1. Ziehen Sie unter **[!UICONTROL Aktivitäten]** > **[!UICONTROL Zielgruppenbestimmung]** eine [Abfrageaktivität](../../automating/using/query.md) in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
 1. Durchsuchen Sie im Tab **[!UICONTROL Zielgruppe]** die Schnellzugriffe und wählen Sie eine Ihrer [Audiences](../../audiences/using/about-audiences.md) aus.
-1. Ziehen Sie den Schnellzugriff in den Arbeitsbereich. Je nach Typ des ausgewählten Schnellzugriffs öffnet sich ein bestimmtes Fenster.
+1. Ziehen Sie die Verknüpfung per Drag-and-Drop in den Bearbeitungsbereich. Je nach ausgewähltem Tastaturbefehl wird ein Fenster angezeigt.
 1. Konfigurieren Sie die Zielgruppenbestimmungselemente und validieren Sie Ihre Abfrage.
 
 ![](assets/wkf_segment_query.png)

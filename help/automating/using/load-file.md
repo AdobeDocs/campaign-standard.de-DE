@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '1528'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1532
+ht-degree: 95%
 
 ---
 
@@ -90,7 +97,7 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
 
    Im Tab **[!UICONTROL Spaltendefinition]** lässt sich die Datenstruktur für jede Spalte separat definieren, um fehlerfreie Daten zu importieren (u. a. durch die Definition des Umgangs mit Nullwerten) und die Kompatibilität mit den bereits in der Datenbank existierenden Daten zu gewährleisten.
 
-   Es besteht beispielsweise die Möglichkeit, Spaltentitel und Datentyp (String, Ganze Zahl, Datum etc.) anzupassen bzw. den Umgang mit Fehlern zu bestimmen.
+   Sie können beispielsweise die Beschriftung einer Spalte ändern und den Typ (Zeichenfolge, Ganzzahl, Datum usw.) oder geben Sie sogar die Fehlerverarbeitung an.
 
    Weiterführende Informationen hierzu finden Sie im Abschnitt [Spaltenformat](#column-format).
 
@@ -120,7 +127,7 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
 
 Wenn nach dem Ausführen des Workflows ein Fehler bei der Aktivität auftritt, lesen Sie die Protokolle, um weitere Details zu den Werten zu erhalten, die in der Datei falsch sind. Weiterführende Informationen zu Workflow-Protokollen finden Sie in [diesem Abschnitt](../../automating/using/monitoring-workflow-execution.md).
 
-## Spaltenformat           {#column-format}
+## Spaltenformat {#column-format}
 
 Beim Laden einer Beispieldatei wird das Spaltenformat automatisch erkannt und jedem Datentyp werden Standardparameter zugewiesen. Diese Standardparameter können angepasst werden, um einen bestimmten Umgang mit gewissen Daten vorzuschreiben, insbesondere in Bezug auf Fehler oder Leerwerte.
 
@@ -157,7 +164,7 @@ Verschiedene Optionen zum Umgang mit den Spaltenwerten stehen zur Auswahl:
 
   >[!NOTE]
   >
-  >**[!UICONTROL Die Fehlerverarbeitung]** bezieht sich auf Fehler, die die in der Importdatei angegebenen Werte betreffen. Hierbei kann es sich beispielsweise um einen falschen Datentyp handeln (das ausgeschriebene Wort &quot;vier&quot; bei einer Spalte vom Typ &quot;Ganze Zahl&quot;), einen String, der die maximal zulässige Anzahl an Zeichen überschreitet, ein Datum mit dem falschen Trennzeichen etc. Diese Option bezieht sich jedoch nicht auf Fehler, die aus dem Umgang mit Leerwerten resultieren.
+  >**[!UICONTROL Die Fehlerverarbeitung]** bezieht sich auf Fehler, die die in der Importdatei angegebenen Werte betreffen. Beispielsweise ein fehlerhafter Datentyp (alle „vier“ Buchstaben für eine Spalte „Ganzzahl„), eine Zeichenfolge, die mehr Zeichen als die maximal zulässige Zahl enthält, ein Datum mit fehlerhaften Trennzeichen usw. Diese Option betrifft jedoch keine Fehler, die durch die Verwaltung leerer Werte generiert wurden.
 
 * **[!UICONTROL Standardwert]**: Angabe des Standardwerts, der im Bezug auf den jeweils definierten Umgang mit Fehlern zum Tragen kommt.
 * **[!UICONTROL Umgang mit leeren Werten]**: Definition, wie beim Laden der Daten mit leeren Werten verfahren werden soll.

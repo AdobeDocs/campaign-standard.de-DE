@@ -6,10 +6,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: ht
-source-wordcount: '888'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/o6mmez3uQ47pkbl-CXBR-CezbXVpf9Ef5L8oDZEToro
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 995
+ht-degree: 94%
 
 ---
 
@@ -82,7 +92,7 @@ Das Ziel des CollectPII-Aufrufs ist es, das mobile Profil in Campaign anzureiche
 
 ## Können CollectPII-Aufrufe als Reaktion auf mehrere Trigger-Ereignisse ausgelöst werden? {#collect-pii-calls}
 
-Ja. Je nach Ihren geschäftlichen Anforderungen können Sie CollectPII-Aufrufe als Reaktion auf die Anmeldung des Benutzers in der App, einen Kauf, ein Lebenszyklusereignis oder das Betreten des Benutzers eines Geofence usw. auslösen. Zusammenfassend ist dies eine Benutzerinteraktion mit der App, die Informationen generiert, die Sie für die Anreicherung von Profilen verwenden möchten.
+Ja. Je nach Ihren Geschäftsanforderungen können Sie CollectPII-Aufrufe auslösen, wenn sich Benutzende in der App anmelden oder etwas oder ein Lebenszyklus-Ereignis erwerben oder wenn Benutzende einen Geofence usw. eingeben. Zusammenfassend lässt sich sagen, dass eine Interaktion des Benutzers mit der App Informationen generiert, die Sie für die Profilanreicherung verwenden würden.
 
 ## Kann ich als Reaktion auf alle mobilen Ereignisse CollectPII-Aufrufe auslösen? {#collect-pii-events}
 
@@ -101,7 +111,7 @@ Sehen Sie sich die folgenden Ressourcen an:
 * [Dokumentation](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/) zur Aktualisierung auf das Experience Platform SDK
 * [Dokumentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/) zum Experience Platform SDK in Github
 
-## Beim Erstellen eines Push-Benachrichtigungsversands erhalte ich die Fehlermeldung &quot;Sie haben keinen Schreibzugriff auf den Versand&quot;.  {#write-access-error}
+## Beim Erstellen eines Push-Benachrichtigungsversands erhalte ich die Fehlermeldung &quot;Sie haben keinen Schreibzugriff auf den Versand&quot;. {#write-access-error}
 
 Überprüfen Sie Folgendes:
 

@@ -9,10 +9,17 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/D4-ExbGPm1p4iWBL1msW5P3-K2xeE6Gg6byZDl6WqPI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 761
+ht-degree: 92%
 
 ---
 
@@ -47,7 +54,7 @@ Wenn ein Ereignis aktiviert wird, wird es einem Ausführungsversand zugewiesen. 
 >
 >Ein verschobenes Ereignis wird nicht in den Versandlogs für Transaktionsnachrichten angezeigt, weil das Ereignis noch keinem Ausführungsversand zugeordnet ist.
 
-Beispielsweise kann es sein, dass das Ereignis keinem Ausführungsversand zugewiesen werden konnte, weil der Inhalt nicht korrekt war, es ein Problem mit den Zugriffsrechten oder dem Branding gab oder ein Fehler beim Anwenden von Typologieregeln erkannt wurde. In diesem Fall können Sie die Nachricht vorläufig anhalten, bearbeiten, um den Fehler zu beheben, und erneut veröffentlichen. Das Wiederholungssystem weist die Nachricht daraufhin einem neuen Ausführungsversand zu.
+Beispielsweise konnte das Ereignis keinem Ausführungsversand zugewiesen werden, da sein Inhalt nicht korrekt war, ein Problem mit Zugriffsrechten oder Branding bestand, ein Fehler bei der Anwendung von Typologieregeln erkannt wurde usw. In diesem Fall können Sie die Nachricht anhalten, bearbeiten, um das Problem zu beheben, und erneut veröffentlichen. Das Wiederholungssystem weist die Nachricht daraufhin einem neuen Ausführungsversand zu.
 
 ### Wiederholungsverfahren beim Nachrichtenversand {#message-sending-retry-process}
 

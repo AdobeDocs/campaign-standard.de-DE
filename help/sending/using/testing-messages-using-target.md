@@ -9,9 +9,19 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '1606'
+TQID: https://experienceleague.adobe.com/52Xrj9jJWTlTtIrIqTt-Fhc4V-lRNfjfGDRiHv5dgUs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1617
 ht-degree: 100%
 
 ---
@@ -129,7 +139,7 @@ Gehen Sie wie folgt vor, um Profile, die zum Testen einer Zielgruppe verwendet w
 
    ![](assets/substitution_fromaudience.png)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Importieren]**. Die Profile aus der Audience, die der Zielgruppe der Nachricht entsprechen, werden dem Tab **[!UICONTROL Profilersetzungen]** hinzugefügt. Das Gleiche gilt für die zugehörigen Ersatzadressen und Präfixe.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Importieren]**. Die Profile aus der Audience, die der Zielgruppe der Nachricht entsprechen, werden dem Tab **[!UICONTROL Profilersetzungen]** hinzugefügt. Das Gleiche gilt für die zugehörigen Ersatzadressen und Präfixe.
 
 ![](assets/substitution_audience_imported.png)
 

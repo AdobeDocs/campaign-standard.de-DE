@@ -6,10 +6,18 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
-workflow-type: ht
-source-wordcount: '943'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/tSPkfU35NbnvlF8s39rDKPbyrLFm8uKx7jvU4ZyB1hw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 951
+ht-degree: 96%
 
 ---
 
@@ -260,7 +268,7 @@ Damit das **[!UICONTROL Impression]**-Tracking auch dann funktioniert, wenn das 
 
 >[!CAUTION]
 >
-> Wenn ein Programm geschlossen ist, ruft Apple das Programm erst nach dessen Neustart auf. Das bedeutet, dass Sie nicht erfahren, wenn die Benachrichtigung unter iOS empfangen wird. </br> Aus diesem Grund ist das Impression-Tracking unter iOS möglicherweise nicht präzise und sollte daher nicht als zuverlässig betrachtet werden.
+> Wenn ein Programm geschlossen ist, ruft Apple das Programm erst nach dessen Neustart auf. Das bedeutet, dass Sie nicht wissen können, wann die Benachrichtigung auf iOS empfangen wurde. </br> Aus diesem Grund ist das Impression-Tracking in iOS möglicherweise nicht präzise und sollte daher nicht als zuverlässig betrachtet werden.
 
 Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
 

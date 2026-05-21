@@ -8,9 +8,24 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '571'
+TQID: https://experienceleague.adobe.com/iqQ7Cbo3tVTu348U1mHHoi7skHMjZF3D4Qw3zvHbLVk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 588
 ht-degree: 100%
 
 ---
@@ -68,7 +83,7 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 
    Daraufhin wird das Dashboard der E-Mail angezeigt. Dort können Sie Ihre Nachricht überprüfen und [den Versand vorbereiten](../../sending/using/preparing-the-send.md).
 
-   Mit der Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** in der rechten oberen Ecke können Sie die Eigenschaften der E-Mail bearbeiten. Sie können beispielsweise die E-Mail so konfigurieren, dass ihr Titel zum Zeitpunkt der Versandvorbereitung berechnet wird. Die verfügbaren Parameter werden in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#list-of-email-properties) aufgeführt.
+   Mit der Schaltfläche **[!UICONTROL Eigenschaften bearbeiten]** in der rechten oberen Ecke können Sie die Eigenschaften der E-Mail bearbeiten. Sie können beispielsweise die E-Mail so konfigurieren, dass ihr Titel zum Zeitpunkt der Versandvorbereitung berechnet wird.  Die verfügbaren Parameter werden in [diesem Abschnitt](../../administration/using/configuring-email-channel.md#list-of-email-properties) aufgeführt.
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -97,7 +112,7 @@ Die Erstellung von E-Mails erfolgt im Rahmen von [Kampagnen](../../start/using/m
 **Verwandte Themen**:
 
 * Schrittweise Anleitung zum [Erstellen einer personalisierten E-Mail](../../channels/using/key-steps-to-send-a-message.md)
-* [ Integration von Adobe Campaign und Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
+* [Integration von Adobe Campaign und Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integration mit Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
 ## Anleitungsvideo {#video}

@@ -9,9 +9,16 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '611'
+TQID: https://experienceleague.adobe.com/L2Rj-JoGUPKPQnEUZY-l-fh4FMI-vMm7D4OX8S2Vnd0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 613
 ht-degree: 100%
 
 ---
@@ -20,7 +27,7 @@ ht-degree: 100%
 
 ## Über Testsendungen {#about-proofs}
 
-Ein Testversand dient der Validierung einer Nachricht, bevor sie an die Hauptzielgruppe gesendet wird. Die Empfänger des Testversands haben die Aufgabe, sowohl Inhalt als auch Form der Nachricht zu validieren. 
+Ein Testversand dient der Validierung einer Nachricht, bevor sie an die Hauptzielgruppe gesendet wird. Die Empfänger des Testversands haben die Aufgabe, sowohl Inhalt als auch Form der Nachricht zu validieren.
 
 Es gibt zwei Typen von Testversandempfängern:
 
@@ -99,7 +106,7 @@ Wenn Sie die Nummer des Testversands in der Betreffzeile ausblenden möchten, ak
 
 ![](assets/proof-prefix-configuration.png)
 
-1. Wählen Sie **[!UICONTROL Bestätigen]** aus. Die Einstellungen werden standardmäßig auf alle Testsendungen angewendet, die für die jeweilige Nachricht gesendet werden.
+1. Klicken Sie auf **[!UICONTROL Bestätigen]**. Die Einstellungen werden standardmäßig auf alle Testsendungen angewendet, die für die jeweilige Nachricht gesendet werden.
 
 **Verwandtes Thema:**
 

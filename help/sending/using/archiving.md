@@ -8,9 +8,18 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '375'
+TQID: https://experienceleague.adobe.com/azrQgfcyinGmbmazAdX8-9zBVYqew1j3DS4sb2FaU-4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 378
 ht-degree: 100%
 
 ---
@@ -40,7 +49,7 @@ Nachdem die Aktivierung durchgeführt wurde, aktivieren Sie E-Mail-BCC in der E-
 >
 >Derzeit werden die archivierten E-Mails noch vom alten Archivierungsmodul gesendet, das ein einfaches SMTP-Relay verwendet.
 
-## E-Mail-Archivierung aktivieren            {#activating-email-archiving}
+## E-Mail-Archivierung aktivieren {#activating-email-archiving}
 
 Nach der Aktivierung wird E-Mail-BCC in der [E-Mail-Vorlage](../../start/using/marketing-activity-templates.md) über die folgende Option aktiviert:
 

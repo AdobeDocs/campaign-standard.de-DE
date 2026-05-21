@@ -8,10 +8,22 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
-source-wordcount: '2483'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/yzZqni5CgzXiOBFYrKXbUjfSbpMRdxKAMeSuZL2hiuk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 2507
+ht-degree: 99%
 
 ---
 
@@ -32,9 +44,9 @@ Verwandte Themen:
 * [Vorbereitung](../../administration/using/configuring-email-channel.md#preparation)
 * [Typologien verwalten](../../sending/using/managing-typologies.md)
 * [Typologieregeln](../../sending/using/managing-typology-rules.md)
-* [Kommunikationsfrequenz zur Vermeidung von Kontaktmüdigkeit optimieren](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Optimieren der Kommunikationsfrequenz zur Vermeidung von Kontaktmüdigkeit](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
-## Ermüdungsregel erstellen        {#creating-a-fatigue-rule}
+## Ermüdungsregel erstellen {#creating-a-fatigue-rule}
 
 Um eine Typologieregel vom Typ **[!UICONTROL Ermüdung]** zu erstellen und zu konfigurieren, gehen Sie folgendermaßen vor:
 
@@ -84,7 +96,7 @@ Bei der Versandvorbereitung werden Profile vom Versand ausgeschlossen, wenn sie 
 >
 >Damit Ermüdungsregeln funktionieren, müssen Sie ein Kontaktdatum für den Versand festlegen. Wenn Sie Nachrichten sofort senden möchten, wird die Ermüdungsregel nicht angewendet.
 
-## Kanal auswählen        {#choosing-the-channel}
+## Kanal auswählen {#choosing-the-channel}
 
 Ermüdungsregeln sind für mehrere Kanäle verfügbar. Den Kanal können Sie in den Einstellungen der Typologieregel im Feld **[!UICONTROL Kanal]** definieren. Zur Auswahl stehen entweder ein einzelner Kanal oder **[!UICONTROL Alle Kanäle]**.
 
@@ -111,7 +123,7 @@ Ermüdungsregeln sind mit allen Versandtypen kompatibel: einmalige Sendungen, wi
 
 **Transaktionsnachrichten** kommen zum Versand von Dienstnachrichten zur Anwendung. In diesem Fall wird die Zielgruppe über Ereignisse (rtEvent) bestimmt. Aber auch der Versand von Marketing-Nachrichten ist möglich, bei denen die Zielgruppe Profile enthält. Dies ist beispielsweise bei Remarketing-Nachrichten der Fall. Ermüdungsregeln sind nur mit Marketing-Nachrichten kompatibel (Zielgruppenbestimmung durch Profile). Ereignis-Transaktionsnachrichten enthalten keine Profilinformationen, weshalb sie nicht mit Ermüdungsregeln kompatibel sind (auch nicht, wenn sie mit Profilen angereichert werden). Durch die Unterstützung von Marketing-Nachrichten durch Transaktionsnachrichten können Sie **auf alle Kanäle eine Ermüdungsregel anwenden, auch auf Marketing-Transaktionsnachrichten**.
 
-## Schwelle definieren        {#defining-the-threshold}
+## Schwelle definieren {#defining-the-threshold}
 
 In jeder Ermüdungsregel wird eine Schwelle definiert, also eine maximale Nachrichtenanzahl, die in einem gewissen Zeitraum an ein Profil gesendet werden kann. Sobald diese Schwelle erreicht ist, können keine Sendungen mehr durchgeführt werden, bis der Zeitraum abgelaufen ist. Durch dieses Verfahren kann ein Profil aus einem Versand automatisch ausgeschlossen werden, wenn eine Nachricht die festgelegte Schwelle übersteigt. Dadurch wird verhindert, dass ein Profil zu oft angesprochen wird.
 
@@ -154,7 +166,7 @@ Das Präzisieren der Schwelle für Sendungen funktioniert anders als die Beschr�
 * **[!UICONTROL Anwendungsbedingungen]**: Hier legen Sie fest, ob die Regel gemäß bestimmten Kriterien ausgeführt werden soll oder nicht. Wenn beispielsweise Ihre Anwendungsbedingung &#39;Titel beginnt mit Newsletter&#39; lautet, wird die Regel nur auf Sendungen angewendet, auf die diese Bedingung zutrifft. Wenn der Titel des Versands mit &#39;Promotion&#39; beginnt, wird die Regel gar nicht ausgeführt.
 * **[!UICONTROL Schwelle für Profile und Sendungen präzisieren > Zu zählende Sendungen]**: Alle Sendungen, die diese Typologieregel verwenden, führen die Regel aus, doch Sie entscheiden, welche der ausgeführten und geplanten Sendungen gezählt werden sollen. Wenn beispielsweise Ihre Beschränkung ‚Titel beginnt mit Newsletter‘ lautet, wird die Regel ausgeführt, selbst wenn der Versandtitel mit &#39;Promo‘ beginnt. Gezählt wird die Anzahl der Sendungen im ausgewählten beweglichen Zeitraum, deren Titel mit &#39;Newsletter‘ beginnt.
 
-## Beweglichen Zeitraum festlegen        {#setting-the-sliding-period}
+## Beweglichen Zeitraum festlegen {#setting-the-sliding-period}
 
 Die Ermüdungsregeln werden für bewegliche Zeiträume von n Tagen bestimmt. Der Zeitraum wird im Bereich **[!UICONTROL Beweglicher Zeitraum]** konfiguriert, z. B. 2 Wochen, 7 Tage oder 5 Stunden.
 
@@ -166,7 +178,7 @@ Wenn Sie beispielsweise einen Zeitraum von 48 Stunden definieren, werden vom Sys
 
 Um die berücksichtigten Sendungen auf einen Zeitraum von zwei Wochen zu beschränken, geben Sie im Bereich **Beweglicher Zeitraum** die Option **Tag** und **7** oder 1 Woche ein. In dieser Berechnung werden Sendungen berücksichtigt, die bis zu sieben Tage vor dem Verfügbarkeitsdatum und bis zu sieben Tage nach dem in der Regel festgelegten Verfügbarkeitsdatum durchgeführt werden.
 
-## Ermüdungsergebnisse ansehen        {#viewing-the-fatigue-results}
+## Ermüdungsergebnisse ansehen {#viewing-the-fatigue-results}
 
 Bei der Versandvorbereitung werden Profile vom Versand ausgeschlossen, wenn sie bereits eine bestimmte Anzahl an Sendungen erhalten haben. Der Zugriff auf die Ausführungsergebnisse der Ermüdungsregel ist über die Schaltfläche unten rechts in der Kachel **[!UICONTROL Bereitstellung]** möglich.
 
@@ -186,7 +198,7 @@ In drei Tabs werden die Durchführungsergebnisse der Ermüdungsregel, einschlie�
 
   ![](assets/fatigue19.png)
 
-## Bericht mit der Zusammenfassung zu Ermüdungsregeln ansehen        {#viewing-the-fatigue-rule-summary-report}
+## Bericht mit der Zusammenfassung zu Ermüdungsregeln ansehen {#viewing-the-fatigue-rule-summary-report}
 
 In Adobe Campaign ist ein Bericht zu Ermüdungsregeln verfügbar, dem Sie entnehmen können, wie die Regeln auf Ihre Kampagnen angewendet werden. Dadurch erfahren Sie, wie Ihre Kampagnen einander beeinflussen und welche Anpassungen Sie vornehmen können.
 

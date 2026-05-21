@@ -3,9 +3,14 @@ title: Aktualisieren der Bounce-Qualifizierung nach einem ISP-Ausfall
 description: Erfahren Sie, wie Sie die Bounce-Qualifizierung nach einem ISP-Ausfall aktualisieren.
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: ht
-source-wordcount: '450'
+TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 450
 ht-degree: 100%
 
 ---
@@ -18,7 +23,7 @@ Bei Ausfall eines ISP können über Campaign versendete E-Mails nicht erfolgreic
 
 Im Dezember 2020 führte ein globales Problem bei Gmail dazu, dass einige E-Mail-Nachrichten, die an gültige Gmail-Adressen gesendet wurden, von Gmail-Servern fälschlicherweise als ungültige E-Mail-Adressen mit der folgenden Bounce-Antwort zurückgewiesen wurden: *&quot;550-5.1.1 Das E-Mail-Konto, das Sie zu erreichen versucht haben, existiert nicht.&quot;*
 
-Google hat angegeben, dass die Ausfälle und Unterbrechungen von Gmail, die dieses Problem verursacht haben, am 14. Dezember um 6:55AM Uhr und am 15. Dezember um 6:09PM Uhr EST endeten.Unsere Datenanalyse zeigte auch einen sehr kurzen Anstieg der Gmail-Bounce-Nachrichten um 2:06AM Uhr EST am 16. Dezember, wobei der Großteil am 15. Dezember zwischen 14:00 Uhr EST und 18:30 Uhr EST stattfand.
+Google hat angegeben, dass die Ausfälle und Unterbrechungen von Gmail, die dieses Problem verursacht haben, am 14. Dezember um 6:55AM Uhr und am 15. Dezember um 6:09PM Uhr EST endeten. Unsere Datenanalyse zeigte auch einen sehr kurzen Anstieg der Gmail-Bounce-Nachrichten um 2:06AM Uhr EST am 16. Dezember, wobei der Großteil am 15. Dezember zwischen 14:00 Uhr EST und 18:30 Uhr EST stattfand.
 
 >[!NOTE]
 >

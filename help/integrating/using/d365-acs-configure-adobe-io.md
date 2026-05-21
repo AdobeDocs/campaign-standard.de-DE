@@ -9,10 +9,22 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '602'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/F-zxGFIsIDW-Xc5hMICIAwHOVDpChxl-AjyCJLjR-v4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 635
+ht-degree: 99%
 
 ---
 
@@ -96,7 +108,7 @@ Die Einrichtung vor der Integration in Campaign ist jetzt abgeschlossen.
 
 * [Konfigurieren von Adobe Developer für die Microsoft Dynamics 365-Integration](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration
 * Die [Übersicht über die Selfservice-Integrationsanwendung](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) enthält eine vollständige Anleitung zur Durchführung der Integration.
-* [Adobe Developer – Integration von Service-Konten](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Adobe Developer - Integration von Service-Konten](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard – Einrichtung von API-Zugriff](../../api/using/setting-up-api-access.md)
 * [Campaign Standard – Integration mit Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
 * [Migrieren von Anmeldedaten von JWT zu OAuth-Server-zu-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) enthält die Schritte zum Migrieren von Anmeldedaten von JWT zu OAuth-Server-zu-Server.

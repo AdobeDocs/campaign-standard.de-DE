@@ -9,10 +9,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '833'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/-MOTkG1XRoqVckcmiFoUgFZK2Ae47h86Y6nGrSM-CGs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 835
+ht-degree: 96%
 
 ---
 
@@ -20,7 +29,7 @@ ht-degree: 100%
 
 Nachdem der Workflow ausgelöst wurde, werden die Parameter in die Ereignisvariablen aufgenommen und können zur Anpassung der Workflow-Aktivitäten verwendet werden.
 
-So kann mit ihnen beispielsweise definiert werden, welche Zielgruppe in der Aktivität **[!UICONTROL Zielgruppe lesen]** gelesen werden soll oder wie der Name der in der Aktivität **[!UICONTROL Dateiübertragung]** zu transferierenden Datei lautet. (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
+Sie können beispielsweise verwendet werden, um zu definieren, welche Zielgruppe in der Aktivität **[!UICONTROL Zielgruppe lesen]**, den Namen der in der Aktivität **[!UICONTROL Datei übertragen]** zu übertragenden Datei usw. gelesen werden soll (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Verwendung von Ereignisvariablen {#using-events-variables}
 
@@ -68,7 +77,7 @@ Wenn eine Variable in einer Aktivität verwendet wird, kann sie über die Benutz
   | IsNull | Gibt an, ob eine Zeichenfolge oder ein Datum null ist. | IsNull(&lt;String/date>) |
   | UrlUtf8Encode | Kodiert eine URL in UTF8. | UrlUtf8Encode(&lt;String>) |
 
-## Aktivitäten mit Ereignisvariablen anpassen         {#customizing-activities-with-events-variables}
+## Aktivitäten mit Ereignisvariablen anpassen {#customizing-activities-with-events-variables}
 
 Die im folgenden Abschnitt aufgelisteten Aktivitäten können mit Ereignisvariablen angepasst werden. Weiterführende Informationen zum Aufruf einer Variablen in einer Aktivität finden Sie in [diesem Abschnitt](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 

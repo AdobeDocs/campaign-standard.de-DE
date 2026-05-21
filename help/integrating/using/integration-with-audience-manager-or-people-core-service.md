@@ -9,10 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/EIgHueEXE0D-R3WjbgMK9SJ5Hpjmt3dwPTiTDVJoQxg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 866
+ht-degree: 98%
 
 ---
 
@@ -38,7 +53,7 @@ Diese Integration muss zuerst konfiguriert werden. Um diese Bereitstellung anzuf
   </tr> 
   <tr> 
    <td> <strong>Kennung der IMS-Organisation</strong><br /> </td> 
-   <td> Ihre Organisations-ID. <br> Auf <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de">dieser Seite</a> erfahren Sie, wie Sie Ihre Organisations-ID finden.</td> 
+   <td> Ihre Organisations-ID. <br> Auf <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de"> Seite erfahren Sie, wie Sie Ihre Organisations-ID finden</a></td> 
   </tr> 
   <tr> 
    <td> <strong>Umgebung:</strong><br /> </td> 
@@ -59,7 +74,7 @@ Diese Integration muss zuerst konfiguriert werden. Um diese Bereitstellung anzuf
  </tbody> 
 </table>
 
-## Integration in Adobe Campaign konfigurieren         {#configuring-the-integration-in-adobe-campaign}
+## Integration in Adobe Campaign konfigurieren {#configuring-the-integration-in-adobe-campaign}
 
 Nach Übermittlung dieses Antrags wird dieser von Adobe bearbeitet. Sie werden ersucht, Informationen bereitzustellen, und darauf hingewiesen, dass Sie die Konfiguration abschließen müssen:
 
@@ -85,7 +100,7 @@ Gehen Sie dabei folgendermaßen vor:
 
 Ihre externen Konten sind für diese Integration somit konfiguriert.
 
-### Schritt 2: Konfigurieren Sie die Datenquellen.         {#step-2--configure-the-data-sources}
+### Schritt 2: Konfigurieren Sie die Datenquellen. {#step-2--configure-the-data-sources}
 
 In Audience Manager werden diese zwei Datenquellen erstellt: Adobe Campaign (MID) und Adobe Campaign (DeclaredId). Diese beiden Datenquellen sind gleichzeitig auch in Adobe Campaign verfügbar:
 
@@ -121,7 +136,7 @@ So erstellen Sie die Datenquelle **[!UICONTROL Declared ID]**:
 >
 >Das Feld **[!UICONTROL AAM Destination ID]** muss nicht ausgefüllt werden, wenn Sie die freigegebene Datenquelle für die [Campaign-Triggers-Integration](../../integrating/using/configuring-triggers-in-experience-cloud.md) konfigurieren. Die **[!UICONTROL Priorität]** muss nur bei der Konfiguration der Triggers-Campaign-Integration definiert werden. Mit der Priorität wird angegeben, welche Datenquelle als Erste konfiguriert wird. Als Priorität kann jede beliebige Zahl, wie 1 oder 100, eingegeben werden. Je höher die Priorität ist, desto höher ist auch die Präferenz bei der Abstimmung.
 
-### Schritt 3: Konfigurieren Sie den Campaign Tracking Server.  {#step-3--configure-campaign-tracking-server}
+### Schritt 3: Konfigurieren Sie den Campaign Tracking Server. {#step-3--configure-campaign-tracking-server}
 
 Für die Konfiguration der Integration mit People Core Service oder Audience Manager muss auch der Campaign Tracking Server konfiguriert werden.
 

@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '1878'
+TQID: https://experienceleague.adobe.com/rja9hRgWDhDnLMNIYwt28rtxJrPyYnuwOa2XKR23uKA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1881
 ht-degree: 100%
 
 ---
@@ -68,7 +75,7 @@ Die Aktivität verwendet den Abfrage-Editor, dessen Funktionsweise in einem [ges
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
-## Zielgruppendimensionen und Ressourcen        {#targeting-dimensions-and-resources}
+## Zielgruppendimensionen und Ressourcen {#targeting-dimensions-and-resources}
 
 Mit Zielgruppendimensionen und Ressourcen können Sie definieren, auf welchen Elementen eine Abfrage basieren soll, um die Zielgruppe eines Versands zu bestimmen.
 
@@ -126,7 +133,7 @@ Nach dem Hinzufügen von Zusatzdaten können Sie die zunächst von der Abfrage a
 
 In [diesem Abschnitt](../../automating/using/personalizing-email-with-additional-data.md) wird ein Anwendungsfall vorgestellt, wie eine E-Mail mit zusätzlichen Daten personalisiert werden kann.
 
-### Einfaches Feld hinzufügen        {#adding-a-simple-field}
+### Einfaches Feld hinzufügen {#adding-a-simple-field}
 
 Das Hinzufügen eines einfachen Felds als Zusatzdatenelement macht ersteres direkt in der ausgehenden Transition der Aktivität sichtbar. Dadurch lässt sich beispielsweise überprüfen, ob die aus der Abfrage hervorgehenden Daten Ihren Vorstellungen entsprechen.
 
@@ -139,7 +146,7 @@ Das Hinzufügen eines einfachen Felds als Zusatzdatenelement macht ersteres dire
 
 ![](assets/enrichment_add_simple_field.png)
 
-### Aggregat hinzufügen        {#adding-an-aggregate}
+### Aggregat hinzufügen {#adding-an-aggregate}
 
 Aggregate dienen der Berechnung von Werten, die auf Feldern der Zielgruppendimension oder auf Feldern aus mit der Zielgruppendimension in Relation stehenden Dimensionen basieren. Zum Beispiel: der Durchschnitt der von einem Profil erteilten Bestellungen.
 Bei Verwendung von Aggregat mit Abfrage kann die Funktion auf null zurückgesetzt werden, was dann als NULL gilt. Filtern Sie den aggregierten Wert auf dem Tab **[!UICONTROL Ergebnis verfeinern]** Ihrer Abfrage:

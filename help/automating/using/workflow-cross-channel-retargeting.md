@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '384'
+TQID: https://experienceleague.adobe.com/FmSP-ecHeXM-ozitQoL684ZAQC0tbuj3vprW06znCUw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 391
 ht-degree: 100%
 
 ---
@@ -45,7 +52,7 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 1. Geben Sie die E-Mail-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]** aus.
 1. Um das Layout Ihrer E-Mail zu definieren, wählen Sie **[!UICONTROL Email Designer]** aus.
 1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
-1. Personalisieren Sie Ihre E-Mail je nach Ort mit spezifischen Angeboten. Weiterführende Informationen finden Sie im Abschnitt zum [Gestalten einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Personalisieren Sie Ihre E-Mail je nach Ort mit spezifischen Angeboten.Weiterführende Informationen dazu finden Sie im Abschnitt zum [Gestalten einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Wählen Sie **[!UICONTROL Vorschau]** aus, um Ihr Layout zu überprüfen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -70,7 +77,8 @@ Sie haben die Möglichkeit, eine E-Mail an Kunden zu senden und danach eine SMS 
 1. Geben Sie die SMS-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]** aus.
 1. Um das Layout Ihrer SMS zu definieren, wählen Sie **[!UICONTROL Email Designer]** aus.
 1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
-1. Personalisieren Sie Ihre SMS je nach Ort mit spezifischen Angeboten. Weiterführende Informationen hierzu finden Sie im Abschnitt [SMS erstellen](../../channels/using/creating-an-sms-message.md).
+1. Personalisieren Sie Ihre SMS je nach Ort mit spezifischen Angeboten.
+Weiterführende Informationen hierzu finden Sie im Abschnitt [SMS erstellen](../../channels/using/creating-an-sms-message.md).
 1. Wählen Sie **[!UICONTROL Vorschau]** aus, um Ihr Layout zu überprüfen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

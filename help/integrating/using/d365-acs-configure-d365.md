@@ -9,9 +9,19 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '965'
+TQID: https://experienceleague.adobe.com/WpIRNQtob-mtXSfXYBklwkcObjScygqUrHWRnJOscrM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1046
 ht-degree: 100%
 
 ---
@@ -42,7 +52,7 @@ Die wichtigsten Schritte werden im folgenden Video beschrieben:
 
 Gehen Sie wie unten beschrieben vor, um das OAuth-Zugriffstoken zu generieren.
 
-### Neue Anwendung registrieren   {#register-a-new-app}
+### Neue Anwendung registrieren {#register-a-new-app}
 
 1. Melden Sie sich unter Ihrem Administrator-Login bei [portal.azure.com](https://portal.azure.com){target="_blank"} an.
 
@@ -112,7 +122,7 @@ Dieser neue Anwender ist ein generischer Anwender. Er wird von der Anwendung gen
 
 1. Wählen Sie **[!UICONTROL OK]** aus.
 
-### Mandantenkennung abrufen   {#get-the-tenant-id}
+### Mandantenkennung abrufen {#get-the-tenant-id}
 
 Befolgen Sie die Anweisungen [auf dieser Seite](https://docs.microsoft.com/de-de/onedrive/find-your-office-365-tenant-id), um Ihre Mandanten-ID zu finden.  Sie benötigen diese ID während der Einrichtung vor der Integration im Integrations-Tool.
 
@@ -134,7 +144,7 @@ Alternativ können Sie zu diesem [Link](https://appsource.microsoft.com/de/produ
 >
 >Sie können diese Prozesse zu einem beliebigen späteren Zeitpunkt im Bildschirm **[!UICONTROL Prozesse]** deaktivieren.
 
-**Verwandte Themen** 
+**Verwandte Themen**
 
 * [Konfigurieren von Adobe Developer für die Microsoft Dynamics 365-Integration](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration.
 * [Erste Schritte mit der Selfservice-Integrationsanwendung](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) enthält eine vollständige Anleitung zur Durchführung der Integration.

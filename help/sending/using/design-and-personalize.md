@@ -9,9 +9,23 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: ht
-source-wordcount: '1053'
+TQID: https://experienceleague.adobe.com/5NImytAekQWkqNUg9l3qwa2FM1jPpchNBlY-9jeXkG0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1053
 ht-degree: 100%
 
 ---
@@ -29,7 +43,7 @@ Die Grundlagen der Personalisierung werden in [diesem Abschnitt](../../designing
 
 Stellen Sie sicher, dass Ihr Nachrichteninhalt korrekt aufgebaut ist, um oft mit der Personalisierung in Verbindung stehende Fehler zu verhindern.
 
-Dynamische Inhalte können manuell hinzugefügt werden, um Ihren Empfängern bzw. Empfängerinnen entsprechend den im Ausdruckseditor definierten Bedingungen unterschiedliche Inhalte anzuzeigen.Beim Hinzufügen dynamischer Inhalte müssen Sie für Empfänger bzw. Empfängerinnen, die die ausgewählten Bedingungen nicht erfüllen, immer eine Standardvariante beibehalten.
+Dynamische Inhalte können manuell hinzugefügt werden, um Ihren Empfängern bzw. Empfängerinnen entsprechend den im Ausdruckseditor definierten Bedingungen unterschiedliche Inhalte anzuzeigen. Beim Hinzufügen dynamischer Inhalte müssen Sie für Empfänger bzw. Empfängerinnen, die die ausgewählten Bedingungen nicht erfüllen, immer eine Standardvariante beibehalten.
 Weiterführende Informationen dazu finden Sie in [diesem Abschnitt](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 **Tipps:** Sehen Sie sich Ihre E-Mail mit unterschiedlichen Testprofilen in der Vorschau an, um zu überprüfen, ob der dynamische Inhalt korrekt konfiguriert wurde.
@@ -64,7 +78,7 @@ Beziehen Sie stets einen Link zur Mirrorseite ein. Die bevorzugte Position ist a
 
 ### Abmelde-Link
 
-Ein Abmelde-Link muss unbedingt vorhanden sein.Er muss gut sichtbar und gültig sein und das Formular muss funktionieren. Hier erfahren Sie [die Richtlinien zu Abmelde-Links](../../designing/using/personalization.md#about-targeting-dimension).
+Ein Abmelde-Link muss unbedingt vorhanden sein. Er muss gut sichtbar und gültig sein und das Formular muss funktionieren. Hier erfahren Sie [die Richtlinien zu Abmelde-Links](../../designing/using/personalization.md#about-targeting-dimension).
 
 Bei der Analyse einer Nachricht wird standardmäßig von einer [Typologieregel](../../sending/using/control-rules.md) überprüft, ob ein Abmelde-Link vorhanden ist. Ist dies nicht der Fall, wird ein Warnhinweis erstellt.
 

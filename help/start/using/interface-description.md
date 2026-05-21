@@ -8,10 +8,27 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
-workflow-type: ht
-source-wordcount: '1334'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/D3wg-eUkV7-ci9tbK2QK-uNaZBSj8e481WYc-XZr7KA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1344
+ht-degree: 98%
 
 ---
 
@@ -28,7 +45,7 @@ Alle Adobe Campaign-Bildschirme weisen folgende Elemente auf:
 
 ![](assets/ux_interface_01.png)
 
-## Startseite         {#home-page}
+## Startseite {#home-page}
 
 Die Adobe Campaign-Startseite besteht aus verschiedenen Karten, die einen schnellen Zugriff auf die am häufigsten verwendeten Funktionen bieten. Die Liste der auf der Campaign-Startseite vorhandenen Funktionen hängt von Ihrer Zugriffsberechtigung und den für Ihr Unternehmen konfigurierten Optionen ab.
 
@@ -116,7 +133,7 @@ Dieses Menü dient der Navigation zu spezifischen Funktionen und Konfigurationen
 
 Über das Symbol **[!UICONTROL Administration]** erhalten Sie Zugriff auf die erweiterten Funktionen, die nur vom funktionalen Administrator ausgeführt werden können. Weiterführende Informationen hierzu finden Sie im Abschnitt [Administration](../../administration/using/get-started-campaign-administration.md).
 
-## Zentraler Bereich             {#central-zone}
+## Zentraler Bereich {#central-zone}
 
 Der zentrale Arbeitsbereich der Benutzeroberfläche besteht aus einer dynamischen Zone, die beispielsweise eine Liste von Elementen oder diverse Karten enthält. Hier können die einzelnen Elemente bearbeitet oder neue Ressourcen erstellt werden.
 
@@ -124,7 +141,7 @@ Der zentrale Arbeitsbereich der Benutzeroberfläche besteht aus einer dynamische
 
 Der Inhalt und das Anzeigeformat des zentralen Arbeitsbereichs können variieren:
 
-* Eine **Liste**, die verschiedene Elemente wie Programme, Kampagnen, Profile usw. enthält. Diese Elemente können im Modus **[!UICONTROL Karte]** oder **[!UICONTROL Liste]** angezeigt werden. Die Anzeige der Elemente kann mithilfe der Moduswechsel-Schaltfläche von Karten zu Liste (oder umgekehrt) geändert werden. Jedes Element enthält Indikatoren.
+* Eine **Liste** die verschiedene Elemente wie Programme, Kampagnen, Profile usw. enthält, Diese Elemente können im Modus **[!UICONTROL Karte]** oder **[!UICONTROL Liste]** angezeigt werden. Die Anzeige der Elemente kann mithilfe der Moduswechsel-Schaltfläche von Karten zu Liste (oder umgekehrt) geändert werden. Jedes Element enthält Indikatoren.
 
   ![](assets/ux_liste.png)
 

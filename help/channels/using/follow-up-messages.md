@@ -8,9 +8,20 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
-source-wordcount: '814'
+TQID: https://experienceleague.adobe.com/TE3qON93QPjpzT15J3ind7T1nlyAvhkzlGV1tGVRPlU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 840
 ht-degree: 100%
 
 ---
@@ -23,7 +34,7 @@ Greifen wir hierfür das im Abschnitt [Funktionsweise von Transaktionsnachrichte
 
 Sie möchten eine höfliche Erinnerung an alle Kunden senden, die vor drei Tagen die Benachrichtigung über einen stehen gelassenen Warenkorb erhalten, aber nicht geöffnet haben. Sie erhalten eine Folgenachricht, die auf denselben Daten basiert, die schon in der ersten gesendeten E-Mail verwendet wurden.
 
-## Ereignis konfigurieren, um eine Folgenachricht zu senden            {#configuring-an-event-to-send-a-follow-up-message}
+## Ereignis konfigurieren, um eine Folgenachricht zu senden {#configuring-an-event-to-send-a-follow-up-message}
 
 Um eine Folgenachricht zu senden, müssen Sie zunächst das Ereignis entsprechend der bereits erhaltenen Transaktionsnachricht konfigurieren.
 
@@ -36,7 +47,7 @@ Um eine Folgenachricht zu senden, müssen Sie zunächst das Ereignis entsprechen
 
 Mit Ausführung der Veröffentlichung werden automatisch eine dem neuen Ereignis entsprechende Transaktionsnachricht und eine Folgenachricht aus einer Versandvorlage erzeugt. Die Schritte zum Senden der Folgenachricht sind in [diesem Abschnitt](#sending-a-follow-up-message) beschrieben.
 
-## Zugriff auf die Folgenachrichten         {#accessing-the-follow-up-messages}
+## Zugriff auf die Folgenachrichten {#accessing-the-follow-up-messages}
 
 Zur Verwaltung eines Ereignisses innerhalb eines Workflows ist eine Versandvorlage notwendig. Allerdings kann die bei der Veröffentlichung des Ereignisses erstellte [Transaktionsnachricht](../../channels/using/editing-transactional-message.md) nicht als Vorlage verwendet werden. Hierfür müssen Sie eine spezifische Versandvorlage für Folgenachrichten erstellen, die diesen Ereignistyp und die Verwendung als Vorlage in Workflows unterstützt.
 
@@ -52,7 +63,7 @@ Nur die Folgenachrichten werden angezeigt.
 
 >[!IMPORTANT]
 >
->Nur Benutzer mit der Rolle [Administration](../../administration/using/users-management.md#functional-administrators) können Transaktionsnachrichten aufrufen und bearbeiten.
+>Nur Benutzer mit der Rolle [Administration](../../administration/using/users-management.md#functional-administrators) können auf Transaktionsnachrichten zugreifen und sie bearbeiten.
 
 ## Folgenachrichten senden {#sending-a-follow-up-message}
 

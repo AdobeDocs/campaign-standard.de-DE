@@ -9,10 +9,17 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
-workflow-type: ht
-source-wordcount: '1077'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1083
+ht-degree: 92%
 
 ---
 
@@ -106,15 +113,15 @@ Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Aus
 
    ![](assets/update_profile_createelement.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Quelle]** ein Feld aus der Tabelle „appSubscrsiptionRcp“ als Abstimmungsfeld aus. Sie können hier z. B. das Feld &quot;email&quot;, &quot;crmId&quot; oder &quot;marketingCloudId&quot; des Profils auswählen. Verwenden Sie in diesem Beispiel das Feld &quot;E-Mail (cusEmail)&quot;.
+1. Wählen Sie im Feld **[!UICONTROL Quelle]** ein Feld aus der Tabelle „appSubscrsiptionRcp“ als Abstimmungsfeld aus. Dabei kann es sich um die E-Mail-Adresse, die crmId, die Marketing-Cloud-ID usw. des Profils handeln. Verwenden Sie in diesem Beispiel das Feld „E-Mail (cusEmail)“.
 
-1. Wählen Sie im Feld **[!UICONTROL Ziel]** ein Feld aus der Profiltabelle aus, mit dem die Daten aus der Tabelle „appSubscriptionRcp“ abgestimmt werden sollen. Dies kann das E-Mail-Feld des Profils oder ein beliebiges erweitertes Feld wie „crmId“ oder „marketingCloudId“ sein. In diesem Beispiel wählen Sie das Feld „E-Mail (email)“ aus, um es dem Feld „E-Mail (cusEmail)“ der Tabelle „appSubscriptionRcp“ zuzuordnen.
+1. Wählen Sie im Feld **[!UICONTROL Ziel]** ein Feld aus der Profiltabelle aus, mit dem die Daten aus der Tabelle „appSubscriptionRcp“ abgestimmt werden sollen. Dabei kann es sich um die E-Mail-Adresse des Profils oder ein beliebiges erweitertes Feld wie crmId, marketingCloudId usw. handeln. In diesem Beispiel müssen wir das Feld „E-Mail (E-Mail)“ auswählen, um es dem Feld „E-Mail (cusEmail)“ in der Tabelle appSubscriptionRcp zuzuordnen.
 
    ![](assets/update_profile7.png)
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Zu aktualisierende Felder]** auf die Schaltfläche **[!UICONTROL Element erstellen]** und ordnen Sie die Felder aus der Tabelle „appSubscriptionRcp“ (Feld **[!UICONTROL Quelle]**) den Feldern zu, die Sie in der Profiltabelle (Feld **[!UICONTROL Ziel]**) aktualisieren möchten.
 
-1. Fügen Sie dem Feld **[!UICONTROL Aktiviert wenn]** einen Ausdruck hinzu, der sicherstellt, dass das entsprechende Feld in der Profiltabelle nur aktualisiert wird, wenn das Quellfeld einen Wert enthält. Wählen Sie dazu das Feld in der Liste aus und fügen Sie den Ausdruck &quot;!=&#39;&#39;&quot; hinzu (wenn das Quellfeld `[target/@cusEmail]` lautet, geben Sie im Ausdruckseditor `[target/@cusEmail] != ''"` ein).
+1. Fügen Sie dem Feld **[!UICONTROL Aktiviert wenn]** einen Ausdruck hinzu, der sicherstellt, dass das entsprechende Feld in der Profiltabelle nur aktualisiert wird, wenn das Quellfeld einen Wert enthält. Wählen Sie dazu das Feld aus der Liste aus und fügen Sie dann den Ausdruck &quot;!=&quot; hinzu. (Wenn das Source-Feld im Ausdruckseditor `[target/@cusEmail]` ist, geben Sie `[target/@cusEmail] != ''"` ein.)
 
    ![](assets/update_profile8.png)
 

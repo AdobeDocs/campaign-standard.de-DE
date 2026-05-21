@@ -6,10 +6,19 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
-source-wordcount: '2710'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/14iQSiLOTGCwAvxz0lwxS8tB0X3pg0Pi8JB0NjBOTAc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 2724
+ht-degree: 99%
 
 ---
 
@@ -91,7 +100,7 @@ Eine Verbindung wird als instabil angesehen, wenn eine der folgenden Situationen
 
 * Das `enquire_link`-Zeitlimit wird entweder auf der Adobe Campaign-Seite oder auf der Provider-Seite überschritten. In diesem Fall wird möglicherweise `ENQUIRE_LINK_RESP` mit einem Fehler-Code ungleich Null angezeigt.
 
-* Es gibt viele `BIND PDU`s. Abhängig von der Anzahl der Verbindungen sollten an einem Tag nicht mehr als ein paar vorhanden sein. Mehr als 1 BIND PDU pro Stunde ist alarmierend.
+* Es gibt viele `BIND PDU`. Abhängig von der Anzahl der Verbindungen sollten an einem Tag nicht mehr als ein paar Verbindungen vorhanden sein. Mehr als 1 BIND PDU pro Stunde ist alarmierend.
 
 Beheben von Problemen mit der Verbindungsstabilität:
 
@@ -173,7 +182,7 @@ Wenn Sie alle Probleme behoben haben, sich aber noch einige ungültige SR in den
 
 ## Problem bei der Versandvorbereitung, die Empfänger unter Quarantäne nicht ausschließt (durch die automatische Antwortfunktion in Quarantäne gestellt) {#issue-delivery-preparation}
 
-* Überprüfen Sie, ob das Telefonnummernformat in der Quarantänetabelle und im Versandlog genau identisch sind. Ist dies nicht der Fall, gehen Sie zu diesem [Abschnitt](../../administration/using/sms-protocol.md#automatic-reply), wenn Sie Probleme mit dem &quot;+&quot;-Präfix des internationalen Telefonnummernformats haben.
+* Überprüfen Sie, ob das Telefonnummernformat in der Quarantänetabelle und im Versandlog genau identisch sind.  Ist dies nicht der Fall, gehen Sie zu diesem [Abschnitt](../../administration/using/sms-protocol.md#automatic-reply), wenn Sie Probleme mit dem &quot;+&quot;-Präfix des internationalen Telefonnummernformats haben.
 
 * Prüfen Sie die Kurzwahlnummern. Es kann zu Ausschlüssen kommen, wenn die Kurzwahlnummer des Empfängers entweder dieselbe ist, wie im externen Konto definiert, oder wenn sie leer ist (leer = beliebige Kurzwahlnummer). Wenn nur eine Kurzwahlnummer für die gesamte Adobe Campaign-Instanz verwendet wird, ist es einfacher, alle Felder mit **Kurzwahlnummern** leer zu lassen.
 

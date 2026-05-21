@@ -9,10 +9,29 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
-workflow-type: ht
-source-wordcount: '992'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/vveKWyxi6u44BmNqzEVeMwPvtvP8uWhAI-4UMD2CnVU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 996
+ht-degree: 89%
 
 ---
 
@@ -20,11 +39,11 @@ ht-degree: 100%
 
 Bei einer Transaktionsnachricht handelt es sich um eine individuell zugeschnittene, eindeutige Mitteilung, die beispielsweise über eine Website in Echtzeit übermittelt wird. Sie wird erwartet, weil sie wichtige Informationen enthält, die der Empfänger überprüfen oder bestätigen möchte.
 
-* **Wann wird diese Nachricht gesendet?** Da diese Nachricht wichtige Informationen enthält, erwartet der Benutzer, dass sie in Echtzeit gesendet wird. Folglich muss die Verzögerung zwischen der Auslösung des Ereignisses und dem Eintreffen der Nachricht sehr kurz sein.
+* **Wann ist es fällig?** Da diese Nachricht wichtige Informationen enthält, erwartet der Benutzer, dass sie in Echtzeit gesendet wird. Folglich muss die Verzögerung zwischen der Auslösung des Ereignisses und dem Eintreffen der Nachricht sehr kurz sein.
 
 * **Warum ist das wichtig?** Im Allgemeinen hat eine Transaktionsnachricht hohe Öffnungsraten. Sie sollte daher sorgfältig gestaltet werden, da sie einen starken Einfluss auf das Kundenverhalten und die Kundenbeziehung im Allgemeinen haben kann.
 
-* **Beispiel?** Es kann sich um eine Begrüßungsnachricht nach der Erstellung eines Kontos, eine Bestätigung, dass eine Bestellung versandt wurde, eine Rechnung, eine Nachricht zur Bestätigung einer Passwortänderung oder eine Benachrichtigung nach dem Besuch einer Website durch einen Kunden usw. handeln.
+* **Zum Beispiel?** Es kann sich um eine Begrüßungsnachricht nach der Erstellung eines Kontos, eine Bestätigung, dass eine Bestellung versandt wurde, eine Rechnung, eine Nachricht zur Bestätigung einer Passwortänderung oder eine Benachrichtigung handeln, nachdem ein Kunde Ihre Website durchsucht hat, usw.
 
 In Adobe Campaign empfängt die entsprechende Funktion Ereignisse von einem Informationssystem, auf die sie mit personalisierten Transaktionsnachrichten reagiert.
 
@@ -109,7 +128,7 @@ Weitere Informationen zum Bearbeiten und Veröffentlichen einer Transaktionsnach
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-Nach der Erstellung des gewünschten Ereignisses muss die Auslösung dieses Ereignisses in Ihre Webseite integriert werden.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.-->**Zu diesem Zweck muss der Web-Entwickler Ihrer Seite die Adobe Campaign Standard-REST-API verwenden**.
+Nachdem Sie ein Ereignis erstellt haben, müssen Sie die Auslösung dieses Ereignisses in Ihre Website integrieren.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> Dazu muss Ihr Website-Web-Entwickler die **Adobe Campaign Standard-REST-API verwenden**.
 
 | Implementieren des Auslösers | Benutzer | Aktion | Ergebnis |
 | --- |--- |--- |--- |

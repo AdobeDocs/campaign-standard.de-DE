@@ -8,9 +8,21 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 8625a26686570d555d7f5614b38536c248ee16a3
-workflow-type: ht
-source-wordcount: '1228'
+TQID: https://experienceleague.adobe.com/IZdWRhWkAwgvpZnanpAu6-taR723XFwOxvq3UTcyc-o
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1231
 ht-degree: 100%
 
 ---
@@ -104,7 +116,7 @@ Solche Ereignisse werden hinzugefügt, da **ein E-Mail-Klick auf eine E-Mail-Öf
 >
 >Da die eindeutige Anzahl auf einem HLL-basierten Sketch basiert, können zwischen den Zahlen kleine Unterschiede auftreten.
 
-## Wie werden die Zahlen für wiederkehrende Sendungen/den Versand von Transaktionsnachrichten berechnet?  {#counts-recurring-deliveries}
+## Wie werden die Zahlen für wiederkehrende Sendungen/den Versand von Transaktionsnachrichten berechnet? {#counts-recurring-deliveries}
 
 Bei wiederkehrenden Sendungen und dem Versand von Transaktionsnachrichten werden die Zahlen sowohl den über- als auch den untergeordneten Sendungen zugeordnet.
 Nehmen Sie zum Beispiel einen wiederkehrenden Versand mit der Bezeichnung **R1**, der täglich an Tag 1 (RC1), Tag 2 (RC2) und Tag 3 (RC3) ausgeführt wird.

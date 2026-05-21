@@ -8,9 +8,17 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
-source-wordcount: '1164'
+TQID: https://experienceleague.adobe.com/HRFz5Z-KxO7lUO-gXexQ3CHvb9JtCfJWSJY0ocZW-r8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1171
 ht-degree: 100%
 
 ---
@@ -94,7 +102,7 @@ Ihr Feld wird daraufhin konfiguriert. Jetzt wird es auf das Testprofil erweitert
 >
 >Wenn Sie die Testprofil-Ressource nicht erweitern müssen, können Sie mit dem Schritt zum Veröffentlichen fortfahren.
 
-## Schritt 2: Testprofil erweitern       {#step-2--extend-the-test-profile}
+## Schritt 2: Testprofil erweitern {#step-2--extend-the-test-profile}
 
 Um zu überprüfen, ob das neu erstellte Feld korrekt konfiguriert ist, können Sie es testen, indem Sie Ihre Nachricht an Testprofile senden. Zunächst muss das neue Feld auch auf die Testprofile übertragen werden.
 
@@ -119,7 +127,7 @@ Um zu überprüfen, ob das neu erstellte Feld korrekt konfiguriert ist, können 
 
 Ihr neues Feld ist jetzt sowohl in den Profilen als auch in den Testprofilen verfügbar. Damit es korrekt konfiguriert wird, müssen Sie Ihre benutzerdefinierte Ressource veröffentlichen.
 
-## Schritt 3: Benutzerdefinierte Ressource veröffentlichen   {#step-3--publish-your-custom-resource}
+## Schritt 3: Benutzerdefinierte Ressource veröffentlichen {#step-3--publish-your-custom-resource}
 
 Zur Übernahme der Änderungen der Ressourcen und deren Verwendung muss die Datenbank aktualisiert werden.
 

@@ -9,9 +9,19 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
-workflow-type: ht
-source-wordcount: '706'
+TQID: https://experienceleague.adobe.com/WGJMzhZXIgXMEioDtea5foDs7hRh70WOLG3XV41irvw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 709
 ht-degree: 100%
 
 ---
@@ -34,7 +44,7 @@ Sie können auswählen, welche Aktion beim Absenden einer Landingpage durch eine
 
    ![](assets/lp_parameters_6.png)
 
-## Verknüpfen einer Landingpage mit einem Service  {#linking-a-landing-page-to-a-service}
+## Verknüpfen einer Landingpage mit einem Service {#linking-a-landing-page-to-a-service}
 
 Sie können ein Formular mit einem Dienst verknüpfen, sodass sich Profile beim Besuch der Landingpage für einen spezifischen Dienst anmelden können, wenn sie auf die Senden-Schaltfläche des Formulars klicken.
 
@@ -54,7 +64,7 @@ Gehen Sie folgendermaßen vor, um den Dienst auszuwählen, der verknüpft werden
 
    Verwenden Sie in diesem Fall die Option **[!UICONTROL In der URL angegebener Dienst]**. Die Landingpage muss in den Parametern der jeweiligen Dienste referenziert werden.
 
-## Berechtigungen einrichten und Daten vorausfüllen        {#setting-permissions-and-pre-loading-data}
+## Berechtigungen einrichten und Daten vorausfüllen {#setting-permissions-and-pre-loading-data}
 
 Der Zugriff auf eine Landingpage kann beschränkt werden, um beispielsweise Besucher zu identifizieren, die von einem Link in einer Campaign-Nachricht auf die Landingpage gelangen oder zu einer bestimmten Organisationseinheit gehören.
 Wurden die Besucher identifiziert, können ihre Daten vorab auf die Landingpage geladen werden. Gehen Sie dazu wie folgt vor:

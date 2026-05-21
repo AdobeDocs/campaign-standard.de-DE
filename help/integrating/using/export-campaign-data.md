@@ -7,10 +7,24 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '504'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/wevJB72xRacTndQ1-VOyKHOtRak0UKJT2V-pzUd6d-Q
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: b70f632b-2cfd-43d0-9266-284281100d70
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 542
+ht-degree: 94%
 
 ---
 
@@ -22,7 +36,7 @@ Nachdem der Workflow konfiguriert und Daten an Ihren Speicherort gesendet wurden
 
 >[!NOTE]
 >
->Wir empfehlen, nur von Campaign erzeugte Daten (z. B. Sendungen, Öffnungen, Klicks usw.) nach Adobe Experience Platform zu exportieren. Daten, die in einer Drittanbieter-Quelle (wie Ihrem CRM-System) aufgenommen werden, sollten direkt in Adobe Experience Platform importiert werden.
+>Wir empfehlen, nur in Campaign generierte Daten zu exportieren (z. B. Sendungen, Öffnungen, Klicks usw.) nach Adobe Experience Platform. Daten, die in einer Drittanbieter-Quelle (wie Ihrem CRM-System) aufgenommen werden, sollten direkt in Adobe Experience Platform importiert werden.
 
 ## Export-Workflow in Campaign Standard erstellen
 
@@ -56,8 +70,8 @@ Die wichtigsten Schritte zum Verbinden Ihres Speicherorts auf Amazon Storage Ser
 
 1. Erstellen Sie in Adobe Experience Platform im Menü **[!UICONTROL Quellen]** eine Verbindung zu Ihrem Speicherort:
 
-   * [Amazon S3-Quellverbindung erstellen](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=de)
-   * [Azure-Blob-Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=de)
+   * [Erstellen einer Amazon S3-Quellverbindung](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=de)
+   * [Azure Blob-Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=de)
 
    >[!NOTE]
    >

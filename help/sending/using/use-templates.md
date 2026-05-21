@@ -9,9 +9,18 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: ht
-source-wordcount: '838'
+TQID: https://experienceleague.adobe.com/XHdVIRoy03LIXLHPLXexhNG2hg2JJYnwglQLUc6i2WU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 838
 ht-degree: 100%
 
 ---
@@ -40,7 +49,7 @@ Wenn Sie mehrere Marken in Adobe Campaign verwalten, empfiehlt Adobe die Zuweisu
 
 * Die Adresse muss den Absender explizit identifizieren. Die Domain muss im Besitz des Absenders sein und auf dessen Namen registriert sein.
 
-* Adobe empfiehlt, E-Mail-Konten zu erstellen, die der für Sendungen und Antworten angegebenen Adresse entsprechen.Wenden Sie sich an den bzw. die Systemadmin für das Messaging-System.
+* Adobe empfiehlt, E-Mail-Konten zu erstellen, die der für Sendungen und Antworten angegebenen Adresse entsprechen. Wenden Sie sich an den bzw. die Systemadmin für das Messaging-System.
 
 Die Absenderadresse finden Sie im Feld **[!UICONTROL Von (E-Mail)]** in den Eigenschaften einer E-Mail-Vorlage im Bereich **[!UICONTROL Erweiterte Parameter]**.
 
@@ -64,11 +73,11 @@ Weiterführende Informationen zur Personalisierung von Absendernamen finden Sie 
 
 ## SMS-Absendernamen personalisieren
 
-Im Abschnitt **Erweiterte Parameter** der Eigenschaften einer SMS-Vorlage können Sie mit der Option **Von** den Namen des Absenders der SMS-Nachricht mithilfe einer Zeichenfolge personalisieren.Es ist der hier eingegebene Name, der auf dem Mobiltelefon des Empfängers als Absender der SMS erscheint.
+Im Abschnitt **Erweiterte Parameter** der Eigenschaften einer SMS-Vorlage können Sie mit der Option **Von** den Namen des Absenders der SMS-Nachricht mithilfe einer Zeichenfolge personalisieren. Es ist der hier eingegebene Name, der auf dem Mobiltelefon des Empfängers als Absender der SMS erscheint.
 
 Bleibt das entsprechende Feld leer, wird die im externen Konto angegebene Anrufernummer verwendet. Sollte auch dort keine Anrufernummer gespeichert sein, wird die Kurzwahlnummer verwendet. Weiterführende Informationen dazu finden Sie im Abschnitt [SMS-Konfiguration](../../administration/using/configuring-sms-channel.md).
 
-**Tipp** – Informieren Sie sich über die gesetzlichen Bestimmungen in Ihrem Land in Bezug auf die Änderung der Absenderadresse.Stellen Sie außerdem sicher, dass Ihr SMS-Provider diese Funktionalität anbietet.
+**Tipp** – Informieren Sie sich über die gesetzlichen Bestimmungen in Ihrem Land in Bezug auf die Änderung der Absenderadresse. Stellen Sie außerdem sicher, dass Ihr SMS-Provider diese Funktionalität anbietet.
 
 ## Einrichten einer Kontrollgruppe
 
@@ -80,13 +89,13 @@ Eine Typologie enthält Regeln, die in der Analysephase vor dem Versand einer Na
 
 Ändern Sie im Abschnitt **[!UICONTROL Erweiterte Parameter]** > **[!UICONTROL Vorbereitung]** die Standardtypologie entsprechend Ihren Anforderungen.
 
-Um beispielsweise den ausgehenden Traffic besser zu steuern, können Sie festlegen, welche IP-Adressen verwendet werden können, indem Sie für jede Subdomain eine Affinität definieren und für jede Affinität eine Typologie erstellen.Die Affinitäten werden in der Konfigurationsdatei der Instanz bestimmt.Wenden Sie sich an Ihre bzw. Ihren Adobe Campaign-Admin.
+Um beispielsweise den ausgehenden Traffic besser zu steuern, können Sie festlegen, welche IP-Adressen verwendet werden können, indem Sie für jede Subdomain eine Affinität definieren und für jede Affinität eine Typologie erstellen. Die Affinitäten werden in der Konfigurationsdatei der Instanz bestimmt. Wenden Sie sich an Ihre bzw. Ihren Adobe Campaign-Admin.
 
 Weiterführende Informationen zu Typologien finden Sie in [diesem Abschnitt](../../sending/using/managing-typologies.md).
 
 ## Marken mit einer Vorlage verknüpfen
 
-Die Parameter gesendeter E-Mails, die in Verbindung mit der Markenidentität stehen (wie z. B. das Markenlogo oder die Absenderadresse), werden zentral in Adobe Campaign verwaltet.Sie können eine oder mehrere Marken erstellen und mit Versandvorlagen verknüpfen.
+Die Parameter gesendeter E-Mails, die in Verbindung mit der Markenidentität stehen (wie z. B. das Markenlogo oder die Absenderadresse), werden zentral in Adobe Campaign verwaltet. Sie können eine oder mehrere Marken erstellen und mit Versandvorlagen verknüpfen.
 
 Weiterführende Informationen zur Verwendung und Konfiguration von Marken in Adobe Campaign finden Sie im Abschnitt Marken.
 

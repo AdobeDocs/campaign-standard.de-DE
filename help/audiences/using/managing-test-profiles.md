@@ -1,5 +1,5 @@
 ---
-title: 'Verwaltung von Testprofilen '
+title: Verwaltung von Testprofilen
 description: Erfahren Sie, wie Sie Testprofile verwalten.
 audience: sending
 content-type: reference
@@ -9,10 +9,19 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '459'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/csDw0anKGvAW22BcB5p0Rb1bHYA2NvdWpLVIWtZrC98
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 471
+ht-degree: 97%
 
 ---
 
@@ -29,7 +38,7 @@ Testprofile werden im erweiterten Menü **[!UICONTROL Profile und Zielgruppen > 
 Testprofile sind Profile mit fiktiven oder vom Absender kontrollierten Kontaktinformationen, die verschiedenen Zwecken dienen können:
 
 * **Testsendungen**: Dabei handelt es sich um einen speziellen Versand, der es ermöglicht, eine Nachricht vor dem Versenden an die Empfänger zu validieren. Testversand-Empfänger sind verantwortlich für die Validierung des Inhalts und der Form von Sendungen. Siehe [Testversand durchführen](../../sending/using/sending-proofs.md).
-* **E-Mail-Rendering**: Diese Art von Testprofilen wird verwendet, um den Empfang und die Darstellung Ihrer Nachricht in den verschiedenen E-Mail-Clients zu testen. Beispielsweise Webmail, SMS, Mobilgeräte etc. Siehe [E-Mail-Rendering](../../sending/using/email-rendering.md).
+* **E-Mail-Rendering**: Diese Art von Testprofilen wird verwendet, um den Empfang und die Darstellung Ihrer Nachricht in den verschiedenen E-Mail-Clients zu testen. Zum Beispiel Webmail, Nachrichten-Service, Mobilgerät usw. Siehe [Email Rendering](../../sending/using/email-rendering.md).
 
   Die Funktion **E-Mail-Rendering** ist schreibgeschützt. Testprofile mit diesem Verwendungszweck sind ausschließlich nativ in Adobe Campaign enthalten.
 

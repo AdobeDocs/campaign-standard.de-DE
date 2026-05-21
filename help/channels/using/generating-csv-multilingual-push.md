@@ -8,10 +8,19 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '1030'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1040
+ht-degree: 95%
 
 ---
 
@@ -34,7 +43,7 @@ Mehrsprachige Push-Benachrichtigungen erfordern 14 Spalten in der CSV-Datei:
 1. isContentAvailable
 1. isMutableContent
 1. customFields
-1. locale
+1. Gebietsschema
 1. language
 1. silentPush
 
@@ -43,7 +52,7 @@ Sie können sich das CSV-Beispiel ansehen, indem Sie auf **[!UICONTROL Beispield
 * **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: Standardmäßige Push-Payload-Inhalte. Sie müssen diese Informationen auf ähnliche Weise bereitstellen wie beim Erstellen von Push-Sendungen.
 * **Benutzerdefinierte Felder**: Verwenden Sie das JSON-Format für die benutzerdefinierten Felder, z. B. `{"key1":"value1","key2":"value2"}`. In der obigen Beispieldatei finden Sie ein Beispiel für benutzerdefinierte Felder.
 * **isContentAvailable**: Markierung für Prüfung &quot;Inhalt verfügbar&quot;, Wert 1 bedeutet &quot;wahr&quot;, Wert 0 bedeutet &quot;falsch&quot;. Der Standardwert ist 0. Wenn Sie diese Spalte leer lassen, wird der Wert als 0 betrachtet.
-* **isMutableContent**: Markierung für &quot;Veränderlicher Inhalt&quot;, Wert 1 bedeutet &quot;wahr&quot;, Wert 0 bedeutet &quot;falsch&quot;. Der Standardwert ist 0. Wenn Sie diese Spalte leer lassen, wird der Wert 0 angenommen.
+* **isMutableContent**: Markierung für &quot;Veränderlicher Inhalt&quot;, Wert 1 bedeutet &quot;wahr&quot;, Wert 0 bedeutet &quot;falsch&quot;. Der Standardwert ist 0. Wenn Sie diese Spalte leer lassen, wird der Wert als 0 betrachtet.
 * **locale**: &quot;locale&quot; (Gebietsschema) ist das Feld für Sprachvarianten, z. B. &quot;en_us&quot; für US-Englisch und &quot;fr_fr&quot; für Frankreich-Französisch.
 * **language**: Name der Sprache, die mit dem Gebietsschema verknüpft ist. Wenn das Gebietsschema beispielsweise &quot;en_us&quot; lautet, sollte der Name der Sprache &quot;Englisch – USA&quot; lauten.
 * **silentPush**: Markierung für den Push-Benachrichtigungstyp. Wenn es sich um eine reguläre Push-Benachrichtigung handelt, sollte der Wert 0 betragen. Wenn es sich um stilles Pushen handelt, sollte der Wert 1 betragen. Der Standardwert ist 0. Wenn Sie diese Spalte leer lassen, wird der Wert als 0 betrachtet.
@@ -54,7 +63,7 @@ Sie können sich das CSV-Beispiel ansehen, indem Sie auf **[!UICONTROL Beispield
 Sie sollten die Namen der einzelnen Spalten in der CSV-Datei angeben. Wenn Sie für den Inhalt keine Spalten verwenden, geben Sie nichts an.
 
 **Die Spalten &quot;locale&quot; und &quot;language&quot; sind zwingend erforderlich und der Wert ist für jede Zeile eindeutig.**
-Wenn der Wert in einer dieser Spalte fehlt, tritt beim Hochladen der Datei ein Fehler auf.
+Ein leerer Wert für diese Spalte führt zu einem Fehler beim Hochladen der Datei.
 
 **Die Reihenfolge der Spalten ist wichtig**. Die Reihenfolge der Spalten in der hochgeladenen Datei muss das Format der Beispieldatei aufweisen.
 
@@ -64,7 +73,7 @@ Wenn der Wert in einer dieser Spalte fehlt, tritt beim Hochladen der Datei ein F
 
 **Wenn Sie die Datei im Klartext generieren, trennen Sie jede Spalte durch &quot;,&quot;.**
 
-**Varianten stimmen nicht überein.** Wenn Sie einen Inhaltsbaustein und Ziel-Zielgruppen mit unterschiedlichen Sprachen verwenden, müssen Sie jede Zielsprache in Ihrer CSV-Datei auflisten. Andernfalls wird beim Versand ein Fehler ausgegeben.
+**Variantenabweichung.** Wenn Sie Inhaltsbausteine und Zielgruppen in bestimmten Sprachen verwenden, müssen Sie jede Zielsprache in Ihrer CSV-Datei auflisten. Andernfalls erhalten Sie einen Fehler beim Senden des Versands.
 
 ## Personalisierungsfelder in die CSV-Datei einfügen {#personalization-field-csv}
 
@@ -98,7 +107,7 @@ Im Bereich gibt es zwei obligatorische Attribute:
 
 Folgende Sprachen werden unterstützt:
 
-| Gebietsschema | Sprache |
+| Gebietsschema | language |
 |:-:|:-:|
 | af_za | Afrikaans – Südafrika |
 | sq_al | Albanisch – Albanien |

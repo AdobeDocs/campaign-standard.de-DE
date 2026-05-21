@@ -8,9 +8,14 @@ feature: Workflows
 old-role: Data Architect
 role: Developer
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '575'
+TQID: https://experienceleague.adobe.com/mfBrdOii5qQZfqOs8VR4zuFM9CacwW-YwaYJm4U-Lt4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 578
 ht-degree: 100%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 100%
 
 Eine sorgfältige Arbeitsweise und die Befolgung der unten stehenden einfachen Regeln helfen Ihnen, die Datenbank konsistent zu halten und gängige Fehler bei der Datenbankaktualisierung oder beim Datenexport zu vermeiden.
 
-## Importvorlagen verwenden              {#using-import-templates}
+## Importvorlagen verwenden {#using-import-templates}
 
 Import-Workflows sollten die folgenden Aktivitäten beinhalten: **[!UICONTROL Datei laden]**, **[!UICONTROL Abstimmung]**, **[!UICONTROL Segmentierung]**, **[!UICONTROL Deduplizierung]**, **[!UICONTROL Daten-Update]**.
 
@@ -68,7 +73,7 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-## Komprimierung verwenden           {#using-compression}
+## Komprimierung verwenden {#using-compression}
 
 Verwenden Sie für Importe und Exporte möglichst ZIP-Dateien. GZIP wird standardmäßig unterstützt. Beim Import von Dateien können Sie über die Workflow-Aktivität **[!UICONTROL Datei laden]** eine Vorbearbeitung hinzufügen. Bei der Datenextraktion können Sie über die Workflow-Aktivität **[!UICONTROL Dateiextraktion]** eine Nachbearbeitung hinzufügen.
 
@@ -83,7 +88,7 @@ Regelmäßige Importe müssen im Deltamodus durchgeführt werden. Damit wird gew
 
 Vollständige Importe sollten nur für das erstmalige Laden verwendet werden.
 
-## Konsistenz gewährleisten           {#maintaining-consistency}
+## Konsistenz gewährleisten {#maintaining-consistency}
 
 Um die Konsistenz der Adobe Campaign-Datenbank zu gewährleisten, befolgen Sie die unten stehenden Grundsätze:
 

@@ -8,9 +8,18 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '305'
+TQID: https://experienceleague.adobe.com/XYTeliw80GkBHk3-1DFWD-CE-85irbDAAjcuOSbQvLI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 305
 ht-degree: 100%
 
 ---
@@ -31,7 +40,7 @@ Je nach Konfiguration sind die folgenden Arten von Bildern verfügbar:
 >
 >Wenn Sie ein Bild direkt durch Bearbeiten der HTML-Version der E-Mail hinzufügen möchten, dürfen Sie keine **externen Dateien in einem &lt;script>-Tag** der HTML-Seite aufrufen. Der Adobe Campaign-Server erlaubt keinen Import derartiger Dateien.
 
-### Bilder in eine E-Mail einfügen       {#inserting-images-in-an-email}
+### Bilder in eine E-Mail einfügen {#inserting-images-in-an-email}
 
 1. Fügen Sie eine Strukturkomponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Fügen Sie innerhalb dieser Strukturkomponente eine Inhaltskomponente des Typs **[!UICONTROL Bild]** hinzu.
