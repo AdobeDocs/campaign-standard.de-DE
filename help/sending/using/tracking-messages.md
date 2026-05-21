@@ -8,9 +8,14 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
-workflow-type: ht
-source-wordcount: '495'
+TQID: https://experienceleague.adobe.com/0kuFE3F4zrJzydRFdByb6Jz1lNUA1wrpL70bXWwxYIA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 506
 ht-degree: 100%
 
 ---
@@ -54,18 +59,18 @@ Tracking mit Adobe Campaign Standard bietet Ihnen Zugriff auf folgende Funktione
 <td>E-Mail-Tracking</td>
 <td>Push-Tracking</td>
 <td>Getrackte URLs</td>
-<td>Trackinglogs         </td>
+<td>Trackinglogs</td>
 <td>Tracking-Bericht</td>
 </tr>
 </table>
 
-## Trackinglogs          {#tracking-logs}
+## Trackinglogs {#tracking-logs}
 
 Der **[!UICONTROL Trackinglogs]**-Tab zeigt den Verlauf des Trackings für den vorliegenden Versand an. Angezeigt werden die zu allen gesendeten Nachrichten für die jeweils getrackten URLs gesammelten Informationen. Die Trackinginformationen in diesem Tab werden alle 10 Minuten aktualisiert.
 
 >[!NOTE]
 >
->Sollte das Tracking für einen Versand nicht aktiviert worden sein, wird dieser Tab nicht angezeigt. Trackinglogs sind nur für die Kanäle **E-Mail** und **Push-Benachrichtigung** verfügbar.
+>Wenn das Tracking für einen Versand nicht aktiviert ist, wird diese Registerkarte nicht angezeigt. Trackinglogs sind nur für die Kanäle **E-Mail** und **Push-Benachrichtigung** verfügbar.
 
 ![](assets/tracking_logs.png)
 

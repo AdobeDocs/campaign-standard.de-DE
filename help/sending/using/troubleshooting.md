@@ -9,22 +9,29 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
-workflow-type: ht
-source-wordcount: '469'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/UyKD0H4ffjVDfJRubitjN0pJs2DQbswTlOPNzvU6zLo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 484
+ht-degree: 84%
 
 ---
 
 # Fehlerbehebung{#troubleshooting}
 
-Haben Sie ein Problem mit der Zustellbarkeit? Möglicherweise finden Sie hier eine Lösung.
+Haben Sie ein Problem mit der Zustellbarkeit? Vielleicht finden Sie hier die Lösung.
 
 ## Gleiche Fehlermeldung bei einem ISP {#same-error-for-an-isp}
 
 **Warum erhalte ich bei einem bestimmten ISP immer dieselbe Fehlermeldung?**
 
-Wenn Sie bei einem ISP immer dieselbe Fehlermeldung erhalten, hat der ISP möglicherweise festgestellt, dass Ihre E-Mail- oder IP-Adresse fehlerhaft ist. Wir empfehlen in diesem Fall folgende Schritte:
+Wenn Sie immer dieselbe Fehlermeldung für einen ISP erhalten, wurde Ihre E-Mail oder IP möglicherweise vom ISP als fehlerhaft erkannt. Führen Sie die folgenden Empfehlungen aus:
 
 * Prüfen Sie, ob Sie eine große Menge an Fehlschlägen in Verbindung mit nicht bestehenden E-Mail-Adressen erhalten (**Unbekannter Nutzer**).
 * Aktualisieren Sie Ihre Anmeldeformulare und achten Sie auf etwaige Fehler im Domain-Namen (z. B. gmaul.com oder yaho.com).
@@ -70,4 +77,4 @@ Wenn das Problem fortbesteht, kontaktieren Sie den Zustellbarkeitsservice oder d
 
   >[!NOTE]
   >
-  >Dieser Prozess ist je nach Website unterschiedlich. Auf manchen Websites müssen Sie ein Konto erstellen, während andere nur die Angabe der IP-Adresse verlangen.
+  >Der Löschvorgang kann je nach Website variieren. Bei einigen Sites müssen Sie ein Konto erstellen, während andere nur die IP-Adresse angeben müssen.

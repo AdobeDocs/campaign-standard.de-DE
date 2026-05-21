@@ -9,9 +9,14 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 0a4c45ea-acc2-424f-8596-73376e344172
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '356'
+TQID: https://experienceleague.adobe.com/Kt-KqyEadpziu8z5snOeg717epieMst36-gkdSt0Th8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 356
 ht-degree: 100%
 
 ---
@@ -46,7 +51,7 @@ Der Bildschirm für die Definition von **[!UICONTROL Inhalt]** ist nur für den 
 >
 >Weiterführende Informationen zur Definition von Ausgabespalten finden Sie im Abschnitt zur Workflow-Aktivität [Dateiextraktion](../../automating/using/extract-file.md).
 
-## Dateistruktur definieren      {#defining-the-file-structure}
+## Dateistruktur definieren {#defining-the-file-structure}
 
 Im **Dateistruktur**-Tab können Sie das Ausgabe-, Datums- und Zahlenformat der zu exportierenden Datei konfigurieren.
 
@@ -56,7 +61,7 @@ Im **Dateistruktur**-Tab können Sie das Ausgabe-, Datums- und Zahlenformat der 
 >
 >Die verfügbaren Optionen finden Sie im Abschnitt zur Workflow-Aktivität [Dateiextraktion](../../automating/using/extract-file.md).
 
-## Kopf- und Fußzeile definieren      {#defining-the-header-and-footer}
+## Kopf- und Fußzeile definieren {#defining-the-header-and-footer}
 
 Hin und wieder müssen Sie vielleicht Informationen am Beginn oder am Ende der Extraktionsdatei hinzufügen. Verwenden Sie dazu die Tabs **[!UICONTROL Kopfzeile]** und **[!UICONTROL Fußzeile]** im Konfigurationsbildschirm **[!UICONTROL Inhalt]**.
 

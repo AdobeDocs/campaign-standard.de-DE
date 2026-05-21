@@ -8,10 +8,15 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: ht
-source-wordcount: '786'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/sBjTFd0Su7In8xai4J8cp5QAsAh6pOVOf4OVAijQmXo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 799
+ht-degree: 79%
 
 ---
 
@@ -45,14 +50,14 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>Konfiguration einer Mobile App mithilfe von Adobe Experience Platform SDKs</strong></p>
     </div>
-    <p>Zum Versand von In-App-Nachrichten und Push-Benachrichtigungen müssen Ihre Mobile Apps in Adobe Campaign unter Verwendung von Adobe Experience Platform SDKs eingerichtet werden.</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>Zum Senden von In-App-Nachrichten und Push-Benachrichtigungen müssen Ihre Mobile Apps in Adobe Campaign unter Verwendung von Adobe Experience Platform SDKs eingerichtet werden.</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>Die Struktur der Payload von Push-Benachrichtigungen in Campaign Standard</strong></p>
     </div>
-    <p>Erfahren Sie mehr über die Struktur der Payload, die in Mobile Apps empfangen wird, wenn Adobe Campaign Standard erfolgreich eine Push-Benachrichtigung an diese App sendet.</br><a href="../../administration/using/push-payload.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>Erfahren Sie mehr über die Struktur der Payload, die in Mobile Apps empfangen wird, wenn von Adobe Campaign Standard erfolgreich eine Push-Benachrichtigung an eine App gesendet wurde.</br><a href="../../administration/using/push-payload.md"><strong>Klicken Sie hier</strong></a> um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -68,7 +73,7 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>Implementieren von Push-Tracking</strong></p>
     </div>
-    <p>Erfahren Sie, wie Sie sicherstellen können, dass das Tracking von Push-Benachrichtigungen unter iOS und Android richtig implementiert wurde.</br><a href="../../administration/using/push-tracking.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>Erfahren Sie, wie Sie sicherstellen können, dass das Tracking von Push-Benachrichtigungen auf iOS und Android korrekt implementiert wurde.</br><a href="../../administration/using/push-tracking.md"><strong>Klicken Sie hier</strong></a> um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -82,14 +87,14 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>Konfiguration einer Mobile App mithilfe von Adobe Experience Platform SDKs</strong></p>
     </div>
-    <p>Zum Versand von In-App-Nachrichten und Push-Benachrichtigungen müssen Ihre Mobile Apps in Adobe Campaign unter Verwendung von Adobe Experience Platform SDKs eingerichtet werden.</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>Zum Senden von In-App-Nachrichten und Push-Benachrichtigungen müssen Ihre Mobile Apps in Adobe Campaign unter Verwendung von Adobe Experience Platform SDKs eingerichtet werden.</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>Unterstützte Anwendungsfälle für Mobilgeräte unter Verwendung von Adobe Experience Platform SDKs</strong></p>
     </div>
-    <p>Anwendungsfälle für Mobilgeräte, die in Adobe Campaign Standard durch die Verwendung von Adobe Experience Platform SDKs unterstützt werden.</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>Erfahren Sie mehr über Anwendungsfälle für Mobilgeräte, die in Adobe Campaign Standard mit den Adobe Experience Platform SDKs unterstützt werden.</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>Klicken Sie hier</strong></a> um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -163,7 +168,7 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>In-App-Nachrichten anpassen</strong></p>
     </div>
-    <p>In Adobe Campaign stehen Ihnen zur Anpassung von Sendungen bei der Erstellung von In-App-Nachrichten eine Reihe erweiterter Optionen zur Verfügung.</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>In Adobe Campaign stehen Ihnen zur Anpassung von Sendungen beim Entwerfen von In-App-Nachrichten eine Reihe erweiterter Optionen zur Verfügung.</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>Klicken Sie hier</strong></a> um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -210,7 +215,7 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>Eingehende SMS verwalten</strong></p>
     </div>
-    <p>Wenn ein Profil auf eine per Campaign gesendete SMS-Nachricht antwortet, können Sie die automatisch an das Profil zu sendenden Nachrichten sowie die auszuführende Aktion konfigurieren. Anpassen eines Nachrichtentyps für lokale Benachrichtigungen</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicken Sie hier, um weitere Informationen zu erhalten.</p>
+    <p>Sie können einem Profil, das auf eine per Campaign gesendete SMS-Nachricht antwortet, eine automatische Nachricht sowie die auszuführende Aktion zurücksenden.Anpassen eines Nachrichtentyps für lokale Benachrichtigungen</br><a href="../../channels/using/managing-incoming-sms.md"><strong> Klicken Sie hier, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
   <td>

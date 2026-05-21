@@ -8,10 +8,16 @@ feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/LHlfIZ24iApQfr6dL-x-nQViltSetibBgt1slLDsRi4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 348
+ht-degree: 89%
 
 ---
 
@@ -29,7 +35,7 @@ Erweitern Sie das Datenmodell von Campaign Standard mit Ihren eigenen Feldern un
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Die von Campaign verwendeten Daten werden durch verschiedene Ressourcen definiert, die in einem **vordefinierten Datenmodell** festgelegt werden. Das Datenmodell verfügt über eine native SQL-Struktur für eine Reihe von Marketing-Ressourcen: Versand, Zielgruppe, Landingpages, Profil usw. Jede Ressource wird mit zugehörigen Filtern geliefert, sodass Sie durch die Ressourcen navigieren können.
+Die von Campaign verwendeten Daten werden durch verschiedene Ressourcen definiert, die in einem **vordefinierten Datenmodell** festgelegt werden. Das Datenmodell zeigt eine vorkonfigurierte SQL-Struktur für eine Reihe von Marketing-bezogenen Ressourcen an: Versand, Zielgruppe, Landingpages, Profil usw. Jeder Ressource sind Filter zugeordnet, mit denen Sie durch die Ressourcen navigieren können.
 
 Im Menü **Diagnose** können Sie die von Campaign Standard generierten technischen Objekte auflisten: Datenschemata, Websites, Filter usw., um das Datenmodell und alle daran vorgenommenen Änderungen zu überwachen.
 

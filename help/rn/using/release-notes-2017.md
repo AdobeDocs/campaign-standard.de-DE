@@ -5,9 +5,16 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: ht
-source-wordcount: '4688'
+TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 4688
 ht-degree: 100%
 
 ---
@@ -43,7 +50,7 @@ _Plattform_
 
 * Fehlerkorrektur – große, komprimierte Dateien werden jetzt richtig dekomprimiert.
 * Die Sicherheit bei der Verwaltung von Marken wurde verbessert. Die Änderung eines Markennamens und der Adresse des Absenders ist jetzt den technischen Administratoren von Adobe vorbehalten.
-* Um die Sicherheit zu erhöhen, werden von Benutzenden erstellte Inhalte (Bilder, Mirrorseiten, Landingpages)nicht mehr von der Domain „adobe.com“ unterstützt.Jetzt müssen diese Ressourcen über eine eigene Domain im Branding-Bereich konfiguriert werden.
+* Um die Sicherheit zu erhöhen, werden von Benutzenden erstellte Inhalte (Bilder, Mirrorseiten, Landingpages) nicht mehr von der Domain „adobe.com“ unterstützt. Jetzt müssen diese Ressourcen über eine eigene Domain im Branding-Bereich konfiguriert werden.
 * Fehlerkorrektur – jetzt tritt bei der Darstellung und Filterung von Marketing-Aktivitäten kein Fehler mehr auf.
 * Fehlerkorrektur – Felder mit dem Abonnement-Datum werden jetzt mit einem POST-Rest-API-Aufruf aktualisiert.
 
@@ -179,7 +186,7 @@ _Profile und Zielgruppen_
  <tbody> 
   <tr> 
    <td> Mehrsprachige E-Mail- und SMS-Sendungen<br /> </td> 
-   <td> Definition und Ausführung mehrsprachiger E-Mail- und SMS-Sendungen im Rahmen eines einzigen Versands in der bevorzugten Sprache Ihrer automatisch segmentierte Kundschaft. Erstellen Sie Berichte zur Leistung jedes Versands bis hinunter auf die Sprach- und Kontaktebene.<br /> Immer mehr Unternehmen sehen sich mit der Herausforderung konfrontiert, im Zuge ihrer internationalen Expansion mehrsprachige Inhalte versenden zu müssen.Deshalb ist der optimierte Versand lokalisierter Nachrichten ein wesentlicher Teil einer effektiven Kundenkommunikationsstrategie für multinationale Unternehmen, Unternehmen in Ländern mit mehreren Sprachen und Unternehmen, die ihre Inhalte unabhängig vom Wohnort ihrer Kundschaft auf sprachlicher Ebene weiter personalisieren möchten. Lesen Sie für weiterführende Informationen das <a href="../../channels/using/creating-a-multilingual-email.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Definition und Ausführung mehrsprachiger E-Mail- und SMS-Sendungen im Rahmen eines einzigen Versands in der bevorzugten Sprache Ihrer automatisch segmentierte Kundschaft. Erstellen Sie Berichte zur Leistung jedes Versands bis hinunter auf die Sprach- und Kontaktebene.<br /> Immer mehr Unternehmen sehen sich mit der Herausforderung konfrontiert, im Zuge ihrer internationalen Expansion mehrsprachige Inhalte versenden zu müssen. Deshalb ist der optimierte Versand lokalisierter Nachrichten ein wesentlicher Teil einer effektiven Kundenkommunikationsstrategie für multinationale Unternehmen, Unternehmen in Ländern mit mehreren Sprachen und Unternehmen, die ihre Inhalte unabhängig vom Wohnort ihrer Kundschaft auf sprachlicher Ebene weiter personalisieren möchten. Lesen Sie für weiterführende Informationen das <a href="../../channels/using/creating-a-multilingual-email.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign-Benachrichtigungen<br /> </td> 
@@ -187,11 +194,11 @@ _Profile und Zielgruppen_
   </tr> 
   <tr> 
    <td> Versandwarnungen<br /> </td> 
-   <td> Zusätzlich zur Anzeige von Benachrichtigungen direkt in Adobe Campaign Standard bietet Adobe Campaign jetzt auch ein E-Mail-Warnsystem, bei dem Benutzenden oder externen Interessengruppen E-Mail-Warnungen zu wichtigen Systemaktivitäten gesendet werden. Erstellen, verwalten und empfangen Sie benutzerdefinierte Warnungen und Dashboards, um über erfolgreiche oder fehlerhafte Sendungen auf dem Laufenden zu bleiben.<br /> Die Versandwarnung von Adobe Campaign erhöht die Effizienz, indem alle Benutzenden von Adobe Campaign in einem Unternehmen automatisch über den Ausführungsstatus des Versands per E-Mail und über Dashboards informiert werden.Lesen Sie für weiterführende Informationen das <a href="../../sending/using/receiving-alerts-when-failures-happen.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Zusätzlich zur Anzeige von Benachrichtigungen direkt in Adobe Campaign Standard bietet Adobe Campaign jetzt auch ein E-Mail-Warnsystem, bei dem Benutzenden oder externen Interessengruppen E-Mail-Warnungen zu wichtigen Systemaktivitäten gesendet werden. Erstellen, verwalten und empfangen Sie benutzerdefinierte Warnungen und Dashboards, um über erfolgreiche oder fehlerhafte Sendungen auf dem Laufenden zu bleiben.<br /> Die Versandwarnung von Adobe Campaign erhöht die Effizienz, indem alle Benutzenden von Adobe Campaign in einem Unternehmen automatisch über den Ausführungsstatus des Versands per E-Mail und über Dashboards informiert werden. Lesen Sie für weiterführende Informationen das <a href="../../sending/using/receiving-alerts-when-failures-happen.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Verschlüsselte deklarierte ID in Datenquellen<br /> </td> 
-   <td> Versand von E-Mail- und SMS-Triggern, ohne dass in Campaign ein Profil vorhanden sein muss, indem verschlüsselte Kontaktinformationen (E-Mail-Adresse oder Telefonnummer) als deklarierte ID verwendet werden. Da verschlüsselte deklarierte IDs von Adobe Campaign Standard entschlüsselt werden können, kann Campaign jetzt neue vermarktbare Profile erstellen, wenn Zielgruppen aus anderen Experience Cloud-Lösungen empfangen werden, die bisher unbekannte Kontakte enthalten.<br />Ermöglicht das Ansprechen von Kundschaft und unbekannten Interessierten in Echtzeit mithilfe von E-Mails und SMS, um die Treue der Bestandskundenbasis zu stärken und neue Kundinnen und Kunden zu gewinnen.Nutzen Sie Ihre First-Party-Cookie-Daten (aus Adobe Audience Manager*) optimal, sobald sich potenzielle Kundinnen und Kunden authentifiziert haben, und nutzen Sie diese Erkenntnisse in Adobe Campaign. <br /> *Adobe Audience Manager ist erforderlich.Lesen Sie für weiterführende Informationen das <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Versand von E-Mail- und SMS-Triggern, ohne dass in Campaign ein Profil vorhanden sein muss, indem verschlüsselte Kontaktinformationen (E-Mail-Adresse oder Telefonnummer) als deklarierte ID verwendet werden. Da verschlüsselte deklarierte IDs von Adobe Campaign Standard entschlüsselt werden können, kann Campaign jetzt neue vermarktbare Profile erstellen, wenn Zielgruppen aus anderen Experience Cloud-Lösungen empfangen werden, die bisher unbekannte Kontakte enthalten.<br /> Ermöglicht das Ansprechen von Kundschaft und unbekannten Interessierten in Echtzeit mithilfe von E-Mails und SMS, um die Treue der Bestandskundenbasis zu stärken und neue Kundinnen und Kunden zu gewinnen. Nutzen Sie Ihre First-Party-Cookie-Daten (aus Adobe Audience Manager*) optimal, sobald sich potenzielle Kundinnen und Kunden authentifiziert haben, und nutzen Sie diese Erkenntnisse in Adobe Campaign. <br /> *Adobe Audience Manager ist erforderlich. Lesen Sie für weiterführende Informationen das <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> KPI-Freigabe von Campaign für Analytics<br /> </td> 
@@ -199,7 +206,7 @@ _Profile und Zielgruppen_
   </tr> 
   <tr> 
    <td> Briefpost-Kanal – Rücksendungen an den Absender<br /> </td> 
-   <td> Der Austausch einfach strukturierter Dateien, die Rücksendeinformation enthalten, mit Briefpost-Dienstleistern wird jetzt unterstützt. Durch diese Verbesserung des Briefpost-Kanals können entsprechende Anschriften von der künftigen Kommunikation ausgeschlossen werden.<br /> Zusätzlich können sich Marketing-Fachleute über fehlerhafte Adressen informieren lassen und mit dem Kunden bzw. der Kundin über andere Kanäle in Kontakt treten oder ihn bzw. sie auffordern, seine bzw. ihre Anschrift zu aktualisieren.Dadurch sparen Marketing-Fachleute auch Ausgaben, da keine E-Mails mehr an falsche Adressen gesendet werden.<br /> Briefpost ist als Add-on-Kanal verfügbar.Lesen Sie für weiterführende Informationen das <a href="../../channels/using/return-to-sender.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Der Austausch einfach strukturierter Dateien, die Rücksendeinformation enthalten, mit Briefpost-Dienstleistern wird jetzt unterstützt. Durch diese Verbesserung des Briefpost-Kanals können entsprechende Anschriften von der künftigen Kommunikation ausgeschlossen werden.<br /> Zusätzlich können sich Marketing-Fachleute über fehlerhafte Adressen informieren lassen und mit dem Kunden bzw. der Kundin über andere Kanäle in Kontakt treten oder ihn bzw. sie auffordern, seine bzw. ihre Anschrift zu aktualisieren. Dadurch sparen Marketing-Fachleute auch Ausgaben, da keine E-Mails mehr an falsche Adressen gesendet werden.<br /> Briefpost ist als Add-on-Kanal verfügbar. Lesen Sie für weiterführende Informationen das <a href="../../channels/using/return-to-sender.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -255,7 +262,7 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Briefpost<br /> </td> 
-   <td> Durchbrechen Sie die digitale Barriere und stellen Sie mit Briefpost, dem ersten Offline-Kanal von Adobe Campaign Standard, eine Verbindung zur echten Welt her. Diese Funktion ermöglicht die Personalisierung und Erstellung einer Datei, die von Briefpost-Dienstleistern als Teil Ihrer Cross-Channel-Kampagnen benötigt wird. Mit Briefpost können Sie Kundinnen und Kunden ansprechen oder das Kundenerlebnis durch einen attraktiven taktilen Kontaktpunkt verbessern und Kundinnen und Kunden zu Ihrer App, Ihrer Website oder Ihrem Onlinestore leiten.<br />Lesen Sie für weiterführende Informationen das <a href="../../channels/using/about-direct-mail.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durchbrechen Sie die digitale Barriere und stellen Sie mit Briefpost, dem ersten Offline-Kanal von Adobe Campaign Standard, eine Verbindung zur echten Welt her. Diese Funktion ermöglicht die Personalisierung und Erstellung einer Datei, die von Briefpost-Dienstleistern als Teil Ihrer Cross-Channel-Kampagnen benötigt wird. Mit Briefpost können Sie Kundinnen und Kunden ansprechen oder das Kundenerlebnis durch einen attraktiven taktilen Kontaktpunkt verbessern und Kundinnen und Kunden zu Ihrer App, Ihrer Website oder Ihrem Onlinestore leiten.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/about-direct-mail.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> E-Mail-BCC<br /> </td> 
@@ -391,11 +398,11 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Integration von Dreamweaver (Labs)<br /> </td> 
-   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen zur Verfügung.<br />Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren lassen.<br />In der ersten Version ist die Integration als „Labs“-Funktion verfügbar und funktioniert nur mit der Dreamweaver Pre Release Beta. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br />Weiterführende Informationen finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de">Video</a>.<br /> </td> 
+   <td> Durch die Integration von Adobe Campaign und Dreamweaver steht Ihnen jetzt ein umfassendes Verfahren zur Erstellung von E-Mail-Kampagnen mit Adobe-Lösungen zur Verfügung.<br /> Sie können Adobe Campaign-E-Mails in Dreamweaver bearbeiten und den Inhalt zwischen diesen beiden Lösungen synchronisieren lassen.<br /> In der ersten Version ist die Integration als „Labs“-Funktion verfügbar und funktioniert nur mit der Dreamweaver Pre Release Beta. Wenn Sie sie aktivieren möchten, kontaktieren Sie bitte AC-DW-integration@adobe.com.<br /> Weiterführende Informationen finden Sie in diesem <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=de">Video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Manuelle Optimierung des Versandzeitpunkts<br /> </td> 
-   <td> Sie können jetzt manuell für jeden Empfänger bzw. jede Empfängerin einen Versandzeitpunkt festlegen – auf Versandebene oder mit einem Workflow. <br />Es sind zwei neue Optionen verfügbar: <br /> 
+   <td> Sie können jetzt manuell für jeden Empfänger bzw. jede Empfängerin einen Versandzeitpunkt festlegen – auf Versandebene oder mit einem Workflow. <br /> Es sind zwei neue Optionen verfügbar: <br /> 
     <ul> 
      <li> Alle Empfangenden erhalten die Nachricht unter Berücksichtigung ihrer jeweiligen Zeitzone. </li> 
      <li> Jede Empfängerin und jeder Empfänger erhält die Nachricht zu einem in einer Formel festgelegten berechneten Zeitpunkt. </li> 
@@ -407,14 +414,14 @@ _Push-Benachrichtigungen_
     <ul> 
      <li> Neue Authoring-Benutzeroberfläche </li> 
      <li> Stille Benachrichtigungen (Silent Push) </li> 
-     <li> Interaktive Push-Benachrichtigungen</li> 
+     <li> Interaktive Push-Benachrichtigungen </li> 
      <li> Unterstützung von Rich-Inhalten </li> 
      <li> Berechnung der Payload-Größe </li> 
     </ul> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/about-push-notifications.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Workflows: Neue Aktivität „Signal“<br /> </td> 
-   <td> Mit der neuen Aktivität <span class="uicontrol">Signal</span> können Sie in einem Workflow einen anderen Workflow auslösen.<br />Durch die Möglichkeit, einen Workflow über einen anderen zu starten, können Sie jetzt komplexere Customer Journeys unterstützen.Sie können die Customer Journeys besser überwachen und beim Auftreten von Problemen reagieren.<br />Mehrere Workflow-Aktivitäten wurden aktualisiert:<br />
+   <td> Mit der neuen Aktivität <span class="uicontrol">Signal</span> können Sie in einem Workflow einen anderen Workflow auslösen.<br /> Durch die Möglichkeit, einen Workflow über einen anderen zu starten, können Sie jetzt komplexere Customer Journeys unterstützen. Sie können die Customer Journeys besser überwachen und beim Auftreten von Problemen reagieren.<br /> Mehrere Workflow-Aktivitäten wurden aktualisiert:<br /> 
     <ul> 
      <li> Aktivität <span class="uicontrol">Ende</span>: In einer neuen Registerkarte können Sie festlegen, welcher Workflow ausgelöst werden soll, nachdem eine Aktivität abgeschlossen ist. </li> 
      <li> Aktivität <span class="uicontrol">Daten-Update</span>: Über die neue leere ausgehende Transition kann eine Aktivität <strong>Ende</strong> hinzugefügt werden, die einen weiteren Workflow auslöst. Leere ausgehende Transitionen enthalten keine Daten und belegen auch keinen Speicherplatz im System. </li> 
@@ -422,15 +429,15 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Workflows: Aktivität „Neue Zielgruppe lesen“<br /> </td> 
-   <td> Beginnen Sie Ihre Zielgruppenbestimmung mit einer bestehenden Zielgruppe, die Sie in einer einzigen Aktivität einfach auswählen und eingrenzen können.<br />Lesen Sie für weiterführende Informationen das <a href="../../automating/using/read-audience.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Beginnen Sie Ihre Zielgruppenbestimmung mit einer bestehenden Zielgruppe, die Sie in einer einzigen Aktivität einfach auswählen und eingrenzen können.<br /> Lesen Sie für weiterführende Informationen das <a href="../../automating/using/read-audience.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> POI-Daten (Points of Interest)<br /> </td> 
-   <td> Die POI-Funktion basiert auf der Integration von Adobe Campaign mit Adobe Analytics for Mobile. Wenn Benutzer die App eines Unternehmens öffnen, können Standortdaten vom Mobilgerät des Benutzers erfasst werden, <strong>Points of Interest</strong> genannt. Dadurch kann das Unternehmen mithilfe von Adobe Campaign-Workflows personalisierte Nachrichten basierend auf dem Standort des Benutzers senden. Dieser Kanal nutzt das SDK des Mobile Core Service.<br /> Bitte beachten Sie, dass diese Funktion Analytics for Mobile voraussetzt. Dabei handelt es sich um eine kostenpflichtige Lösung.<br />Lesen Sie für weiterführende Informationen das <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Die POI-Funktion basiert auf der Integration von Adobe Campaign mit Adobe Analytics for Mobile. Wenn Benutzer die App eines Unternehmens öffnen, können Standortdaten vom Mobilgerät des Benutzers erfasst werden, <strong>Points of Interest</strong> genannt. Dadurch kann das Unternehmen mithilfe von Adobe Campaign-Workflows personalisierte Nachrichten basierend auf dem Standort des Benutzers senden. Dieser Kanal nutzt das SDK des Mobile Core Service.<br /> Bitte beachten Sie, dass diese Funktion Analytics for Mobile voraussetzt. Dabei handelt es sich um eine kostenpflichtige Lösung.<br /> Lesen Sie für weiterführende Informationen das <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST-APIs<br /> </td> 
-   <td> In der API sind jetzt Ressourcen verfügbar, die auf einer beliebigen Ebene mit den Profil- oder Service-Ressourcen verknüpft sind.<br />Lesen Sie für weiterführende Informationen das <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">entsprechende Handbuch</a>.<br /> </td> 
+   <td> In der API sind jetzt Ressourcen verfügbar, die auf einer beliebigen Ebene mit den Profil- oder Service-Ressourcen verknüpft sind.<br /> Lesen Sie für weiterführende Informationen das <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -474,7 +481,7 @@ _Workflows_
     <ul> 
      <li> Mit der Option <span class="uicontrol">Inkrementelle Abfrage</span> können Sie neue oder aktualisierte Daten nun über ein Datumsfeld abrufen. Zuvor waren alle Ergebnisse früherer Ausführungen automatisch ausgeschlossen, selbst wenn sie seit der letzten Ausführung aktualisiert worden waren. </li> 
      <li> Mit der Option <span class="uicontrol">Dateiextraktion</span> können jetzt Titel anstelle von Kennungen für Aufzählungswerte exportiert werden. </li> 
-    </ul> Diese Aktivitäten stehen Admins zur Verfügung, die Zugriff auf alle geografischen und Organisationseinheiten haben.<br />Weitere Informationen zum Exportieren von Logs finden Sie in der <a href="../../automating/using/exporting-logs.md">ausführlichen Dokumentation</a>.<br /> </td> 
+    </ul> Diese Aktivitäten stehen Admins zur Verfügung, die Zugriff auf alle geografischen und Organisationseinheiten haben.<br /> Weitere Informationen zum Exportieren von Logs finden Sie in der <a href="../../automating/using/exporting-logs.md">ausführlichen Dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Marketing-Funktionen für Transaktionsnachrichten<br /> </td> 

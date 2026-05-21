@@ -8,10 +8,17 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '778'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/EGdix7-9vHr9y-RyJFS8eqFRWZSVgvHReEhSmYOk3-8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5id: a658c786-869b-4194-a780-2594d663addaid: b12f6872-9271-4369-85e5-86969a0b99a2id: b631758a-142d-425f-b9aa-f756d85cb979id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: d7be2b01-dc9c-40f7-aace-a151707504edid: ede6e1ec-9279-415e-b828-a09735018d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 789
+ht-degree: 92%
 
 ---
 
@@ -55,7 +62,7 @@ Entwerfen und senden Sie Nachrichten über Online- und Offline-Kommunikationskan
 
 **Verwenden Sie Campaign Email Designer**, um faszinierende, individuell zugeschnittene E-Mail-Nachrichten zu erstellen. Beginnen Sie von Grund auf neu oder nutzen Sie integrierte Inhaltsfragmente oder Vorlagen, um Ihre E-Mails im HTML-Format zu gestalten, das für ein responsives Design optimiert ist. [Erste Schritte mit dem Entwurf von E-Mail-Inhalten](../../designing/using/designing-content-in-adobe-campaign.md)
 
-**Analysieren und überprüfen Sie den Inhalt Ihrer Nachrichten** vor dem Senden mithilfe mehrerer Testfunktionen wie Vorschau, Testversand, E-Mail-Betreffzeilentests, E-Mail-Rendering usw. Stellen Sie sicher, dass Ihre Nachrichten zur richtigen Zeit gesendet werden, indem Sie die Sendezeit optimieren (Planung, Zeitzonenverwaltung). [Erste Schritte mit dem Testen und Senden von Nachrichten](../../sending/using/get-started-sending-messages.md)
+**Analysieren und überprüfen Sie den Inhalt Ihrer Nachrichten** bevor Sie senden, indem Sie mehrere Testfunktionen wie Vorschau, Testsendungen, E-Mail-Betreffzeilentests, E-Mail-Rendering usw. verwenden. Stellen Sie sicher, dass Ihre Nachrichten zum richtigen Zeitpunkt zugestellt werden, indem Sie ihre Versandzeit (Zeitplan, Zeitzonenverwaltung) optimieren. [Erste Schritte mit dem Testen und Senden von Nachrichten](../../sending/using/get-started-sending-messages.md)
 
 ## Auswirkungen Ihrer Kampagnen verfolgen {#track-impact-campaigns}
 
@@ -66,7 +73,7 @@ Sobald Marketing-Kampagnen ausgeführt und die verschiedenen Nachrichten gesende
 **Überwachen Sie Ihre Sendungen** nach dem Versand. Nutzen und exportieren Sie detaillierte Protokolle zu Ihren Sendungen. Rufen Sie für jeden Empfänger Informationen zu seinem Status, die aus der Zielgruppe ausgeschlossenen Nachrichten und viele weitere Metriken ab.
 Nutzen Sie die Versandwarnungsfunktion, um Zustellerfolge oder -fehler durch E-Mail-Benachrichtigungen zu verfolgen. Möchten Sie mehr erfahren? [Erste Schritte mit der Überwachung von Nachrichten](../../sending/using/monitoring-a-delivery.md)
 
-**Verfolgen Sie das Verhalten der Empfänger Ihres Versands**. Nutzen Sie Sitzungs- und permanente Cookies, um Tracking-Informationen zu jedem Ihrer Kontakte in Ihrer Datenbank abzurufen. Überwachen Sie die Tracking-Informationen zu Sendungen (angeklickte URLs, Mirrorseiten, geöffnete Nachrichten usw.) über spezielle Protokolle und Berichte. [Erste Schritte mit dem Tracking von Nachrichten](../../sending/using/tracking-messages.md)
+**Verfolgen Sie das Verhalten der Empfänger Ihres Versands**. Nutzen Sie Sitzungs- und permanente Cookies, um Tracking-Informationen zu jedem Ihrer Kontakte in Ihrer Datenbank abzurufen. Tracking-Informationen zu Sendungen überwachen (angeklickte URLs, Mirrorseiten, geöffnete Nachrichten usw.) durch spezielle Protokolle und Berichte. [Erste Schritte mit dem Tracking von Nachrichten](../../sending/using/tracking-messages.md)
 
 **Verwenden Sie dynamische Berichte**, um spezifische Metriken in Bezug auf Ihre Nachricht oder Kampagne zu entwerfen. Dynamische Berichte bieten vollständig anpassbare und in Echtzeit erstellte Berichte, die Zugriff auf Profildaten bieten und demografische Analysen nach Profildimensionen wie Geschlecht, Stadt und Alter sowie nach funktionalen E-Mail-Kampagnendaten wie Öffnungen und Klicks ermöglichen. Mit der Drag &amp; Drop-Funktion können Sie Daten analysieren sowie feststellen, wie Ihre E-Mail-Kampagnen bei Ihren wichtigsten Kundensegmenten angekommen sind, und ihre Wirkung auf die Empfänger messen. [Erste Schritte mit dynamischen Berichten](../../reporting/using/about-dynamic-reports.md)
 

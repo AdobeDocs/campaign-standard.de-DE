@@ -9,10 +9,15 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '1681'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/Khit4ZawqjXKPd9FG7eJaIgU-eQhaFGtNhLGzE74Xio
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1693
+ht-degree: 97%
 
 ---
 
@@ -51,7 +56,7 @@ Der Inhaltseditor besteht aus drei Bereichen. In diesen Bereichen können Sie de
 
 ![](assets/des_lp_content_8.png)
 
-1. Die **Palette** links im Bildschirm ermöglicht die Bearbeitung der Eigenschaften des markierten Blocks, wie z. B. Hintergrundfarbe, Rahmen, Ausrichtung, Sichtbarkeitsbedingungen etc. Siehe [Personalisierungsfelder einfügen](../../designing/using/personalization.md#inserting-a-personalization-field).
+1. Die **Palette** links im Bildschirm ermöglicht die Bearbeitung der Eigenschaften des markierten Blocks, Folgende Optionen können geändert werden: Hintergrundfarbe, Rahmen, Textausrichtung, Sichtbarkeitsbedingung usw. Siehe [Einfügen eines Personalisierungsfelds](../../designing/using/personalization.md#inserting-a-personalization-field).
 1. In der **Symbolleiste** bieten Schaltflächen Zugriff auf die verfügbaren Aktionen. Sie können eine Vorlage auswählen und den Anzeigemodus wechseln.
 1. Im **Hauptarbeitsbereich** ermöglicht eine kontextabhängige Symbolleiste die direkte Bearbeitung des Inhalts. Sie können beispielsweise ein Bild mit einem Link belegen, die Schriftart anpassen, ein Feld löschen etc.
 
@@ -190,7 +195,7 @@ Die dedizierte **Symbolleiste** ist ein kontextuelles Element der Editor-Oberfl�
    <td> <img height="21px" src="assets/textbold_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Fett</span> <br /> </td> 
    <td> Textelement<br /> </td> 
-   <td> Formatiert den ausgewählten Text fett (Text wird von den Tags <strong>&lt;strong&gt;</strong><strong>&lt;/strong&gt;</strong> umschlossen). <br /> </td> 
+   <td> Formatiert den ausgewählten Text fett (Text wird von den Tags <strong><strong></strong>&lt;strong&gt;</strong>&lt;/strong&gt; umschlossen). <br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textitalic_darkgrey-24px.png" /> <br /> </td> 
@@ -257,11 +262,11 @@ Aktivieren Sie die Textbearbeitung durch einen zweiten Klick in den Block. Der R
 
 ![](assets/des_lp_content_3.png)
 
-Die für ein Blockelement (Link, Personalisierungsfeld, Inhaltsbaustein etc.) definierten Parameter können jederzeit über die Palette angepasst werden.
+Die für ein Element in einem Block definierten Parameter (Links, Personalisierungsfelder, Inhaltsbausteine usw.) kann jederzeit über die Palette geändert werden.
 
 ![](assets/des_lp_content_4.png)
 
-### Rahmen und Hintergrund im Inhaltseditor hinzufügen  {#adding-a-border-and-a-background-in-the-content-editor}
+### Rahmen und Hintergrund im Inhaltseditor hinzufügen {#adding-a-border-and-a-background-in-the-content-editor}
 
 Es besteht die Möglichkeit, verschiedene **Hintergrundfarben** aus der Farbpalette für die einzelnen Blöcke auszuwählen. Die Farbe wird jeweils auf den gesamten Block angewendet.
 
@@ -271,7 +276,7 @@ Außerdem können die einzelnen Blöcke mit verschiedenen **Rahmen** versehen we
 
 ![](assets/des_lp_content_6.png)
 
-### Textstil im Inhaltseditor ändern  {#changing-the-text-style-in-the-content-editor}
+### Textstil im Inhaltseditor ändern {#changing-the-text-style-in-the-content-editor}
 
 Um einen Textstil zu ändern, muss sich der Cursor innerhalb eines Textblocks befinden.
 
@@ -285,7 +290,7 @@ Die Textausrichtung kann mit einer der drei Schaltflächen in der Palette links 
 
 Mithilfe der dedizierten Symbolleiste können darüber hinaus die Schriftattribute wie Schriftgröße, Schriftauszeichnung (fett, kursiv oder unterstrichen) und die Schriftfarbe geändert werden. Weitere Informationen finden Sie in [diesem Abschnitt](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Bilder in eine Landingpage einfügen  {#inserting-images-in-a-landing-page}
+### Bilder in eine Landingpage einfügen {#inserting-images-in-a-landing-page}
 
 1. Wählen Sie im Inhalt der Landingpage einen Baustein aus, der ein Bild enthält.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Einfügen]**.
@@ -310,8 +315,7 @@ Wenn Sie dynamischen Inhalt in einer Landingpage definieren möchten, verwenden 
 
 ![](assets/dynamic_content_lp_1.png)
 
-Gewisse Blöcke, beispielsweise Bilder, können nicht direkt ausgewählt werden. Markieren Sie in diesem Fall den übergeordneten Block im Breadcrumb. Dadurch können alle in diesem Block enthaltenen übergeordneten Elemente einschließlich der Bilder bearbeitet werden.
-Die definierte Bedingung bezieht sich in diesem Fall auf alle untergeordneten Elemente des übergeordneten Blocks.
+Gewisse Blöcke, beispielsweise Bilder, können nicht direkt ausgewählt werden. Markieren Sie in diesem Fall den übergeordneten Block im Breadcrumb. Dadurch können alle in diesem Block enthaltenen übergeordneten Elemente einschließlich der Bilder bearbeitet werden. Die definierte Bedingung bezieht sich in diesem Fall auf alle untergeordneten Elemente des übergeordneten Blocks.
 
 Die Breadcrumb-Leiste des Inhaltseditors wird im Abschnitt [Verwaltung der Blöcke](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style) beschrieben.
 

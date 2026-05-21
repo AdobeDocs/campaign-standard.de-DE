@@ -8,10 +8,14 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '1037'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/r55Y65MfV0YNU5XLTeD3e--ZlHlcqUxH88HV2o3qec0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1049
+ht-degree: 85%
 
 ---
 
@@ -36,7 +40,8 @@ Im folgenden Abschnitt finden Sie die Einschränkungen, die Sie kennen sollten, 
 
 **Schreiben und Aktualisieren von Daten**
 
-* Landingpages sind auf **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]**-Ressourcen beschränkt. Die Speicherung und Aktualisierung von Datensätzen ist im **[!UICONTROL Profil]** und über die Anmeldung zu/Abmeldung von einem **[!UICONTROL Dienst]** möglich. Weiterführende Informationen zur Ressourcenkonfiguration finden Sie im Abschnitt [Datenstruktur der Ressource konfigurieren](../../developing/using/configuring-the-resource-s-data-structure.md).
+* Landingpages sind auf **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]**-Ressourcen beschränkt. Die Speicherung und Aktualisierung von Datensätzen ist im **[!UICONTROL Profil]** und über die Anmeldung zu/Abmeldung von einem **[!UICONTROL Dienst]** möglich.
+Weiterführende Informationen zur Ressourcenkonfiguration finden Sie im Abschnitt [Datenstruktur der Ressource konfigurieren](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 >[!IMPORTANT]
 >
@@ -71,7 +76,7 @@ Hier wurde nur das erste Profil aktualisiert, da dessen Eintrag früher erfolgte
 Bevor Sie eine Landingpage einrichten, müssen Sie zunächst eine Landingpage-Vorlage entsprechend Ihren Anforderungen konfigurieren. Alle auf dieser Vorlage basierenden Landingpages werden dadurch mit den gewünschten Parametern vorkonfiguriert.
 
 1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm auf das erweiterte Menü **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Landingpage-Vorlagen]** zu und duplizieren Sie die gewünschte Vorlage.
-1. Geben Sie in den Vorlageneigenschaften die Parameter an, die alle Ihre Landingpages haben müssen. Beispiel: die Zielgruppendimension, die Seitenzugriffsparameter für identifizierte oder nicht identifizierte Besucher, Aktionen, die spezifisch für die Formularüberprüfung durch einen Besucher sind, die im Inhalt zu verwendende Marke/das Logo usw. Weiterführende Informationen zu den Landingpage-Eigenschaften finden Sie in [diesem Abschnitt](../../channels/using/configuring-landing-page.md).
+1. Geben Sie in den Vorlageneigenschaften die Parameter an, die alle Ihre Landingpages haben müssen. Beispielsweise die Zielgruppendimension, die Seitenzugriffsparameter für identifizierte oder nicht identifizierte Besucher, Aktionen, die für die Formularvalidierung durch einen Besucher spezifisch sind, die Marke/das Logo, die/das im Inhalt verwendet werden soll usw. Weiterführende Informationen zu den Eigenschaften von Landingpages finden Sie in [diesem Abschnitt](../../channels/using/configuring-landing-page.md)
 1. Speichern Sie Ihre Änderungen.
 
 Weiterführende Informationen zu Landingpage-Vorlagen finden Sie in [diesem Abschnitt](../../channels/using/getting-started-with-landing-pages.md).
@@ -91,7 +96,7 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Performanc
 
 >[!NOTE]
 >
->Sollten Sie Änderungen vornehmen, gelten diese nur für die in Bearbeitung befindliche Landingpage. Wenn Sie die Änderungen auf andere Landingpages anwenden möchten, können Sie sie in einer dedizierten Vorlage vornehmen und von dieser Vorlage ausgehend andere Landingpages erstellen.
+>Ihre Änderungen gelten nur für die Landingpage, die bearbeitet wird. Wenn Sie diese Änderungen auf andere Landingpages anwenden möchten, können Sie sie in einer dedizierten Vorlage durchführen und dann andere Landingpages aus dieser Vorlage erstellen.
 
 ## Schritt 3 – Landingpage gestalten {#design-the-landing-page}
 
@@ -123,11 +128,11 @@ Weiterführende Informationen zum Testen einer Landingpage finden Sie in [diesem
 
 Nach zufriedenstellender Ausführung der Tests können Sie unter Verwendung der Schaltfläche **[!UICONTROL Veröffentlichen]** in der Aktionsleiste des Dashboards die Landingpage online stellen. Die Kachel &quot;Landingpage-Verfolgung&quot; gibt Ihnen Auskunft über Fortschritt und Status der Veröffentlichung.
 
-Durch die Veröffentlichung der Landingpage wird diese online verfügbar. Nach ihrer Veröffentlichung lässt sich die Landingpage weiterhin aktualisieren: Hierzu müssen Sie sie nach jeder Änderung erneut veröffentlichen. Sie haben außerdem die Möglichkeit, die Veröffentlichung Ihrer Landingpage jederzeit aufzuheben, damit sie nicht länger verfügbar ist.
+Durch das Veröffentlichen der Landingpage ist sie online verfügbar. Nach der Veröffentlichung können Sie sie jederzeit aktualisieren. Dazu müssen Sie sie nach jeder Änderung erneut veröffentlichen. Sie haben außerdem die Möglichkeit, die Veröffentlichung Ihrer Landingpage jederzeit aufzuheben, damit sie nicht länger verfügbar ist.
 
 ![](assets/lp-steps6.png)
 
-Nach der Veröffentlichung ist Ihre Landingpage zur Nutzung bereit. Sie können nun verschiedene Zugriffsmechanismen definieren, um entweder neue Profile für Ihre Datenbank oder zusätzliche Informationen zu bereits existierenden Profilen hinzuzugewinnen.
+Nach der Veröffentlichung kann Ihre Landingpage verwendet werden. Anschließend können Sie verschiedene Mechanismen einrichten, mit denen Sie darauf zugreifen können, um neue Profile in Ihrer Datenbank zu erwerben oder zusätzliche Informationen zu vorhandenen Profilen zu erhalten.
 
 Weiterführende Informationen zum Veröffentlichen von Landingpages finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
 
@@ -135,6 +140,6 @@ Weiterführende Informationen zum Veröffentlichen von Landingpages finden Sie i
 
 In diesem Video wird gezeigt, wie man eine Landingpage erstellt und bearbeitet.
 
->[!VIDEO](https://video.tv.adobe.com/v/35471?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

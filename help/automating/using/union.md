@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '409'
+TQID: https://experienceleague.adobe.com/tZmyjYoYBX7mzN7CSuLXgLIiH-QldGCXmr-F62ruPDU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 409
 ht-degree: 100%
 
 ---
@@ -29,7 +33,7 @@ Eine **[!UICONTROL Vereinigung]** dient der Zusammenfassung der Ergebnisse mehre
 >
 >Dabei müssen die Mengen nicht zwingend homogen sein.
 
-## Anwendungskontext      {#context-of-use}
+## Anwendungskontext {#context-of-use}
 
 Eine **[!UICONTROL Vereinigung]** wird insbesondere im Rahmen einer Segmentierung, einer Audience-Erstellung oder der Zielgruppenbestimmung verwendet, um die Populationen der eingehenden Transitionen zusammenzuführen.
 

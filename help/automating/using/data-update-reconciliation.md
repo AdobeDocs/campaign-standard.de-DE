@@ -1,6 +1,6 @@
 ---
 title: Datenaktualisierung mittels Abstimmung
-description: Das folgende Beispiel zeigt einen Workflow zur Erstellung einer Profil-Zielgruppe, die direkt aus einer importierten Datei mit neuen Kunden erzeugt wird.
+description: Das folgende Beispiel zeigt einen Workflow zur Erstellung einer Profil-Zielgruppe, die direkt von einer importierten Datei mit neuen Kunden ausgeht.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '128'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/cEXfESw1LZcrQVlLsgrlDB8J2aGz4zCoSUrIAshECo0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 128
+ht-degree: 81%
 
 ---
 
@@ -38,7 +42,7 @@ Das folgende Beispiel zeigt einen Workflow zur Erstellung einer Profil-Zielgrupp
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* [Abstimmung](../../automating/using/reconciliation.md) zur Zuordnung jeder Spalte der geladenen Datei zu einer Spalte der Profildimension. Die nicht identifizierbaren Datensätze der Datei (fehlende Daten, inkompatible Datentypen etc.) werden zur Wahrung der Integrität der endgültigen Zielgruppe-Daten ignoriert.
+* [Abstimmung](../../automating/using/reconciliation.md) zur Zuordnung jeder Spalte der geladenen Datei zu einer Spalte der Profildimension. Die Dateidatensätze, die nicht identifiziert werden können (fehlende Daten, inkompatibler Datentyp usw.) werden ignoriert, um die Integrität der endgültigen Zielgruppendaten zu wahren.
 
   ![](assets/identification_example1.png)
 

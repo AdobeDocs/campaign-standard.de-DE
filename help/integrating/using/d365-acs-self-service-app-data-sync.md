@@ -10,16 +10,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '2005'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 2021
+ht-degree: 92%
 
 ---
 
 # Daten synchronisieren
 
-Sie können Tabellen von Microsoft Dynamics 365 mit Campaign und Campaign-Marketing-Metriken mit Microsoft Dynamics 365 synchronisieren. Die Synchronisation wird durch drei dedizierte technische Workflows ausgeführt: **[!UICONTROL Microsoft Dynamics 365 zu Campaign]**, **[!UICONTROL Campaign zu Microsoft Dynamics 365]**, **[!UICONTROL Opt-in/Opt-out]**. [Weitere Informationen finden Sie in diesem Abschnitt.](../../integrating/using/d365-acs-self-service-app-workflows.md) 
+Sie können Tabellen von Microsoft Dynamics 365 mit Campaign und Campaign-Marketing-Metriken mit Microsoft Dynamics 365 synchronisieren. Die Synchronisation wird durch drei dedizierte technische Workflows ausgeführt: **[!UICONTROL Microsoft Dynamics 365 zu Campaign]**, **[!UICONTROL Campaign zu Microsoft Dynamics 365]**, **[!UICONTROL Opt-in/Opt-out]**. [Weitere Informationen finden Sie in diesem Abschnitt.](../../integrating/using/d365-acs-self-service-app-workflows.md)
 
 >[!IMPORTANT]
 >Sie müssen den Workflow **[!UICONTROL Microsoft Dynamics 365 zu Campaign]** anhalten und wieder starten, damit Ihre Änderungen berücksichtigt werden. [Weitere Informationen](../../integrating/using/d365-acs-self-service-app-workflows.md)
@@ -56,7 +61,7 @@ Hier finden Sie eine Beschreibung der einzelnen Spalten in dieser Tabelle:
 
      >[!IMPORTANT]
      >
-     > Es wird dringend empfohlen, den Integrations-Workflow anzuhalten, wenn Sie Änderungen in Adobe Campaign Standard oder Microsoft Dynamics 365 veröffentlichen. Zu diesen Änderungen gehören Aktualisierungen von Ressourcen/Entitäten (und den zugehörigen Feldern), Links, Spalten mit Kennungen usw., die derzeit von der Integration verwendet werden.
+     > Es wird dringend empfohlen, den Integrations-Workflow anzuhalten, wenn Sie Änderungen in Adobe Campaign Standard oder Microsoft Dynamics 365 veröffentlichen. Zu den anwendbaren Änderungen gehören: Aktualisierungen von Ressourcen/Entitäten (und deren zugehörigen Feldern), Links, Kennungsspalten usw., die derzeit von der Integration verwendet werden.
      >
 
 ## Erstellen eines neuen Mappings {#add-a-new-mapping}
@@ -169,12 +174,12 @@ Filter können durch Angabe folgender Informationen spezifiziert werden:
 
 * Microsoft Dynamics 365-Feldname
 * einen Vergleichswert und
-* einen Wert (von Microsoft Dynamics 365).
-Wenn der Feldname, der Vergleichswert und der Wert für einen bestimmten Datensatz als wahr ausgewertet werden, wird der Datensatz an Adobe Campaign weitergegeben.
+* Ein Wert (aus Microsoft Dynamics 365)
+Wenn der Feldname, der Vergleich und der Wert für einen bestimmten Datensatz als „true“ ausgewertet werden, wird der Datensatz an Adobe Campaign weitergegeben.
 
 Sie können entscheiden, wie diese Filter ausgewertet werden, indem Sie das Eingabefeld mit der Bezeichnung **[!UICONTROL Filtervergleichsoperator auswählen]** aktivieren.  Wenn Sie **Und** auswählen, müssen alle Filter wahr sein, damit ein Datensatz an Campaign übertragen wird. Wenn Sie **Oder** auswählen, wird der Datensatz weitergegeben, wenn einer von ihnen als „wahr“ ausgewertet wird.
 
-Die Option **[!UICONTROL Möchten Sie Datensätze in Adobe Campaign Standard löschen, die aus Microsoft Dynamics 365 herausgefiltert werden?]** steuert, ob herausgefilterte Datensätze aus Campaign gelöscht werden sollen. Wenn Sie **Nein** auswählen, verbleiben die Datensätze in Adobe Campaign. Wenn Sie **Ja** auswählen, werden sie von der Integrationslogik gelöscht.
+Die Option **[!UICONTROL Möchten Sie Datensätze in Adobe Campaign Standard löschen, die aus Microsoft Dynamics 365 herausgefiltert werden?]** Steuert, ob herausgefilterte Datensätze aus Campaign gelöscht werden sollen. Wenn Sie **Nein** auswählen, verbleiben die Datensätze in Adobe Campaign. Wenn Sie **Ja** auswählen, werden sie von der Integrationslogik gelöscht.
 
 >[!NOTE]
 >
@@ -185,9 +190,9 @@ Die Option **[!UICONTROL Möchten Sie Datensätze in Adobe Campaign Standard lö
 
 Beim Konfigurieren eines Mappings können Sie die folgenden zusätzlichen Optionen einrichten:
 
-* Setzen Sie die Option **[!UICONTROL Löschvorgänge in Microsoft Dynamics 365 auf Campaign anwenden?]** auf **Ja**, wenn Sie Löschungen, die in Microsoft Dynamics 365 auftreten, an das entsprechende Feld in Adobe Campaign weiterleiten möchten (basierend auf dem Feldnamen-Mapping). Wählen Sie **Nein** aus, um Löschungen in Microsoft Dynamics 365 zu ignorieren.
+* Legen Sie die Option **[!UICONTROL Löschen in Microsoft Dynamics 365 anwenden auf Campaign?]** auf **Ja**, wenn Sie Löschungen, die in Microsoft Dynamics 365 auftreten, auf der Grundlage der Feldnamenzuordnung auf das entsprechende Feld in Adobe Campaign übertragen möchten. Wählen Sie **Nein** aus, um Löschungen in Microsoft Dynamics 365 zu ignorieren.
 
-* Setzen Sie die Option **[!UICONTROL Technische Werte in Microsoft Dynamics 365-Auswahllisten verwenden?]** auf **Nein**, wenn Sie den mit einer Microsoft Dynamics 365-Auswahlliste verknüpften Anzeigewert an Campaign weiterleiten möchten. Wählen Sie **Ja** aus, um den technischen Wert weiterzuleiten.
+* Legen Sie die **[!UICONTROL Technische Werte in Auswahllisten für Microsoft Dynamics 365 verwenden?]** auf **Nein**, wenn Sie den mit einer Microsoft Dynamics 365-Auswahlliste verknüpften Anzeigewert an Campaign weitergeben möchten. Wählen Sie **Ja** aus, um den technischen Wert weiterzuleiten.
 
 ## Campaign-Marketing-Ereignisse mit Microsoft Dynamics 365 synchronisieren
 

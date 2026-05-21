@@ -8,10 +8,15 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/ThX9BHPlbOlav6-5z8P1ruwSc2-phnvnkqjLaSZO3Fs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 730
+ht-degree: 97%
 
 ---
 
@@ -25,7 +30,7 @@ Die nachstehende Tabelle enthält Informationen zu vordefinierten Filterregeln s
 
 | Titel | Kanal | Beschreibung |
 | ---------|----------|---------|
-| **[!UICONTROL Adresse nicht angegeben]** | Alle | Schließt die Zielpopulation ohne angegebene Adresse (E-Mail, Anschrift usw. je nach ausgewähltem Kanal) aus. |
+| **[!UICONTROL Adresse nicht angegeben]** | Alle | Schließt die Zielpopulation ohne angegebene Adresse aus (E-Mail, Postanschrift usw. je nach ausgewähltem Kanal). |
 | **[!UICONTROL Adresse auf Blockierungsliste]** | Alle | Schließt Adressen aus, die sich auf der Blockierungsliste befinden. |
 | **[!UICONTROL Duplikat]** | Alle | Schließt Duplikate anhand des Felds **[!UICONTROL Adresse]** der Zielpopulation aus. |
 | **[!UICONTROL Mobile Apps ausschließen]** | Mobile App | Schließt App-Anmeldungen aus, die nicht mit der in der Nachricht definierten Mobile App übereinstimmen. |
@@ -48,7 +53,7 @@ Auf diese Weise soll das Hinzufügen zur Blockierungsliste aufgrund von schädli
 >
 >Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandanalyse-Logs wird nur die Anzahl der ausgeschlossen Empfänger angegeben.
 
-## Filterregel erstellen         {#creating-a-filtering-rule}
+## Filterregel erstellen {#creating-a-filtering-rule}
 
 Sie können entsprechend Ihren Anforderungen eigene Filterregeln erstellen. Sie können beispielsweise die Zielpopulation von Newslettern so filtern, dass Abonnenten unter 18 Jahren keine Nachricht erhalten.
 
@@ -90,7 +95,7 @@ Standardmäßig werden für die Filterung **[!UICONTROL Profile]** herangezogen.
 
 ![](assets/typology_rule-order_2.png)
 
-## Anwendbarkeit einer Filterregel einschränken        {#restricting-the-applicability-of-a-filtering-rule}
+## Anwendbarkeit einer Filterregel einschränken {#restricting-the-applicability-of-a-filtering-rule}
 
 Sie können die Anwendbarkeit einer Filterregel je nach zu sendender Nachricht einschränken.
 

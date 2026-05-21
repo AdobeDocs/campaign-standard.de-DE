@@ -9,10 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '690'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/3WJ46WcDxxGM-6Cx6Owk-p0z6J4k6KVRx8TqdbKFz9c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 690
+ht-degree: 87%
 
 ---
 
@@ -66,7 +70,7 @@ Sie können nun mithilfe der gleichnamigen Schaltfläche den **[!UICONTROL Expor
 
 ![](assets/cusresources_export4.png)
 
-Auf das erstellte Package kann im Download-Ordner zugegriffen werden. Der Name der zip-Datei wird nach dem Zufallsprinzip vergeben. Sie können die Datei bei Bedarf umbenennen.
+Das generierte Paket ist im Ordner Downloads verfügbar. Der Name der ZIP-Datei wird nach dem Zufallsprinzip generiert. Sie können ihn umbenennen.
 
 ## Daten exportieren {#exporting-the-data}
 
@@ -98,7 +102,7 @@ Sie können nun mithilfe der gleichnamigen Schaltfläche den **[!UICONTROL Expor
 
 ![](assets/cusresources_exportdata5.png)
 
-Auf das erstellte Package kann im Download-Ordner zugegriffen werden. Der Name der zip-Datei wird nach dem Zufallsprinzip vergeben. Sie können die Datei bei Bedarf umbenennen.
+Das generierte Paket ist im Ordner Downloads verfügbar. Der Name der ZIP-Datei wird nach dem Zufallsprinzip generiert. Sie können ihn umbenennen.
 
 ## Struktur importieren {#importing-the-structure}
 
@@ -106,7 +110,7 @@ Auf das erstellte Package kann im Download-Ordner zugegriffen werden. Der Name d
 
 1. Loggen Sie sich in die **Zielinstanz** ein, in die Sie die gerade erstellten Packages importieren möchten.
 1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Bereitstellung]** / **[!UICONTROL Package-Importe]**, um ein neues Package zum Import der aus dem ersten Export hervorgehenden Datei zu erstellen.
-1. Ziehen Sie die **Strukturdatei** in den dafür vorgesehenen Bereich. Es werden die Formate ZIP oder XML unterstützt.
+1. Ziehen Sie die **Strukturdatei** per Drag-and-Drop in den hierfür vorgesehenen Bereich. Die akzeptierten Formate sind ZIP oder XML.
 
    ![](assets/cusresources_import2.png)
 
@@ -132,7 +136,7 @@ Der Schritt ist hier ebenfalls in zwei Etappen unterteilt: den Package-Import un
 ### Package importieren {#importing-the-data-package}
 
 1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Bereitstellung]** / **[!UICONTROL Package-Importe]**, um ein neues Package zum Import der die Daten enthaltenden Datei zu erstellen.
-1. Ziehen Sie die Datendatei in den dafür vorgesehenen Bereich. Es werden die Formate ZIP oder XML unterstützt.
+1. Ziehen Sie die Datendatei per Drag-and-Drop in den hierfür vorgesehenen Bereich. Die akzeptierten Formate sind ZIP oder XML.
 1. Ändern Sie den Titel z. B. in &quot;Daten importieren&quot; und wählen Sie **[!UICONTROL Speichern]** aus.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Import starten]**.
 

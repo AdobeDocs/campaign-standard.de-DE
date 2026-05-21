@@ -9,9 +9,16 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: 30d0c2552bea3a7cbd8500be4e8c0c74e5a40a99
-workflow-type: ht
-source-wordcount: '724'
+TQID: https://experienceleague.adobe.com/jxyxboMVl7lyXQZmiOqQX-kZukFyUtMZSAUMVBtoRak
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 728
 ht-degree: 100%
 
 ---
@@ -69,7 +76,7 @@ Mit dieser automatischen Antwort werden Ihre Empfänger automatisch vom Erhalt I
 
 Diese eingehenden SMS-Nachrichten können bei Bedarf gespeichert werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](#storing-incoming-sms).
 
-## Eingehende SMS speichern  {#storing-incoming-sms}
+## Eingehende SMS speichern {#storing-incoming-sms}
 
 Im externen Konto **[!UICONTROL SMS-Routing durch SMPP]** können Sie eingehende Nachrichten speichern, wenn beispielsweise ein Abonnent mit &quot;STOPP&quot; auf eine SMS-Nachricht antwortet, um von Ihren Empfängerlisten gelöscht zu werden.
 
@@ -83,7 +90,7 @@ Gehen Sie dabei folgendermaßen vor:
 
    ![](assets/sms_config_mo_2.png)
 
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Marketing-Aktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]**.
+1. Wählen Sie im Tab **[!UICONTROL Marketing-Aktivitäten]** die Option **[!UICONTROL Erstellen]** und dann **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 

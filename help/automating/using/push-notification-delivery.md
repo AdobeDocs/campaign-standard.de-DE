@@ -9,9 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '815'
+TQID: https://experienceleague.adobe.com/B-Za0p8ZN6AGt1reyaUID4B6IIzVHgNvOBil2XKpawA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 815
 ht-degree: 100%
 
 ---
@@ -29,7 +33,7 @@ Die Aktivität **[!UICONTROL Push-Benachrichtigung]** ermöglicht das Konfigurie
 * **Einmalige** Benachrichtigungen sind standardmäßige Mobile-App-Push-Benachrichtigungen, die einmal gesendet werden.
 * **Wiederkehrende** Versandaktionen ermöglichen den wiederholten Versand der gleichen Mobile-App-Push-Benachrichtigung über einen bestimmten Zeitraum an verschiedene Zielgruppen. Für Berichtzwecke können bei Bedarf die einzelnen Sendungen nach Zeiträumen aggregiert werden.
 
-## Anwendungskontext          {#context-of-use}
+## Anwendungskontext {#context-of-use}
 
 Die Aktivität **[!UICONTROL Push-Benachrichtigung]** dient im Allgemeinen dazu, den Versand von Benachrichtigungen an eine innerhalb des gleichen Workflows berechnete Zielgruppe zu automatisieren.
 
@@ -39,7 +43,7 @@ Die Empfänger werden in vorangeschalteten Zielgruppenbestimmungsaktivitäten de
 
 Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparametern des Workflows ausgelöst. Sie können im Nachrichten-Dashboard auswählen, ob eine manuelle Bestätigung zum Nachrichtenversand erforderlich ist oder nicht (standardmäßig erforderlich). Sie können den Workflow entweder manuell starten oder eine Planung verwenden, um die Ausführung zu automatisieren.
 
-**Verwandte Themen** 
+**Verwandte Themen**
 
 * [Wiederkehrende Push-Benachrichtigung mithilfe von Workflows versenden](../../automating/using/recurring-push-notifications.md)
 
@@ -73,8 +77,8 @@ Wenn Sie die Aktivität später erneut öffnen, gelangen Sie direkt in das Dashb
 
 Standardmäßig wird durch den Versand-Workflow nur die Vorbereitung der Nachricht ausgelöst. Der in einem Workflow erstellte Nachrichtenversand muss noch bestätigt werden, nachdem der Workflow gestartet wurde. Sie können aber im Nachrichten-Dashboard die Option **[!UICONTROL Vor dem Nachrichtenversand Bestätigung einholen]** deaktivieren. Dies ist jedoch nur möglich, wenn die Nachricht in einem Workflow erstellt wurde. Ist diese Option deaktiviert, werden Nachrichten ohne weiteren Hinweis gesendet, sobald die Vorbereitung abgeschlossen ist.
 
-## Bemerkungen          {#remarks}
+## Bemerkungen {#remarks}
 
 Auf die von einem Workflow aus erstellten Sendungen kann in der Marketing-Aktivitätenliste der Anwendung zugegriffen werden. Über das Dashboard lässt sich der Ausführungsstatus des Workflows visualisieren. Über die Links im Übersichtsmenü der Push-Benachrichtigung können Sie direkt auf verknüpfte Elemente wie den Workflow oder die Kampagne zugreifen.
 
-Ausgehend von den übergeordneten Sendungen, auf die über die Liste der Marketing-Aktivitäten zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration der **[!UICONTROL Push-Benachrichtigung]** festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu mithilfe der **[!UICONTROL -Schaltfläche die Detailansicht der Kachel]** Bereitstellung![](assets/wkf_dlv_detail_button.png) des übergeordneten Versands.
+Ausgehend von den übergeordneten Sendungen, auf die über die Liste der Marketing-Aktivitäten zugegriffen werden kann, lässt sich die Gesamtheit aller getätigten Sendungen visualisieren (in Abhängigkeit vom bei der Konfiguration der **[!UICONTROL Push-Benachrichtigung]** festgelegten Aggregat-Zeitraum). Öffnen Sie hierzu mithilfe der **[!UICONTROL -Schaltfläche die Detailansicht der]** Bereitstellung![](assets/wkf_dlv_detail_button.png)-Kachel des übergeordneten Versands.

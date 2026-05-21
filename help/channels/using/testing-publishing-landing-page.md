@@ -8,9 +8,14 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: af849377-686f-45b3-bf6e-5069a8966987
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '386'
+TQID: https://experienceleague.adobe.com/8RZopDxY3R2f-67RtWyh7xRwD6-c2BhR-tEmEeLGO3Y
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 389
 ht-degree: 100%
 
 ---
@@ -21,7 +26,7 @@ ht-degree: 100%
 
 Vor der Veröffentlichung einer Landingpage müssen Sie Tests durchführen: Validieren Sie die Ausführung, konfigurieren Sie den Zugriff darauf und legen Sie das Funktionsende der Landingpage fest. Diese Maßnahmen sind erforderlich und müssen mit Sorgfalt ausgeführt werden.
 
-## Landingpage testen         {#testing-the-landing-page-}
+## Landingpage testen {#testing-the-landing-page-}
 
 Da die Landingpage Auswirkungen auf Ihre Plattform und Ihre Daten hat, muss sie sorgfältig getestet werden. Gehen Sie dazu wie folgt vor:
 
@@ -45,7 +50,7 @@ Bei Bedarf können Sie in diesem Bildschirm auch eine Miniaturansicht der Landin
 >
 >Um die Vorschau der Landingpage in der Campaign-Benutzeroberfläche anzuzeigen, muss die URL des Anwendungs-Servers sicher sein. Verwenden Sie in diesem Fall https:// anstelle von http://, um diese URL beim [Konfigurieren Ihrer Marke](../../administration/using/branding.md#configuring-and-using-brands) einzurichten.
 
-## Gültigkeitsparameter einrichten         {#setting-up-validity-parameters}
+## Gültigkeitsparameter einrichten {#setting-up-validity-parameters}
 
 Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Performance vor der Veröffentlichung in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Bei Erreichen des angegebenen Datums wird die Veröffentlichung der Landingpage automatisch aufgehoben. Gehen Sie dazu wie folgt vor:
 
@@ -65,7 +70,7 @@ Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Performanc
 >
 >Sie können auch ein Bereitstellungsdatum und die entsprechende Uhrzeit definieren. Die Landingpage wird dann automatisch am angegebenen Datum veröffentlicht.
 
-## Landingpage veröffentlichen   {#publishing-a-landing-page}
+## Landingpage veröffentlichen {#publishing-a-landing-page}
 
 Wenn Sie eine Landingpage veröffentlichen, ist sie online für Besucher verfügbar.
 

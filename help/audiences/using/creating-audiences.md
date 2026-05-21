@@ -9,9 +9,13 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '1017'
+TQID: https://experienceleague.adobe.com/ezjnDdGh2ZoRmrZN088QgZQh1NAtsequFpjK9VH6alk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1017
 ht-degree: 100%
 
 ---
@@ -75,7 +79,7 @@ Gehen Sie zur Erstellung einer Zielgruppe vom Typ **Liste** wie folgt vor:
 
    ![](assets/audiences_list_4.png)
 
-## Zielgruppen vom Typ Datei erstellen      {#creating-file-audiences}
+## Zielgruppen vom Typ Datei erstellen {#creating-file-audiences}
 
 In diesem Abschnitt wird die Erstellung einer Zielgruppe vom Typ **Datei** mithilfe eines Dateiimports in einem Workflow beschrieben. Zusätzlich können Sie Audiences im Anschluss an eine Zielgruppenbestimmung in einem [Workflow](../../automating/using/get-started-workflows.md) oder im **[!UICONTROL Audiences]**-Menü mithilfe einer Abfrage erstellen.
 
@@ -97,7 +101,7 @@ Gehen Sie zur Erstellung einer Zielgruppe vom Typ **Datei** wie folgt vor:
 
    ![](assets/audience_files_3.png)
 
-## Erstellen von Experience Cloud-Audiences      {#creating-experience-cloud-audiences}
+## Erstellen von Experience Cloud-Audiences {#creating-experience-cloud-audiences}
 
 Adobe Campaign ermöglicht die gemeinsame Nutzung von Zielgruppen mit Adobe Experience Cloud. Eine Audience vom Typ **Experience Cloud** wird direkt von People Core Service in Adobe Campaign mit dem technischen Workflow **[!UICONTROL Freigegebene Zielgruppe importieren]** importiert.
 
@@ -122,7 +126,7 @@ Die Vorgehensweise zur Bearbeitung von Zielgruppen hängt vom jeweiligen Typ ab:
 * Um eine Zielgruppe vom Typ **Liste** oder vom Typ **Datei** zu ändern, öffnen Sie den Workflow, von dem aus sie erstellt wurde, und ändern Sie die Aktivität **[!UICONTROL Zielgruppe speichern]** ab. Starten Sie den Workflow, damit die Änderungen für die Zielgruppe übernommen werden.
 * Weiterführende Informationen dazu, wie Sie Zielgruppen vom Typ **Experience Cloud** bearbeiten, finden Sie im Abschnitt [Importieren/Exportieren von Zielgruppen mit People Core Service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).
 
-## Zielgruppen löschen      {#deleting-audiences}
+## Zielgruppen löschen {#deleting-audiences}
 
 Es gibt zwei Möglichkeiten, um eine oder mehrere Zielgruppen zu löschen. Die erste Möglichkeit besteht darin, zu Ihrer Zielgruppe ein Ablaufdatum hinzuzufügen.
 

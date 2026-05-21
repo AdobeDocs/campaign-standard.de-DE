@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '661'
+TQID: https://experienceleague.adobe.com/YTcYEg46GzZ83wU8cfw8UgRbcUNzTVSwhjILIq1n6Ss
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 663
 ht-degree: 100%
 
 ---
@@ -43,7 +48,7 @@ Opt-out-Status (z. B. Blockierungsliste) können in Microsoft Dynamics 365 mit A
 
 ## Workflow-Rückstand
 
-Diese Integrationsanwendung liest zuerst Daten ein und schreibt dann Daten in das Ziel. Die Spalte **[!UICONTROL Rückstand]** gibt die Anzahl der Einträge an, die in die Warteschlange gestellt wurden und darauf warten, geschrieben zu werden. Es ist zu erwarten, dass dieser Wert zunimmt, wenn Sie eine große Datenmenge verarbeiten müssen (z. B. wenn Sie die Integration zum ersten Mal ausführen, die Daten erneut abspielen usw.). 
+Diese Integrationsanwendung liest zuerst Daten ein und schreibt dann Daten in das Ziel. Die Spalte **[!UICONTROL Rückstand]** gibt die Anzahl der Einträge an, die in die Warteschlange gestellt wurden und darauf warten, geschrieben zu werden. Es ist zu erwarten, dass dieser Wert zunimmt, wenn Sie eine große Datenmenge verarbeiten müssen (z. B. wenn Sie die Integration zum ersten Mal ausführen, die Daten erneut abspielen usw.).
 
 >[!NOTE]
 >Wenn Ihre Microsoft Dynamics 365- und/oder Campaign-Datensätze nicht aktualisiert werden, sollten Sie zunächst prüfen, ob eine große Anzahl von Datensätzen darauf wartet, in das Ziel geschrieben zu werden.

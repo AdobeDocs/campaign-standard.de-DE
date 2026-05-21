@@ -9,10 +9,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '643'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/PRwXxoE4v-Nn8gLT-7-2hbEe3IOiXT2dXTylTwHcmGs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 738
+ht-degree: 89%
 
 ---
 
@@ -38,7 +43,7 @@ Die Microsoft Dynamics 365-Anmeldedaten geben der Integrationsanwendung die Bere
 
 ### Adobe-API-Anmeldedaten
 
-Die Adobe Campaign-Anmeldedaten werden mit [Adobe I/O](https://www.adobe.io/) generiert. Sie müssen zuerst den Bildschirm [Adobe I/O konfigurieren](../../integrating/using/d365-acs-configure-adobe-io.md) aufrufen und den Anweisungen folgen, bevor Sie die erforderlichen Felder in diesem Abschnitt ausfüllen können.
+Die Adobe Campaign-Anmeldeinformationen werden mit [Adobe I/O](https://www.adobe.io/) generiert. Sie müssen den Bildschirm [Konfigurieren von Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) aufrufen und den Anweisungen dort folgen, bevor Sie die Eingaben in diesem Abschnitt ausfüllen können.
 
 * Wählen Sie als Authentifizierungstyp „Oauth“ aus, da die JWT-basierte Authentifizierung nicht mehr unterstützt wird.
 * In der folgenden Abbildung wird die Zuordnung zwischen Adobe I/O und den Eingaben im Einstellungsbildschirm im Detail erläutert.
@@ -55,7 +60,7 @@ Ein weiterer Grund für die Einrichtung des SFTP-Servers wäre, wenn Sie den Opt
 
 >[!IMPORTANT]
 >
->Sie sind für die Informationen verantwortlich, die Sie aus den SFTP-Ordnern abrufen und herunterladen. Wenn die Informationen personenbezogene Daten enthalten, sind Sie für die Einhaltung der geltenden Datenschutzgesetze und -bestimmungen verantwortlich. [Weitere Informationen](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+>Sie selbst sind für die Informationen verantwortlich, die Sie aus den SFTP-Ordnern abrufen und herunterladen. Wenn die Informationen personenbezogene Daten enthalten, sind Sie für die Einhaltung der geltenden Datenschutzgesetze und -bestimmungen verantwortlich. [Weitere Informationen](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 >
 
 Informationen zur Definition der Campaign-SFTP-Einstellungen für die Integration mit Microsoft Dynamics 365 finden Sie im folgenden Abschnitt:
@@ -72,7 +77,7 @@ Sie müssen Folgendes angeben:
 
 * Die **IP-Bereiche** müssen in Ihrer Adobe Campaign-SFTP-Konfiguration enthalten sein. Diese müssen auf die Zulassungsliste gesetzt werden, damit die Integration den SFTP-Endpunkt nutzen kann.
 
-* Mit der Option **Möchten Sie Protokolle in Ihr Adobe Campaign-SFTP exportieren?** können Sie festlegen, ob die Integration Protokollinformationen an den SFTP-Endpunkt ausgibt. Dies kann bei der Fehlersuche helfen, wenn Adobe Campaign oder Microsoft Dynamics 365 nicht die erwarteten Informationen anzeigt.
+* Die **Möchten Sie Protokolle in Ihr Adobe Campaign-SFTP exportieren?** ermöglicht es Ihnen festzustellen, ob die Integration Protokollinformationen an den SFTP-Endpunkt ausgibt. Dies kann bei der Fehlersuche helfen, wenn Adobe Campaign oder Microsoft Dynamics 365 nicht die erwarteten Informationen anzeigt.
 
 ## SFTP-Einrichtung in Adobe Campaign {#ac-control-panel-settings}
 
@@ -86,7 +91,7 @@ Machen Sie sich in diesen Abschnitten mit der SFTP-Verwaltung über das [Campaig
 
 * [Schlüssel verwalten](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=de#sftp-management)
 
-* [Bei Ihrem SFTP-Server anmelden](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=de#sftp-management)
+* [Anmelden bei Ihrem SFTP-Server](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=de#sftp-management)
 
 Sobald die Konfiguration abgeschlossen ist, melden Sie sich mit dem privaten Schlüssel beim SFTP-Server an und erstellen Sie das Verzeichnis &quot;d365_loads/exports&quot;.
 

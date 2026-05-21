@@ -9,9 +9,15 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: ht
-source-wordcount: '413'
+TQID: https://experienceleague.adobe.com/3qM5opRzD4u8HV5PALkfERzsLnWx1AsLuaDs8frG-Ic
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 413
 ht-degree: 100%
 
 ---
@@ -24,7 +30,7 @@ Prüfen Sie vor dem Nachrichtenversand außerdem, ob die Parameter und die Konfi
 
 ## Warum die Validierung wichtig ist {#validation-is-key}
 
-Bevor Sie einen Versand durchführen, müssen Sie sicherstellen, dass Ihre Empfänger bzw. Empfängerinnen tatsächlich die Nachricht erhalten, die Sie ihnen senden möchten.Dazu müssen Sie den Nachrichteninhalt und die Versandparameter validieren.
+Bevor Sie einen Versand durchführen, müssen Sie sicherstellen, dass Ihre Empfänger bzw. Empfängerinnen tatsächlich die Nachricht erhalten, die Sie ihnen senden möchten. Dazu müssen Sie den Nachrichteninhalt und die Versandparameter validieren.
 
 Durch diese Maßnahme können Sie mögliche Fehler erkennen und beheben, bevor Sie den Versand an Ihre Hauptzielgruppe durchführen.
 
@@ -40,7 +46,7 @@ Zu diesem Zweck unterstützt Adobe Campaign das Rendering und stellt dessen Erge
 
 * Sie können sich ansehen, wie Nachrichten je nach verwendetem Empfangsmedium (Mobilgeräte, Web-Clients etc.) beim Empfänger dargestellt werden.
 
-* E-Mail-Rendering-Funktionen sind von entscheidender Bedeutung, um festzustellen, ob Ihre E-Mail-Kampagnen die Filter der wichtigsten ISPs (Internet Service Provider) und Webmail-Dienste erfolgreich passieren.Solche Tools senden eine Pre-Flight-Kopie einer E-Mail an ein Netzwerk von Test-Posteingängen, sodass Sie sehen können, wie die Nachricht über diese Dienste hinweg angezeigt oder gerendert wird. Sie können auch Berichte und Optionen zur Code-Korrektur enthalten, mit denen Sie schnell Korrekturen zur Verbesserung der Zustellbarkeit ermitteln und vornehmen können.
+* E-Mail-Rendering-Funktionen sind von entscheidender Bedeutung, um festzustellen, ob Ihre E-Mail-Kampagnen die Filter der wichtigsten ISPs (Internet Service Provider) und Webmail-Dienste erfolgreich passieren. Solche Tools senden eine Pre-Flight-Kopie einer E-Mail an ein Netzwerk von Test-Posteingängen, sodass Sie sehen können, wie die Nachricht über diese Dienste hinweg angezeigt oder gerendert wird. Sie können auch Berichte und Optionen zur Code-Korrektur enthalten, mit denen Sie schnell Korrekturen zur Verbesserung der Zustellbarkeit ermitteln und vornehmen können.
 
 Weitere Informationen finden Sie in [diesem Abschnitt](../../sending/using/email-rendering.md).
 

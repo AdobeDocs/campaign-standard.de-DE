@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '849'
+TQID: https://experienceleague.adobe.com/PQ8Xf9wScBLj1ooFZW5fe-LOzhZy3jeq8pajISxQcK8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 857
 ht-degree: 100%
 
 ---
@@ -28,7 +33,7 @@ Das Adobe-Team benötigt die folgenden Informationen, um Triggers zu aktivieren:
 * Organization ID (Organisationskennung)
 * Analytics-Unternehmensanmeldung (kann identisch mit dem Experience Cloud-Unternehmensnamen sein)
 
-## Lösungen und Dienste konfigurieren       {#configuring-solutions-and-services}
+## Lösungen und Dienste konfigurieren {#configuring-solutions-and-services}
 
 Damit Sie diese Funktion verwenden können, benötigen Sie Zugriff auf folgende Lösungen/Core Services:
 
@@ -56,7 +61,7 @@ Zusätzlich benötigen Sie eine funktionierende Website.
 
 Um diese Anwendungsbeispiele auszuführen, müssen Sie [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) und [Campaign](#configuring-triggers-and-aliases-in-campaign) konfigurieren.
 
-### Experience Cloud DTM Core Service konfigurieren       {#configuring-experience-cloud-dtm-core-service}
+### Experience Cloud DTM Core Service konfigurieren {#configuring-experience-cloud-dtm-core-service}
 
 1. Aktivieren Sie in Experience Cloud DTM Core Service (Dynamic Tag Management) Experience Cloud ID und Adobe Analytics für Ihre Webseiten.
 
@@ -66,7 +71,7 @@ Um diese Anwendungsbeispiele auszuführen, müssen Sie [Experience Cloud DTM Cor
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Experience Cloud People Core Service konfigurieren       {#configuring-experience-cloud-people-core-service}
+### Experience Cloud People Core Service konfigurieren {#configuring-experience-cloud-people-core-service}
 
 Das zuvor in DTM referenzierte Alias muss in Experience Cloud People Core Service mit einem Kundenattribut erstellt werden. Erstellen Sie ein neues und referenzieren Sie dasselbe DTM-Alias im Integrationscode (z. B. &quot;visitorid&quot;).
 
@@ -76,7 +81,7 @@ Das zuvor in DTM referenzierte Alias muss in Experience Cloud People Core Servic
 >
 >Dieses Kundenattribut werden wir im nächsten Schritt in der Datenquelle in Adobe Campaign verwenden.
 
-### Trigger und Aliasse in Campaign konfigurieren       {#configuring-triggers-and-aliases-in-campaign}
+### Trigger und Aliasse in Campaign konfigurieren {#configuring-triggers-and-aliases-in-campaign}
 
 1. Vergewissern Sie sich, dass **[!UICONTROL Experience Cloud-Trigger]** in Ihrer Adobe Campaign Standard-Instanz sichtbar sind. Ist dies nicht der Fall, kontaktieren Sie den Adobe Campaign-Administrator.
 
@@ -90,7 +95,7 @@ Das zuvor in DTM referenzierte Alias muss in Experience Cloud People Core Servic
    >
    >Sie können Trigger für sowohl anonyme als auch angemeldete Benutzer abstimmen. Im Fall von anonymen Benutzern ist zu beachten, dass das Profil in Adobe Campaign existieren muss und dem Benutzer zuvor eine E-Mail gesendet worden sein muss. Dazu ist die Konfiguration der Besucher-ID ausreichend. Wenn Sie jedoch Trigger für angemeldete Benutzer abstimmen möchten, muss eine Declared ID-Datenquelle eingerichtet werden. Lesen Sie diesbezüglich auch den Abschnitt [Konfiguration der Datenquelle](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
-## Trigger in der Experience Cloud-Benutzeroberfläche erstellen       {#creating-a-trigger-in-the-experience-cloud-interface}
+## Trigger in der Experience Cloud-Benutzeroberfläche erstellen {#creating-a-trigger-in-the-experience-cloud-interface}
 
 Ein Adobe Experience Cloud-Trigger muss erst erstellt werden, damit er in Campaign verwendet werden kann.
 

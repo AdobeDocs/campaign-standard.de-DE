@@ -8,10 +8,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
+TQID: https://experienceleague.adobe.com/q4g-LFCqxGuz-d400R4m7GZ-d74L6iCzWBF6at8xjIE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2753'
-ht-degree: 100%
+source-wordcount: 2773
+ht-degree: 99%
 
 ---
 
@@ -163,7 +168,7 @@ Der Inhaltsbaustein kann nun im Inhaltseditor einer Nachricht oder einer Landing
 >
 >Achten Sie darauf, dass beim Bearbeiten des Inhalts eines Bausteins keine zusätzlichen Leerzeichen zwischen dem Anfang und dem Ende Ihrer *if*-Anweisungen vorhanden sind. In HTML werden die Leerzeichen auf dem Bildschirm angezeigt und wirken sich daher auf die Darstellung des Inhalts aus.
 
-### Über Zielgruppendimensionen             {#about-targeting-dimension}
+### Über Zielgruppendimensionen {#about-targeting-dimension}
 
 Mit der Zielgruppendimension können Sie festlegen, in welchem Nachrichtentyp Sie den Inhaltsbaustein verwenden können. Auf diese Weise wird verhindert, dass in einer Nachricht unpassende Bausteine verwendet werden, die zu Fehlern führen könnten.
 
@@ -217,7 +222,7 @@ Diese Option steht nur für folgende Elemente zur Verfügung: ADDRESS, BLOCKQUOT
 
 Weiterführende Informationen zum Ausdruckseditor finden Sie im Abschnitt [Ausdrucksbearbeitung](../../automating/using/editing-queries.md#about-query-editor).
 
-Diese Bedingungen übernehmen die XTK-Ausdruckssyntax (z. B. **context.profile.email !=&#39;&#39;** oder **context.profile.status=&#39;0&#39;**). Standardmäßig werden alle Felder angezeigt.
+Diese Bedingungen übernehmen die XTK-Ausdruckssyntax (z. B. **context.profile.email !=&#39;&#39;** oder **context.profile.status=&#39;0&#39;**). Standardmäßig werden alle Felder angezeigt.
 
 >[!NOTE]
 >
@@ -281,7 +286,7 @@ Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtb
 
    Beispielsweise könnten Sie Personen zwischen 26 und 35 Jahren ein anderes Bild anzeigen lassen.
 
-1. Gehen Sie für alle anderen Elemente Ihrer E-Mail, die dynamisch angezeigt werden soll, analog vor. Dabei kann es sich um Text, Schaltflächen, Fragmente etc. handeln. Speichern Sie Ihre Änderungen.
+1. Gehen Sie für alle anderen Elemente Ihrer E-Mail, die dynamisch angezeigt werden soll, analog vor. Dabei kann es sich um Text, Schaltfläche, Fragment usw. handeln. Speichern Sie Ihre Änderungen.
 
 >[!CAUTION]
 >
@@ -373,7 +378,7 @@ Gehen Sie wie folgt vor:
 
 Die dynamischen Inhalte für die Illustrationen wurden korrekt konfiguriert.
 
-### Text konfigurieren             {#configuring-text}
+### Text konfigurieren {#configuring-text}
 
 Gehen Sie wie folgt vor:
 
@@ -403,7 +408,7 @@ Gehen Sie wie folgt vor:
 
 Die Personalisierungsfelder wurden korrekt in den ausgewählten dynamischen Inhalt eingefügt.
 
-### Vorschau der E-Mail erzeugen             {#previewing-emails}
+### Vorschau der E-Mail erzeugen {#previewing-emails}
 
 Anhand der Vorschau kann geprüft werden, ob die Personalisierungsfelder und die dynamischen Inhalte korrekt konfiguriert wurden, bevor die **[!UICONTROL Testsendungen]** erzeugt werden. Bei der Vorschau können verschiedene Testprofile ausgewählt werden, die den verschiedenen Zielgruppen der E-Mail entsprechen.
 

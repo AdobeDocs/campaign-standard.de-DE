@@ -9,9 +9,15 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '560'
+TQID: https://experienceleague.adobe.com/Y9oiKbi65Zl6pRoi10SHvEecQ5zeWbpK0rBLAhsPliE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 574
 ht-degree: 100%
 
 ---
@@ -27,7 +33,7 @@ Informationen zu erweiterten SMS-Parametern finden Sie im Abschnitt [SMS-Konfigu
 Folgende Voraussetzungen müssen gegeben sein, um SMS-Nachrichten an Mobiltelefone senden zu können:
 
 * ein externes Konto vom Typ **[!UICONTROL Routing]**, das für den Kanal **[!UICONTROL Mobiltelefon (SMS)]** mit dem Versandmodus **[!UICONTROL Gebündelter Versand]** konfiguriert wurde. Lesen Sie diesbezüglich auch den Abschnitt [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
-* Eine Versandvorlage, die auf das externe Konto Bezug nimmt
+* Eine Versandvorlage, die auf das externe Konto Bezug nimmt.
 
 1. Erstellen Sie einen SMS-Versand. Ein Versand kann über die Adobe Campaign-[Startseite](../../start/using/interface-description.md#home-page), im Rahmen einer [Kampagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) oder in der [Liste der Marketing-Aktivitäten](../../start/using/programs-and-campaigns.md#creating-a-campaign) erstellt werden.
 
@@ -89,6 +95,6 @@ Nach Abschluss des Versands können Sie die Wirkung der Nachricht mithilfe integ
 
 In diesem Video wird gezeigt, wie man einen SMS-Versand erstellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/30537/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
 Weitere Anleitungsvideos zu Campaign Standard finden Sie [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de).

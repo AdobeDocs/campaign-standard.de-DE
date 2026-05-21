@@ -8,10 +8,15 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/NWtd6wo3BgCFapPO6lVQAcVk8KUud-ioDf1-6MzXfw0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 100%
+source-wordcount: 1333
+ht-degree: 96%
 
 ---
 
@@ -19,7 +24,7 @@ ht-degree: 100%
 
 Weiterführende Informationen zur Kompatibilität zwischen Dimensionen und Metriken finden Sie in dieser [Tabelle](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Wenn zwei Komponenten nicht kompatibel sind, zeigt die Zelle den Wert **Kein** an.
 
-[![Bild](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=de)
+[![Bild](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 ## Dimensionen {#dimensions}
 
@@ -83,7 +88,7 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
   </tr> 
   <tr> 
    <td> Profil<br /> </td> 
-   <td> Fasst native und benutzerdefinierte Profilfelder zusammen, die während der Erweiterung der Profilressource erstellt wurden. Weiterführende Informationen dazu finden Sie auf dieser <a href="../../developing/using/key-steps-to-add-a-resource.md">Seite</a> und in diesem <a href="../../reporting/using/creating-a-custom-profile-dimension.md">Beispiel</a>.<br /> Beachten Sie, dass Daten für diese Dimension abgerufen werden, sobald die mit dem Profilfeld verknüpfte benutzerdefinierte Ressource veröffentlicht wird.<br /> </td> 
+   <td> Gruppiert vordefinierte und benutzerdefinierte Profilfelder neu, die während der Profilressourcenerweiterung erstellt wurden. Weitere Informationen hierzu finden Sie auf dieser <a href="../../developing/using/key-steps-to-add-a-resource.md">Seite</a> oder in diesem <a href="../../reporting/using/creating-a-custom-profile-dimension.md">Beispiel</a>.<br /> Beachten Sie, dass Daten für diese Dimension abgerufen werden, sobald die mit dem Profilfeld verknüpfte benutzerdefinierte Ressource veröffentlicht wird.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push-Plattform<br /> </td> 
@@ -132,11 +137,11 @@ In der Tabelle unten finden Sie die Liste der Dimensionen, die in Berichten verw
  </tbody> 
 </table>
 
-## Metriken             {#metrics}
+## Metriken {#metrics}
 
 In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
-### Metriken zu E-Mail und SMS             {#email-and-sms-metrics}
+### Metriken zu E-Mail und SMS {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -231,7 +236,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Prozentsatz der Nachrichten, die als abgelehnt gekennzeichnet wurden<br /> </td> 
   </tr> 
   <tr> 
-   <td> Softbounce<br /> </td> 
+   <td> Softbounces<br /> </td> 
    <td> Gesamtzahl der temporären Fehler, beispielsweise einer vollen Inbox<br /> </td> 
   </tr> 
   <tr> 
@@ -261,7 +266,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu Push-Benachrichtigungen             {#push-notification-metrics}
+### Metriken zu Push-Benachrichtigungen {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -326,7 +331,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu In-App-Nachrichten             {#in-app-metrics}
+### Metriken zu In-App-Nachrichten {#in-app-metrics}
 
 <table> 
  <thead> 

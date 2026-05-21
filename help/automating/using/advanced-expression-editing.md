@@ -10,10 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '1104'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1107
+ht-degree: 95%
 
 ---
 
@@ -36,7 +39,7 @@ Die Ausdrucksbearbeitung findet in folgenden Fällen Verwendung:
 * beim Bearbeiten eines Ausdrucks in einem Workflow; beispielsweise beim Hinzufügen von Zusatzdaten in eine Aktivität;
 * bei der Erstellung einer Sichtbarkeitsbedingung im HTML-Content-Editor. In diesem Fall handelt es sich um JavaScript-Ausdrücke. Die Verwendung der klassischen fortgeschrittenen Funktionen ist hier nicht möglich.
 
-## Ausdruck bearbeiten  {#edit-an-expression}
+## Ausdruck bearbeiten {#edit-an-expression}
 
 Durch die Bearbeitung erweiterter Ausdrücke können Sie manuell Ausdrücke definieren, die Ihren spezifischen Bedürfnissen entsprechen.
 
@@ -65,7 +68,7 @@ Durch die Bearbeitung eines Ausdrucks können Sie den Zielgruppen-Ausdruck perso
 * [Syntax von Ausdrücken](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Funktionsliste](../../automating/using/list-of-functions.md)
 
-## Syntax von Ausdrücken  {#expression-syntax}
+## Syntax von Ausdrücken {#expression-syntax}
 
 ### Standardsyntax {#standard-syntax}
 
@@ -94,7 +97,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 In diesem Beispiel werden die Profile ausgegeben, bei denen das Erstellungsdatum mit dem aktuellen Jahr und Monat übereinstimmt.
 
-### JavaScript-Syntax  {#javascript-syntax}
+### JavaScript-Syntax {#javascript-syntax}
 
 Bei der Definition von Sichtbarkeitsbedingungen in einem Textblock des HTML-Inhaltseditiors sind Ausdrücke mit JavaScript-Syntax zu verwenden.
 
@@ -102,7 +105,7 @@ JavaScript-Ausdrücke bestehen aus einer oder mehreren Bedingungen, die die folg
 
 * Jede Bedingung hat die Form **&lt;Kontext> &lt;Vergleichsoperator> &lt;Wert 2>**, wobei
 
-   * **&lt;Kontext>** einem Feld oder einer Funktion entspricht, die es ermöglichen, den Kontext anzugeben. Beispiel **context.profile.@email** steht für die E-Mail-Adresse eines Profils und **context.profile.firstName.length()** für die Anzahl an Zeichen des Vornamens eines Profils.
+   * **&lt;Kontext>** einem Feld oder einer Funktion entspricht, die es ermöglichen, den Kontext anzugeben. Beispiel: **context.profile.@email** für die E-Mail-Adresse eines Profils oder **context.profile.firstName.length()** für die Anzahl der Zeichen im Vornamen eines Profils.
    * **&lt;Vergleichsoperator>** ist einer der im Abschnitt [Vergleichsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators) aufgelisteten Operatoren. Der Operator definiert die Art des Vergleichs zwischen **&lt;Kontext>** und **&lt;Wert 2>**.
    * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
 
@@ -123,7 +126,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 In diesem Beispiel werden die Profile ausgegeben, die über 21 Jahre alt sind und deren Vorname angegeben ist (das Feld **firstName** enthält mindestens ein Zeichen).
 
-## Vergleichsoperatoren  {#comparison-operators}
+## Vergleichsoperatoren {#comparison-operators}
 
 Bei manchen Regeln können Sie über den Abfrage-Editor einen Wert auswählen.
 
@@ -180,7 +183,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
    <td> !=<br /> </td> 
    <td> !=<br /> </td> 
    <td> Der erste Wert muss sich vom zweiten unterscheiden.<br /> </td> 
-   <td> <strong>@Sprache != Englisch</strong> ruft Profile ab, für die im Feld „Sprache“ nicht Englisch angegeben ist.<br /> </td> 
+   <td> <strong>@language != Englisch</strong> ruft Profile ab, für die im Feld „Sprache“ nicht Englisch angegeben ist.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Enthält</span> <br /> </td> 
@@ -201,7 +204,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
    <td> NOT<br /> </td> 
    <td> K. A.<br /> </td> 
    <td> Negative Form des Operators <span class="uicontrol">ist wie</span>. Hier dürfen die ausgegebenen Daten nicht dem angegebenen Wert ähneln. Auch in diesem Fall ist der Platzhalter <span class="uicontrol">%</span> zu verwenden.<br /> </td> 
-   <td> <strong>@lastName NOT Schmi%t</strong>. Alle Empfänger mit Nachnamen Schmiedt, Schmidt, Schmitt etc. werden ausgeschlossen.<br /> </td> 
+   <td> <strong>@lastName NOT Schmi%t</strong>. Hier entsprechen die Empfängerinnen und Empfänger dem Namen „Smi%h“ (also Smith usw.) werden als Ergebnis nicht zurückgegeben.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Ist leer</span> <br /> </td> 

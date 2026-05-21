@@ -9,10 +9,15 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/EAQzeoYku9S-ZThn-x3IBpLetTHqO2zNeY1ZsWQKVPE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 582
+ht-degree: 93%
 
 ---
 
@@ -26,7 +31,7 @@ Typologieregeln sind Geschäftsregeln, mit denen Sie eine Nachricht prüfen und 
 
 * **Ermüdungsregeln**: Damit können Sie eine Höchstzahl an Nachrichten festlegen, die an jedes Profil gesendet wird. Auf diese Weise stellen Sie sicher, dass die einzelnen Profile nicht zu häufig angesprochen werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/fatigue-rules.md).
 
-* **Kontrollregeln**: Damit kann der Anwender die Gültigkeit und Qualität der Nachrichten vor dem Versand überprüfen. Dabei werden beispielsweise die Zeichenanzeige, die Größe von SMS-Nachrichten, das Adressformat usw. überprüft. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/control-rules.md).
+* **Kontrolle** Regeln: Mit dieser Art von Regeln kann der Benutzer die Gültigkeit und Qualität der Nachrichten überprüfen, bevor sie gesendet werden, z. B. die Zeichenanzeige, die Größe der SMS-Nachricht, das Adressformat usw. Weiterführende Informationen hierzu finden Sie [diesem Abschnitt](../../sending/using/control-rules.md).
 
 Typologieregeln sind verfügbar über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Typologien]** > **[!UICONTROL Typologieregeln]**.
 
@@ -58,7 +63,7 @@ Die wichtigsten Schritte zum Erstellen einer Typologieregel sind:
 
 1. Bestätigen Sie nach Auswahl aller Typologien die Erstellung der Typologieregel mit **[!UICONTROL Erstellen]**.
 
-## Ausführungsreihenfolge von Typologieregeln        {#typology-rules-execution-order}
+## Ausführungsreihenfolge von Typologieregeln {#typology-rules-execution-order}
 
 Die Typologieregeln werden in der Reihenfolge ausgeführt, die während der Zielgruppenbestimmung, Analyse und Nachrichtenpersonalisierung festgelegt wird.
 

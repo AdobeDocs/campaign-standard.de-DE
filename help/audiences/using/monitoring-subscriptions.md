@@ -8,9 +8,13 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '357'
+TQID: https://experienceleague.adobe.com/jHYwTvEq0C1VKagn885L8zk5RFXJFO-ySYqMjN31nyo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 357
 ht-degree: 100%
 
 ---
@@ -26,7 +30,7 @@ Zur Verfolgung des An- und Abmeldeverhaltens bieten sich Ihnen verschiedene Opti
 * Öffnen Sie einen Bericht zur An- und Abmeldeentwicklung im Bereich **Bericht** des Dienstes. Siehe [Dienst-Berichte](#service-reports).
 * Öffnen Sie im Bereich **Profil** die Liste der Dienste, für die sich eine Person angemeldet hat. Siehe [Ereignisverlauf eines Profils](#history-of-events-linked-to-a-profile).
 
-## Dienst-Dashboard     {#service-dashboard}
+## Dienst-Dashboard {#service-dashboard}
 
 Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Dienst angemeldet sind:
 
@@ -36,7 +40,7 @@ Gehen Sie wie folgt vor, um die Liste der Kontakte anzuzeigen, die für einen Di
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Abonnementverläufe     {#subscription-history}
+## Abonnementverläufe {#subscription-history}
 
 Gehen Sie wie folgt vor, um den An- und Abmeldeverlauf anzuzeigen:
 
@@ -46,7 +50,7 @@ Gehen Sie wie folgt vor, um den An- und Abmeldeverlauf anzuzeigen:
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Dienst-Berichte     {#service-reports}
+## Dienst-Berichte {#service-reports}
 
 Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeigen:
 
@@ -60,7 +64,7 @@ Gehen Sie wie folgt vor, um den Bericht zur An- und Abmeldeentwicklung anzuzeige
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## Ereignisverlauf eines Profils     {#history-of-events-linked-to-a-profile}
+## Ereignisverlauf eines Profils {#history-of-events-linked-to-a-profile}
 
 Um festzustellen, für welche Dienste sich ein Kontakt angemeldet hat, können Sie die Liste im Marketing-Verlauf des entsprechenden Profils zu Rate ziehen. Näheres hierzu finden Sie im Abschnitt [Integriertes Kundenprofil](../../audiences/using/integrated-customer-profile.md).
 

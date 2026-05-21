@@ -8,9 +8,14 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
-source-wordcount: '649'
+TQID: https://experienceleague.adobe.com/0nQFLX-FzzajBKqGZO-MCnpS9zP5-tRNllV366m8hbs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 662
 ht-degree: 100%
 
 ---
@@ -45,7 +50,7 @@ Gehen Sie wie folgt vor, um unter Verwendung von Testprofilen die Vorschau einer
 
    ![](assets/sending_preview_edit.png)
 
-**Verwandte Themen** 
+**Verwandte Themen**
 
 * [Testprofile verwalten](../../audiences/using/managing-test-profiles.md)
 * [E-Mail-Nachrichten mit Zielgruppenprofilen testen](../../sending/using/testing-messages-using-target.md)
@@ -53,7 +58,7 @@ Gehen Sie wie folgt vor, um unter Verwendung von Testprofilen die Vorschau einer
 
 ## Vorschau von SMS-Nachrichten erzeugen {#previewing-sms}
 
-Bei **SMS**-Nachrichten können Sie mit Campaign Standard unter Verwendung von Testprofilen eine Vorschau der Nachricht anzeigen. So erhalten Sie eine genaue Darstellung der Nachricht, die ein bestimmtes Profil erhalten wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
+Bei **SMS**-Nachrichten können Sie mit Campaign Standard unter Verwendung von Testprofilen eine Vorschau der Nachricht anzeigen. So erhalten Sie eine genaue Darstellung der Nachricht, die ein bestimmtes Profil empfangen wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
 
 Gehen Sie wie folgt vor, um unter Verwendung von Testprofilen die Vorschau einer SMS-Nachricht anzuzeigen:
 
@@ -75,9 +80,9 @@ Gehen Sie wie folgt vor, um unter Verwendung von Testprofilen die Vorschau einer
 
    ![](assets/sms_preview_4.png)
 
-Sie können nun je nach den ausgewählten Testprofilen die genaue Darstellung Ihrer Nachricht sehen.
+Sie können nun je nach ausgewähltem Testprofil die genaue Darstellung Ihrer Nachricht sehen.
 
-**Verwandte Themen** 
+**Verwandte Themen**
 
 * [Über SMS-Nachrichten](../../channels/using/about-sms-messages.md)
 * [SMS erstellen](../../channels/using/creating-an-sms-message.md)
@@ -105,7 +110,7 @@ Sie können nun je nach ausgewähltem Testprofil die genaue Darstellung Ihrer Na
 
 ![](assets/push_preview_3.png)
 
-**Verwandte Themen** 
+**Verwandte Themen**
 
 * [Über Push-Benachrichtigungen](../../channels/using/about-push-notifications.md)
 * [Push-Benachrichtigung vorbereiten und senden](../../channels/using/preparing-and-sending-a-push-notification.md)
@@ -113,7 +118,7 @@ Sie können nun je nach ausgewähltem Testprofil die genaue Darstellung Ihrer Na
 
 ## Vorschau von In-App-Nachrichten erzeugen {#previewing-in-app}
 
-Bei **In-App-Nachrichten** können Sie mit Campaign Standard unter Verwendung von Testprofilen eine Vorschau der Nachricht erzeugen. So erhalten Sie eine genaue Darstellung der Nachricht, die ein bestimmtes Profil erhalten wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
+Bei **In-App-Nachrichten** können Sie mit Campaign Standard unter Verwendung von Testprofilen eine Vorschau der Nachricht erzeugen. So erhalten Sie eine genaue Darstellung der Nachricht, die ein bestimmtes Profil empfangen wird. Weiterführende Informationen dazu finden Sie im Abschnitt [Verwaltung von Testprofilen](../../audiences/using/managing-test-profiles.md).
 
 Gehen Sie wie folgt vor, um unter Verwendung von Testprofilen die Vorschau einer In-App-Nachricht anzuzeigen:
 
@@ -133,7 +138,7 @@ Sie können nun je nach ausgewähltem Testprofil die genaue Darstellung Ihrer Na
 
 ![](assets/in_app_preview_3.png)
 
-**Verwandte Themen** 
+**Verwandte Themen**
 
 * [Über In-App-Messaging](../../channels/using/about-in-app-messaging.md)
 * [In-App-Nachricht vorbereiten und senden](../../channels/using/preparing-and-sending-an-in-app-message.md)
