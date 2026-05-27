@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
-workflow-type: ht
-source-wordcount: '1706'
+workflow-type: tm+mt
+source-wordcount: '1709'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ Für den Versand von SMS-Nachrichten muss mindestens ein externes Konto von eine
 
 Weiterführende Informationen zur Erstellung und Bearbeitung von externen Konten finden Sie im Abschnitt [Externe Konten. ](../../administration/using/external-accounts.md) Der folgende Absatz behandelt die spezifischen Parameter externer Konten, die dem SMS-Versand dienen.
 
-## SMS-Routing definieren  {#defining-an-sms-routing}
+## SMS-Routing definieren {#defining-an-sms-routing}
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Wenn Sie das SMPP-Protokoll verwenden möchten, können Sie auch ein neues exter
 
 Jetzt können Sie mithilfe der neuen Routing-Konfiguration in Adobe Campaign SMS-Nachrichten senden.
 
-## SMS-Kodierung und -Formate  {#sms-encoding-and-formats}
+## SMS-Kodierung und -Formate {#sms-encoding-and-formats}
 
 ### Codierung, Länge und Tansliteration von SMS {#sms-encoding--length-and-transliteration}
 
@@ -99,7 +99,7 @@ Die Transliteration von Zeichen ist standardmäßig deaktiviert. Es wird empfohl
 
 Sollte Ihre SMS jedoch eine hohe Anzahl an Zeichen enthalten, die dem Unicode-Zeichensatz entstammen, können Sie diese Option wählen, um Ihre Versandkosten zu begrenzen.
 
-### Zeichensatztabelle - GSM-Standard  {#table-of-characters---gsm-standard}
+### Zeichensatztabelle - GSM-Standard {#table-of-characters---gsm-standard}
 
 Der folgende Abschnitt zeigt den vom GSM-Standard unterstützten Zeichensatz. Jedes im Nachrichteninhalt enthaltene Zeichen, das nicht in der unten stehenden Tabelle aufgeführt ist, führt zur Konvertierung der gesamten Nachricht in das Binärformat (Unicode) und zur Splittung der SMS in Teilnachrichten, sobald sie 70 Zeichen überschreitet. Weiterführende Hinweise finden Sie im Abschnitt [Kodierung, Länge und Transliteration von SMS](#sms-encoding--length-and-transliteration).
 
@@ -315,13 +315,13 @@ Die Option **[!UICONTROL Spezifisches Kodierungs-Mapping definieren]** erlaubt d
 
   ![](assets/sms_data_coding1.png)
 
-### Automatische Antwort auf MO           {#automatic-reply-sent-to-the-mo}
+### Automatische Antwort auf MO {#automatic-reply-sent-to-the-mo}
 
 Sie können einem Profil, das auf eine per Campaign gesendete SMS-Nachricht antwortet, eine automatische Nachricht sowie die auszuführende Aktion zurücksenden.
 
 Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../channels/using/managing-incoming-sms.md).
 
-## SMS-Eigenschaften konfigurieren  {#configuring-sms-properties}
+## SMS-Eigenschaften konfigurieren {#configuring-sms-properties}
 
 Dieser Abschnitt behandelt die Liste von SMS-spezifischen Parametern in den Eigenschaften eines SMS-Versands bzw. einer SMS-Versandvorlage.
 
