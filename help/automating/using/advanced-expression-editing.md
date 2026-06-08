@@ -11,14 +11,12 @@ role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
 TQID: https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1107
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +105,7 @@ JavaScript-Ausdrücke bestehen aus einer oder mehreren Bedingungen, die die folg
 
 * Jede Bedingung hat die Form **&lt;Kontext> &lt;Vergleichsoperator> &lt;Wert 2>**, wobei
 
-   * **&lt;Kontext>** einem Feld oder einer Funktion entspricht, die es ermöglichen, den Kontext anzugeben. Beispiel: **context.profile.@email** für die E-Mail-Adresse eines Profils oder **context.profile.firstName.length()** für die Anzahl der Zeichen im Vornamen eines Profils.
+   * **&lt;Kontext>** einem Feld oder einer Funktion entspricht, die es ermöglichen, den Kontext anzugeben. Beispielsweise steht **context.profile.@email** für die E-Mail-Adresse eines Profils oder **context.profile.firstName.length()** steht für die Anzahl der Zeichen im Vornamen eines Profils.
    * **&lt;Vergleichsoperator>** ist einer der im Abschnitt [Vergleichsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators) aufgelisteten Operatoren. Der Operator definiert die Art des Vergleichs zwischen **&lt;Kontext>** und **&lt;Wert 2>**.
    * **&lt;Wert 2>** ein Feld, eine Funktion oder ein manuell angegebener Wert ist.
 
@@ -185,7 +183,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
    <td> !=<br /> </td> 
    <td> !=<br /> </td> 
    <td> Der erste Wert muss sich vom zweiten unterscheiden.<br /> </td> 
-   <td> <strong>@language != Englisch</strong> ruft Profile ab, für die im Feld „Sprache“ nicht Englisch angegeben ist.<br /> </td> 
+   <td> <strong>@language != Englisch</strong> ruft Profile ab, für die im Feld „Sprache“ nicht „Englisch“ angegeben ist.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Enthält</span> <br /> </td> 
@@ -206,7 +204,7 @@ Bedingung müssen mithilfe eines der folgenden Operatoren mit Werten verknüpft 
    <td> NOT<br /> </td> 
    <td> K. A.<br /> </td> 
    <td> Negative Form des Operators <span class="uicontrol">ist wie</span>. Hier dürfen die ausgegebenen Daten nicht dem angegebenen Wert ähneln. Auch in diesem Fall ist der Platzhalter <span class="uicontrol">%</span> zu verwenden.<br /> </td> 
-   <td> <strong>@lastName NOT Schmi%t</strong>. Hier entsprechen die Empfängerinnen und Empfänger dem Namen „Smi%h“ (also Smith usw.) werden als Ergebnis nicht zurückgegeben.<br /> </td> 
+   <td> <strong>@lastName NOT Schmi%t</strong>. Alle Empfängerinnen bzw. Empfänger mit dem Nachnamen „Schmi%t“ (also Schmiedt usw.) werden nicht als Ergebnis zurückgegeben.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Ist leer</span> <br /> </td> 

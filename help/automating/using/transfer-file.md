@@ -11,18 +11,14 @@ role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 TQID: https://experienceleague.adobe.com/tl7zyRjRGu9XFjQbPnubDvwqTY-HV7DDPDfOdiKHSi4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1322
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: 1299
+ht-degree: 100%
 
 ---
 
@@ -92,7 +88,7 @@ Bei diesem Protokoll können Sie die Option **[!UICONTROL In einem externen Kont
 
 ![](assets/wkf_file_transfer_03.png)
 
-Sie können sich auch für die Option **[!UICONTROL Schnelle Konfiguration]** entscheiden. Sie müssen nur die URL in das URL-Feld eingeben.
+Sie können auch die Option **[!UICONTROL Schnelle Konfiguration]** auswählen. Sie müssen nur die URL in das URL-Feld eingeben.
 ![](assets/wkf_file_transfer_04.png)
 
 Wenn Sie das HTTP-Protokoll auswählen, sind die zusätzlichen verfügbaren Optionen **[!UICONTROL Weiterleitungen verfolgen]**, **[!UICONTROL HTTP-Rückgabecode ignorieren]** und **[!UICONTROL Empfangene HTTP-Header zur Datei hinzufügen]**.
@@ -155,10 +151,10 @@ Das Microsoft Azure Blob-Protokoll erlaubt Ihnen Zugriff auf einen Blob in einem
 ### Konfiguration mit Dateien, die auf dem Adobe Campaign-Server vorhanden sind {#files-server-configuration-wf}
 
 Das Protokoll **[!UICONTROL Auf dem Adobe Campaign-Server vorhandene Datei(en)]** entspricht dem Repository, das die abzurufenden Dateien enthält.
-Metazeichen oder Platzhalter (z. B. &#42; oder ?) Kann zum Filtern von Dateien verwendet werden.
+Metazeichen oder Platzhalter (zum Beispiel &#42; oder ?) können zum Filtern von Dateien verwendet werden.
 
-Wählen Sie aus, ob Sie **[!UICONTROL Dateipfad definieren]** oder **[!UICONTROL Dynamischen Dateipfad verwenden möchten]**
-Mit **[!UICONTROL Option „Dynamischen Dateipfad verwenden]** können Sie einen Standardausdruck und Ereignisvariablen verwenden, um den Namen der zu übertragenden Datei zu personalisieren. Weitere Informationen hierzu finden Sie auf [dieser Seite](../../automating/using/customizing-workflow-external-parameters.md).
+Wählen Sie aus, ob Sie einen **[!UICONTROL Dateipfad definieren]** oder einen **[!UICONTROL dynamischen Dateipfad verwenden]** möchten.
+Mit der Option **[!UICONTROL Dynamischen Dateipfad verwenden]** können Sie einen Standardausdruck und Ereignisvariablen verwenden, um den Dateinamen für die Übertragung zu personalisieren. Weitere Informationen hierzu finden Sie auf [dieser Seite](../../automating/using/customizing-workflow-external-parameters.md).
 
 Hinweis: Der Pfad muss relativ zum Speicherort des Adobe Campaign-Servers angegeben werden. Die Dateien befinden sich im Verzeichnis **sftp&lt;yourinstancename>/**. Darüber hinaus können dem Speicherort übergeordnete Verzeichnisse nicht durchsucht werden.
 

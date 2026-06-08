@@ -10,20 +10,14 @@ role: Developer
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 TQID: https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1441
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +136,7 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
      ```
 
    * Wählen Sie für **Inhaltstyp** die Option **[!UICONTROL application/json]**.
-   * Wählen Sie **Trigger Welche Daten-Tags gibt das Postback aus** ein beliebiges Ereignis aus, normalerweise **[!UICONTROL gestartet]** und **[!UICONTROL vorhanden]**.
+   * Wählen Sie unter **Welche Daten-Tags lösen den Postback aus?** ein beliebiges Ereignis aus, in der Regel **[!UICONTROL Gestartet]** und **[!UICONTROL existiert]**.
    * Klicken Sie auf **[!UICONTROL Speichern und aktivieren]**.
 
 1. Erstellen Sie ein zweites Postback.
@@ -169,7 +163,7 @@ Um die folgende Konfiguration durchzuführen, benötigen Sie Zugriff auf Adobe A
      ```
 
    * Wählen Sie für **Inhaltstyp** die Option **[!UICONTROL application/json]**.
-   * Wählen Sie **Trigger „Welche Daten-Tags verwendet das Postback?** die Optionen **[!UICONTROL campaign.test]** und **[!UICONTROL exists]**.
+   * Wählen Sie unter **Welche Daten-Tags lösen den Postback aus?** zunächst **[!UICONTROL campaign.test]** und dann **[!UICONTROL existiert]** aus.
    * Klicken Sie auf **[!UICONTROL Speichern und aktivieren]**.
 
 >[!NOTE]

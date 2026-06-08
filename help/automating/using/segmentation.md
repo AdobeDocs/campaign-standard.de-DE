@@ -11,16 +11,13 @@ role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
 TQID: https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 999
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +39,7 @@ Mit der **[!UICONTROL Segmentierung]** lassen sich von einer durch frühere Akti
 
 ## Anwendungskontext {#context-of-use}
 
-Die Aktivität **[!UICONTROL Segmentierung]** wird im Allgemeinen nach den Zielgruppenbestimmungsaktivitäten platziert (Abfrage, Schnittmenge, Vereinigung, Ausschluss usw.) um die Standardpopulation zu definieren, auf deren Grundlage die Segmente gebildet werden.
+Die Aktivität **[!UICONTROL Segmentierung]** wird im Allgemeinen nach den Zielgruppenbestimmungsaktivitäten platziert (Abfrage, Schnittmenge, Vereinigung, Ausschluss usw.), um die Standardpopulation zu definieren, auf deren Grundlage die Segmente gebildet werden.
 
 **Verwandte Themen**
 
@@ -69,7 +66,7 @@ Die Aktivität **[!UICONTROL Segmentierung]** wird im Allgemeinen nach den Zielg
    * **[!UICONTROL Segment-Population begrenzen]**: begrenzt die Größe des Segments.
    * **[!UICONTROL Segment-Population filtern und begrenzen]**: Mithilfe dieser Funktion kann die Population des Segments gefiltert und in ihrer Größe begrenzt werden.
    * **[!UICONTROL Titel]**: Titel des Segments.
-   * **[!UICONTROL Segment-Code]**: Code, der der Segmentpopulation zugewiesen ist.Der Segment-Code kann mit einem Standardausdruck und Ereignisvariablen personalisiert werden (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment-Code]**: Code, der der Segmentpopulation zugewiesen ist.Der Segment-Code kann mit einem Standardausdruck und mit Ereignisvariablen personalisiert werden (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Segment von der Population ausschließen]**: Hierdurch lässt sich das bestimmte Segment aus der Ausgabepopulation der Aktivität ausschließen. Diese Möglichkeit besteht nur, wenn die Option **[!UICONTROL Alle Segmente in derselben Transition erzeugen]** ausgewählt wurde.
 
    ![](assets/wkf_segment_new_segment.png)

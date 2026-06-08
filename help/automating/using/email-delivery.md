@@ -11,16 +11,13 @@ role: Developer
 level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
 TQID: https://experienceleague.adobe.com/HRzEDtHhZR88rvKjYSJOqmu1u9gEQGLtul0W86XajCM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 908
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,11 +56,11 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 ## Konfiguration {#configuration}
 
 1. Ziehen Sie einen **[!UICONTROL E-Mail-Versand]** in den Workflow-Arbeitsbereich.
-1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in der Schnellaktion angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
+1. Markieren Sie die Aktivität und öffnen Sie sie mithilfe der in den Schnellaktionen angezeigten Schaltfläche ![](assets/edit_darkgrey-24px.png).
 
    >[!NOTE]
    >
-   >Die Schaltfläche ![](assets/dlv_activity_params-24px.png) iin der Schnellaktion bietet Zugriff auf die allgemeinen Eigenschaften und erweiterten Optionen der Aktivität (aber nicht des Versands selbst). Sie ist spezifisch für die jeweilige **[!UICONTROL E-Mail-Versand]**-Aktivität. Auf die Eigenschaften der E-Mail können Sie über die Aktionsleiste Ihres Dashboards zugreifen.
+   >Die Schaltfläche ![](assets/dlv_activity_params-24px.png) in den Schnellaktionen bietet Zugriff auf die allgemeinen Eigenschaften und erweiterten Optionen der Aktivität (aber nicht des Versands selbst). Sie ist spezifisch für die jeweilige **[!UICONTROL E-Mail-Versand]**-Aktivität. Auf die Eigenschaften der E-Mail können Sie über die Aktionsleiste Ihres Dashboards zugreifen.
 
 1. Wählen Sie den Versandtyp der E-Mail aus:
 
@@ -82,7 +79,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 1. Die Aktivität **[!UICONTROL E-Mail-Versand]** verfügt standardmäßig über keinerlei ausgehende Transitionen. Sie haben jedoch die Möglichkeit, eine ausgehende Transition **[!UICONTROL für Ihre E-Mail-Versand]**-Aktivität zu erzeugen, indem Sie unter Verwendung der in der Schnellaktion der Aktivität verfügbaren Schaltfläche **[!UICONTROL die erweiterten Optionen öffnen und im]** Allgemein![](assets/dlv_activity_params-24px.png)-Tab eine der folgenden Optionen aktivieren:
 
    * **[!UICONTROL Ausgehende Transition ohne Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die exakt dieselbe Population enthält wie die eingehende Transition.
-   * **[!UICONTROL Ausgehende Transition mit Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die die Population enthält, an die die E-Mail gesendet wurde. Die während der Versandvorbereitung ausgeschlossenen Mitglieder der Zielgruppe (Quarantäne, ungültige E-Mail usw.) sind von dieser Transition ausgeschlossen.
+   * **[!UICONTROL Ausgehende Transition mit Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die die Population enthält, an die die E-Mail gesendet wurde. Der Teil der Zielgruppe, der in der Versandvorbereitung ausgeschlossen wurde (Quarantäne, ungültige E-Mail-Adresse usw.), ist von dieser Transition ausgeschlossen.
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 

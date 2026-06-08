@@ -9,26 +9,16 @@ role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
 TQID: https://experienceleague.adobe.com/DsdeXlYu0S43vbf7VAUk0Nr9HfYDvjzCdfSu-ODCrXU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
-  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-  - id: ede6e1ec-9279-415e-b828-a09735018d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: d3b34fea-a110-482f-adb2-aae8d686bac8id: d7be2b01-dc9c-40f7-aace-a151707504edid: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: ede6e1ec-9279-415e-b828-a09735018d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 484
+ht-degree: 100%
 
 ---
 
@@ -42,8 +32,8 @@ ht-degree: 99%
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landingpages</a></p></td></tr>
 </table>
 
-Mit Adobe Campaign können Sie Kampagnen in jedem Kanal starten, messen und automatisieren.
-Adobe Campaign ermöglicht die Harmonisierung aller Ihrer Marketing-Kanäle. Mithilfe von Adobe Campaign können Sie Kundendaten aus verschiedenen Systemen, Geräten und Kanälen in einem Profil zusammenführen. Danach können Sie zeitnahe und relevante Kampagnen ausführen, die Ihre Kunden während der Customer Journey an den richtigen Orten und auf die richtige Art und Weise ansprechen.
+Mit Adobe Campaign können Sie Kampagnen auf allen Kanälen starten, messen und automatisieren.
+Die Harmonisierung aller Marketing-Kanäle ist keine unmögliche Aufgabe. Mithilfe von Adobe Campaign können Sie Kundendaten aus verschiedenen Systemen, Geräten und Kanälen in einem einzigen Profil zusammenführen. Stellen Sie dann zeitnahe und relevante Kampagnen bereit, denen Ihre Kundinnen und Kunden an den richtigen Stellen und auf die richtige Art und Weise auf ihrer Customer Journey begegnen.
 
 ## Globale Konzepte {#global-concepts}
 
@@ -119,5 +109,5 @@ mehr dazu:
 * [E-Mail-Inhalte gestalten](../../designing/using/designing-content-in-adobe-campaign.md)
 * [AEM-Inhalte importieren](../../integrating/using/creating-email-experience-manager.md)
 * [Nachrichten mit Workflows senden](../../automating/using/about-channel-activities.md)
-* [Anleitungsvideos zu Kommunikationskanälen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=de)
+* [Tutorial-Video zu Kommunikationskanälen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=de)
 * [Anwendungsfall: kanalübergreifenden Versand erstellen](../../automating/using/workflow-cross-channel-delivery.md)

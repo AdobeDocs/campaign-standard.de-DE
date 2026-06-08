@@ -11,16 +11,13 @@ role: Developer
 level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
 TQID: https://experienceleague.adobe.com/lDbKhs6o4XJq5JWQfZltEv5iUV7zeNkR8r0evemqEvQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 829
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +66,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 1. Die **[!UICONTROL SMS-Versandaktivität]** verfügt standardmäßig über keinerlei ausgehende Transition. Sie haben jedoch die Möglichkeit, eine ausgehende Transition für Ihre **[!UICONTROL SMS-Versandaktivität]** zu erzeugen, indem Sie unter Verwendung der in der Schnellaktion der Aktivität verfügbaren Schaltfläche **[!UICONTROL die erweiterten Optionen öffnen und im]** Allgemein![](assets/dlv_activity_params-24px.png)-Tab eine der folgenden Optionen aktivieren:
 
    * **[!UICONTROL Ausgehende Transition ohne Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die exakt dieselbe Population enthält wie die eingehende Transition.
-   * **[!UICONTROL Ausgehende Transition mit Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die die Population enthält, der die SMS gesendet wurde. Die während der Versandvorbereitung ausgeschlossenen Mitglieder der Zielgruppe (Quarantäne, ungültige Anzahl usw.) sind von dieser Transition ausgeschlossen.
+   * **[!UICONTROL Ausgehende Transition mit Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die die Population enthält, der die SMS gesendet wurde. Der Teil der Zielgruppe, der in der Versandvorbereitung ausgeschlossen wurde (zum Beispiel Quarantäne, ungültige Nummer), ist von dieser Transition ausgeschlossen.
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 

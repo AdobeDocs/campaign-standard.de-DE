@@ -9,18 +9,14 @@ role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 TQID: https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: 1001
+ht-degree: 100%
 
 ---
 
@@ -59,10 +55,10 @@ Sie können sich das CSV-Beispiel ansehen, indem Sie auf **[!UICONTROL Beispield
 
 ## Einschränkungen und Richtlinien für die Erstellung von CSV-Dateien {#constraints-guideline-csv}
 
-**Der Name jeder Spalte ist festgesetzt**.
+**Der Name jeder Spalte ist festgelegt**.
 Sie sollten die Namen der einzelnen Spalten in der CSV-Datei angeben. Wenn Sie für den Inhalt keine Spalten verwenden, geben Sie nichts an.
 
-**Die Spalten &quot;locale&quot; und &quot;language&quot; sind zwingend erforderlich und der Wert ist für jede Zeile eindeutig.**
+**Spalten „Gebietsschema“ und „Sprache“ sind obligatorisch und der Wert ist für jede Zeile eindeutig.**
 Ein leerer Wert für diese Spalte führt zu einem Fehler beim Hochladen der Datei.
 
 **Die Reihenfolge der Spalten ist wichtig**. Die Reihenfolge der Spalten in der hochgeladenen Datei muss das Format der Beispieldatei aufweisen.
@@ -73,7 +69,7 @@ Ein leerer Wert für diese Spalte führt zu einem Fehler beim Hochladen der Date
 
 **Wenn Sie die Datei im Klartext generieren, trennen Sie jede Spalte durch &quot;,&quot;.**
 
-**Variantenabweichung.** Wenn Sie Inhaltsbausteine und Zielgruppen in bestimmten Sprachen verwenden, müssen Sie jede Zielsprache in Ihrer CSV-Datei auflisten. Andernfalls erhalten Sie einen Fehler beim Senden des Versands.
+**Varianten stimmen nicht überein.** Wenn Sie einen Inhaltsbaustein und Zielgruppen mit unterschiedlichen Sprachen verwenden, müssen Sie jede Zielsprache in Ihrer CSV-Datei auflisten. Andernfalls wird beim Versand ein Fehler ausgegeben.
 
 ## Personalisierungsfelder in die CSV-Datei einfügen {#personalization-field-csv}
 

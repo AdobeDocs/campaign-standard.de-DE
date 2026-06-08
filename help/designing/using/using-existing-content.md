@@ -9,19 +9,14 @@ role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 TQID: https://experienceleague.adobe.com/QDye5eM-hWU3DB-OqrxDLIYPDw9YlokgF0XIjvzHfgI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1318
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -229,7 +224,7 @@ Ist dies nicht der Fall, schneiden Sie die unterschiedlichen Bestandteile aus Ih
 Sobald Sie alle Bestandteile identifiziert haben, wiederholen Sie in Email Designer folgenden Vorgang für jeden Teil Ihrer vorhandenen E-Mail:
 
 1. Öffnen Sie Email Designer, um leeren E-Mail-Inhalt zu erstellen.
-1. Legen Sie die Attribute auf Textebene fest: Hintergrundfarben, Breite usw. Weitere Informationen hierzu finden Sie unter [Bearbeiten von E-Mail-Stilen](../../designing/using/styles.md).
+1. Legen Sie die Attribute auf Textebene fest: zum Beispiel Hintergrundfarben, Breite. Weitere Informationen hierzu finden Sie unter [Bearbeiten von E-Mail-Stilen](../../designing/using/styles.md).
 1. Fügen Sie eine Strukturkomponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Fügen Sie eine HTML-Komponente hinzu. Weiterführende Informationen dazu finden Sie im Abschnitt [Fragmente und Inhaltskomponenten hinzufügen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Fügen Sie Ihren HTML-Code mit Copy &amp; Paste in diese Komponente ein.

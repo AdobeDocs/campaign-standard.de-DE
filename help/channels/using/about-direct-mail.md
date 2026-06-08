@@ -10,20 +10,15 @@ role: User
 level: Intermediate
 exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
 TQID: https://experienceleague.adobe.com/8VXdc-QOidRcDvgr5vMn-5bxHKYO6TnZS80FDsuA-GU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 464
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +30,7 @@ Briefpost ist ein Offline-Kanal, über den Sie eine für Briefpost-Dienstleister
 >
 >Hierbei handelt es sich um eine optionale Funktion. Prüfen Sie diesbezüglich Ihren Lizenzvertrag. Für die Verwendung von Briefpost ist die **[!UICONTROL Export]**-Rolle erforderlich. Kontaktieren Sie diesbezüglich Ihren Administrator.
 
-Mit Online-Kanälen können Sie Ihre Nachrichten erstellen (E-Mail, SMS, Versand über Mobile Apps usw.) und senden Sie sie direkt von Adobe Campaign an Ihre Zielgruppe. Offline-Kanäle sind anders. Wenn Sie einen Briefpost-Versand vorbereiten, erzeugt Adobe Campaign eine Datei, die alle Zielgruppenprofile und die ausgewählte Kontaktinformationen enthält (z. B. Postanschrift). Dann senden Sie diese Datei an Ihren Briefpost-Dienstleister, der den tatsächlichen Versand vornimmt.
+Über Online-Kanäle können Sie Nachrichten erstellen (E-Mail, SMS, App-Versand usw.) und direkt über Adobe Campaign an Ihre Zielgruppe senden.Offline-Kanäle sind anders. Wenn Sie einen Briefpost-Versand vorbereiten, erzeugt Adobe Campaign eine Datei, die alle Zielgruppenprofile und die ausgewählte Kontaktinformationen enthält (z. B. Postanschrift). Dann senden Sie diese Datei an Ihren Briefpost-Dienstleister, der den tatsächlichen Versand vornimmt.
 
 Im folgenden Abschnitt erfahren Sie, wie Sie einen einmaligen Briefpost-Versand erstellen. Sie können auch eine Briefpost-Aktivität in einen Workflow einbauen, um Kampagnen mit kombinierten Online- und Offline-Kanälen aufeinander abzustimmen. Weitere Informationen hierzu finden Sie im [Workflow](../../automating/using/get-started-workflows.md)-Handbuch.
 
@@ -55,7 +50,7 @@ Gehen Sie in Adobe Campaign folgendermaßen vor:
 
 ### Briefpost-Dienstleister {#direct-mail-providers}
 
-Erkundigen Sie sich zunächst bei Ihrem Briefpost-Dienstleister nach seinen Empfehlungen. Finden Sie heraus, welche Profilinformationen in der Extraktionsdatei enthalten sein müssen, damit der Anbieter die Nachrichten personalisieren und der Zielgruppe senden kann. Beispielsweise der Vor- und Nachname, die Postanschrift, ein Promotion-Code usw. Diese Felder werden Sie auf der Registerkarte [Extraktion definieren](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) des Briefpostinhalts hinzufügen.
+Erkundigen Sie sich zunächst bei Ihrem Briefpost-Dienstleister nach seinen Empfehlungen. Finden Sie heraus, welche Profilinformationen in der Extraktionsdatei enthalten sein müssen, damit der Anbieter die Nachrichten personalisieren und der Zielgruppe senden kann. Zum Beispiel der Vor- und Nachname, die Postanschrift, ein Aktions-Code. Diese Felder können Sie im Briefpostinhalt auf der Registerkarte [Extraktion definieren](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) hinzufügen.
 
 Achten Sie darauf, dass in der Profilinformation die Option **[!UICONTROL Anschrift angegeben]** aktiviert ist. Wenn diese Option aktiviert ist, wird das Profil zur Zielgruppe hinzugefügt. Ist sie das nicht, wird sie in der Vorbereitungsphase durch eine Typologieregel ausgeschlossen (siehe [Briefpost erstellen](../../channels/using/creating-the-direct-mail.md)). Vergessen Sie nicht, bei einem Profilimport dieses Feld zu aktualisieren.
 

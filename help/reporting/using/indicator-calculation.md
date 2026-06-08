@@ -9,21 +9,15 @@ role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 TQID: https://experienceleague.adobe.com/QgkQth22239fJIEoh5DWlTkx9ptFo7DpziHH0hLRt-U
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 786
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -344,7 +338,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> Einzel-Impressions<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> Für <span class="uicontrol">Target-Benutzer basierend auf ihrer Campaign-Vorlage (inAppProfile</span>, user = Empfänger-ID.<br /> Für <span class="uicontrol">Targeting aller Benutzer einer Mobile App (inAppBroadcast)</span> und <span class="uicontrol">Target-Benutzer basierend auf ihren Mobile-Profil (inApp)</span>-Vorlagen, user = MC ID oder Äquivalent, das eine eindeutige Kombination aus Benutzer, Mobile App und Gerät darstellt.<br /> </td> 
+   <td> Für die Vorlage<span class="uicontrol">Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils (inAppProfile)</span> ist Benutzerin bzw. Benutzer = Empfänger-ID.<br /> Für die Vorlagen <span class="uicontrol">Alle Nutzer einer App auswählen (inAppBroadcast)</span> und <span class="uicontrol">Benutzende auf der Basis ihres mobilen Profils ansprechen (inApp)</span> ist Benutzerin bzw. Benutzer = MC-ID oder eine andere Kennung, die eine eindeutige Kombination aus Benutzerin bzw. Benutzer, App und Gerät darstellt.<br /> </td> 
   </tr> 
   <tr> 
    <td> In-App-Klicks <br /> </td> 
@@ -356,7 +350,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> In-App-Einzelklicks<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=clicks))<br /> </td> 
-   <td> Für <span class="uicontrol">Target-Benutzer basierend auf ihrer Campaign-Vorlage (inAppProfile</span>, user = Empfänger-ID.<br /> Für <span class="uicontrol">Targeting aller Benutzer einer Mobile App (inAppBroadcast)</span> und <span class="uicontrol">Target-Benutzer basierend auf ihren Mobile-Profil (inApp)</span>-Vorlagen, user = MC ID oder Äquivalent, das eine eindeutige Kombination aus Benutzer, Mobile App und Gerät darstellt.<br /> </td> 
+   <td> Für die Vorlage <span class="uicontrol">Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils (inAppProfile)</span> ist Benutzerin bzw. Benutzer = Empfänger-ID.<br /> Für die Vorlagen <span class="uicontrol">Alle Nutzer einer App auswählen (inAppBroadcast)</span> und <span class="uicontrol">Benutzende auf der Basis ihres mobilen Profils ansprechen (inApp)</span> ist Benutzerin bzw. Benutzer = MC-ID oder eine andere Kennung, die eine eindeutige Kombination aus Benutzerin bzw. Benutzer, App und Gerät darstellt.<br /> </td> 
   </tr> 
   <tr> 
    <td> In-App-Klickrate<br /> </td> 
@@ -374,7 +368,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Indikato
    <td> Einzelne In-App-Abweisungen<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> Für <span class="uicontrol">Target-Benutzer basierend auf ihrer Campaign-Vorlage (inAppProfile</span>, user = Empfänger-ID.<br /> Für <span class="uicontrol">Targeting aller Benutzer einer Mobile App (inAppBroadcast)</span> und <span class="uicontrol">Target-Benutzer basierend auf ihren Mobile-Profil (inApp)</span>-Vorlagen, user = MC ID oder Äquivalent, das eine eindeutige Kombination aus Benutzer, Mobile App und Gerät darstellt.<br /> </td> 
+   <td> Für die Vorlage <span class="uicontrol">Nutzer der Zielgruppe auf der Basis ihres Campaign-Profils (inAppProfile)</span> ist Benutzerin bzw. Benutzer = Empfänger-ID.<br /> Für die Vorlagen <span class="uicontrol">Alle Nutzer einer App auswählen (inAppBroadcast)</span> und <span class="uicontrol">Benutzende auf der Basis ihres mobilen Profils ansprechen (inApp)</span> ist Benutzerin bzw. Benutzer = MC-ID oder eine andere Kennung, die eine eindeutige Kombination aus Benutzerin bzw. Benutzer, App und Gerät darstellt.<br /> </td> 
   </tr> 
   <tr> 
    <td> In-App-Abweisungsrate<br /> </td> 

@@ -7,18 +7,13 @@ role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
 TQID: https://experienceleague.adobe.com/14iQSiLOTGCwAvxz0lwxS8tB0X3pg0Pi8JB0NjBOTAc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 2724
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 2543
+ht-degree: 100%
 
 ---
 
@@ -48,14 +43,14 @@ Nachdem Sie jedes Konto einzeln geprüft haben, gibt es zwei mögliche Szenarien
 
   Es gibt einen Konflikt zwischen den Konten. Wie bereits erwähnt, behandelt Adobe Campaign die Konten einzeln, aber der Provider behandelt sie möglicherweise als ein einziges Konto.
 
-   * Sie verwenden unterschiedliche Anmelde-/Kennwortkombinationen für alle Ihre Konten.
-Sie müssen den Provider kontaktieren, um potenzielle Konflikte auf dessen Seite zu diagnostizieren.
+   * Sie verwenden unterschiedliche Kombinationen aus Login/Kennwort für all Ihre Konten.
+Sie müssen sich an den Anbieter wenden, damit er mögliche Konflikte auf seiner Seite diagnostiziert.
 
-   * Einige der externen Konten verwenden dieselbe Anmelde-/Kennwortkombination.
-Der Anbieter kann nicht feststellen, von welchem externen Konto die `BIND PDU` stammt, also behandelt er alle Verbindungen von mehreren Konten als eine einzige. Möglicherweise wurden MO und SR wahllos über die beiden Konten geleitet, was zu Problemen führt.
-Wenn der Provider mehrere Kurzwahlnummern für dieselbe Anmelde-/Kennwortkombination unterstützt, müssen Sie ihn fragen, wo diese Kurzwahlnummer in die `BIND PDU` eingefügt werden soll. Beachten Sie, dass diese Information in die `BIND PDU` und nicht in `SUBMIT_SM` eingefügt werden muss, da nur in der `BIND PDU` eine korrekte Weiterleitung von MOs möglich ist.
-Siehe den Abschnitt [Informationen in den verschiedenen PDU-Arten](../../administration/using/sms-protocol.md#information-pdu) weiter oben, um zu erfahren, welches Feld in `BIND PDU` verfügbar ist. Normalerweise fügen Sie die Kurzwahlnummer in `address_range` hinzu. Dies erfordert jedoch besondere Unterstützung durch den Provider. Wenden Sie sich an diesen, um zu erfahren, wie er mehrere Kurzwahlnummern unabhängig voneinander weiterleiten wird.
-Adobe Campaign unterstützt die Verarbeitung mehrerer Kurzwahlnummern in demselben externen Konto.
+   * Einige der externen Konten verwenden dieselbe Kombination aus Login/Kennwort.
+Der Anbieter kann nicht erkennen, von welchem externen Konto die `BIND PDU` stammt, daher behandelt er alle Verbindungen von mehreren Konten als eine einzige. Möglicherweise wurden MO und SR nach dem Zufallsprinzip über die beiden Konten weitergeleitet, was Probleme verursacht.
+Wenn der Anbieter mehrere Kurzwahlnummern für dieselbe Kombination aus Login/Kennwort unterstützt, müssen Sie ihn fragen, wo diese Kurzwahlnummer in die `BIND PDU` eingefügt werden sollen. Beachten Sie, dass diese Informationen in der `BIND PDU` und nicht in `SUBMIT_SM` platziert werden müssen, da die `BIND PDU` der einzige Ort ist, der das korrekte Routing von MOs ermöglicht.
+Lesen Sie den Abschnitt [Informationen zu den einzelnen PDU-Typen](../../administration/using/sms-protocol.md#information-pdu) weiter oben, um zu erfahren, welches Feld in der `BIND PDU` verfügbar ist. In der Regel fügen Sie den Kurzwahlnummern in `address_range` hinzu. Dies erfordert jedoch spezielle Unterstützung durch den Anbieter. Kontaktieren Sie diesen, um zu erfahren, wie er die unabhängige Weiterleitung mehrerer Kurzwahlnummern durchführen möchte.
+Adobe Campaign unterstützt die Verarbeitung mehrerer Kurzwahlnummern im selben externen Konto.
 
 ## Problem mit dem externen Konto im Allgemeinen {#external-account-issues}
 
@@ -100,7 +95,7 @@ Eine Verbindung wird als instabil angesehen, wenn eine der folgenden Situationen
 
 * Das `enquire_link`-Zeitlimit wird entweder auf der Adobe Campaign-Seite oder auf der Provider-Seite überschritten. In diesem Fall wird möglicherweise `ENQUIRE_LINK_RESP` mit einem Fehler-Code ungleich Null angezeigt.
 
-* Es gibt viele `BIND PDU`. Abhängig von der Anzahl der Verbindungen sollten an einem Tag nicht mehr als ein paar Verbindungen vorhanden sein. Mehr als 1 BIND PDU pro Stunde ist alarmierend.
+* Es gibt zahlreiche `BIND PDU`s. Abhängig von der Anzahl der Verbindungen sollten an einem Tag nicht mehr als ein paar vorhanden sein. Mehr als 1 BIND PDU pro Stunde ist alarmierend.
 
 Beheben von Problemen mit der Verbindungsstabilität:
 
@@ -281,8 +276,8 @@ Der neue Connector unterstützt die erweiterte Protokollierung durch Traces: SMP
 
 **Aktivieren im laufenden Betrieb**
 
-Der Adobe Campaign Standard-MTA verfügt über eine HTTP-Steuerungsschnittstelle, die es ermöglicht, den Trace-Filter im laufenden Betrieb zu ändern
-Ein POST-Aufruf kann Traces aktivieren/deaktivieren. URL-Beispiel zum Aktivieren von SMPP-Traces:
+Der Adobe Campaign Standard-MTA verfügt über eine HTTP-Steuerungsschnittstelle, die es ermöglicht, den Trace-Filter im laufenden Betrieb zu ändern.
+Ein POST-Aufruf kann Traces aktivieren/deaktivieren. URL-Beispiel zur Aktivierung von SMPP-Traces:
 
 ```
 POST http://host:7780/mta/trace?filter=SMPP

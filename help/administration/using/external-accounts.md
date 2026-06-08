@@ -7,23 +7,15 @@ role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 TQID: https://experienceleague.adobe.com/V4W1ZeT4iyA7SJXdVH-MQJLiJQN9WYGu-aghFFpj32c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: b5852c32-876b-41ae-92a7-9f588865ae52
-  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1878
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 1813
+ht-degree: 100%
 
 ---
 
@@ -41,7 +33,7 @@ Die folgenden externen Konten können eingerichtet werden:
 * Adobe Analytics. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#google-recaptcha-external-account).
 * Microsoft Azure Blob Storage. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#microsoft-azure-external-account).
-* OAuth 2.0. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#oauth-account).
+* OAuth 2.0. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](#oauth-account).
 
 >[!NOTE]
 >
@@ -216,8 +208,8 @@ Beim Konfigurieren Ihres externen Kontos müssen Sie einen der **[!UICONTROL Kon
 
 **Optimieren der Geschwindigkeit bei der Dateiübertragung**
 
-Mit der Option **[!UICONTROL Parallelität]** können Sie die Geschwindigkeit von Dateiübertragungen genau einstellen.
-Die Option stellt die Anzahl der Threads dar, die bei der Durchführung der Dateiübertragung verwendet werden. Jeder dieser Threads lädt einen Teil von ca. 1 MB aus dem Blob-Speicher herunter. Diese werden dann in die Warteschlange gestellt, um auf die Festplatte geschrieben zu werden. Beachten Sie, dass bei Erhöhung der Thread-Zahl auch die Auslastung der Ressourcen steigt, die von der Anwendung zur Dateiübertragung genutzt werden.
+Mit der Option **[!UICONTROL Parallelität]** können Sie die Geschwindigkeit Ihrer Dateiübertragungen optimieren.
+Der Wert gibt die Anzahl der Threads an, die für die Dateiübertragung verwendet werden. Jeder dieser Threads lädt einen Anteil von ca. 1 MB aus dem Blob herunter. Diese Anteile werden dann in eine Warteschlange gestellt, um auf die Festplatte geschrieben zu werden. Beachten Sie, dass bei Erhöhung der Thread-Zahl auch die Auslastung der Ressourcen steigt, die von der Anwendung zur Dateiübertragung genutzt werden.
 
 Nach Abschluss der Dateiübertragung finden Sie Performance-Metriken in den Workflow-Logs.
 
