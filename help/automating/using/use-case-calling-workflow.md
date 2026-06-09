@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1078
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Führen Sie zur Konfiguration des Workflows die folgenden Schritte aus:
 
    ![](assets/extsignal_uc1.png)
 
-1. Fügen Sie die Aktivität **[!UICONTROL Datei übertragen]** hinzu, um Daten in die Datenbank zu importieren.Ziehen Sie dazu die Aktivität per Drag-and-Drop, öffnen Sie sie und wählen Sie dann die Registerkarte **[!UICONTROL Protokoll]** aus.
+1. Fügen Sie die Aktivität **[!UICONTROL Datei übertragen]** hinzu, um Daten in die Datenbank zu importieren.Ziehen Sie dazu die Aktivität per Drag-and-Drop, öffnen Sie sie und wählen Sie die Registerkarte **[!UICONTROL Protokoll]** aus.
 1. Wählen Sie die Option **[!UICONTROL Dynamischen Dateipfad verwenden]** aus und verwenden Sie dann den Parameter **fileToTarget** als die zu übertragende Datei:
 
    ```

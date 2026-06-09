@@ -18,9 +18,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1532
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ Die Konfiguration der Aktivität erfolgt in zwei Schritten. Definieren Sie zunä
 
    Im Tab **[!UICONTROL Spaltendefinition]** lässt sich die Datenstruktur für jede Spalte separat definieren, um fehlerfreie Daten zu importieren (u. a. durch die Definition des Umgangs mit Nullwerten) und die Kompatibilität mit den bereits in der Datenbank existierenden Daten zu gewährleisten.
 
-   Sie können beispielsweise die Beschriftung einer Spalte ändern und den Typ (Zeichenfolge, Ganzzahl, Datum usw.) oder geben Sie sogar die Fehlerverarbeitung an.
+   Es besteht beispielsweise die Möglichkeit, Spaltentitel und Datentyp (zum Beispiel String, Ganzzahl, Datum) anzupassen, oder sogar den Umgang mit Fehlern festzulegen.
 
    Weiterführende Informationen hierzu finden Sie im Abschnitt [Spaltenformat](#column-format).
 
@@ -164,7 +164,7 @@ Verschiedene Optionen zum Umgang mit den Spaltenwerten stehen zur Auswahl:
 
   >[!NOTE]
   >
-  >**[!UICONTROL Die Fehlerverarbeitung]** bezieht sich auf Fehler, die die in der Importdatei angegebenen Werte betreffen. Beispielsweise ein fehlerhafter Datentyp (alle „vier“ Buchstaben für eine Spalte „Ganzzahl„), eine Zeichenfolge, die mehr Zeichen als die maximal zulässige Zahl enthält, ein Datum mit fehlerhaften Trennzeichen usw. Diese Option betrifft jedoch keine Fehler, die durch die Verwaltung leerer Werte generiert wurden.
+  >**[!UICONTROL Die Fehlerverarbeitung]** bezieht sich auf Fehler, die die in der Importdatei angegebenen Werte betreffen. Hierbei kann es sich beispielsweise um einen falschen Datentyp handeln (das ausgeschriebene Wort „vier“ in einer Spalte vom Typ „Ganzzahl“), einen String, der die maximal zulässige Anzahl an Zeichen überschreitet oder ein Datum mit falschen Trennzeichen. Diese Option betrifft jedoch keine Fehler, die durch den Umgang mit leeren Feldern verursacht werden.
 
 * **[!UICONTROL Standardwert]**: Angabe des Standardwerts, der im Bezug auf den jeweils definierten Umgang mit Fehlern zum Tragen kommt.
 * **[!UICONTROL Umgang mit leeren Werten]**: Definition, wie beim Laden der Daten mit leeren Werten verfahren werden soll.

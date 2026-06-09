@@ -14,9 +14,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1150
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -216,11 +216,11 @@ Informationen zu Aspekten einer Android-Payload finden Sie unter [Messaging Conc
 | Deeplink hinzufügen | uri | Nicht zutreffend | Mit einem Deeplink gelangen Benutzer direkt zu Inhalten, die in der Anwendung enthalten sind (anstatt eine Webseite zu öffnen). |
 | Kategorie | category | category | So zeigen Sie benutzerdefinierte Aktionen mit einer Remote-Benachrichtigung an. <br>Mit der Kategorietaste kann das System die Aktionen für diese Kategorie als Schaltflächen in der Warnoberfläche anzeigen. |
 | Benutzerdefinierte Felder | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Alle benutzerdefinierten Daten, die Sie an Ihre App senden möchten. |
-| URL für Rich-Media-Daten (Bild-, GIF-, Audio- und Videodateien)<br>(nur bei iOS 10 oder höher) | media-attachment-url | Nicht zutreffend | URL Ihrer Mediendateien, um Ihrer Benachrichtigung Rich-Inhalte hinzuzufügen. <br>Bei Angabe eines Werts für diese URL wird das Flag für veränderliche Inhalte automatisch an die Payload gesendet. <br> (Gilt nur für iOS 10 oder höher) |
+| URL für Rich-Media-Daten (Bild-, GIF-, Audio- und Videodateien)<br>(nur bei iOS 10 oder höher) | media-attachment-url | Nicht zutreffend | URL Ihrer Mediendateien, um Ihrer Benachrichtigung Rich-Inhalte hinzuzufügen. <br>Wenn Sie einen Wert für diese URL angeben, wird das Flag für veränderliche Inhalte automatisch in die Payload gesendet.<br> (Gilt nur für iOS 10 oder höher) |
 | Veränderliche Inhalte <br> (nur bei iOS 10 oder höher) | mutable-content | Nicht zutreffend | Die Notification Service-Erweiterung in Ihrer App &quot;erfasst&quot; alle Remote-Benachrichtigungen mit dem Schlüssel &quot;mutable-content&quot; und ermöglicht Ihnen die Verarbeitung/Bearbeitung des Inhalts der Anfrage-Payload, der dann zum Anpassen der Benachrichtigung verwendet werden kann. Anwendungsbeispiele für diese Funktion sind das Herunterladen und Anzeigen mehrerer Medien, wobei alle in der Push-Payload vorhandenen verschlüsselten Daten entschlüsselt werden. Weiterführende Informationen finden Sie unter [Payload einer Remote-Benachrichtigung ändern](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(nur bei iOS 10 oder höher) |
 | Inhalt verfügbar | content-available | Nicht zutreffend | Wenn Sie diese Option auswählen, wird das Aufwecken einer iOS-App aktiviert, die sie sich im Hintergrund bzw. ausgesetzten Zustand befindet. Aufwecken bedeutet, dass die App im Hintergrund ausgeführt wird und der für den Empfang der Daten-Payload der Push-Benachrichtigung zuständige Event-Handler die Kontrolle erhält und die Daten für beliebige Berechnungen verwenden kann, zum Beispiel zum Erstellen und Anzeigen benutzerdefinierter Push-Benachrichtigungen. Weiterführende Informationen finden Sie unter [App bei Benachrichtigungsversand wecken](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL der Rich-Media-Inhalte (Grafikdateien)<br>(nur bei Android verfügbar) | Nicht zutreffend | media-attachment-url | URL der Grafikdateien, um der Benachrichtigung Rich-Inhalte hinzuzufügen. |
-| Nicht zutreffend | _mId<br>_dId | _mId <br>_dId | Werte von broadLogId und deliveryId.<br>Diese Attribute sind erforderlich, wenn Ihre App ein Tracking-Postback aufrufen möchte, um zu verfolgen, wann die Push-Benachrichtigung angeklickt/geöffnet wurde. Diese Daten werden vom App-Server ohne Benutzereingriff intern berechnet und gesendet.<br>Informationen zu Postbacks finden Sie auf dieser [Seite](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
+| Nicht zutreffend | _mId<br>_dId | _mId <br>_dId | Werte von „broadlogId“ und „deliveryId“.<br>Diese Attribute sind erforderlich, wenn Ihre App einen Tracking-Postback aufrufen möchte, um zu verfolgen, wann die Push-Benachrichtigung angeklickt/geöffnet wurde. Diese Daten werden vom App-Server ohne Benutzereingriff intern berechnet und gesendet.<br>Informationen zu Postbacks finden Sie auf dieser [Seite](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### So rufen Sie Payload-Daten in Mobile-App-Code ab {#payload-information}
 

@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 223
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -42,6 +42,6 @@ Eine Integration zwischen dem Core Service **Triggers** von Adobe Analytics mit 
 
 **Verwandte Themen:**
 
-* [Übersicht über die Integration von Campaign Standard in Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=de)
+* [Überblick über die Integration von Campaign Standard mit Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=de)
 * [Konfigurieren der Campaign Standard-Integration](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=de)
 * [Campaign-Dimensionen und -Metriken in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

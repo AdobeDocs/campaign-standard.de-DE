@@ -20,9 +20,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 79%
+workflow-type: ht
+source-wordcount: 502
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Campaign Standard bietet verschiedene Möglichkeiten zur Überwachung Ihrer Inst
 
 **Systembenachrichtigungen**
 
-Die Campaign Standard-Benutzeroberfläche bietet einen Benachrichtigungsbereich, in dem Sie über die Vorgänge im System auf dem Laufenden gehalten werden können: Ereignisstatus, Systemaktualisierungen, erforderliche Aktionen usw[&#x200B; (weitere Informationen](../../start/using/interface-description.md#top-bar)
+Die Benutzeroberfläche von Campaign Standard verfügt über einen Benachrichtigungsbereich, in dem Sie über die Vorgänge im System auf dem Laufenden gehalten werden: Ereignisstatus, Systemaktualisierungen, erforderliche Aktionen usw. [Weitere Informationen](../../start/using/interface-description.md#top-bar)
 
 
 **Technische Workflows**
@@ -51,7 +51,7 @@ Technische Workflows dienen der programmierten periodischen Ausführung von Serv
 
 **Control Panel**
 
-Im Control Panel können Sie mehrere Einstellungen Ihrer Instanz verwalten: URL-Berechtigungen, Überprüfen Ihrer Instanzdetails wie die Build-Versionen Ihrer Server, Überwachen der Nutzung aktiver Profile usw. Außerdem können Sie den verfügbaren Speicherplatz auf den SFTP-Servern überwachen, die mit Ihrer Instanz verbunden sind. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)
+Über das Control Panel können Sie verschiedene Einstellungen Ihrer Instanz verwalten: zum Beispiel URL-Berechtigungen, Überprüfung Ihrer Instanzdetails wie die Build-Versionen Ihrer Server, Überwachung der Nutzung aktiver Profile. Außerdem können Sie hier den verfügbaren Speicherplatz auf den SFTP-Servern überwachen, die mit Ihrer Instanz verbunden sind.[Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)
 
 >[!NOTE]
 >
@@ -59,11 +59,11 @@ Im Control Panel können Sie mehrere Einstellungen Ihrer Instanz verwalten: URL-
 
 **Technische Objekte**
 
-Das **[!UICONTROL Diagnose]**-Menü ist ein wichtiges Tool zur Überwachung und Analyse der verschiedenen technischen Objekte, die von der Anwendung generiert werden: Datenschemata, Web-Seiten, Batch-Vorgänge usw[&#x200B; (mehr dazu](../../developing/using/monitoring-data-model-changes.md)
+Das Menü **[!UICONTROL Diagnose]** ist ein wichtiges Tool zur Überwachung und Analyse der verschiedenen technischen Objekte, die von der Anwendung generiert werden: zum Beispiel Datenschemata, Web-Seiten, Batch-Aufträge. [Weitere Informationen](../../developing/using/monitoring-data-model-changes.md)
 
 **Export-Audits**
 
-Export-Audits ermöglichen es Ihnen, die auf Ihren Instanzen durchgeführten Exporte zu überwachen: Dateien, die von Workflows hochgeladen wurden, Listenexporte und Dateien, die von Briefpost-Nachrichten heruntergeladen wurden.
+Export-Audits ermöglichen es Ihnen, die auf Ihren Instanzen durchgeführten Exporte zu überwachen: Dateien, die aus Workflows hochgeladen wurden, Listenexporte und Dateien, die aus Briefpost-Nachrichten heruntergeladen wurden.
 [Weitere Informationen](../../administration/using/auditing-export-logs.md)
 
 **Lizenzen**
@@ -77,7 +77,7 @@ Im Menü **[!UICONTROL Lizenzen]** können Sie Informationen zu Ihren Instanzen 
 
 **Best Practices und Fehlerbehebung**
 
-Die Befolgung von Best Practices und Richtlinien zur Fehlerbehebung beim Verwenden von Workflows kann zur Performance-Verbesserung beitragen.
+Die Befolgung von Best Practices und Richtlinien zur Fehlerbehebung beim Verwenden von Workflows kann zur Leistungsverbesserung beitragen.
 [Weitere Informationen](../../automating/using/best-practices-workflows.md)
 
 **Protokolle und Aufgaben**
@@ -90,7 +90,7 @@ Die Überwachung von Workflow-Protokollen ist ein wichtiger Schritt, um Ihre Wor
 Mit Campaign Standard können Sie Benachrichtigungen an Verantwortliche senden, um die Ausführung Ihrer Workflows zu überwachen und festzustellen, ob ein Fehler vorliegt, der Ihre Aufmerksamkeit erfordert.
 [Weitere Informationen](../../automating/using/monitoring-workflow-execution.md#error-management)
 
-## Sendungen überwachen {#monitoring-deliveries}
+## Überwachen von Sendungen {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
@@ -101,7 +101,7 @@ Campaign Standard bietet verschiedene Zustellbarkeits-Tools, mit denen Sie die A
 
 **Sendungen**
 
-Sobald Ihre Nachrichten gesendet wurden, können Sie mithilfe detaillierter Protokolle die Sendungen überwachen, den Erfolg Ihrer Kampagne messen sowie das Verhalten der Empfänger verfolgen.
+Sobald Ihre Nachrichten gesendet wurden, können Sie mithilfe detaillierter Protokolle die Sendungen überwachen, den Erfolg Ihrer Kampagne messen sowie das Verhalten der Empfängerinnen und Empfänger verfolgen.
 [Weitere Informationen](../../sending/using/monitoring-a-delivery.md)
 
 **Versandwarnungen**

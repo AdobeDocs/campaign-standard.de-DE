@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 462
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Dieser Anwendungsfall ermöglicht es Ihnen, eine Email Designer-Vorlage zu erste
 ## E-Mail-Struktur erstellen
 
 1. Öffnen Sie **[!UICONTROL Email Designer]**, um leeren E-Mail-Inhalt zu erstellen.
-1. Legen Sie die Attribute auf Textebene fest: Hintergrundfarben, Breite usw. Weitere Informationen hierzu finden Sie unter [Bearbeiten von E-Mail-Stilen](../../designing/using/styles.md).
+1. Legen Sie die Attribute auf Textebene fest: Hintergrundfarben, Breite usw. Weitere Informationen hierzu finden Sie unter [Bearbeiten von E-Mail-Stilen](../../designing/using/styles.md).
 1. Fügen Sie so viele Strukturkomponenten hinzu, wie Sie Abschnitte haben. Weiterführende Informationen dazu finden Sie im Abschnitt zum [Bearbeiten des E-Mail-Aufbaus](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## HTML-Inhalt hinzufügen
@@ -132,6 +132,6 @@ Sie können nun das Rendering Ihrer E-Mail überprüfen.
 
 1. Wechseln Sie zum Quellcode und kopieren Sie Ihren Stilabschnitt in einen neuen Stilabschnitt.
 
-Weitere Informationen finden Sie unter [Stil Ihrer E-Mail verwalten &#x200B;](#manage-the-style-of-your-email).
+Weitere Informationen finden Sie unter [Stil Ihrer E-Mail verwalten ](#manage-the-style-of-your-email).
 
 Ihre alte E-Mail ist jetzt in Email Designer verfügbar.

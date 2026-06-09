@@ -17,9 +17,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1083
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: 1014
+ht-degree: 100%
 
 ---
 
@@ -113,23 +113,23 @@ Legen Sie auf der Registerkarte **[!UICONTROL Allgemein]** die **[!UICONTROL Aus
 
    ![](assets/update_profile_createelement.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Quelle]** ein Feld aus der Tabelle „appSubscrsiptionRcp“ als Abstimmungsfeld aus. Dabei kann es sich um die E-Mail-Adresse, die crmId, die Marketing-Cloud-ID usw. des Profils handeln. Verwenden Sie in diesem Beispiel das Feld „E-Mail (cusEmail)“.
+1. Wählen Sie im Feld **[!UICONTROL Quelle]** ein Feld aus der Tabelle „appSubscrsiptionRcp“ als Abstimmungsfeld aus. Es kann sich um das Feld „email“, „crmId“ oder „marketingCloudId“ des Profils handeln. Verwenden Sie in diesem Beispiel das Feld „E-Mail (cusEmail)“.
 
-1. Wählen Sie im Feld **[!UICONTROL Ziel]** ein Feld aus der Profiltabelle aus, mit dem die Daten aus der Tabelle „appSubscriptionRcp“ abgestimmt werden sollen. Dabei kann es sich um die E-Mail-Adresse des Profils oder ein beliebiges erweitertes Feld wie crmId, marketingCloudId usw. handeln. In diesem Beispiel müssen wir das Feld „E-Mail (E-Mail)“ auswählen, um es dem Feld „E-Mail (cusEmail)“ in der Tabelle appSubscriptionRcp zuzuordnen.
+1. Wählen Sie im Feld **[!UICONTROL Ziel]** ein Feld aus der Profiltabelle aus, mit dem die Daten aus der Tabelle „appSubscriptionRcp“ abgestimmt werden sollen. Es kann sich um das Feld „email“ des Profils oder um ein erweitertes Feld wie „crmId“ oder „marketingCloudId“ handeln. In diesem Beispiel müssen wir das Feld „E-Mail (email)“ auswählen, um es dem Feld „E-Mail (cusEmail)“ der Tabelle „appSubscriptionRcp“ zuzuordnen.
 
    ![](assets/update_profile7.png)
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Zu aktualisierende Felder]** auf die Schaltfläche **[!UICONTROL Element erstellen]** und ordnen Sie die Felder aus der Tabelle „appSubscriptionRcp“ (Feld **[!UICONTROL Quelle]**) den Feldern zu, die Sie in der Profiltabelle (Feld **[!UICONTROL Ziel]**) aktualisieren möchten.
 
-1. Fügen Sie dem Feld **[!UICONTROL Aktiviert wenn]** einen Ausdruck hinzu, der sicherstellt, dass das entsprechende Feld in der Profiltabelle nur aktualisiert wird, wenn das Quellfeld einen Wert enthält. Wählen Sie dazu das Feld aus der Liste aus und fügen Sie dann den Ausdruck &quot;!=&quot; hinzu. (Wenn das Source-Feld im Ausdruckseditor `[target/@cusEmail]` ist, geben Sie `[target/@cusEmail] != ''"` ein.)
+1. Fügen Sie dem Feld **[!UICONTROL Aktiviert wenn]** einen Ausdruck hinzu, der sicherstellt, dass das entsprechende Feld in der Profiltabelle nur aktualisiert wird, wenn das Quellfeld einen Wert enthält. Wählen Sie dazu das Feld in der Liste aus und fügen Sie dann den Ausdruck „!=&#39;&#39;“ hinzu (wenn das Quellfeld im Ausdruckseditor `[target/@cusEmail]` ist, geben Sie `[target/@cusEmail] != ''"` ein).
 
    ![](assets/update_profile8.png)
 
 >[!NOTE]
 >
->In diesem Fall führt der Workflow ein UPSERT aus. Da sich dieses UPSERT jedoch auf eine **[!UICONTROL inkrementelle Abfrage]** bezieht, werden die Daten nur eingefügt. Eine Änderung der Abfrage kann sich auf die eingefügten oder aktualisierten Daten auswirken.
->Darüber hinaus bestimmen auch die Einstellungen auf der Registerkarte „Zu aktualisierende Felder“, welche Felder unter bestimmten Bedingungen eingefügt oder aktualisiert werden. Diese Einstellungen sind oft anwendungs- oder kundenspezifisch.
->Konfigurieren Sie diese Einstellungen mit größter Sorgfalt, da sie andernfalls unbeabsichtigte Folgen haben können. Durch die Aktualisierung der Profildatensätze auf Basis der appSubscriptionRcp-Daten können sich personenbezogene Benutzerdaten ohne Validierung ändern.
+>In diesem Fall führt der Workflow zwar ein UPSERT durch, doch da es auf einer **[!UICONTROL inkrementellen Abfrage]** basiert, werden nur Daten eingefügt. Eine Änderung der Abfrage kann sich darauf auswirken, welche Daten eingefügt oder aktualisiert werden.
+>Darüber hinaus bestimmen die Einstellungen auf der Registerkarte „Zu aktualisierende Felder“, welche Felder unter bestimmten Bedingungen eingefügt oder aktualisiert werden. Diese Einstellungen können für jede Anwendung oder jede Kundin bzw. jeden Kunden eindeutig sein.
+>Konfigurieren Sie diese Einstellungen mit größter Sorgfalt, da sie andernfalls unbeabsichtigte Folgen haben können. Durch die Aktualisierung der Einträge im Profil auf der Grundlage der appSubscriptionRcp-Daten können sich personenbezogene Benutzerinformationen ohne Validierung ändern.
 
 Klicken Sie auf **[!UICONTROL Bestätigen]**, wenn Sie alle im Profil einzufügenden bzw. zu aktualisierenden Felder hinzugefügt haben.
 

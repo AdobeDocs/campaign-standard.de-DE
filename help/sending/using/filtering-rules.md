@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 730
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Die nachstehende Tabelle enthält Informationen zu vordefinierten Filterregeln s
 
 | Titel | Kanal | Beschreibung |
 | ---------|----------|---------|
-| **[!UICONTROL Adresse nicht angegeben]** | Alle | Schließt die Zielpopulation ohne angegebene Adresse aus (E-Mail, Postanschrift usw. je nach ausgewähltem Kanal). |
+| **[!UICONTROL Adresse nicht angegeben]** | Alle | Schließt die Zielpopulation ohne angegebene Adresse aus (E-Mail, Anschrift gemäß dem ausgewählten Kanal). |
 | **[!UICONTROL Adresse auf Blockierungsliste]** | Alle | Schließt Adressen aus, die sich auf der Blockierungsliste befinden. |
 | **[!UICONTROL Duplikat]** | Alle | Schließt Duplikate anhand des Felds **[!UICONTROL Adresse]** der Zielpopulation aus. |
 | **[!UICONTROL Mobile Apps ausschließen]** | Mobile App | Schließt App-Anmeldungen aus, die nicht mit der in der Nachricht definierten Mobile App übereinstimmen. |

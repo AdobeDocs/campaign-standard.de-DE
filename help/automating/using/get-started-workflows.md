@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 520
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ ht-degree: 89%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Workflow-Aktivitäten</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Anwendungsfälle</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Daten filtern</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Workflow-Aktivitäten</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Anwendungsfälle</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtern von Daten</a></p></td>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Daten importieren/exportieren</a></p></td></tr>
 </table>
 
-Adobe Campaign bietet eine umfassende grafische Umgebung, mit der Sie komplexe Prozesse wie Segmentierung, Kampagnenausführung, Dateiverarbeitung usw. entwerfen können. Beispielsweise können Sie einen Workflow verwenden, um eine Datei von einem Server herunterzuladen, sie zu entkomprimieren und dann ihre Datensätze in die Adobe Campaign-Datenbank zu importieren.
+Adobe Campaign bietet eine umfassende grafische Umgebung, mit der Sie komplexe Prozesse wie Segmentierung, Kampagnenausführung und Dateiverarbeitung gestalten können. Erstellen Sie zum Beispiel einen Workflow, um eine Datei von einem Server herunterzuladen, sie zu dekomprimieren und anschließend die enthaltenen Einträge in die Adobe Campaign-Datenbank zu importieren.
 
 Workflows können in unterschiedlichsten Kontexten zum Einsatz kommen:
 
@@ -104,6 +104,6 @@ mehr dazu:
 
 ## Zusätzliche Ressourcen
 
-* [Anleitungsvideos zu Prozessen und Daten-Management](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=de)
+* [Video-Tutorials zu Prozessen und Daten-Management](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=de)
 * [Technische Workflows](../../administration/using/technical-workflows.md)
 * [Erste Schritte mit dem Campaign Standard-Datenmodell](../../developing/using/get-started-data-model.md)

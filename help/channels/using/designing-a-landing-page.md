@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1693
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Der Inhaltseditor besteht aus drei Bereichen. In diesen Bereichen können Sie de
 
 ![](assets/des_lp_content_8.png)
 
-1. Die **Palette** links im Bildschirm ermöglicht die Bearbeitung der Eigenschaften des markierten Blocks, Folgende Optionen können geändert werden: Hintergrundfarbe, Rahmen, Textausrichtung, Sichtbarkeitsbedingung usw. Siehe [Einfügen eines Personalisierungsfelds](../../designing/using/personalization.md#inserting-a-personalization-field).
+1. Die **Palette** links im Bildschirm ermöglicht die Bearbeitung der Eigenschaften des markierten Blocks, Folgende Optionen können geändert werden: zum Beispiel Hintergrundfarbe, Textausrichtung, Sichtbarkeitsbedingung. Weitere Informationen finden Sie unter [Einfügen eines Personalisierungsfelds](../../designing/using/personalization.md#inserting-a-personalization-field).
 1. In der **Symbolleiste** bieten Schaltflächen Zugriff auf die verfügbaren Aktionen. Sie können eine Vorlage auswählen und den Anzeigemodus wechseln.
 1. Im **Hauptarbeitsbereich** ermöglicht eine kontextabhängige Symbolleiste die direkte Bearbeitung des Inhalts. Sie können beispielsweise ein Bild mit einem Link belegen, die Schriftart anpassen, ein Feld löschen etc.
 
@@ -266,7 +266,7 @@ Aktivieren Sie die Textbearbeitung durch einen zweiten Klick in den Block. Der R
 
 ![](assets/des_lp_content_3.png)
 
-Die für ein Element in einem Block definierten Parameter (Links, Personalisierungsfelder, Inhaltsbausteine usw.) kann jederzeit über die Palette geändert werden.
+Die für ein Blockelement (zum Beispiel Link, Personalisierungsfeld, Inhaltsbaustein) definierten Parameter können jederzeit über die Palette geändert werden.
 
 ![](assets/des_lp_content_4.png)
 

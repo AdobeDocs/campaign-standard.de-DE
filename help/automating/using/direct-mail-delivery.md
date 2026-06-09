@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 965
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 
    >[!NOTE]
    >
-   >Die Schaltfläche ![](assets/dlv_activity_params-24px.png) iin der Schnellaktion bietet Zugriff auf die allgemeinen Eigenschaften und erweiterten Optionen der Aktivität (aber nicht des Versands selbst). Diese Schaltfläche ist spezifisch für die Kanalaktivitäten. Auf die Eigenschaften der Briefpost können Sie über die Aktionsleiste ihres Briefpost-Dashboards zugreifen.
+   >Die Schaltfläche ![](assets/dlv_activity_params-24px.png) in der Schnellaktion bietet Zugriff auf die allgemeinen Eigenschaften und erweiterten Optionen der Aktivität (aber nicht des Versands selbst). Diese Schaltfläche ist spezifisch für die Kanalaktivitäten. Auf die Eigenschaften der Briefpost können Sie über die Aktionsleiste ihres Briefpost-Dashboards zugreifen.
 
 1. Wählen Sie den Versandtyp der Briefpost aus:
 
@@ -80,7 +80,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 1. Der **[!UICONTROL Briefpostversand]** verfügt standardmäßig über keine ausgehenden Transitionen. Wenn Sie der Aktivität **[!UICONTROL Briefpostversand]** eine ausgehende Transition hinzufügen möchten, gehen Sie zum Tab **[!UICONTROL Allgemein]** der erweiterten Aktivitätsoptionen (Schaltfläche ![](assets/dlv_activity_params-24px.png) in der Schnellaktion der Aktivität) und aktivieren Sie eine der folgenden Optionen:
 
    * **[!UICONTROL Ausgehende Transition ohne Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die exakt dieselbe Population enthält wie die eingehende Transition. Diese Transition enthält die Datei, die von der Briefpost-Aktivität erstellt wurde, sowie die ursprüngliche Population, die von der Briefpost-Aktivität erhalten wurde.
-   * **[!UICONTROL Ausgehende Transition mit Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die die Population enthält, der die Briefpost gesendet wird. Die Mitglieder der Zielgruppe, die bei der Vorbereitung der Briefpost ausgeschlossen wurden (Quarantäne, ungültige Adresse usw.) sind von dieser Transition ausgeschlossen. Die Transition enthält auch die von der Briefpost erstellte Datei.
+   * **[!UICONTROL Ausgehende Transition mit Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die die Population enthält, der die Briefpost gesendet wird. Der Teil der Zielgruppe, der in der Vorbereitung der Briefpost ausgeschlossen wurde (Quarantäne, ungültige Adresse usw.), ist von dieser Transition ausgeschlossen. Die Transition enthält auch die von der Briefpost erstellte Datei.
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
@@ -94,7 +94,7 @@ Auf die von einem Workflow aus erstellten Sendungen kann in der Marketing-Aktivi
 
 ![](assets/wkf_display_parent_elements_direct_mail.png)
 
-Die Ausführungen wiederkehrender Sendungen sind standardmäßig ausgeblendet. Um sie anzuzeigen, aktivieren Sie im Suchmenü der Marketing-Aktivitäten die Option **[!UICONTROL Wiederkehrende Ausführungen anzeigen]**.
+Die Ausführungen wiederkehrender Sendungen sind standardmäßig ausgeblendet. Um sie anzuzeigen, aktivieren Sie im Suchfenster der Marketing-Aktivitäten die Option **[!UICONTROL Wiederkehrende Ausführungen anzeigen]**.
 
 ![](assets/wkf_display_recurrent_executions_direct_mail.png)
 

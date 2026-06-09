@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 768
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Im Tab **Einfügen** können Sie Ihre Berichte anpassen, indem Sie Diagramme und
 * [Panels hinzufügen](../../reporting/using/adding-panels.md)
 * [Visualisierungen hinzufügen](../../reporting/using/adding-visualizations.md)
 * [Komponenten hinzufügen](../../reporting/using/adding-components.md)
-* [Automatisches Teilen von Berichten mit Stakeholdern per E-Mail](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Automatisches Freigeben von Berichten für Verantwortliche per E-Mail](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
 ## Registerkarten {#tabs}
 
@@ -157,4 +157,4 @@ Die jeweiligen Benutzer erhalten dann eine E-Mail mit Ihrem Bericht im Anhang di
 
 **Verwandtes Thema:**
 
-* [Automatisches Teilen von Berichten mit Stakeholdern per E-Mail](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Automatisches Freigeben von Berichten für Verantwortliche per E-Mail](https://helpx.adobe.com/de/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

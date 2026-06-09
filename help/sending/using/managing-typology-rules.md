@@ -20,9 +20,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 582
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Typologieregeln sind Geschäftsregeln, mit denen Sie eine Nachricht prüfen und 
 
 * **Ermüdungsregeln**: Damit können Sie eine Höchstzahl an Nachrichten festlegen, die an jedes Profil gesendet wird. Auf diese Weise stellen Sie sicher, dass die einzelnen Profile nicht zu häufig angesprochen werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../sending/using/fatigue-rules.md).
 
-* **Kontrolle** Regeln: Mit dieser Art von Regeln kann der Benutzer die Gültigkeit und Qualität der Nachrichten überprüfen, bevor sie gesendet werden, z. B. die Zeichenanzeige, die Größe der SMS-Nachricht, das Adressformat usw. Weiterführende Informationen hierzu finden Sie [diesem Abschnitt](../../sending/using/control-rules.md).
+* **Kontrollregeln**: Damit können Benutzende die Gültigkeit und die Qualität der Nachrichten vor dem Versand überprüfen. Dabei werden beispielsweise die Zeichenanzeige, die Größe von SMS-Nachrichten und das Adressformat überprüft. Weitere Informationen dazu finden Sie in [diesem Abschnitt](../../sending/using/control-rules.md).
 
 Typologieregeln sind verfügbar über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Typologien]** > **[!UICONTROL Typologieregeln]**.
 

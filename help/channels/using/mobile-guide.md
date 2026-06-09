@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 799
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -56,14 +56,14 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>Konfiguration einer Mobile App mithilfe von Adobe Experience Platform SDKs</strong></p>
     </div>
-    <p>Zum Senden von In-App-Nachrichten und Push-Benachrichtigungen müssen Ihre Mobile Apps in Adobe Campaign unter Verwendung von Adobe Experience Platform SDKs eingerichtet werden.</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>Zum Versand von In-App-Nachrichten und Push-Benachrichtigungen müssen Ihre Apps in Adobe Campaign unter Verwendung von Adobe Experience Platform-SDKs eingerichtet werden.</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>Die Struktur der Payload von Push-Benachrichtigungen in Campaign Standard</strong></p>
     </div>
-    <p>Erfahren Sie mehr über die Struktur der Payload, die in Mobile Apps empfangen wird, wenn von Adobe Campaign Standard erfolgreich eine Push-Benachrichtigung an eine App gesendet wurde.</br><a href="../../administration/using/push-payload.md"><strong>Klicken Sie hier</strong></a> um weitere Informationen zu erhalten.</p>
+    <p>Erfahren Sie mehr über die Struktur der Payload, die in Apps empfangen wird, wenn von Adobe Campaign Standard erfolgreich eine Push-Benachrichtigung an eine gesendet wird. </br><a href="../../administration/using/push-payload.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -79,7 +79,7 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>Implementieren von Push-Tracking</strong></p>
     </div>
-    <p>Erfahren Sie, wie Sie sicherstellen können, dass das Tracking von Push-Benachrichtigungen auf iOS und Android korrekt implementiert wurde.</br><a href="../../administration/using/push-tracking.md"><strong>Klicken Sie hier</strong></a> um weitere Informationen zu erhalten.</p>
+    <p>Erfahren Sie, wie Sie sicherstellen können, dass das Tracking von Push-Benachrichtigungen unter iOS und Android richtig implementiert wurde.</br><a href="../../administration/using/push-tracking.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -93,14 +93,14 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>Konfiguration einer Mobile App mithilfe von Adobe Experience Platform SDKs</strong></p>
     </div>
-    <p>Zum Senden von In-App-Nachrichten und Push-Benachrichtigungen müssen Ihre Mobile Apps in Adobe Campaign unter Verwendung von Adobe Experience Platform SDKs eingerichtet werden.</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
+    <p>Zum Versand von In-App-Nachrichten und Push-Benachrichtigungen müssen Ihre Apps in Adobe Campaign unter Verwendung von Adobe Experience Platform-SDKs eingerichtet werden.</br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
   <td>
     <div>
     <p><strong>Unterstützte Anwendungsfälle für Mobilgeräte unter Verwendung von Adobe Experience Platform SDKs</strong></p>
     </div>
-    <p>Erfahren Sie mehr über Anwendungsfälle für Mobilgeräte, die in Adobe Campaign Standard mit den Adobe Experience Platform SDKs unterstützt werden.</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>Klicken Sie hier</strong></a> um weitere Informationen zu erhalten.</p>
+    <p>Erfahren Sie mehr über Anwendungsfälle für Mobilgeräte, die in Adobe Campaign Standard mithilfe von Adobe Experience Platform-SDKs unterstützt werden.</br><a href="../../administration/using/supported-mobile-use-cases.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -174,7 +174,7 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>In-App-Nachrichten anpassen</strong></p>
     </div>
-    <p>In Adobe Campaign stehen Ihnen zur Anpassung von Sendungen beim Entwerfen von In-App-Nachrichten eine Reihe erweiterter Optionen zur Verfügung.</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>Klicken Sie hier</strong></a> um weitere Informationen zu erhalten.</p>
+    <p>Zur Optimierung Ihres Versands können Sie in Adobe Campaign bei der Gestaltung von In-App-Nachrichten auf eine Reihe erweiterter Optionen zugreifen.</br><a href="../../channels/using/customizing-an-in-app-message.md"><strong>Klicken Sie hier</strong></a>, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
 </tr>
@@ -221,7 +221,7 @@ Mit Adobe Campaign Standard können Sie Sendungen an Mobilgeräte über drei ver
     <div>
     <p><strong>Eingehende SMS verwalten</strong></p>
     </div>
-    <p>Sie können einem Profil, das auf eine per Campaign gesendete SMS-Nachricht antwortet, eine automatische Nachricht sowie die auszuführende Aktion zurücksenden.Anpassen eines Nachrichtentyps für lokale Benachrichtigungen</br><a href="../../channels/using/managing-incoming-sms.md"><strong> Klicken Sie hier, um weitere Informationen zu erhalten.</p>
+    <p>Sie können einem Profil, das auf eine per Campaign gesendete SMS-Nachricht antwortet, eine automatische Nachricht sowie die auszuführende Aktion zurücksenden.Anpassen eines Nachrichtentyps für lokale Benachrichtigungen</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klicken Sie hier, um weitere Informationen zu erhalten.</p>
     <br>
   </td>
   <td>

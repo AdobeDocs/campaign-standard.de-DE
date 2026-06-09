@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 454
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Sie können Daten mithilfe der folgenden Aktivitäten auswählen:
 
 * Eine **[!UICONTROL Abfrage]** dient der Filterung und Extraktion einer Population, die sich aus Elementen der Adobe Campaign-Datenbank zusammensetzt. Siehe den Abschnitt [Abfrage](../../automating/using/query.md).
 * Eine **[!UICONTROL Inkrementelle Abfrage]** dient der Filterung und Extraktion einer Population, die sich aus Elementen der Adobe Campaign-Datenbank zusammensetzt. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen. Siehe den Abschnitt [Inkrementelle Abfrage](../../automating/using/incremental-query.md).
-* Die Aktivität **[!UICONTROL Zielgruppe lesen]** ermöglicht es Ihnen, eine vorhandene Zielgruppe abzurufen und sie durch zusätzliche Filterbedingungen einzuengen.Siehe den Abschnitt [Zielgruppe lesen](../../automating/using/read-audience.md).
+* Die Aktivität **[!UICONTROL Zielgruppe lesen]** ermöglicht es Ihnen, eine vorhandene Zielgruppe abzurufen und sie durch zusätzliche Filterbedingungen einzuengen.Weitere Informationen finden Sie im Abschnitt [Zielgruppe lesen](../../automating/using/read-audience.md).
 
 ## Daten segmentieren {#segmenting-data}
 

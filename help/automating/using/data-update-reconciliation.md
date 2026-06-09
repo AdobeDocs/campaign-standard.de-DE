@@ -18,9 +18,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 128
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Das folgende Beispiel zeigt einen Workflow zur Erstellung einer Profil-Zielgrupp
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* [Abstimmung](../../automating/using/reconciliation.md) zur Zuordnung jeder Spalte der geladenen Datei zu einer Spalte der Profildimension. Die Dateidatensätze, die nicht identifiziert werden können (fehlende Daten, inkompatibler Datentyp usw.) werden ignoriert, um die Integrität der endgültigen Zielgruppendaten zu wahren.
+* [Abstimmung](../../automating/using/reconciliation.md) zur Zuordnung jeder Spalte der geladenen Datei zu einer Spalte der Profildimension. Die Dateieinträge, die nicht identifiziert werden können (fehlende Daten, inkompatibler Datentyp usw.), werden ignoriert, um die Integrität der endgültigen Zielgruppendaten zu wahren.
 
   ![](assets/identification_example1.png)
 

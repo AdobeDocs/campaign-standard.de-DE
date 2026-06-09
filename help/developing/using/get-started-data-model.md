@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 348
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Erweitern Sie das Datenmodell von Campaign Standard mit Ihren eigenen Feldern un
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Die von Campaign verwendeten Daten werden durch verschiedene Ressourcen definiert, die in einem **vordefinierten Datenmodell** festgelegt werden. Das Datenmodell zeigt eine vorkonfigurierte SQL-Struktur für eine Reihe von Marketing-bezogenen Ressourcen an: Versand, Zielgruppe, Landingpages, Profil usw. Jeder Ressource sind Filter zugeordnet, mit denen Sie durch die Ressourcen navigieren können.
+Die von Campaign verwendeten Daten werden durch verschiedene Ressourcen definiert, die in einem **vordefinierten Datenmodell** festgelegt werden. Das Datenmodell verfügt über eine native SQL-Struktur für eine Reihe von Marketing-Ressourcen: Versand, Zielgruppe, Landingpages, Profil usw. Jede Ressource verfügt über zugehörige Filter, mit denen Sie durch die Ressourcen navigieren können.
 
 Im Menü **Diagnose** können Sie die von Campaign Standard generierten technischen Objekte auflisten: Datenschemata, Websites, Filter usw., um das Datenmodell und alle daran vorgenommenen Änderungen zu überwachen.
 

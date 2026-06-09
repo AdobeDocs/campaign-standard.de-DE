@@ -18,9 +18,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1024
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -287,7 +287,7 @@ if (deliveryId != nil && broadlogId != nil) {
 Unter Android ist folgendes [!DNL Experience Platform SDK] erforderlich:
 
 * **[!UICONTROL trackAction]**
-Weitere Informationen finden Sie unter [App-Aktionen &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
+Weitere Informationen finden Sie unter [Tracking von App-Aktionen](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Hier finden Sie eine Beispielimplementierung dieses Anwendungsfalls mit Android:
 
@@ -317,7 +317,7 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 Unter Android ist folgendes [!DNL Experience Platform SDK] erforderlich:
 
 * **[!UICONTROL trackAction]**
-Weitere Informationen finden Sie unter [App-Aktionen &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
+Weitere Informationen finden Sie unter [Tracking von App-Aktionen](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Hier finden Sie eine Beispielimplementierung dieses Anwendungsfalls mit Android:
 

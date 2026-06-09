@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1276
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 98%
 
 Nach der Erstellung einer E-Mail in Adobe Campaign müssen Sie deren Inhalt definieren.
 
-Mit Email Designer können Sie durch Drag-and-Drop überzeugende, individuell zugeschnittene E-Mails erstellen
--Schnittstelle. Egal ob Sie bei null anfangen oder existierende Inhaltsfragmente bzw. Vorlagen nutzen, können Sie beliebige Inhalte für alle E-Mails erstellen und gestalten (ob für Promotionen oder Transaktionen).
+Mit dem E-Mail-Designer können Sie faszinierende, individuell zugeschnittene E-Mails über eine Drag-and-Drop-
+-Oberfläche erstellen. Egal ob Sie bei null anfangen oder existierende Inhaltsfragmente bzw. Vorlagen nutzen, können Sie beliebige Inhalte für alle E-Mails erstellen und gestalten (ob für Promotionen oder Transaktionen).
 
 Email Designer ermöglicht die Bereitstellung von HTML-Code, der für responsives Design optimiert ist. Mit Email Designer können Sie bequem Sichtbarkeitsbedingungen und dynamische Inhalte direkt über die Benutzeroberfläche definieren und anwenden. Durch einfaches Klicken auf einen Button können Sie nahtlos zwischen der Drag-and-Drop-Oberfläche und HTML-Code wechseln.
 

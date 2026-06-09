@@ -24,9 +24,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 484
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Haben Sie ein Problem mit der Zustellbarkeit? Vielleicht finden Sie hier die Lö
 
 **Warum erhalte ich bei einem bestimmten ISP immer dieselbe Fehlermeldung?**
 
-Wenn Sie immer dieselbe Fehlermeldung für einen ISP erhalten, wurde Ihre E-Mail oder IP möglicherweise vom ISP als fehlerhaft erkannt. Führen Sie die folgenden Empfehlungen aus:
+Wenn Sie bei einem ISP immer dieselbe Fehlermeldung erhalten, hat der ISP möglicherweise festgestellt, dass Ihre E-Mail- oder IP-Adresse fehlerhaft ist.Wir empfehlen in diesem Fall folgende Schritte:
 
 * Prüfen Sie, ob Sie eine große Menge an Fehlschlägen in Verbindung mit nicht bestehenden E-Mail-Adressen erhalten (**Unbekannter Nutzer**).
 * Aktualisieren Sie Ihre Anmeldeformulare und achten Sie auf etwaige Fehler im Domain-Namen (z. B. gmaul.com oder yaho.com).
@@ -84,4 +84,4 @@ Wenn das Problem fortbesteht, kontaktieren Sie den Zustellbarkeitsservice oder d
 
   >[!NOTE]
   >
-  >Der Löschvorgang kann je nach Website variieren. Bei einigen Sites müssen Sie ein Konto erstellen, während andere nur die IP-Adresse angeben müssen.
+  >Das Verfahren zum Entfernen aus der Liste kann je nach Website variieren.Auf manchen Websites müssen Sie ein Konto erstellen, während andere nur die Angabe der IP-Adresse verlangen.

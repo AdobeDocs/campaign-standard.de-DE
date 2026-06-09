@@ -28,9 +28,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 684
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: 586
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Durch die Integration von Adobe Campaign Standard mit Adobe Experience Manager k
 
 Auf diese Weise profitieren Sie gleichermaßen von den fortgeschrittenen Funktionen zur Inhaltsgestaltung in Adobe Experience Manager und den außerordentlichen Versand- sowie Datenverwaltungsfähigkeiten von Adobe Campaign. Bitte beachten Sie, dass Sie für aus Adobe Experience Manager importierte Inhalte keine A/B-Tests durchführen können.
 
-Adobe Campaign Standard ist mit Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 und 6.5 kompatibel. In den folgenden Abschnitten finden Sie einen Überblick über die Aktionen, die Sie ausführen können. Weiterführende Informationen finden Sie in den Abschnitten [Konfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=de) und [Vorgehensweise](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html?lang=de) zur Integration.
+Adobe Campaign Standard ist mit Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 und 6.5 kompatibel.In den folgenden Abschnitten finden Sie einen Überblick über die Aktionen, die Sie ausführen können. Weiterführende Informationen finden Sie in den Abschnitten [Konfiguration](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=de) und [Vorgehensweise](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html?lang=de) zur Integration.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Adobe Campaign Standard ist mit Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 und 
 * **Vordefinierten Komponenten erleichtern Ihnen den Einstieg.**
 
   Die in Adobe Experience Manager für Adobe Campaign Standard vordefinierten Komponenten erleichtern Ihnen den Einstieg, wenn Ihre Vorlagen nicht komplex sind.
-In Experience Manager stehen hierfür sieben vordefinierte Komponenten zur Verfügung:
+Es gibt sieben vordefinierte Komponenten in Experience Manager, die Sie wie folgt verwenden können:
 
    * Überschrift
    * Bild
@@ -85,12 +85,12 @@ In Experience Manager stehen hierfür sieben vordefinierte Komponenten zur Verf�
 
 * **Heben Sie die Verknüpfung von Inhalten mit Vorlagen auf, um die Vorlagen wiederzuverwenden.**
 
-  Wenn Sie für die Einrichtung Ihrer E-Mails in Campaign Standard eine Experience Manager-Vorlage verwenden, darf diese Vorlage nicht mit einer anderen Kampagne verknüpft sein. Andernfalls würden Sie, wenn Sie den Inhalt in Adobe Experience Manager für die eine Kampagne ändern und aktualisieren, den Inhalt in der anderen Kampagne unbeabsichtigt beeinflussen.
-Um dies zu vermeiden, können Sie die Verknüpfung der Vorlage aufheben, nachdem Sie die Vorlage verwendet haben. Wählen Sie dazu einfach die Vorlage aus und klicken Sie auf **[!UICONTROL Verknüpfung mit Adobe Experience Manager-Inhalt löschen]**.
+  Beim Einrichten Ihrer E-Mails in Campaign Standard und Auswählen einer Experience Manager-Vorlage können Sie nur eine Vorlage auswählen, die noch nicht mit einer anderen Kampagne verknüpft wurde. Wenn Sie den Inhalt in Adobe Experience Manager für eine Kampagne ändern und aktualisieren, kann es andernfalls passieren, dass sich dies unbeabsichtigt auf den Inhalt der anderen Kampagne auswirkt.
+Um dies zu vermeiden, können Sie die Verknüpfung der Vorlage aufheben, sobald Sie diese nicht mehr benötigen, damit Sie sie erneut verwenden können. Wählen Sie dazu einfach die Vorlage aus und klicken Sie auf **[!UICONTROL Link mit Adobe Experience Manager-Inhalten löschen]**.
 
 * **Erstellen Sie mit Adobe Experience Manager verschiedene Varianten von E-Mails für Adobe Campaign Standard.**
 
-  Mithilfe der Segmentierung ermöglicht es diese Integration, aus einer E-Mail mühelos mehrere Versionen erstellen.
+  Mit dieser Integration können Sie mithilfe der Segmentierung eine E-Mail ganz einfach in mehrere Versionen umwandeln.
 Informationen zum Einrichten der Segmentierung in Adobe Experience Manager und zum Erstellen von E-Mails mit zielgerichteten Inhalten finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/target-adobe-campaign.html?lang=de#setting-up-segmentation-in-aem).
 
 * **Für eine erfolgreiche Synchronisierung muss der Segmentname in Experience Manager exakt mit dem Segmentnamen in Campaign übereinstimmen.**

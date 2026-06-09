@@ -20,9 +20,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 803
-ht-degree: 79%
+workflow-type: ht
+source-wordcount: 707
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
   <tr> 
    <td> <span class="uicontrol">Header aus Versandvorlagen kopieren</span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> Dieser Workflow kopiert die für E-Mail-Versandvorlagen festgelegten SMTP-Header in die entsprechenden untergeordneten Sendungen ohne Vorlagen. Von diesem Workflow werden nur E-Mail-Marketing-Sendungen erfasst. SMTP-Header werden nicht in Transaktions- und Testsendungen kopiert. <br> Dieser Workflow wird nicht regelmäßig ausgeführt. Sie muss vom Benutzer pro Verwendung gestartet werden. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Wenn Ihre Instanz eine große Versandmenge aufweist, können Sie die Option NmsCleanup_DeliveryPurgeDelay in den <strong>Anwendungseinstellungen</strong> aktualisieren. Wenn Sie die SMTP-Header einer Vorlage ändern, müssen Sie den Workflow nach der Änderung erneut ausführen, damit die korrigierten Header in Sendungen ohne Vorlagen kopiert werden.<a href="data-retention.md#deliveries">Weitere Informationen</a>
+   <td> Dieser Workflow kopiert SMTP-Header, die für E-Mail-Versandvorlagen festgelegt sind, in die entsprechenden untergeordneten Sendungen, die keine Vorlagen sind. Dieser Workflow erfasst nur E-Mail-Marketing-Sendungen. SMTP-Header werden nicht in Transaktions- und Testsendungen kopiert. <br> Dieser Workflow wird nicht regelmäßig ausgeführt. Er muss von den Benutzenden pro Verwendung gestartet werden. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Wenn Ihre Instanz eine große Anzahl Sendungen aufweist, können Sie die Option „NmsCleanup_DeliveryPurgeDelay“ in den <strong>Anwendungseinstellungen</strong> aktualisieren. Wenn Sie Änderungen an den SMTP-Headern einer Vorlage vornehmen, müssen Sie den Workflow nach der Änderung erneut ausführen, damit die korrigierten Header in die Sendungen, die keine Vorlagen sind, kopiert werden.<a href="data-retention.md#deliveries">Weitere Informationen</a>
    <br /> </td> 
   </tr> 
   <tr> 
@@ -116,7 +116,7 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
   <tr> 
    <td> <span class="uicontrol">Trackinglogs wiederherstellen</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Dieser Workflow stellt verlorene Trackinglogs wieder her. Beachten Sie, dass dieser technische Workflow nur in bestimmten Kontexten verwendet wird und auf die interne Verwendung in Adobe beschränkt ist. <br> Er wird standardmäßig alle zehn Minuten gestartet.<br /> </td> 
+   <td> Dieser Workflow stellt verlorene Trackinglogs wieder her. Beachten Sie, dass dieser technische Workflow nur in bestimmten Kontexten verwendet wird und auf die interne Verwendung durch Adobe beschränkt ist. <br> Er wird standardmäßig alle zehn Minuten gestartet.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Update der Versandausführung</span> <br/> </td> 
@@ -131,7 +131,7 @@ Technische Workflows dienen der Verwaltung automatischer Hintergrundprozesse und
   <tr> 
    <td> <span class="uicontrol">Update des Ereignisstatus</span> <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
-   <td> Dieser Workflow ordnet Ereignissen einen Status zu. Folgende Status sind möglich:<br /> <strong>Ausstehend</strong>: Das Ereignis befindet sich in der Warteschlange. Ihr wurde noch keine Nachrichtenvorlage zugewiesen.<br /> <span class="uicontrol">Versand ausstehend</span> : Das Ereignis befindet sich in der Warteschlange, wurde einer Nachrichtenvorlage zugeordnet und wird vom Versand verarbeitet.<br /> <strong>Gesendet</strong>: Dieser Status wird aus den Versandlogs kopiert. Das bedeutet, dass der Versand durchgeführt wurde.<br /> <strong>Vom Versand ignoriert</strong> Dieser Status wird aus den Versandlogs kopiert. Das bedeutet, dass der Versand ignoriert wurde.<br /> <strong>Versand fehlgeschlagen</strong>: Dieser Status wird aus den Versandlogs übernommen. Dies bedeutet, dass der Versand fehlgeschlagen ist.<br /> <span class="uicontrol">Ereignis wurde nicht berücksichtigt</span> : Das Ereignis konnte keiner Nachrichtenvorlage zugeordnet werden. Es erfolgt kein weiterer Versuch der Ereignisverarbeitung.<br /> </td> 
+   <td> Dieser Workflow ordnet Ereignissen einen Status zu. Folgende Status sind möglich:<br /> <strong>Ausstehend</strong>: Das Ereignis befindet sich in der Warteschlange. Es wurde noch keine Nachrichtenvorlage zugewiesen.<br /> <span class="uicontrol">Versand ausstehend</span>: Das Ereignis befindet sich in der Warteschlange, eine Nachrichtenvorlage wurde zugewiesen und die Verarbeitung durch den Versand hat begonnen.<br /> <strong>Gesendet</strong>: Dieser Status wird aus den Versandlogs übernommen. Er bedeutet, dass der Versand erfolgt ist.<br /><strong>Vom Versand ignoriert</strong>: Dieser Status wird aus den Versandlogs übernommen.Er bedeutet, dass der Versand ignoriert wurde.<br /> <strong>Versandfehler</strong>: Dieser Status wird aus den Versandlogs übernommen.Er bedeutet, dass der Versand fehlgeschlagen ist.<br /> <span class="uicontrol">Ereignis wurde nicht übernommen</span>: Dem Ereignis konnte keine Nachrichtenvorlage zugeordnet werden.Es erfolgt kein weiterer Versuch der Ereignisverarbeitung.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Zustellbarkeit</span> <br /> </td> 

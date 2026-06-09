@@ -29,9 +29,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 996
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ ht-degree: 89%
 
 Bei einer Transaktionsnachricht handelt es sich um eine individuell zugeschnittene, eindeutige Mitteilung, die beispielsweise über eine Website in Echtzeit übermittelt wird. Sie wird erwartet, weil sie wichtige Informationen enthält, die der Empfänger überprüfen oder bestätigen möchte.
 
-* **Wann ist es fällig?** Da diese Nachricht wichtige Informationen enthält, erwartet der Benutzer, dass sie in Echtzeit gesendet wird. Folglich muss die Verzögerung zwischen der Auslösung des Ereignisses und dem Eintreffen der Nachricht sehr kurz sein.
+* **Wann wird diese Nachricht gesendet?** Da diese Nachricht wichtige Informationen enthält, erwartet die Benutzerin bzw. der Benutzer, dass sie in Echtzeit gesendet wird.Folglich muss die Verzögerung zwischen der Auslösung des Ereignisses und dem Eintreffen der Nachricht sehr kurz sein.
 
-* **Warum ist das wichtig?** Im Allgemeinen hat eine Transaktionsnachricht hohe Öffnungsraten. Sie sollte daher sorgfältig gestaltet werden, da sie einen starken Einfluss auf das Kundenverhalten und die Kundenbeziehung im Allgemeinen haben kann.
+* **Warum ist das wichtig?** Im Allgemeinen hat eine Transaktionsnachricht hohe Öffnungsraten.Sie sollte daher sorgfältig gestaltet werden, da sie einen starken Einfluss auf das Kundenverhalten und die Kundenbeziehung im Allgemeinen haben kann.
 
-* **Zum Beispiel?** Es kann sich um eine Begrüßungsnachricht nach der Erstellung eines Kontos, eine Bestätigung, dass eine Bestellung versandt wurde, eine Rechnung, eine Nachricht zur Bestätigung einer Passwortänderung oder eine Benachrichtigung handeln, nachdem ein Kunde Ihre Website durchsucht hat, usw.
+* **Beispiel:** Es kann sich um eine Begrüßungsnachricht nach der Erstellung eines Kontos, eine Bestätigung, dass eine Bestellung versandt wurde, eine Rechnung, eine Nachricht zur Bestätigung einer Passwortänderung oder eine Benachrichtigung nach dem Besuch einer Website durch eine Kundin bzw. einen Kunden handeln.
 
 In Adobe Campaign empfängt die entsprechende Funktion Ereignisse von einem Informationssystem, auf die sie mit personalisierten Transaktionsnachrichten reagiert.
 
@@ -128,7 +128,7 @@ Weitere Informationen zum Bearbeiten und Veröffentlichen einer Transaktionsnach
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-Nachdem Sie ein Ereignis erstellt haben, müssen Sie die Auslösung dieses Ereignisses in Ihre Website integrieren.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> Dazu muss Ihr Website-Web-Entwickler die **Adobe Campaign Standard-REST-API verwenden**.
+Nach der Erstellung eines Ereignisses muss die Auslösung dieses Ereignisses in Ihre Webseite integriert werden.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> Zu diesem Zweck muss die Web-Entwicklerin bzw. der Web-Entwickler Ihrer Website die **Adobe Campaign Standard-REST-API verwenden**.
 
 | Implementieren des Auslösers | Benutzer | Aktion | Ergebnis |
 | --- |--- |--- |--- |

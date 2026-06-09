@@ -25,9 +25,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 866
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Diese Integration muss zuerst konfiguriert werden. Um diese Bereitstellung anzuf
   </tr> 
   <tr> 
    <td> <strong>Kennung der IMS-Organisation</strong><br /> </td> 
-   <td> Ihre Organisations-ID. <br> Auf <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de"> Seite erfahren Sie, wie Sie Ihre Organisations-ID finden</a></td> 
+   <td> Ihre Organisations-ID. <br> Auf <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de">dieser Seite</a> erfahren Sie, wie Sie Ihre Organisations-ID finden.</td> 
   </tr> 
   <tr> 
    <td> <strong>Umgebung:</strong><br /> </td> 

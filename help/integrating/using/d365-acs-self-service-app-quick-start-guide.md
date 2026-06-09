@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1139
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 1099
+ht-degree: 100%
 
 ---
 
@@ -64,14 +64,14 @@ Anschließend können Sie mit der Verwendung des Integrations-Tools beginnen. Ge
 
 Öffnen Sie einen Browser und navigieren Sie zum Connector, der mit Ihrer Region verknüpft ist:
 
-* [Asien/Pazifik](https://d365-acs-ap.ea.adobe.com/)
+* [Asien-Pazifik](https://d365-acs-ap.ea.adobe.com/)
 * [Europa, Naher Osten oder Afrika (EMEA)](https://d365-acs-em.ea.adobe.com/)
 * [Nord- und Südamerika](https://d365-acs-am.ea.adobe.com/)
 
 ## Bestätigung der Datenschutzanfrage {#self-service-app-acknowledgement}
 
-Wenn Sie die Selfservice-Benutzeroberfläche zum ersten Mal aufrufen, wird Ihnen eine Datenschutzbestätigung angezeigt. Sie müssen jeweils bestätigen, dass Sie Ihre Rolle bei der Durchführung von Datenschutzanfragen in Campaign und Microsoft Dynamics 365 verstehen, bevor Sie fortfahren können.
-In [diesem Abschnitt](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy) erfahren Sie mehr über Ihre Verantwortung für den Datenschutz und darüber, wie Sie Datenschutzanfragen verwalten können.
+Wenn Sie die Self-Service-Benutzeroberfläche zum ersten Mal aufrufen, wird Ihnen die Datenschutzerklärung angezeigt. Sie müssen separat bestätigen, dass Sie Ihre Rolle bei der Bearbeitung von Datenschutzanfragen in Campaign und Microsoft Dynamics 365 verstanden haben, bevor Sie fortfahren können.
+Weitere Informationen zu Ihren Datenschutzverpflichtungen und zum Verwalten von Datenschutzanfragen finden Sie in [diesem Abschnitt](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
 ## Einrichten Ihrer Anmeldedaten {#self-service-app-credentials}
 

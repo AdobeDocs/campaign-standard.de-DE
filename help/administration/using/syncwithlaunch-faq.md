@@ -16,9 +16,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 519
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ Im folgenden Abschnitt werden häufig gestellte Fragen zu dieser Synchronisierun
 
 ## Ich habe eine Tag-Eigenschaft erstellt (Benutzer ohne Administratorrechte der Organisationseinheit &quot;ALLE&quot;). Meine Mobile App befindet sich im Status &quot;Bereit zum Konfigurieren&quot; in Adobe Campaign, kann jedoch nicht geöffnet/konfiguriert werden. {#configuring-property}
 
-Nur ein Administrator der Organisationseinheit „ALLE“ kann mobile Apps in Adobe Campaign Standard konfigurieren. Nach der Konfiguration können nur die Benutzer der zugewiesenen Organisationseinheit die Änderungen bearbeiten
-Anwendung. Weiterführende Informationen zu Organisationseinheiten finden Sie auf dieser [Seite](../../administration/using/organizational-units.md).
+Nur ein Administrator der Organisationseinheit „ALLE“ kann mobile Apps in Adobe Campaign Standard konfigurieren. Nach der Konfiguration können nur Benutzende der zugeordneten Organisationseinheit die
+App bearbeiten. Weiterführende Informationen zu Organisationseinheiten finden Sie auf dieser [Seite](../../administration/using/organizational-units.md).
 
 ## Ich kann eine konfigurierte Mobile App in Adobe Campaign Standard nicht bearbeiten, und die Mobile Apps befinden sich im schreibgeschützten Modus. {#read-mode-mobile-app}
 

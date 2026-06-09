@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 376
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Die Nachricht [vorbereiten](../../sending/using/preparing-the-send.md). Im Rahme
 
 ![](assets/steps-prepare.png)
 
-**Prüfen und testen Sie Ihre Nachricht** bevor Sie sie mit Campaign Standard-Funktionen versenden: Vorschau, E-Mail-Rendering, Proofing usw. Weiterführende Informationen hierzu finden Sie [diesem Abschnitt](../../sending/using/previewing-messages.md).
+**Überprüfen und testen Sie Ihre Nachricht** mithilfe der Campaign Standard-Funktionen für Vorschau, E-Mail-Rendering, Testversand usw., bevor Sie sie absenden. Weitere Informationen dazu finden Sie in [diesem Abschnitt](../../sending/using/previewing-messages.md).
 
 Verwenden Sie den Block **[!UICONTROL Planung]**, um zu definieren, wann Ihre Nachrichten gesendet werden (siehe [Versandplanung](../../sending/using/about-scheduling-messages.md)).
 

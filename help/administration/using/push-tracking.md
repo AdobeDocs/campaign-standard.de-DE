@@ -15,9 +15,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 951
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: 927
+ht-degree: 100%
 
 ---
 
@@ -94,8 +94,8 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Implementieren des Klick-Tracking {#push-click-tracking-android}
 
-Für das Klick-Tracking muss bei einer Aktion der Wert &quot;2&quot; gesendet werden, wenn die Funktionen `collectMessageInfo()` oder `trackAction()` aufgerufen werden.
-Beim Klick-Tracking müssen zwei Szenarien behandelt werden:
+Für das Klick-Tracking muss bei einer Aktion der Wert „2“ gesendet werden, wenn die Funktionen `collectMessageInfo()` oder `trackAction()` aufgerufen werden.
+Beim Klick-Tracking müssen zwei Szenarien berücksichtigt werden:
 
 * Der Anwender sieht die Benachrichtigung, löscht sie jedoch.
 * Der Anwender sieht die Benachrichtigung und klickt darauf, sodass nun das Öffnungs-Tracking erfolgt.
@@ -268,7 +268,7 @@ Damit das **[!UICONTROL Impression]**-Tracking auch dann funktioniert, wenn das 
 
 >[!CAUTION]
 >
-> Wenn ein Programm geschlossen ist, ruft Apple das Programm erst nach dessen Neustart auf. Das bedeutet, dass Sie nicht wissen können, wann die Benachrichtigung auf iOS empfangen wurde. </br> Aus diesem Grund ist das Impression-Tracking in iOS möglicherweise nicht präzise und sollte daher nicht als zuverlässig betrachtet werden.
+> Wenn ein Programm geschlossen ist, ruft Apple das Programm erst nach dessen Neustart auf. Das bedeutet, dass Sie nicht erfahren, wenn die Benachrichtigung unter iOS empfangen wird. </br> Aus diesem Grund ist das Impression-Tracking unter iOS möglicherweise nicht präzise und sollte daher nicht als zuverlässig betrachtet werden.
 
 Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
 
@@ -340,8 +340,8 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Implementieren des Klick-Tracking {#push-click-tracking-iOS}
 
-Für das Klick-Tracking muss bei einer Aktion der Wert &quot;2&quot; gesendet werden, wenn die Funktionen `collectMessageInfo()` oder `trackAction()` aufgerufen werden.
-Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
+Für das Klick-Tracking müssen Sie bei einer Aktion den Wert „2“ senden, wenn Sie die Funktion `collectMessageInfo()` oder `trackAction()` aufrufen.
+Weitere Informationen zu Sendungen, die vor Version 21.1 erstellt wurden, oder Sendungen mit benutzerdefinierter Vorlage finden Sie in diesem [Abschnitt](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 // AppDelegate.swift

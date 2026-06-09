@@ -17,9 +17,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 995
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Das Ziel des CollectPII-Aufrufs ist es, das mobile Profil in Campaign anzureiche
 
 ## Können CollectPII-Aufrufe als Reaktion auf mehrere Trigger-Ereignisse ausgelöst werden? {#collect-pii-calls}
 
-Ja. Je nach Ihren Geschäftsanforderungen können Sie CollectPII-Aufrufe auslösen, wenn sich Benutzende in der App anmelden oder etwas oder ein Lebenszyklus-Ereignis erwerben oder wenn Benutzende einen Geofence usw. eingeben. Zusammenfassend lässt sich sagen, dass eine Interaktion des Benutzers mit der App Informationen generiert, die Sie für die Profilanreicherung verwenden würden.
+Ja. Je nach Ihren geschäftlichen Anforderungen können Sie CollectPII-Aufrufe beispielsweise auslösen, wenn sich eine Benutzerin bzw. ein Benutzer in der App anmeldet, einen Kauf tätigt, ein Lebenszyklusereignis eintritt oder die Benutzerin bzw. der Benutzer eine Geofence-Zone betritt. Kurz gesagt: bei jeder Interaktion der Benutzerin bzw. des Benutzers mit der App, die Informationen liefert, die Sie zur Profilanreicherung verwenden möchten.
 
 ## Kann ich als Reaktion auf alle mobilen Ereignisse CollectPII-Aufrufe auslösen? {#collect-pii-events}
 

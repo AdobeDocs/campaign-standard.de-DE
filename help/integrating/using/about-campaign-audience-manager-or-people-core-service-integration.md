@@ -17,9 +17,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 523
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: 441
+ht-degree: 100%
 
 ---
 
@@ -36,14 +36,14 @@ Adobe Campaign erlaubt die lösungsübergreifende Nutzung von Zielgruppen/Segmen
 
 Die Integration unterstützt zwei Typen von Adobe Experience Cloud-Kennungen:
 
-* **Visitor ID**: Dieser Kennungstyp ermöglicht die Abstimmung von Adobe Experience Cloud-Besuchern mit Profilen aus Adobe Campaign. Sobald eine Verbindung über Adobe IMS aktiviert wird, wird der Marketing Cloud Besucher-ID-Dienst aktiviert, der das von Adobe Campaign verwendete permanente Cookie ersetzt. Auf diese Weise können Sie einen Besucher identifizieren und ihn dann mit einem Profil verknüpfen.
+* **Besucher-ID**: Dieser ID-Typ ermöglicht die Abstimmung der Adobe Experience Cloud-Besuchenden mit den Adobe Campaign-Profilen. Sobald eine Verbindung über Adobe IMS aktiviert ist, wird der Besucher-ID-Dienst von Marketing Cloud aktiviert, der das von Adobe Campaign verwendete permanente Cookie ersetzt. Auf diese Weise können Sie eine Besucherin bzw. einen Besucher identifizieren und sie bzw. ihn mit einem Profil verknüpfen.
   <br>Einem Profil wird eine Besucherkennung zugeordnet, sobald das Profil einen Link in einer mit Adobe Campaign versendeten E-Mail anklickt:
    * Wenn das Profil bereits über eine Besucherkennung verfügt, kann Adobe Campaign mithilfe der Browser-Daten des Profils das Profil wiederherstellen und automatisch mit der Besucherkennung verknüpfen.
    * Wenn keine Besucherkennung gefunden wird, wird eine neue Kennung erstellt. Diese Besucherkennung wird in den Trackinglogs der Profile gespeichert.
 
   Unter der Voraussetzung, dass sie denselben CNAME aufweisen, erkennen die anderen Lösungen der Adobe Marketing Cloud diese Kennung.
 
-* **Declared ID**: Dieser Kennungstyp ermöglicht die Abstimmung beliebiger Datentypen mit Elementen der Adobe Campaign-Datenbank. Sie wird in Adobe Campaign als vordefinierter Abstimmschlüssel dargestellt. Beim Datenaustausch werden die Adobe Campaign-Datenbankkennungen in einen Hash-Wert umgewandelt. Diese Hash-IDs werden dann mit den Hash-IDs der Adobe Marketing Cloud-Zielgruppe verglichen, die am Import oder Export beteiligt ist.
+*  **Declared ID**: Dieser ID-Typ ermöglicht es Ihnen, alle Arten von Daten mit Elementen aus der Adobe Campaign -Datenbank abzustimmen. Er ist in Adobe Campaign als vordefinierter Abstimmschlüssel dargestellt. Beim Datenaustausch werden die Kennungen der Adobe Campaign-Datenbank verschlüsselt übertragen. Die verschlüsselten Kennungen werden mit den verschlüsselten Kennungen der importierten oder exportierten Adobe Marketing Cloud-Zielgruppe verglichen.
   <br>Diese Integration unterstützt reguläre Declared IDs, Declared IDs mit Hash-Kennung und verschlüsselte Declared IDs.
 
   >[!NOTE]

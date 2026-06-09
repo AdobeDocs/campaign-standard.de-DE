@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 567
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Es stehen verschiedene Vorlagen für Adobe Campaign zur Verfügung. Verwenden Si
 
 Standardmäßig stehen zwei vordefinierte Vorlagen zur Erstellung von E-Mail-Inhalten für Adobe Campaign zur Verfügung.
 
-* **[!UICONTROL Adobe Campaign-E]** Mail: Diese Vorlage enthält Standardinhalte, die Sie personalisieren können. Sie können zwischen Adobe Campaign-E-Mail (AC6.1) und Adobe Campaign-E-Mail (ACS) wählen.
+* **[!UICONTROL Adobe Campaign-E-Mail]**: Diese Vorlage enthält einen Standardinhalt, den Sie personalisieren können.Sie haben die Wahl zwischen Adobe Campaign-E-Mail (AC6.1) und Adobe Campaign-E-Mail (ACS).
 * **[!UICONTROL Importtool-Seite]**: Diese Vorlage ermöglicht Ihnen den Import einer ZIP-Datei, die wiederum eine HTML-Datei enthält, deren Inhalt sich anschließend personalisieren lässt.
 
 1. Erstellen Sie eine neue **[!UICONTROL Seite]** in Adobe Experience Manager.
@@ -60,7 +60,7 @@ Standardmäßig stehen zwei vordefinierte Vorlagen zur Erstellung von E-Mail-Inh
 
 1. Öffnen Sie Ihren neuen E-Mail-Inhalt.
 
-1. Legen Sie in den **[!UICONTROL Seiteneigenschaften]**&#x200B;**[!UICONTROL Adobe Campaign]** als **[!UICONTROL Cloud Service-Konfiguration]** fest. Dies ermöglicht die Kommunikation zwischen Ihrem Inhalt und Ihrer Adobe Campaign-Instanz.
+1. Legen Sie in den **[!UICONTROL Seiteneigenschaften]****[!UICONTROL Adobe Campaign]** als **[!UICONTROL Cloud Service-Konfiguration]** fest. Dies ermöglicht die Kommunikation zwischen Ihrem Inhalt und Ihrer Adobe Campaign-Instanz.
 
    Sehen Sie sich für weiterführende Informationen das folgende Video an:
 

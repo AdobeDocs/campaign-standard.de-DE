@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 830
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Alle Stiloptionen sind in der Mobile-Ansicht verfügbar. Die Stileinstellungen v
    >
    >Die einzige Ausnahme sind die Einstellungen für **[!UICONTROL Inline-Stile]**. Inline-Stil-Einstellungen werden auch von der standardmäßigen Desktop-Ansicht übernommen.
 
-1. Jede andere Änderung an der Struktur oder am Inhalt der E-Mail, z. B. Textbearbeitungen, das Hochladen eines neuen Bildes, das Hinzufügen einer neuen Komponente usw., wird ebenfalls auf die Standardansicht angewendet.
+1. Alle weiteren Änderungen an der Struktur oder am Inhalt der E-Mail, wie zum Beispiel Textänderungen, der Upload eines neuen Bildes oder das Hinzufügen einer neuen Komponente werden auch auf die Standardansicht angewendet.
 
    Wechseln Sie wieder in die Mobile-Ansicht und ändern Sie z. B. Text und ersetzen Sie ein Bild.
 

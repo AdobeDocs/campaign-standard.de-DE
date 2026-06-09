@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 635
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Die Einrichtung vor der Integration in Campaign ist jetzt abgeschlossen.
 
 * [Konfigurieren von Adobe Developer für die Microsoft Dynamics 365-Integration](../../integrating/using/d365-acs-configure-adobe-io.md) ist der nächste Schritt beim Einrichten der Integration
 * Die [Übersicht über die Selfservice-Integrationsanwendung](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) enthält eine vollständige Anleitung zur Durchführung der Integration.
-* [Adobe Developer - Integration von Service-Konten](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Adobe Developer – Integration von Service-Konten](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard – Einrichtung von API-Zugriff](../../api/using/setting-up-api-access.md)
 * [Campaign Standard – Integration mit Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
 * [Migrieren von Anmeldedaten von JWT zu OAuth-Server-zu-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) enthält die Schritte zum Migrieren von Anmeldedaten von JWT zu OAuth-Server-zu-Server.

@@ -17,9 +17,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 761
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Wenn ein Ereignis aktiviert wird, wird es einem Ausführungsversand zugewiesen. 
 >
 >Ein verschobenes Ereignis wird nicht in den Versandlogs für Transaktionsnachrichten angezeigt, weil das Ereignis noch keinem Ausführungsversand zugeordnet ist.
 
-Beispielsweise konnte das Ereignis keinem Ausführungsversand zugewiesen werden, da sein Inhalt nicht korrekt war, ein Problem mit Zugriffsrechten oder Branding bestand, ein Fehler bei der Anwendung von Typologieregeln erkannt wurde usw. In diesem Fall können Sie die Nachricht anhalten, bearbeiten, um das Problem zu beheben, und erneut veröffentlichen. Das Wiederholungssystem weist die Nachricht daraufhin einem neuen Ausführungsversand zu.
+Beispielsweise kann es sein, dass das Ereignis keinem Ausführungsversand zugewiesen werden konnte, weil der Inhalt nicht korrekt war, es ein Problem mit den Zugriffsrechten oder dem Branding gab oder ein Fehler beim Anwenden von Typologieregeln erkannt wurde. In diesem Fall können Sie die Nachricht anhalten, sie bearbeiten, um das Problem zu beheben, und sie dann erneut veröffentlichen.Das Wiederholungssystem weist die Nachricht daraufhin einem neuen Ausführungsversand zu.
 
 ### Wiederholungsverfahren beim Nachrichtenversand {#message-sending-retry-process}
 

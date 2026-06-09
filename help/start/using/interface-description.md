@@ -26,9 +26,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1344
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ Der zentrale Arbeitsbereich der Benutzeroberfläche besteht aus einer dynamische
 
 Der Inhalt und das Anzeigeformat des zentralen Arbeitsbereichs können variieren:
 
-* Eine **Liste** die verschiedene Elemente wie Programme, Kampagnen, Profile usw. enthält, Diese Elemente können im Modus **[!UICONTROL Karte]** oder **[!UICONTROL Liste]** angezeigt werden. Die Anzeige der Elemente kann mithilfe der Moduswechsel-Schaltfläche von Karten zu Liste (oder umgekehrt) geändert werden. Jedes Element enthält Indikatoren.
+* Eine **Liste**, die verschiedene Elemente wie Programme, Kampagnen und Profile enthält. Diese Elemente können im Modus **[!UICONTROL Karte]** oder **[!UICONTROL Liste]** angezeigt werden. Die Anzeige der Elemente kann mithilfe der Moduswechsel-Schaltfläche von Karten zu Liste (oder umgekehrt) geändert werden. Jedes Element enthält Indikatoren.
 
   ![](assets/ux_liste.png)
 

@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 690
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Sie können nun mithilfe der gleichnamigen Schaltfläche den **[!UICONTROL Expor
 
 ![](assets/cusresources_export4.png)
 
-Das generierte Paket ist im Ordner Downloads verfügbar. Der Name der ZIP-Datei wird nach dem Zufallsprinzip generiert. Sie können ihn umbenennen.
+Das generierte Paket ist im Ordner „Downloads“ verfügbar. Der Name der ZIP-Datei wird nach dem Zufallsprinzip generiert. Sie können sie umbenennen.
 
 ## Daten exportieren {#exporting-the-data}
 
@@ -105,7 +105,7 @@ Sie können nun mithilfe der gleichnamigen Schaltfläche den **[!UICONTROL Expor
 
 ![](assets/cusresources_exportdata5.png)
 
-Das generierte Paket ist im Ordner Downloads verfügbar. Der Name der ZIP-Datei wird nach dem Zufallsprinzip generiert. Sie können ihn umbenennen.
+Das generierte Paket ist im Ordner „Downloads“ verfügbar. Der Name der ZIP-Datei wird nach dem Zufallsprinzip generiert. Sie können sie umbenennen.
 
 ## Struktur importieren {#importing-the-structure}
 
@@ -113,7 +113,7 @@ Das generierte Paket ist im Ordner Downloads verfügbar. Der Name der ZIP-Datei 
 
 1. Loggen Sie sich in die **Zielinstanz** ein, in die Sie die gerade erstellten Packages importieren möchten.
 1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Bereitstellung]** / **[!UICONTROL Package-Importe]**, um ein neues Package zum Import der aus dem ersten Export hervorgehenden Datei zu erstellen.
-1. Ziehen Sie die **Strukturdatei** per Drag-and-Drop in den hierfür vorgesehenen Bereich. Die akzeptierten Formate sind ZIP oder XML.
+1. Ziehen Sie die **Strukturdatei** in den dafür vorgesehenen Bereich.Die akzeptierten Formate sind ZIP oder XML.
 
    ![](assets/cusresources_import2.png)
 
@@ -139,7 +139,7 @@ Der Schritt ist hier ebenfalls in zwei Etappen unterteilt: den Package-Import un
 ### Package importieren {#importing-the-data-package}
 
 1. Gehen Sie zum Menü **[!UICONTROL Administration]** / **[!UICONTROL Bereitstellung]** / **[!UICONTROL Package-Importe]**, um ein neues Package zum Import der die Daten enthaltenden Datei zu erstellen.
-1. Ziehen Sie die Datendatei per Drag-and-Drop in den hierfür vorgesehenen Bereich. Die akzeptierten Formate sind ZIP oder XML.
+1. Verschieben Sie die Datendatei per Drag-and-Drop in den dafür vorgesehenen Bereich.Die akzeptierten Formate sind ZIP oder XML.
 1. Ändern Sie den Titel z. B. in &quot;Daten importieren&quot; und wählen Sie **[!UICONTROL Speichern]** aus.
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Import starten]**.
 

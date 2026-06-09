@@ -26,9 +26,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 881
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Details des Flussdiagramms (sind mit den oben genannten Schritten verknüpft):
 * **Schritt 2**: Das Standardintegrationsangebot ist für alle Kunden kostenlos. Abhängig von Ihren Anforderungen können jedoch zusätzliche Kosten anfallen. Informationen über [Best Practices und Einschränkungen finden Sie hier](../../integrating/using/d365-acs-notices-and-recommendations.md). Ein neuer Kundenauftrag muss unterzeichnet werden, um die Integration nutzen zu können, wenn diese nicht im ursprünglichen Kundenauftrag enthalten war.
 * **Schritt 3**: Vollständige Vorintegrationsschritte für Dynamics 365 und Campaign. Siehe [Diese Integration konfigurieren](#configure-this-integration).
 * **Schritt 4**: Das Adobe-Onboarding-Team stellt Ihnen den Zugriff auf die Benutzeroberfläche der Integrationsanwendung zur Verfügung.
-* **Schritt 5** - Sie können Ihre Datenzuordnungen, Ersetzungen, Filter usw. konfigurieren und Ihre Integration über die Benutzeroberfläche der Integrationsanwendung testen.
+* **Schritt 5**: Sie können Ihre Daten-Mappings, Ersetzungen, Filter usw. konfigurieren und Ihre Integration in der Benutzeroberfläche der Integrationsanwendung testen.
 
   >[!IMPORTANT]
   >

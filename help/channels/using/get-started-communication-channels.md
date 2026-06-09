@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 484
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 99%
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landingpages</a></p></td></tr>
 </table>
 
-Mit Adobe Campaign können Sie Kampagnen in jedem Kanal starten, messen und automatisieren.
-Adobe Campaign ermöglicht die Harmonisierung aller Ihrer Marketing-Kanäle. Mithilfe von Adobe Campaign können Sie Kundendaten aus verschiedenen Systemen, Geräten und Kanälen in einem Profil zusammenführen. Danach können Sie zeitnahe und relevante Kampagnen ausführen, die Ihre Kunden während der Customer Journey an den richtigen Orten und auf die richtige Art und Weise ansprechen.
+Mit Adobe Campaign können Sie Kampagnen auf allen Kanälen starten, messen und automatisieren.
+Die Harmonisierung aller Marketing-Kanäle ist keine unmögliche Aufgabe. Mithilfe von Adobe Campaign können Sie Kundendaten aus verschiedenen Systemen, Geräten und Kanälen in einem einzigen Profil zusammenführen. Stellen Sie dann zeitnahe und relevante Kampagnen bereit, denen Ihre Kundinnen und Kunden an den richtigen Stellen und auf die richtige Art und Weise auf ihrer Customer Journey begegnen.
 
 ## Globale Konzepte {#global-concepts}
 
@@ -119,5 +119,5 @@ mehr dazu:
 * [E-Mail-Inhalte gestalten](../../designing/using/designing-content-in-adobe-campaign.md)
 * [AEM-Inhalte importieren](../../integrating/using/creating-email-experience-manager.md)
 * [Nachrichten mit Workflows senden](../../automating/using/about-channel-activities.md)
-* [Anleitungsvideos zu Kommunikationskanälen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=de)
+* [Tutorial-Video zu Kommunikationskanälen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=de)
 * [Anwendungsfall: kanalübergreifenden Versand erstellen](../../automating/using/workflow-cross-channel-delivery.md)

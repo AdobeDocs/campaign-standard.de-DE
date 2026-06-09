@@ -17,9 +17,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1049
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: 956
+ht-degree: 100%
 
 ---
 
@@ -44,8 +44,8 @@ Im folgenden Abschnitt finden Sie die Einschränkungen, die Sie kennen sollten, 
 
 **Schreiben und Aktualisieren von Daten**
 
-* Landingpages sind auf **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]**-Ressourcen beschränkt. Die Speicherung und Aktualisierung von Datensätzen ist im **[!UICONTROL Profil]** und über die Anmeldung zu/Abmeldung von einem **[!UICONTROL Dienst]** möglich.
-Weiterführende Informationen zur Ressourcenkonfiguration finden Sie im Abschnitt [Datenstruktur der Ressource konfigurieren](../../developing/using/configuring-the-resource-s-data-structure.md).
+* Landingpages sind ausschließlich auf die Ressourcen **[!UICONTROL Profil]** und **[!UICONTROL Abonnement]** beschränkt. Einträge können über **[!UICONTROL Profil]** gespeichert und aktualisiert werden, ebenso wie das An- und Abmelden bei einem **[!UICONTROL Service]**.
+Weitere Informationen zur Konfiguration von Ressourcen finden Sie unter [Konfigurieren der Datenstruktur der Ressource](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ Hier wurde nur das erste Profil aktualisiert, da dessen Eintrag früher erfolgte
 Bevor Sie eine Landingpage einrichten, müssen Sie zunächst eine Landingpage-Vorlage entsprechend Ihren Anforderungen konfigurieren. Alle auf dieser Vorlage basierenden Landingpages werden dadurch mit den gewünschten Parametern vorkonfiguriert.
 
 1. Greifen Sie mithilfe des Adobe Campaign-Logos oben links im Bildschirm auf das erweiterte Menü **[!UICONTROL Ressourcen]** > **[!UICONTROL Vorlagen]** > **[!UICONTROL Landingpage-Vorlagen]** zu und duplizieren Sie die gewünschte Vorlage.
-1. Geben Sie in den Vorlageneigenschaften die Parameter an, die alle Ihre Landingpages haben müssen. Beispielsweise die Zielgruppendimension, die Seitenzugriffsparameter für identifizierte oder nicht identifizierte Besucher, Aktionen, die für die Formularvalidierung durch einen Besucher spezifisch sind, die Marke/das Logo, die/das im Inhalt verwendet werden soll usw. Weiterführende Informationen zu den Eigenschaften von Landingpages finden Sie in [diesem Abschnitt](../../channels/using/configuring-landing-page.md)
+1. Geben Sie in den Vorlageneigenschaften die Parameter an, die alle Ihre Landingpages haben müssen. Beispiel: Die Zielgruppendimension, die Seitenzugriffsparameter für identifizierte oder nicht identifizierte Besuchende, sich speziell auf die Formularüberprüfung durch Besuchende beziehende Aktionen, im Inhalt zu verwendende Marke bzw. zu verwendendes Logo verwendet werden soll. Weitere Informationen zu den Eigenschaften von Landingpages finden Sie in [diesem Abschnitt](../../channels/using/configuring-landing-page.md).
 1. Speichern Sie Ihre Änderungen.
 
 Weiterführende Informationen zu Landingpage-Vorlagen finden Sie in [diesem Abschnitt](../../channels/using/getting-started-with-landing-pages.md).
@@ -93,14 +93,14 @@ Erstellen Sie ausgehend von der im vorangehenden Schritt definierten Vorlage ein
 
 1. Erstellen Sie die Landingpage auf der Basis der gewünschten Vorlage.
 1. Geben Sie die allgemeinen Parameter der Landingpage ein (Titel, Beschreibung usw.).
-1. Sie werden anschließend zum Landingpage-Dashboard weitergeleitet. Bearbeiten Sie bei Bedarf die Eigenschaften der Landingpage (siehe [Landingpage konfigurieren](../../channels/using/configuring-landing-page.md)). Standardmäßig sind die Eigenschaften diejenigen, die in der Landingpage-Vorlage konfiguriert wurden.
-Wir empfehlen dringend, aus Gründen der Sicherheit und der Plattform-Performance in den Eigenschaften der Landingpage ein Ablaufdatum einzurichten. Die Veröffentlichung der Landingpage wird dadurch automatisch am ausgewählten Datum aufgehoben. Weiterführende Informationen zu Gültigkeitsparametern finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
+1. Anschließend greifen Sie auf das Dashboard der Landingpage zu. Bearbeiten Sie bei Bedarf die Eigenschaften der Landingpage (siehe [Konfigurieren einer Landingpage](../../channels/using/configuring-landing-page.md)). Standardmäßig sind die Eigenschaften die in der Landingpage-Vorlage konfigurierten Eigenschaften.
+Aus Sicherheitsgründen und wegen der Plattformleistung empfehlen wir dringend, in den Eigenschaften der Landingpage ein Ablaufdatum festzulegen. Danach wird die Veröffentlichung der Landingpage am ausgewählten Datum automatisch aufgehoben. Weitere Informationen zu Gültigkeitsparametern finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
 
    ![](assets/lp-steps3.png)
 
 >[!NOTE]
 >
->Ihre Änderungen gelten nur für die Landingpage, die bearbeitet wird. Wenn Sie diese Änderungen auf andere Landingpages anwenden möchten, können Sie sie in einer dedizierten Vorlage durchführen und dann andere Landingpages aus dieser Vorlage erstellen.
+>Ihre Änderungen gelten nur für die Landingpage, die bearbeitet wird. Wenn Sie die Änderungen auf andere Landingpages anwenden möchten, können Sie sie in einer dedizierten Vorlage vornehmen und von dieser Vorlage ausgehend andere Landingpages erstellen.
 
 ## Schritt 3 – Landingpage gestalten {#design-the-landing-page}
 
@@ -132,11 +132,11 @@ Weiterführende Informationen zum Testen einer Landingpage finden Sie in [diesem
 
 Nach zufriedenstellender Ausführung der Tests können Sie unter Verwendung der Schaltfläche **[!UICONTROL Veröffentlichen]** in der Aktionsleiste des Dashboards die Landingpage online stellen. Die Kachel &quot;Landingpage-Verfolgung&quot; gibt Ihnen Auskunft über Fortschritt und Status der Veröffentlichung.
 
-Durch das Veröffentlichen der Landingpage ist sie online verfügbar. Nach der Veröffentlichung können Sie sie jederzeit aktualisieren. Dazu müssen Sie sie nach jeder Änderung erneut veröffentlichen. Sie haben außerdem die Möglichkeit, die Veröffentlichung Ihrer Landingpage jederzeit aufzuheben, damit sie nicht länger verfügbar ist.
+Durch das Veröffentlichen der Landingpage wird diese online verfügbar. Nach ihrer Veröffentlichung können Sie die Landingpage weiterhin aktualisieren: Hierzu müssen Sie sie nach jeder Änderung erneut veröffentlichen. Sie haben außerdem die Möglichkeit, die Veröffentlichung Ihrer Landingpage jederzeit aufzuheben, damit sie nicht länger verfügbar ist.
 
 ![](assets/lp-steps6.png)
 
-Nach der Veröffentlichung kann Ihre Landingpage verwendet werden. Anschließend können Sie verschiedene Mechanismen einrichten, mit denen Sie darauf zugreifen können, um neue Profile in Ihrer Datenbank zu erwerben oder zusätzliche Informationen zu vorhandenen Profilen zu erhalten.
+Nach der Veröffentlichung kann Ihre Landingpage verwendet werden. Sie können nun verschiedene Zugriffsmechanismen definieren, um entweder neue Profile für Ihre Datenbank oder zusätzliche Informationen zu bereits existierenden Profilen zu erhalten.
 
 Weiterführende Informationen zum Veröffentlichen von Landingpages finden Sie in [diesem Abschnitt](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
 

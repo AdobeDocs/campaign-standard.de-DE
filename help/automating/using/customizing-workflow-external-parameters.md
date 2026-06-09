@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 835
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 Nachdem der Workflow ausgelöst wurde, werden die Parameter in die Ereignisvariablen aufgenommen und können zur Anpassung der Workflow-Aktivitäten verwendet werden.
 
-Sie können beispielsweise verwendet werden, um zu definieren, welche Zielgruppe in der Aktivität **[!UICONTROL Zielgruppe lesen]**, den Namen der in der Aktivität **[!UICONTROL Datei übertragen]** zu übertragenden Datei usw. gelesen werden soll (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
+So kann mit ihnen beispielsweise definiert werden, welche Zielgruppe in der Aktivität **[!UICONTROL Zielgruppe lesen]** gelesen werden soll oder wie der Name der in der Aktivität **[!UICONTROL Dateiübertragung]** zu übertragenden Datei lautet (siehe [diese Seite](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Verwendung von Ereignisvariablen {#using-events-variables}
 

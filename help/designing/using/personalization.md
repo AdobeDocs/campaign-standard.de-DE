@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2773
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -226,7 +226,7 @@ Diese Option steht nur für folgende Elemente zur Verfügung: ADDRESS, BLOCKQUOT
 
 Weiterführende Informationen zum Ausdruckseditor finden Sie im Abschnitt [Ausdrucksbearbeitung](../../automating/using/editing-queries.md#about-query-editor).
 
-Diese Bedingungen übernehmen die XTK-Ausdruckssyntax (z. B. **context.profile.email !=&#39;&#39;** oder **context.profile.status=&#39;0&#39;**). Standardmäßig werden alle Felder angezeigt.
+Diese Bedingungen übernehmen die XTK-Ausdruckssyntax (z. B. **context.profile.email !=&#39;&#39;** oder **context.profile.status=&#39;0&#39;**). Standardmäßig werden alle Felder angezeigt.
 
 >[!NOTE]
 >
@@ -290,7 +290,7 @@ Die Definition dynamischer Inhalte erfolgt anders als die Definition von [Sichtb
 
    Beispielsweise könnten Sie Personen zwischen 26 und 35 Jahren ein anderes Bild anzeigen lassen.
 
-1. Gehen Sie für alle anderen Elemente Ihrer E-Mail, die dynamisch angezeigt werden soll, analog vor. Dabei kann es sich um Text, Schaltfläche, Fragment usw. handeln. Speichern Sie Ihre Änderungen.
+1. Gehen Sie für alle anderen Elemente Ihrer E-Mail, die dynamisch angezeigt werden soll, analog vor. Dabei kann es sich zum Beispiel um Text, Schaltflächen und Fragmente handeln. Speichern Sie die Änderungen.
 
 >[!CAUTION]
 >

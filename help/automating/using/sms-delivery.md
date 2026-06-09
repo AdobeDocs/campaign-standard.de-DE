@@ -18,9 +18,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 829
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Die Vorbereitung der Nachricht wird in Abhängigkeit von den Ausführungsparamet
 1. Die **[!UICONTROL SMS-Versandaktivität]** verfügt standardmäßig über keinerlei ausgehende Transition. Sie haben jedoch die Möglichkeit, eine ausgehende Transition für Ihre **[!UICONTROL SMS-Versandaktivität]** zu erzeugen, indem Sie unter Verwendung der in der Schnellaktion der Aktivität verfügbaren Schaltfläche **[!UICONTROL die erweiterten Optionen öffnen und im]** Allgemein![](assets/dlv_activity_params-24px.png)-Tab eine der folgenden Optionen aktivieren:
 
    * **[!UICONTROL Ausgehende Transition ohne Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die exakt dieselbe Population enthält wie die eingehende Transition.
-   * **[!UICONTROL Ausgehende Transition mit Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die die Population enthält, der die SMS gesendet wurde. Die während der Versandvorbereitung ausgeschlossenen Mitglieder der Zielgruppe (Quarantäne, ungültige Anzahl usw.) sind von dieser Transition ausgeschlossen.
+   * **[!UICONTROL Ausgehende Transition mit Population hinzufügen]**: ermöglicht die Erstellung einer ausgehenden Transition, die die Population enthält, der die SMS gesendet wurde. Der Teil der Zielgruppe, der in der Versandvorbereitung ausgeschlossen wurde (zum Beispiel Quarantäne, ungültige Nummer), ist von dieser Transition ausgeschlossen.
 
 1. Validieren Sie die Konfiguration der Aktivität und speichern Sie Ihren Workflow.
 
