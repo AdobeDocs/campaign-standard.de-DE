@@ -20,10 +20,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 227
-ht-degree: 100%
+source-git-commit: add46d6ff37deb4309146447f5a9026842368cf3
+workflow-type: tm+mt
+source-wordcount: 238
+ht-degree: 94%
 
 ---
 
@@ -121,7 +121,7 @@ Erfahren Sie, wie Sie Daten zwischen Campaign und der Echtzeit-Kundendatenplattf
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Nützliche Seiten</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de" target="_blank">Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html" target="_blank">Produktbeschreibung</a> – <a href="rn/using/deprecated-features.md">Veraltete und entfernte Funktionen</a> – <a href="rn/using/release-planning.md">Versionsplanung</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html" target="_blank">Produktbeschreibung</a> - <a href="rn/using/deprecated-features.md">Eingestellte und entfernte Funktionen</a> - <a href="rn/using/release-planning.md">Versionsplanung</a> - <a href="https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">E-Mail-Tracking-Pixel und CNIL-Anleitung</a>
 </td>
 <td><strong>Technische Ressourcen</strong><br/>
 <a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud-Trigger</a> – <a href="api/using/get-started-apis.md">Campaign-APIs</a> – <a href="https://helpx.adobe.com/de/campaign/kb/acs-article-list.html" target="blank">Technische Hinweise</a> – <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de" target="_blank">Dokumentation zum Control Panel</a> – <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=de">Liste der Fehlermeldungen</a>
