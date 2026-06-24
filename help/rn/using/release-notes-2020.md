@@ -39,10 +39,10 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 5444
-ht-degree: 100%
+source-wordcount: 5385
+ht-degree: 99%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Sie können jetzt <strong>Kontrollgruppen</strong> verwenden, um die Wirkung Ihrer Kampagnen zu messen, indem Sie einen Teil ihrer Zielgruppe ausschließen. Sie können dann das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielpopulation enthalten waren. Anhand der Versandlogs können Sie auch eine Kontrollgruppe in zukünftigen Kampagnen auswählen.
+  <td> <p>Sie können jetzt <strong>Kontrollgruppen</strong> verwenden, um die Wirkung Ihrer Kampagnen zu messen, indem Sie einen Teil ihrer Audience ausschließen. Anschließend können Sie das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht angesprochen wurden. Basierend auf den Versandlogs können Sie in zukünftigen Kampagnen auch eine Kontrollgruppe ansprechen.
 </p>
 <p>Weiterführende Informationen finden Sie im <a href="../../sending/using/control-group.md">entsprechenden Handbuch</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=de">Anleitungsvideo</a>.
 </p>
@@ -81,7 +81,7 @@ ht-degree: 100%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign unterstützt jetzt OAuth zur Authentifizierung in der Workflow-Aktivität <strong>Externe API</strong>. Diese neue Funktion ermöglicht es dieser Aktivität, mit Systemen zu kommunizieren, die OAuth-Unterstützung benötigen.
+  <td> <p>Adobe Campaign unterstützt jetzt OAuth für die Authentifizierung in der Workflow<strong>Aktivität „Externe API</strong> . Diese neue Funktion eröffnet dieser Aktivität die Möglichkeit, mit Systemen zu kommunizieren, die OAuth-Unterstützung benötigen.
 </p>
 <p>Weitere Informationen finden Sie im <a href="../../automating/using/external-api.md">entsprechenden Handbuch</a>.
 </p>
@@ -143,7 +143,7 @@ ht-degree: 100%
 * Beim Veröffentlichen einer benutzerdefinierten Ressource wird jetzt nach der Vorbereitung ein Bestätigungs-Popup angezeigt.
 * Die Popup-Meldung, die angezeigt wird, wenn eine benutzerdefinierte Ressource fehlschlägt, wurde verbessert.
 * Der Ausdruckseditor in Workflows wurde verbessert, um Ausführungsfehler zu vermeiden. Es stehen [neue Funktionen](../../automating/using/customizing-workflow-external-parameters.md) zur Verfügung: Sie können in allen Aktivitäten verwendet werden, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen. Zusätzlich wird jetzt im Ausdruckseditor eine QuickInfo mit der Funktionsbeschreibung angezeigt.
-* [Zur Liste der Transaktionsereignisse wurden neue Filter hinzugefügt. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Mit ihnen können Sie die Ereigniskonfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses filtern.
+* [Zur Liste der Transaktionsereignisse wurden neue Filter hinzugefügt. &#x200B;](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Mit ihnen können Sie die Ereigniskonfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses filtern.
 * Die Protokolle, die beim Exportieren von Packages angezeigt werden, wurden im Fehlerfall spezifischer und detaillierter hinsichtlich der aufgetretenen Fehler gestaltet.
 * Nach dem Senden einer Nachricht können Sie jetzt die Liste der [getrackten URLs](../../sending/using/tracking-messages.md) durchsuchen, filtern und exportieren.
 * Die automatische [Synchronisation zwischen Launch und Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ist jetzt allgemein verfügbar und standardmäßig aktiviert.
@@ -515,3 +515,4 @@ ht-degree: 100%
 * Beim Senden von In-App-Nachrichten können jetzt Adressen im Bildschirm „Versandlogs“ angezeigt wurden.
 * SMS-Versandlogs werden jetzt mit der richtigen Anzahl von Bounces aktualisiert. (CAMP-38395)
 * Die Push-Benachrichtigungstoken werden jetzt nicht mehr durch Post-Aufrufe von App-Abonnements aktualisiert. (CAMP-39273)
+

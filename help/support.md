@@ -19,10 +19,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 100%
+source-wordcount: 624
+ht-degree: 95%
 
 ---
 
@@ -95,8 +95,8 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
 
 ### Was ist das Control Panel?
 
-Das Control Panel ermöglicht Produktadministratoren von Adobe Campaign Standard effizienteres Arbeiten. Sie können damit die Einstellungen aller Instanzen verwalten und deren Nutzung erfassen.
-[Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de#discover-control-panel), um weitere Informationen zu erhalten.
+Mit dem Control Panel können Sie als Produktadministrator von Campaign Standard die Effizienz Ihrer Arbeit steigern, indem Sie die Einstellungen verwalten und die Nutzung jeder Ihrer Instanzen verfolgen.
+[Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de#discover-control-panel) um weitere Informationen zu erhalten.
 
 >[!NOTE]
 >
@@ -139,3 +139,4 @@ Durch das Erstellen eines Tickets können Sie sich an das Adobe-Supportteam wend
 Um in diesem neuen System ein Ticket zu erstellen oder eine Chat-Sitzung zu starten, stellen Sie eine Verbindung zur [Adobe Admin Console](https://adminconsole.adobe.com/overview) her.
 
 Befolgen Sie das auf [dieser Seite](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) beschriebene Verfahren.
+
