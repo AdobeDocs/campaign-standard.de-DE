@@ -6,34 +6,13 @@ role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: b1fd1501-3105-4d6b-b4d4-9af53126df75id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5273
 ht-degree: 97%
@@ -42,7 +21,7 @@ ht-degree: 97%
 
 # Versionshinweise 2018{#release-notes}
 
-## Version 18.9 – September 2018 {#release-18-9---september-2018}
+## Version 18.9 – September 2018 {#release-18-9-september-2018}
 
 **Neue Funktionen**
 
@@ -107,7 +86,7 @@ ht-degree: 97%
 * Fehlerkorrektur – Jetzt wird der Fehler angezeigt, wenn der Workflow **Datenbankbereinigung** fehlschlägt. (CAMP-26876)
 * Fehlerkorrektur – Jetzt können benutzerdefinierte Felder bei der Definition einer Push-Benachrichtigung gelöscht werden. (CAMP-25588)
 
-## Version 18.7 - Juli 2018 {#release-18-7---july-2018}
+## Version 18.7 - Juli 2018 {#release-18-7-july-2018}
 
 **Neue Funktionen**
 
@@ -170,7 +149,7 @@ ht-degree: 97%
 * Fehlerkorrektur – jetzt werden in Creative Designer keine unerwünschten farbigen Schriften und Formatierungen mehr verursacht, wenn Text mit integrierten Stilelementen in einen Link umgewandelt oder dieser Link bearbeitet wird. (CAMP-26001)
 * Fehlerkorrektur – jetzt werden im Klick-Bericht die Prozentsätze für alle Bedingungen in Sendungen angezeigt, die dynamischen Content enthalten. Zuvor wurden nur die Klicks auf die Standardvariante angezeigt.
 
-## Version 18.6 - Juni 2018 {#release-18-6---june-2018}
+## Version 18.6 - Juni 2018 {#release-18-6-june-2018}
 
 **Verbesserungen**
 
@@ -208,7 +187,7 @@ ht-degree: 97%
 * Fehlerkorrektur – jetzt werden internationale Daten auch in auf Kontoebene erstellten dynamischen Berichten korrekt angezeigt.
 * Jetzt kann ein Dienst ohne Anmelde- oder Abmeldebestätigungsnachricht erstellt werden.
 
-## Version 18.5 - Mai 2018 {#release-18-5---may-2018}
+## Version 18.5 - Mai 2018 {#release-18-5-may-2018}
 
 **Neue Funktionen**
 
@@ -280,7 +259,7 @@ ht-degree: 97%
 * Fehlerkorrektur – Creative Designer kann jetzt geladen werden. (CAMP-24573)
 * Fehlerkorrektur – jetzt werden im E-Mail-Betreff keine Zeichen mehr nach den Personalisierungsfeldern entfernt. (CAMP-24113)
 
-## Version 18.4 - April 2018 {#release-18-4---april-2018}
+## Version 18.4 - April 2018 {#release-18-4-april-2018}
 
 **Patches**
 
@@ -306,7 +285,7 @@ _Benutzerdefinierte Ressourcen_
 
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr bei der Vorbereitung der benutzerdefinierten Ressource auf.
 
-## Version 18.3 - März 2018 {#release-18-3---march-2018}
+## Version 18.3 - März 2018 {#release-18-3-march-2018}
 
 **Neue Funktionen**
 
@@ -334,7 +313,7 @@ _Benutzerdefinierte Ressourcen_
      <li> Erstellung und Speicherung einer E-Mail Inhaltsvorlage und Verwendung gespeicherter Vorlagen zur Vereinfachung der E-Mail-Erstellung </li> 
      <li> Erstellen und Speichern von Inhaltsfragmenten (z. B. Kopf- und Fußzeile, Artikel) zur Optimierung der Inhaltserstellung und Sicherstellung der Markenkonsistenz </li> 
      <li> Nahtloser Wechsel zwischen der Erstellung in der Drag &amp; Drop-Benutzeroberfläche und der direkten Bearbeitung von HTML-Code einer E-Mail per Tastendruck </li> 
-    </ul> Creative Designer für E-Mails ist nur auf Englisch verfügbar.<br /> Weitere Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaillierten Dokumentation</a> und in diesem <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">Video</a>.<br /> </td> 
+    </ul> Creative Designer für E-Mails ist nur auf Englisch verfügbar.<br /> Weitere Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaillierten Dokumentation</a> und in diesem <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">Video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Versand mehrsprachiger Push-Sendungen<br /> </td> 
@@ -396,7 +375,7 @@ _Transaktionsnachrichten_
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr mit der Transaktionsnachrichtenvorlage auf, wenn die Versandressource erweitert wird.
 * Jetzt können Transaktionsnachrichten gelöscht werden.
 
-## Version 18.2 - Februar 2018 {#release-18-2---february-2018}
+## Version 18.2 - Februar 2018 {#release-18-2-february-2018}
 
 **Neue Funktionen**
 
@@ -460,7 +439,7 @@ Wir raten von der Nutzung von Internet Explorer Version 11 ab, da Anzeigeproblem
 
 Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign-Benutzeroberfläche verwendet werden. Diese werden in Version 18.3 korrigiert.
 
-## Version 18.1 - Januar 2018 {#release-18-1---january-2018}
+## Version 18.1 - Januar 2018 {#release-18-1-january-2018}
 
 **Neue Funktionen**
 

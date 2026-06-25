@@ -8,21 +8,15 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 TQID: https://experienceleague.adobe.com/apHTVXi6iRZ0s-yydKzBcOxJTNWo1oYZmGkHKqyCMhw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 95%
+source-wordcount: 636
+ht-degree: 98%
 
 ---
 
@@ -42,7 +36,7 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
 
 ## Häufige Probleme und Best Practices
 
-<img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
+![FAQ-Symbol](start/using/assets/do-not-localize/icon-faq.svg){width="60px"}
 
 <table>
     <tr><td><strong>Fragen und Antworten nach Themen</strong></td><td><strong>Häufige Probleme</strong></td><td><strong>Best Practices</strong></td><td><strong>Anleitung</strong></td></tr>
@@ -91,12 +85,13 @@ Support erhalten Sie über unsere häufig gestellten Fragen, Best Practices, Onl
 
 ## Campaign Control Panel
 
-<img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px">
+![Control Panel-Symbol](start/using/assets/do-not-localize/icon-control-panel.svg){width="60px"}
 
 ### Was ist das Control Panel?
 
-Mit dem Control Panel können Sie als Produktadministrator von Campaign Standard die Effizienz Ihrer Arbeit steigern, indem Sie die Einstellungen verwalten und die Nutzung jeder Ihrer Instanzen verfolgen.
-[Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de#discover-control-panel) um weitere Informationen zu erhalten.
+Das Control Panel ermöglicht Produktadministratoren von Adobe Campaign Standard effizienteres Arbeiten. Sie können damit die Einstellungen aller Instanzen verwalten und deren Nutzung erfassen.
+
+[Klicken Sie hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de#discover-control-panel), um weitere Informationen zu erhalten.
 
 >[!NOTE]
 >
@@ -124,13 +119,13 @@ Sie können Ihre Sub-Domains und deren Zertifikate überwachen. Mehr dazu:
 
 ## Hilfe anfordern
 
-<img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
+![Support-Symbol](start/using/assets/do-not-localize/icon-support.svg){width="60px"}
 
 Das neue Ticketing-System läuft über [Adobe Admin Console](https://adminconsole.adobe.com/overview). Das neue System erfordert für jede Benutzerin und jeden Benutzer neue individuelle Konten mit den entsprechenden Berechtigungen. Wenn Sie sich nicht mit Ihrer Adobe ID anmelden können, beantragen Sie den Zugang über die Experience League, und das Kundenunterstützungs-Team wird ihn so schnell wie möglich einrichten. [Weitere Informationen](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Fragen an Experten
 
-Treten Sie der Campaign-Community bei: Suchen Sie nach Antworten in vorhandenen Fragen oder stellen Sie Ihre Frage an die Community. [Diskutieren Sie mit](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=de)
+Treten Sie der Campaign-Community bei: Suchen Sie nach Antworten in vorhandenen Fragen oder stellen Sie Ihre Frage an die Community. [Diskutieren Sie mit](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Erstellen Sie ein Ticket oder starten Sie einen Chat
 
@@ -139,4 +134,3 @@ Durch das Erstellen eines Tickets können Sie sich an das Adobe-Supportteam wend
 Um in diesem neuen System ein Ticket zu erstellen oder eine Chat-Sitzung zu starten, stellen Sie eine Verbindung zur [Adobe Admin Console](https://adminconsole.adobe.com/overview) her.
 
 Befolgen Sie das auf [dieser Seite](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) beschriebene Verfahren.
-

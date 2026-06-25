@@ -6,26 +6,13 @@ role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 TQID: https://experienceleague.adobe.com/Os1EM221DXk1yVqd-md5iTlvK623LzFiqg5Ag7N2tTw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 7898
 ht-degree: 100%
@@ -34,7 +21,7 @@ ht-degree: 100%
 
 # Versionshinweise 2019{#release-notes-2019}
 
-## Version 19.4 – Dezember 2019 {#release-19-4---october-2019}
+## Version 19.4 – Dezember 2019 {#release-19-4-october-2019}
 
 **Neue Funktionen**
 
@@ -160,7 +147,7 @@ ht-degree: 100%
 * Fehlerkorrektur – Es kommt nun nicht mehr vor, dass ein Versand in &quot;Start ausstehend&quot; verbleibt, obwohl der Versand bereits abgeschlossen wurde. (CAMP-35355)
 * Fehlerkorrektur – Workflow-Logs werden nun auch dann angezeigt, wenn SQL-Logs aktiviert und dann deaktiviert wurden.
 
-## Version 19.3 – Juli 2019 {#release-19-3---july-2019}
+## Version 19.3 – Juli 2019 {#release-19-3-july-2019}
 
 **Neue Funktionen**
 
@@ -271,7 +258,7 @@ ht-degree: 100%
 * Fehlerkorrektur – Der E-Mail-Inhalt ist jetzt nicht mehr fehlerhaft, wenn der Betreff mehrere Zeilen lang ist.
 
 
-## Version 19.2.7 - Juli 2019 {#release-19-2-7---july-2019}
+## Version 19.2.7 - Juli 2019 {#release-19-2-7-july-2019}
 
 **Verbesserungen**
 
@@ -280,13 +267,13 @@ ht-degree: 100%
 * Fehlerkorrektur – Jetzt können auch andere Benutzer als Admin-Benutzer Berichte speichern und planen. (CAMP-31133)
 * Fehlerkorrektur – Bei der Verwendung von &quot;|&quot; als Datumstrennzeichen in der Workflow-Aktivität &quot;Datei laden&quot; tritt kein Problem mehr auf. (CAMP-34706)
 
-## Version 19.2.4 – Juni 2019 {#release-19-2-4---june-2019}
+## Version 19.2.4 – Juni 2019 {#release-19-2-4-june-2019}
 
 **Email Designer**
 
 * Fehlerkorrektur – Benutzer können jetzt auch Fragmente bearbeiten, wenn im HTML-Code leere Style-Tags verwendet wurden. Dies ist eine Folgekorrektur von CAMP-33778 in Version 19.2.3.
 
-## Version 19.2.3 – Juni 2019 {#release-19-2-3---june-2019}
+## Version 19.2.3 – Juni 2019 {#release-19-2-3-june-2019}
 
 **Email Designer**
 
@@ -305,7 +292,7 @@ Eine Reihe von Verbesserungen und Korrekturen wurde implementiert, um die Verwen
 * Fehlerkorrektur – Der Inhalt einer Transaktionsnachricht kann jetzt mit Daten aus der Dienst-Ressource angereichert werden. (CAMP-33707)
 * Fehlerkorrektur – Landingpages werden jetzt nicht mehr auf die Blockierungsliste gesetzt, wenn Profile von einem Dienst abgemeldet werden.
 
-## Version 19.2 – Mai 2019 {#release-19-2---may-2019}
+## Version 19.2 – Mai 2019 {#release-19-2-may-2019}
 
 **Neue Funktionen**
 
@@ -409,7 +396,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Der Zustellbarkeits-Workflow wird jetzt nicht mehr deaktiviert, wenn er nicht erfolgreich beendet wurde.
 * Fehlerkorrektur – Benutzer können jetzt Berichte speichern und planen. (CAMP-31133)
 
-## Version 19.1.3 - März 2019 {#release-19-1-3---march-2019}
+## Version 19.1.3 - März 2019 {#release-19-1-3-march-2019}
 
 **Verbesserungen bei Email Designer**
 
@@ -423,7 +410,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Typologieregeln können jetzt bearbeitet werden. (CAMP-31750)
 * Fehlerkorrektur – Der inMail-Vorgang hält jetzt nicht mehr unerwartet an. (CAMP-31238)
 
-## Version 19.1 – Februar 2019 {#release-19-1---february-2019}
+## Version 19.1 – Februar 2019 {#release-19-1-february-2019}
 
 **Neue Funktionen**
 
@@ -529,7 +516,7 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Fehlerkorrektur – Jetzt treten keine Abweichungen mehr zwischen den für einen In-App-Versand ausgewählten Profilen und den im Versand-Dashboard dargestellten Profilen auf. (CAMP-28722)
 * Fehlerkorrektur – Jetzt tritt kein Fehler mehr bei der Integration von Campaign mit Assets Core Service auf, sodass ein freigegebenes Asset in einer E-Mail ausgewählt werden kann.
 
-## Version 19.0 – Januar 2019 {#release-19-0---january-2019}
+## Version 19.0 – Januar 2019 {#release-19-0-january-2019}
 
 **Neue Funktionen**
 

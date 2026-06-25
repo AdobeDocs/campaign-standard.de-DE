@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 100%
@@ -80,7 +80,7 @@ SMS, die das GSM-Alphabet verwenden, sind auf 160 Zeichen begrenzt oder auf 153 
 
 >[!NOTE]
 >
->Gewisse Zeichen zählen doppelt (Akkoladen, eckige Klammern, Eurozeichen etc.). Eine Liste der von GSM unterstützten Zeichen finden Sie im Abschnitt [Zeichensatztabelle - GSM-Standard](#table-of-characters---gsm-standard).
+>Gewisse Zeichen zählen doppelt (Akkoladen, eckige Klammern, Eurozeichen etc.). Eine Liste der von GSM unterstützten Zeichen finden Sie im Abschnitt [Zeichensatztabelle - GSM-Standard](#table-of-characters-gsm-standard).
 
 Bei Bedarf können Sie die Transliteration von Zeichen zulassen, indem Sie die entsprechende Option aktivieren.
 
@@ -99,7 +99,7 @@ Die Transliteration von Zeichen ist standardmäßig deaktiviert. Es wird empfohl
 
 Sollte Ihre SMS jedoch eine hohe Anzahl an Zeichen enthalten, die dem Unicode-Zeichensatz entstammen, können Sie diese Option wählen, um Ihre Versandkosten zu begrenzen.
 
-### Zeichensatztabelle - GSM-Standard {#table-of-characters---gsm-standard}
+### Zeichensatztabelle - GSM-Standard {#table-of-characters-gsm-standard}
 
 Der folgende Abschnitt zeigt den vom GSM-Standard unterstützten Zeichensatz. Jedes im Nachrichteninhalt enthaltene Zeichen, das nicht in der unten stehenden Tabelle aufgeführt ist, führt zur Konvertierung der gesamten Nachricht in das Binärformat (Unicode) und zur Splittung der SMS in Teilnachrichten, sobald sie 70 Zeichen überschreitet. Weiterführende Hinweise finden Sie im Abschnitt [Kodierung, Länge und Transliteration von SMS](#sms-encoding--length-and-transliteration).
 

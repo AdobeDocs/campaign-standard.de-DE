@@ -9,37 +9,13 @@ role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 TQID: https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
-  - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: a2002dba-5e37-4dff-8e04-1cc3ec73558cid: af6750fd-3c1b-4ad2-9fe3-99e81510998did: d1110311-2ca4-442b-be37-088a6db845eeid: eb007b6d-6e57-46ab-9485-3f24d6102304id: f5293531-9312-4099-bfa3-9e67df6a8750id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5385
 ht-degree: 99%
@@ -52,7 +28,7 @@ ht-degree: 99%
 
 ![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
-## Version 20.4 – Oktober 2020 {#release-20-4---october-2020}
+## Version 20.4 – Oktober 2020 {#release-20-4-october-2020}
 
 **Neue Funktionen**
 
@@ -66,7 +42,7 @@ ht-degree: 99%
 <tr> 
   <td> <p>Sie können jetzt <strong>Kontrollgruppen</strong> verwenden, um die Wirkung Ihrer Kampagnen zu messen, indem Sie einen Teil ihrer Audience ausschließen. Anschließend können Sie das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht angesprochen wurden. Basierend auf den Versandlogs können Sie in zukünftigen Kampagnen auch eine Kontrollgruppe ansprechen.
 </p>
-<p>Weiterführende Informationen finden Sie im <a href="../../sending/using/control-group.md">entsprechenden Handbuch</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=de">Anleitungsvideo</a>.
+<p>Weiterführende Informationen finden Sie im <a href="../../sending/using/control-group.md">entsprechenden Handbuch</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">Anleitungsvideo</a>.
 </p>
 </td> 
 </tr> 
@@ -143,7 +119,7 @@ ht-degree: 99%
 * Beim Veröffentlichen einer benutzerdefinierten Ressource wird jetzt nach der Vorbereitung ein Bestätigungs-Popup angezeigt.
 * Die Popup-Meldung, die angezeigt wird, wenn eine benutzerdefinierte Ressource fehlschlägt, wurde verbessert.
 * Der Ausdruckseditor in Workflows wurde verbessert, um Ausführungsfehler zu vermeiden. Es stehen [neue Funktionen](../../automating/using/customizing-workflow-external-parameters.md) zur Verfügung: Sie können in allen Aktivitäten verwendet werden, die die Verwendung von Ereignisvariablen nach dem Aufruf eines Workflows mit externen Parametern ermöglichen. Zusätzlich wird jetzt im Ausdruckseditor eine QuickInfo mit der Funktionsbeschreibung angezeigt.
-* [Zur Liste der Transaktionsereignisse wurden neue Filter hinzugefügt. &#x200B;](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Mit ihnen können Sie die Ereigniskonfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses filtern.
+* [Zur Liste der Transaktionsereignisse wurden neue Filter hinzugefügt. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Mit ihnen können Sie die Ereigniskonfigurationen nach ihrem Status sowie nach dem letzten Empfang eines Ereignisses filtern.
 * Die Protokolle, die beim Exportieren von Packages angezeigt werden, wurden im Fehlerfall spezifischer und detaillierter hinsichtlich der aufgetretenen Fehler gestaltet.
 * Nach dem Senden einer Nachricht können Sie jetzt die Liste der [getrackten URLs](../../sending/using/tracking-messages.md) durchsuchen, filtern und exportieren.
 * Die automatische [Synchronisation zwischen Launch und Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ist jetzt allgemein verfügbar und standardmäßig aktiviert.
@@ -218,7 +194,7 @@ ht-degree: 99%
 
 
 
-## Version 20.3 – Mai 2020 {#release-20-3---may-2020}
+## Version 20.3 – Mai 2020 {#release-20-3-may-2020}
 
 **Neue Funktionen**
 
@@ -322,7 +298,7 @@ ht-degree: 99%
 
 ![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
-## Version 20.2 – April 2020 {#release-20-2---april-2020}
+## Version 20.2 – April 2020 {#release-20-2-april-2020}
 
 **Neue Funktionen**
 
@@ -407,15 +383,15 @@ ht-degree: 99%
 * Jetzt kann in Workflows eine Aktivität mit mehreren eingehenden Transitionen problemlos ausgeführt werden.
 * Standardbenutzer können &quot;Abonnements für eine Anwendung&quot; jetzt als Zieldimension in einer Workflow-Abfrage oder einem Versand verwenden. (CAMP-37618)
 
-## Version 20.1.4 – Februar 2020 {#release-20-1-4---february-2020}
+## Version 20.1.4 – Februar 2020 {#release-20-1-4-february-2020}
 
 * Beim Öffnen der Aktivität **Zielgruppe lesen** in vorhandenen Workflows tritt jetzt kein Problem mehr auf. (CAMP-41002)
 
-## Version 20.1.3 – Februar 2020 {#release-20-1-3---february-2020}
+## Version 20.1.3 – Februar 2020 {#release-20-1-3-february-2020}
 
 * Jetzt tritt kein Regressionsproblem mehr auf, das in 20.1 von CAMP-39273 für Kunden eingeführt wurde, die diese Lücke nutzten. CAMP-39273 wurde zurückgesetzt.
 
-## Version 20.1.2 – Februar 2020 {#release-20-1-2---february-2020}
+## Version 20.1.2 – Februar 2020 {#release-20-1-2-february-2020}
 
 **Verbesserungen bei Email Designer**
 
@@ -423,7 +399,7 @@ ht-degree: 99%
 * Bei Verwendung dynamischer Inhalte wird jetzt kein Leerzeichen mehr hinzugefügt. (CAMP-40605)
 * Beim Konfigurieren einer Transaktions-E-Mail-Vorlage tritt jetzt kein Problem mehr auf. (CAMP-40604)
 
-## Version 20.1 – Februar 2020 {#release-20-1---february-2020}
+## Version 20.1 – Februar 2020 {#release-20-1-february-2020}
 
 **Neue Funktionen**
 
