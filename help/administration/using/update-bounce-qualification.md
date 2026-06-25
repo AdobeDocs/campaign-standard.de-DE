@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 450
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Bei Ausfall eines ISP können über Campaign versendete E-Mails nicht erfolgreich an ihren Empfänger zugestellt werden: Diese E-Mails werden fälschlicherweise als Bounces markiert.
 
-Im Dezember 2020 führte ein globales Problem bei Gmail dazu, dass einige E-Mail-Nachrichten, die an gültige Gmail-Adressen gesendet wurden, von Gmail-Servern fälschlicherweise als ungültige E-Mail-Adressen mit der folgenden Bounce-Antwort zurückgewiesen wurden: *&quot;550-5.1.1 Das E-Mail-Konto, das Sie zu erreichen versucht haben, existiert nicht.&quot;*
+Im Dezember 2020 führte ein globales Problem bei Gmail dazu, dass einige E-Mail-Nachrichten, die an gültige Gmail-E-Mail-Adressen gesendet wurden, von Gmail-Servern fälschlicherweise als ungültige E-Mail-Adressen mit der folgenden Bounce-Antwort zurückgewiesen wurden: *„550-5.1.1 Das E-Mail-Konto, das Sie erreichen wollten, existiert nicht.“*
 
 Google hat angegeben, dass die Ausfälle und Unterbrechungen von Gmail, die dieses Problem verursacht haben, am 14. Dezember um 6:55AM Uhr und am 15. Dezember um 6:09PM Uhr EST endeten. Unsere Datenanalyse zeigte auch einen sehr kurzen Anstieg der Gmail-Bounce-Nachrichten um 2:06AM Uhr EST am 16. Dezember, wobei der Großteil am 15. Dezember zwischen 14:00 Uhr EST und 18:30 Uhr EST stattfand.
 
@@ -42,17 +42,18 @@ Auf der Grundlage des Zeitrahmens des Vorfalls werden im Folgenden die Richtlini
 
 >[!IMPORTANT]
 >
->Diese Daten/Zeiten basieren auf der Eastern Standard Zeitzone (EST). Passen Sie die Zeitzone Ihrer Instanz an.
+>Diese Daten/Zeiten basieren auf der Eastern Standard Zeitzone (EST). Bitte passen Sie die Zeitzone Ihrer Instanz an.
 
 Für Campaign-Instanzen mit SMTP-Bounce-Antwortinformationen im Feld **[!UICONTROL Fehlertext]** der Quarantäneliste:
 
-* **Fehlertext (Quarantänetext)** enthält &quot;550-5.1.1 Das E-Mail-Konto, das Sie erreichen wollten, existiert nicht&quot; UND **Fehlertext (Quarantänetext)** enthält &quot;support.google.com&quot; **
+* **Fehlertext (Quarantänetext)** enthält „550-5.1.1 Das E-Mail-Konto, das Sie erreichen wollten, existiert nicht“ UND **Fehlertext (Quarantänetext)** enthält „support.google.com“ **
 * **Statusaktualisierung (@lastModified)** später als 14.12.2020 6:55:00 Uhr
 * **Statusaktualisierung (@lastModified)** früher als 16.12.2020 6:00:00 Uhr
 
 Sobald Sie die Liste der betroffenen Empfänger haben, können Sie diese entweder auf den Status **[!UICONTROL Gültig]** setzen, damit sie vom Workflow **[!UICONTROL Datenbankbereinigung]** aus der Quarantäneliste entfernt werden, oder sie einfach aus der Tabelle löschen.
 
 **Verwandte Themen:**
+
 * [Ursachen für das Fehlschlagen von Sendungen](../../sending/using/understanding-delivery-failures.md)
 * [Bounce-Message-Qualifizierung](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
 

@@ -39,7 +39,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5385
 ht-degree: 99%
@@ -52,7 +52,7 @@ ht-degree: 99%
 
 ![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version vom Oktober** mit Domain-Konfiguration unter Verwendung von CNAMEs und neuen Funktionen zur Datenbanküberwachung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
-## Version 20.4 – Oktober 2020 {#release-20-4---october-2020}
+## Version 20.4 – Oktober 2020 {#release-20-4-october-2020}
 
 **Neue Funktionen**
 
@@ -218,7 +218,7 @@ ht-degree: 99%
 
 
 
-## Version 20.3 – Mai 2020 {#release-20-3---may-2020}
+## Version 20.3 – Mai 2020 {#release-20-3-may-2020}
 
 **Neue Funktionen**
 
@@ -322,7 +322,7 @@ ht-degree: 99%
 
 ![](assets/do-not-localize/cp-icon.png) **Neue Control Panel-Version im Mai** mit Zertifikatsverlängerung für CNAME-Subdomains. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=de).
 
-## Version 20.2 – April 2020 {#release-20-2---april-2020}
+## Version 20.2 – April 2020 {#release-20-2-april-2020}
 
 **Neue Funktionen**
 
@@ -407,15 +407,15 @@ ht-degree: 99%
 * Jetzt kann in Workflows eine Aktivität mit mehreren eingehenden Transitionen problemlos ausgeführt werden.
 * Standardbenutzer können &quot;Abonnements für eine Anwendung&quot; jetzt als Zieldimension in einer Workflow-Abfrage oder einem Versand verwenden. (CAMP-37618)
 
-## Version 20.1.4 – Februar 2020 {#release-20-1-4---february-2020}
+## Version 20.1.4 – Februar 2020 {#release-20-1-4-february-2020}
 
 * Beim Öffnen der Aktivität **Zielgruppe lesen** in vorhandenen Workflows tritt jetzt kein Problem mehr auf. (CAMP-41002)
 
-## Version 20.1.3 – Februar 2020 {#release-20-1-3---february-2020}
+## Version 20.1.3 – Februar 2020 {#release-20-1-3-february-2020}
 
 * Jetzt tritt kein Regressionsproblem mehr auf, das in 20.1 von CAMP-39273 für Kunden eingeführt wurde, die diese Lücke nutzten. CAMP-39273 wurde zurückgesetzt.
 
-## Version 20.1.2 – Februar 2020 {#release-20-1-2---february-2020}
+## Version 20.1.2 – Februar 2020 {#release-20-1-2-february-2020}
 
 **Verbesserungen bei Email Designer**
 
@@ -423,7 +423,7 @@ ht-degree: 99%
 * Bei Verwendung dynamischer Inhalte wird jetzt kein Leerzeichen mehr hinzugefügt. (CAMP-40605)
 * Beim Konfigurieren einer Transaktions-E-Mail-Vorlage tritt jetzt kein Problem mehr auf. (CAMP-40604)
 
-## Version 20.1 – Februar 2020 {#release-20-1---february-2020}
+## Version 20.1 – Februar 2020 {#release-20-1-february-2020}
 
 **Neue Funktionen**
 

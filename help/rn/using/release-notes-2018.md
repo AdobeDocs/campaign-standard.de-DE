@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5273
 ht-degree: 97%
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 # Versionshinweise 2018{#release-notes}
 
-## Version 18.9 – September 2018 {#release-18-9---september-2018}
+## Version 18.9 – September 2018 {#release-18-9-september-2018}
 
 **Neue Funktionen**
 
@@ -107,7 +107,7 @@ ht-degree: 97%
 * Fehlerkorrektur – Jetzt wird der Fehler angezeigt, wenn der Workflow **Datenbankbereinigung** fehlschlägt. (CAMP-26876)
 * Fehlerkorrektur – Jetzt können benutzerdefinierte Felder bei der Definition einer Push-Benachrichtigung gelöscht werden. (CAMP-25588)
 
-## Version 18.7 - Juli 2018 {#release-18-7---july-2018}
+## Version 18.7 - Juli 2018 {#release-18-7-july-2018}
 
 **Neue Funktionen**
 
@@ -170,7 +170,7 @@ ht-degree: 97%
 * Fehlerkorrektur – jetzt werden in Creative Designer keine unerwünschten farbigen Schriften und Formatierungen mehr verursacht, wenn Text mit integrierten Stilelementen in einen Link umgewandelt oder dieser Link bearbeitet wird. (CAMP-26001)
 * Fehlerkorrektur – jetzt werden im Klick-Bericht die Prozentsätze für alle Bedingungen in Sendungen angezeigt, die dynamischen Content enthalten. Zuvor wurden nur die Klicks auf die Standardvariante angezeigt.
 
-## Version 18.6 - Juni 2018 {#release-18-6---june-2018}
+## Version 18.6 - Juni 2018 {#release-18-6-june-2018}
 
 **Verbesserungen**
 
@@ -208,7 +208,7 @@ ht-degree: 97%
 * Fehlerkorrektur – jetzt werden internationale Daten auch in auf Kontoebene erstellten dynamischen Berichten korrekt angezeigt.
 * Jetzt kann ein Dienst ohne Anmelde- oder Abmeldebestätigungsnachricht erstellt werden.
 
-## Version 18.5 - Mai 2018 {#release-18-5---may-2018}
+## Version 18.5 - Mai 2018 {#release-18-5-may-2018}
 
 **Neue Funktionen**
 
@@ -280,7 +280,7 @@ ht-degree: 97%
 * Fehlerkorrektur – Creative Designer kann jetzt geladen werden. (CAMP-24573)
 * Fehlerkorrektur – jetzt werden im E-Mail-Betreff keine Zeichen mehr nach den Personalisierungsfeldern entfernt. (CAMP-24113)
 
-## Version 18.4 - April 2018 {#release-18-4---april-2018}
+## Version 18.4 - April 2018 {#release-18-4-april-2018}
 
 **Patches**
 
@@ -306,7 +306,7 @@ _Benutzerdefinierte Ressourcen_
 
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr bei der Vorbereitung der benutzerdefinierten Ressource auf.
 
-## Version 18.3 - März 2018 {#release-18-3---march-2018}
+## Version 18.3 - März 2018 {#release-18-3-march-2018}
 
 **Neue Funktionen**
 
@@ -396,7 +396,7 @@ _Transaktionsnachrichten_
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr mit der Transaktionsnachrichtenvorlage auf, wenn die Versandressource erweitert wird.
 * Jetzt können Transaktionsnachrichten gelöscht werden.
 
-## Version 18.2 - Februar 2018 {#release-18-2---february-2018}
+## Version 18.2 - Februar 2018 {#release-18-2-february-2018}
 
 **Neue Funktionen**
 
@@ -460,7 +460,7 @@ Wir raten von der Nutzung von Internet Explorer Version 11 ab, da Anzeigeproblem
 
 Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign-Benutzeroberfläche verwendet werden. Diese werden in Version 18.3 korrigiert.
 
-## Version 18.1 - Januar 2018 {#release-18-1---january-2018}
+## Version 18.1 - Januar 2018 {#release-18-1-january-2018}
 
 **Neue Funktionen**
 

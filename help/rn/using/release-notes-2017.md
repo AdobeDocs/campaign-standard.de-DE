@@ -33,16 +33,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 4605
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
 # Versionshinweise 2017{#release-notes}
 
-## Version 17.10 - Oktober 2017 {#release-17-10---october-2017}
+## Version 17.10 - Oktober 2017 {#release-17-10-october-2017}
 
 **Neue Funktionen**
 
@@ -121,7 +121,7 @@ _Benutzerdefinierte Ressourcen_
 * Fehlerkorrektur – in Bildschirmen des Typs Liste werden jetzt keine Zeilen für benutzerdefinierte Ressourcen mehr angezeigt, die keine Daten enthalten.
 * Fehlerkorrektur – boolesche Felder mit dem Wert &#39;False&#39; werden jetzt in benutzerdefinierten Ressourcen angezeigt.
 
-## Version 17.9 - September 2017 {#release-17-9---september-2017}
+## Version 17.9 - September 2017 {#release-17-9-september-2017}
 
 **Neue Funktionen**
 
@@ -193,7 +193,7 @@ _Profile und Zielgruppen_
 * Adobe Campaign erstellt jetzt einen Bericht, in dem die Anzahl der aktiven Profile angegeben wird. Dieser Bericht hat nur informativen Charakter und keine direkte Auswirkung auf die Rechnungsstellung. Weitere Informationen finden Sie im [entsprechenden Handbuch](../../audiences/using/active-profiles.md).
 * Fehlerkorrektur – Profile können jetzt über die API &quot;Profile und Dienste&quot; einen Dienst abonnieren.
 
-## Version 17.7 - Juli 2017 {#release-17-7---july-2017}
+## Version 17.7 - Juli 2017 {#release-17-7-july-2017}
 
 **Neue Funktionen**
 
@@ -241,7 +241,7 @@ _Allgemein_
 _E-Mails, SMS und Briefpost_
 
 * Fehlerkorrektur – im Workflow **updateDeliveryExecInfo** wird der Indikator **Zu senden** bei SMS-Sendungen nicht mehr auf 0 gestellt.
-* In der Option **Erweiterte Parameter** der Versandvorlagen-Eigenschaften werden in der Dropdown-Liste **Routing** nur externe Konten angezeigt, die dem Nachrichtentyp der Vorlage entsprechen. Beispielsweise werden in einer E-Mail-Versandvorlage nur externe E-Mail-Konten angezeigt.
+* In den **Erweiterten Parametern** der Eigenschaften der Versandvorlage zeigt die Dropdown-Liste **Routing** jetzt nur noch externe Konten an, die dem Nachrichtentyp der Vorlage entsprechen. Beispielsweise werden in einer E-Mail-Versandvorlage nur externe E-Mail-Konten angezeigt.
 * Fehlerkorrektur – in Testprofilen ist es nun möglich, **[!UICONTROL Text]** als bevorzugtes E-Mail-Format auszuwählen.
 * Fehlerkorrektur – bei der Auswahl der Standardzeitzone im Planungsbildschirm eines Versands tritt kein Javascript-Fehler mehr auf.
 * Fehlerkorrektur – Fallen werden jetzt in den Versandlogs angezeigt.
@@ -269,7 +269,7 @@ _Workflows_
 * Fehlerkorrektur – Im Erstellungsassistenten eines wiederkehrenden Versands kann jetzt eine Outbound-Transition eingestellt werden.
 * Fehlerkorrektur – jetzt kann eine Workflow-Abfrageaktivität auf der Basis eines benutzerdefinierten Ressourcenfeldes mit einer Aufzählung verwendet werden, die zahlreiche Werte aufweist.
 
-## Version 17.5 - Mai 2017 {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017 {#release-17-5-may-2017}
 
 **Neue Funktionen**
 
@@ -283,7 +283,7 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Briefpost<br /> </td> 
-   <td> Durchbrechen Sie die digitale Barriere und stellen Sie mit Briefpost, dem ersten Offline-Kanal von Adobe Campaign Standard, eine Verbindung zur echten Welt her. Diese Funktion ermöglicht die Personalisierung und Erstellung einer Datei, die von Briefpost-Dienstleistern als Teil Ihrer Cross-Channel-Kampagnen benötigt wird. Mit Briefpost können Sie Kundinnen und Kunden ansprechen oder das Kundenerlebnis durch einen attraktiven taktilen Kontaktpunkt verbessern und Kundinnen und Kunden zu Ihrer App, Ihrer Website oder Ihrem Onlinestore leiten.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/about-direct-mail.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durchbrechen Sie die digitale Barriere und verbinden Sie sich mit der physischen Welt mit dem ersten Offline-Kanal von Adobe Campaign Standard, Briefpost. Diese Funktion ermöglicht die Personalisierung und Erstellung einer Datei, die von Briefpost-Dienstleistern als Teil Ihrer Cross-Channel-Kampagnen benötigt wird. Mit Briefpost können Sie Kundinnen und Kunden ansprechen oder das Kundenerlebnis durch einen attraktiven taktilen Kontaktpunkt verbessern und Kundinnen und Kunden zu Ihrer App, Ihrer Website oder Ihrem Onlinestore leiten.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/about-direct-mail.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> E-Mail-BCC<br /> </td> 
@@ -316,7 +316,7 @@ _Push-Benachrichtigungen_
 * Fehlerkorrektur – jetzt kann ein Push-Ereignis im Marketing-Verlauf eines Profils ausgewählt werden.
 * Die Verwendung von Push-Benachrichtigungen in Workflows wurde verbessert.
 
-## Version 17.4 - April 2017 {#release-17-4---april-2017}
+## Version 17.4 - April 2017 {#release-17-4-april-2017}
 
 **Neue Funktionen**
 
@@ -389,7 +389,7 @@ _Integrationen_
 _Zielgruppen und Abfragen_
 
 * Fehlerkorrektur – Summen- und Durchschnitts-Aggregate für eine Sammlung können jetzt im Abfrage-Editor verwendet werden.
-* Fehlerkorrektur – der Abfrage-Editor kann jetzt nach der Änderung der Filterressource erneut geladen werden.
+* Fehlerkorrektur - Der Abfrage-Editor wird jetzt nach einer Änderung der Filterressource neu geladen.
 
 _Berichte_
 
@@ -401,7 +401,7 @@ _Push-Benachrichtigungen_
 * Fehlerkorrektur – jetzt wird eine Fehlermeldung angezeigt, wenn eine Android-Anwendung mit einer Mobile App verknüpft wird, die nicht auf MCPNS erstellt wurde.
 * Fehlerkorrektur – Benutzer können jetzt stillen Benachrichtigungen keine Töne mehr hinzufügen.
 
-## Version 17.2 - März 201 {#release-17-2---march-2017}
+## Version 17.2 - März 201 {#release-17-2-march-2017}
 
 **Neue Funktionen**
 
@@ -454,7 +454,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> POI-Daten (Points of Interest)<br /> </td> 
-   <td> Die POI-Funktion basiert auf der Integration von Adobe Campaign mit Adobe Analytics for Mobile. Wenn Benutzer die App eines Unternehmens öffnen, können Standortdaten vom Mobilgerät des Benutzers erfasst werden, <strong>Points of Interest</strong> genannt. Dadurch kann das Unternehmen mithilfe von Adobe Campaign-Workflows personalisierte Nachrichten basierend auf dem Standort des Benutzers senden. Dieser Kanal nutzt das SDK des Mobile Core Service.<br /> Bitte beachten Sie, dass diese Funktion Analytics for Mobile voraussetzt. Dabei handelt es sich um eine kostenpflichtige Lösung.<br /> Lesen Sie für weiterführende Informationen das <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Die POI-Funktion basiert auf der Integration von Adobe Campaign mit Adobe Analytics for Mobile. Wenn Benutzer die App eines Unternehmens öffnen, können Standortdaten vom Mobilgerät des Benutzers erfasst werden, <strong>Points of Interest</strong> genannt. Dadurch kann die Marke Adobe Campaign-Workflows nutzen, um personalisierte Nachrichten basierend auf den Standorten der Benutzenden zu senden. Dieser Kanal nutzt die SDK des Mobile Core Services.<br /> Bitte beachten Sie, dass diese Funktion Analytics for Mobile voraussetzt. Dabei handelt es sich um eine kostenpflichtige Lösung.<br /> Lesen Sie für weiterführende Informationen das <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST-APIs<br /> </td> 
@@ -484,7 +484,7 @@ _Workflows_
 * Fehlerkorrektur – der Inhalt der Zurückweisungs-Transition der Aktivität **[!UICONTROL Datei laden]** kann jetzt gelesen werden.
 * Fehlerkorrektur – vertauschte Spalten werden jetzt bei der Konfiguration der Aktivität **[!UICONTROL Datei laden]** berücksichtigt.
 
-## Version 17.1 - Januar 2017 {#release-17-1---january-2017}
+## Version 17.1 - Januar 2017 {#release-17-1-january-2017}
 
 **Neue Funktionen**
 
