@@ -11,16 +11,13 @@ role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 405
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +31,7 @@ Sie können am Jahrestag der Profilerstellung eines Kunden diesem ein Angebot pe
 
 ## Planungsaktivität erstellen {#creating-a-scheduler-activity}
 
-1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Ausführung]** eine [&#128279;](../../automating/using/scheduler.md)Planungsaktivität in den Arbeitsbereich.
+1. Ziehen Sie in **[!UICONTROL Aktivitäten]** > **[!UICONTROL Ausführung]** eine [](../../automating/using/scheduler.md)Planungsaktivität in den Arbeitsbereich.
 1. Doppelklicken Sie auf die Aktivität.
 1. Konfigurieren Sie Ihren Versand.
 1. Wählen Sie in **[!UICONTROL Ausführungsfrequenz]** die Option **[!UICONTROL Täglich]** aus.
@@ -50,12 +47,12 @@ Sie können am Jahrestag der Profilerstellung eines Kunden diesem ein Angebot pe
 
 ## Abfrageaktivität erstellen {#creating-a-query-activity}
 
-1. Um Empfänger auszuwählen, ziehen Sie eine [&#128279;](../../automating/using/query.md)Abfrageaktivität in den Arbeitsbereich und doppelklicken Sie darauf.
+1. Um Empfänger auszuwählen, ziehen Sie eine [](../../automating/using/query.md)Abfrageaktivität in den Arbeitsbereich und doppelklicken Sie darauf.
 1. Fügen Sie **[!UICONTROL Profile]** hinzu und wählen Sie **[!UICONTROL Nicht mehr per E-Mail kontaktieren]** mit dem Wert **[!UICONTROL Nein]** aus.
 
 ### Profile abrufen, die am Versandtag erstellt wurden {#retrieving-profiles-created-on-the-same-day}
 
-1. Ziehen **[!UICONTROL in &quot;]**&quot; das Feld **[!UICONTROL Erstellt]** und klicken Sie auf **[!UICONTROL Erweiterter Modus]**.
+1. Ziehen Sie unter **[!UICONTROL Profil]** das Feld **[!UICONTROL Erstellt]** in den Arbeitsbereich und klicken Sie auf **[!UICONTROL Erweiterter Modus]**.
    ![](assets/advanced_mode.png)
 1. Doppelklicken Sie in der **[!UICONTROL Funktionsliste]** im Knoten **[!UICONTROL Datum]** auf **[!UICONTROL Tag]**.
 1. Fügen Sie dann das Feld **[!UICONTROL Erstellt]** als Argument ein.
@@ -101,8 +98,7 @@ Die endgültige Abfrage sieht folgendermaßen aus:
 1. Geben Sie die E-Mail-Eigenschaften ein und wählen Sie **[!UICONTROL Weiter]** aus.
 1. Um das Layout Ihrer E-Mail zu erstellen, wählen Sie **[!UICONTROL Email Designer]** aus.
 1. Fügen Sie Elemente ein oder wählen Sie eine bestehende Vorlage aus.
-1. Personalisieren Sie Ihre E-Mail mit Feldern und Links.
-Weitere Informationen finden Sie unter [E-Mail entwerfen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Personalisieren Sie Ihre E-Mail mit Feldern und Links. Weitere Informationen finden Sie unter [Gestalten einer E-Mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Wählen Sie **[!UICONTROL Vorschau]** aus, um Ihr Layout zu überprüfen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

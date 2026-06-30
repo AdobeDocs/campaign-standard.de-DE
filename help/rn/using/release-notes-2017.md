@@ -6,37 +6,16 @@ role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 4605
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -241,7 +220,7 @@ _Allgemein_
 _E-Mails, SMS und Briefpost_
 
 * Fehlerkorrektur – im Workflow **updateDeliveryExecInfo** wird der Indikator **Zu senden** bei SMS-Sendungen nicht mehr auf 0 gestellt.
-* In den **Erweiterten Parametern** der Eigenschaften der Versandvorlage zeigt die Dropdown-Liste **Routing** jetzt nur noch externe Konten an, die dem Nachrichtentyp der Vorlage entsprechen. Beispielsweise werden in einer E-Mail-Versandvorlage nur externe E-Mail-Konten angezeigt.
+* Unter **Erweiterte Parameter** der Versandvorlagen-Eigenschaften werden in der Dropdown-Liste **Routing** nur externe Konten angezeigt, die dem Nachrichtentyp der Vorlage entsprechen. Beispielsweise werden in einer E-Mail-Versandvorlage nur externe E-Mail-Konten angezeigt.
 * Fehlerkorrektur – in Testprofilen ist es nun möglich, **[!UICONTROL Text]** als bevorzugtes E-Mail-Format auszuwählen.
 * Fehlerkorrektur – bei der Auswahl der Standardzeitzone im Planungsbildschirm eines Versands tritt kein Javascript-Fehler mehr auf.
 * Fehlerkorrektur – Fallen werden jetzt in den Versandlogs angezeigt.
@@ -283,7 +262,7 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Briefpost<br /> </td> 
-   <td> Durchbrechen Sie die digitale Barriere und verbinden Sie sich mit der physischen Welt mit dem ersten Offline-Kanal von Adobe Campaign Standard, Briefpost. Diese Funktion ermöglicht die Personalisierung und Erstellung einer Datei, die von Briefpost-Dienstleistern als Teil Ihrer Cross-Channel-Kampagnen benötigt wird. Mit Briefpost können Sie Kundinnen und Kunden ansprechen oder das Kundenerlebnis durch einen attraktiven taktilen Kontaktpunkt verbessern und Kundinnen und Kunden zu Ihrer App, Ihrer Website oder Ihrem Onlinestore leiten.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/about-direct-mail.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Durchbrechen Sie die digitale Barriere und stellen Sie mit Briefpost, dem ersten Offline-Kanal von Adobe Campaign Standard, eine Verbindung zur physischen Welt her. Diese Funktion ermöglicht die Personalisierung und Erstellung einer Datei, die von Briefpost-Dienstleistern als Teil Ihrer Cross-Channel-Kampagnen benötigt wird. Mit Briefpost können Sie Kundinnen und Kunden ansprechen oder das Kundenerlebnis durch einen attraktiven taktilen Kontaktpunkt verbessern und Kundinnen und Kunden zu Ihrer App, Ihrer Website oder Ihrem Onlinestore leiten.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/about-direct-mail.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> E-Mail-BCC<br /> </td> 
@@ -389,7 +368,7 @@ _Integrationen_
 _Zielgruppen und Abfragen_
 
 * Fehlerkorrektur – Summen- und Durchschnitts-Aggregate für eine Sammlung können jetzt im Abfrage-Editor verwendet werden.
-* Fehlerkorrektur - Der Abfrage-Editor wird jetzt nach einer Änderung der Filterressource neu geladen.
+* Fehlerkorrektur – der Abfrage-Editor kann jetzt nach der Änderung der Filterressource erneut geladen werden.
 
 _Berichte_
 
@@ -423,7 +402,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Manuelle Optimierung des Versandzeitpunkts<br /> </td> 
-   <td> Sie können jetzt manuell eine benutzerdefinierte Versandzeit pro Empfänger definieren - entweder auf Versandebene oder mithilfe eines Workflows. <br /> Zwei neue Optionen stehen zur Verfügung: <br /> 
+   <td> Sie können jetzt manuell für jede Empfängerin bzw. jeden Empfänger einen Versandzeitpunkt festlegen – auf Versandebene oder mit einem Workflow. <br /> Zwei neue Optionen sind verfügbar: <br /> 
     <ul> 
      <li> Alle Empfangenden erhalten die Nachricht unter Berücksichtigung ihrer jeweiligen Zeitzone. </li> 
      <li> Jede Empfängerin und jeder Empfänger erhält die Nachricht zu einem in einer Formel festgelegten berechneten Zeitpunkt. </li> 
@@ -442,7 +421,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Workflows: Neue Aktivität „Signal“<br /> </td> 
-   <td> Trigger eines Workflows aus einem anderen Workflow mithilfe der neuen <span class="uicontrol">Signal</span>-Aktivität.<br /> Sie können jetzt einen Workflow aus einem anderen starten und so komplexere Kunden-Journey unterstützen. Sie können die Journey der Kunden besser überwachen und bei Problemen reagieren.<br /> Mehrere Workflow-Aktivitäten wurden aktualisiert:<br /> 
+   <td> Lösen Sie mit der neuen Aktivität <span class="uicontrol">Signal</span> einen Workflow aus einem anderen Workflow aus.<br /> Mit der Möglichkeit, einen Workflow aus einem anderen Workflow zu starten, erhalten Sie Unterstützung für komplexere Customer Journeys. Sie können die Journeys der Kundschaft besser überwachen und bei Problemen reagieren.<br /> Mehrere Workflow-Aktivitäten wurden aktualisiert:<br /> 
     <ul> 
      <li> Aktivität <span class="uicontrol">Ende</span>: In einer neuen Registerkarte können Sie festlegen, welcher Workflow ausgelöst werden soll, nachdem eine Aktivität abgeschlossen ist. </li> 
      <li> Aktivität <span class="uicontrol">Daten-Update</span>: Über die neue leere ausgehende Transition kann eine Aktivität <strong>Ende</strong> hinzugefügt werden, die einen weiteren Workflow auslöst. Leere ausgehende Transitionen enthalten keine Daten und belegen auch keinen Speicherplatz im System. </li> 
@@ -454,7 +433,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> POI-Daten (Points of Interest)<br /> </td> 
-   <td> Die POI-Funktion basiert auf der Integration von Adobe Campaign mit Adobe Analytics for Mobile. Wenn Benutzer die App eines Unternehmens öffnen, können Standortdaten vom Mobilgerät des Benutzers erfasst werden, <strong>Points of Interest</strong> genannt. Dadurch kann die Marke Adobe Campaign-Workflows nutzen, um personalisierte Nachrichten basierend auf den Standorten der Benutzenden zu senden. Dieser Kanal nutzt die SDK des Mobile Core Services.<br /> Bitte beachten Sie, dass diese Funktion Analytics for Mobile voraussetzt. Dabei handelt es sich um eine kostenpflichtige Lösung.<br /> Lesen Sie für weiterführende Informationen das <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Die POI-Funktion basiert auf der Integration von Adobe Campaign mit Adobe Analytics for Mobile. Wenn Benutzer die App eines Unternehmens öffnen, können Standortdaten vom Mobilgerät des Benutzers erfasst werden, <strong>Points of Interest</strong> genannt. Dadurch kann das Unternehmen mithilfe von Adobe Campaign-Workflows personalisierte Nachrichten basierend auf dem Standort der benutzenden Person senden. Dieser Kanal nutzt das SDK des Mobile Core Service.<br /> Bitte beachten Sie, dass diese Funktion Analytics for Mobile voraussetzt. Dabei handelt es sich um eine kostenpflichtige Lösung.<br /> Lesen Sie für weiterführende Informationen das <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST-APIs<br /> </td> 
@@ -506,7 +485,7 @@ _Workflows_
   </tr> 
   <tr> 
    <td> Marketing-Funktionen für Transaktionsnachrichten<br /> </td> 
-   <td> Marketing-Experten können jetzt Transaktionsnachrichten basierend auf Marketing-Kundenprofilen senden. Dies ermöglicht ihnen Folgendes:<br /> 
+   <td> Sie können nun Transaktionsnachrichten basierend auf Kunden-Marketing-Profilen versenden. Dies bietet folgende Möglichkeiten:<br /> 
     <ul> 
      <li> Marketing-Typologieregeln wie <span class="uicontrol">Adresse auf Blockierungsliste</span> anwenden </li> 
      <li> einen Abmelde-Link in die Nachricht einfügen </li> 
