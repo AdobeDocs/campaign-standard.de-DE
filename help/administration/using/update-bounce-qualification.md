@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 450
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 83%
 
 Bei Ausfall eines ISP können über Campaign versendete E-Mails nicht erfolgreich an ihren Empfänger zugestellt werden: Diese E-Mails werden fälschlicherweise als Bounces markiert.
 
-Im Dezember 2020 führte ein globales Problem bei Gmail dazu, dass einige E-Mail-Nachrichten, die an gültige Gmail-E-Mail-Adressen gesendet wurden, von Gmail-Servern fälschlicherweise als ungültige E-Mail-Adressen mit der folgenden Bounce-Antwort zurückgewiesen wurden: *„550-5.1.1 Das E-Mail-Konto, das Sie erreichen wollten, existiert nicht.“*
+Im Dezember 2020 führte ein globales Problem bei Gmail dazu, dass einige E-Mail-Nachrichten, die an gültige Gmail-Adressen gesendet wurden, von Gmail-Servern fälschlicherweise als ungültige E-Mail-Adressen mit der folgenden Bounce-Antwort zurückgewiesen wurden: *„550-5.1.1 Das E-Mail-Konto, das Sie zu erreichen versucht haben, existiert nicht“*.
 
 Google hat angegeben, dass die Ausfälle und Unterbrechungen von Gmail, die dieses Problem verursacht haben, am 14. Dezember um 6:55AM Uhr und am 15. Dezember um 6:09PM Uhr EST endeten. Unsere Datenanalyse zeigte auch einen sehr kurzen Anstieg der Gmail-Bounce-Nachrichten um 2:06AM Uhr EST am 16. Dezember, wobei der Großteil am 15. Dezember zwischen 14:00 Uhr EST und 18:30 Uhr EST stattfand.
 
@@ -46,7 +46,7 @@ Auf der Grundlage des Zeitrahmens des Vorfalls werden im Folgenden die Richtlini
 
 Für Campaign-Instanzen mit SMTP-Bounce-Antwortinformationen im Feld **[!UICONTROL Fehlertext]** der Quarantäneliste:
 
-* **Fehlertext (Quarantänetext)** enthält „550-5.1.1 Das E-Mail-Konto, das Sie erreichen wollten, existiert nicht“ UND **Fehlertext (Quarantänetext)** enthält „support.google.com“ **
+* **Fehlertext (Quarantänetext)** enthält „550-5.1.1 Das E-Mail-Konto, das Sie zu erreichen versucht haben, existiert nicht“ UND **Fehlertext (Quarantänetext)** enthält „support.google.com“ **
 * **Statusaktualisierung (@lastModified)** später als 14.12.2020 6:55:00 Uhr
 * **Statusaktualisierung (@lastModified)** früher als 16.12.2020 6:00:00 Uhr
 

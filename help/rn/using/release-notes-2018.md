@@ -34,9 +34,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 5273
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td> Erweiterung der Versandlogs<br /> </td> 
-   <td> Mit der Erweiterung Versandlogs können Sie Versandlogs mit Profildaten und Segment-Code aus Workflows erweitern. Diese Informationen können dann in dynamischen Berichten verwendet werden und ermöglichen es Ihnen, eine Momentaufnahme einiger Informationen zum Zeitpunkt des Versands zu speichern.<br /> Es gibt zwei weitere Anwendungsfälle:<br /> 
+   <td> Ermöglicht die Erweiterung von Versandlogs mit Profildaten und Segment-Code aus Workflows. Diese Daten können dann in dynamischen Berichten verwendet werden, sodass Sie zum Versandzeitpunkt einen aktuellen Überblick über einige Daten erhalten.<br /> Es gibt zwei weitere Anwendungsfälle: <br /> 
     <ul> 
      <li> Export erweiterter Broadlogs mit „eingefrorenen“ Daten: Eine Marketing-Fachkraft möchte alle Profile exportieren, in denen der Segment-Code gleich „A“ ist (aus der Workflow-Engine abgerufen). </li> 
      <li> Segmentierung „eingefrorener“ Daten: Eine Marketing-Fachkraft möchte alle Profile, die seit dem letzten Versand 1.000 Treuepunkte gesammelt haben oder deren Segment-Code gleich „A“ war, <strong>erneut ansprechen</strong>. </li> 
@@ -320,7 +320,7 @@ _Benutzerdefinierte Ressourcen_
  <tbody> 
   <tr> 
    <td> EU-Datenschutz-Grundverordnung (DSGVO)<br /> </td> 
-   <td> Die DSGVO ist das neue Datenschutzgesetz der Europäischen Union (EU), das die Datenschutzanforderungen harmonisiert und modernisiert und ab dem 25. Mai 2018 in Kraft tritt. Die DSGVO gilt für Adobe Campaign-Kunden, die Daten für betroffene Personen mit Wohnsitz in der EU speichern.<br /> Zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzfunktionen (einschließlich Einverständnisverwaltung, Datenspeicherungseinstellungen und Benutzerrollen) nutzen wir diese Gelegenheit in unserer Rolle als Auftragsverarbeiter, um zusätzliche Funktionen hinzuzufügen, um Ihre Bereitschaft als Datenverantwortlicher für bestimmte DSGVO-Anfragen zu erleichtern:<br /> 
+   <td> Die DSGVO ist das neue Datenschutzgesetz der Europäischen Union (EU) zur Harmonisierung und Modernisierung von Datenschutzanforderungen, das am 25. Mai 2018 in Kraft trat. Die DSGVO gilt für Kundinnen und Kunden von Adobe Campaign, die Daten für Personen mit Wohnsitz in der EU erfassen.<br /> Aus diesem Grund möchten wir als Datenverarbeiter Ihnen als die Datenverantwortlichen zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenaufbewahrung und Benutzerrollen etc.) weitere Funktionen bereitstellen, mit deren Hilfe Sie DSGVO-konformes Verhalten sicherstellen können:<br /> 
     <ul> 
      <li> Recht auf Zugriff: Die betroffene Person hat das Recht, eine Kopie ihrer personenbezogenen Daten zu erhalten, die vom Datenverantwortlichen erfasst werden. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
      <li> Recht auf Löschung: Die betroffene Person hat das Recht, seine personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, löschen zu lassen. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
@@ -328,13 +328,13 @@ _Benutzerdefinierte Ressourcen_
   </tr> 
   <tr> 
    <td> Creative Designer für E-Mail (Beta-Version)<br /> </td> 
-   <td> Die neue Creative Designer von Adobe Campaign bietet ein vollständig integriertes Erlebnis bei der Erstellung von Campaign-Inhalten. Sie ermöglicht die schnelle und mühelose visuelle Erstellung ansprechender, individuell personalisierter E-Mails, ohne dass eine einzige Codezeile erstellt werden muss. Mit seiner leistungsstarken Drag-and-Drop-Oberfläche hilft Creative Designer bei der Skalierung der E-Mail-Erstellung, unabhängig davon, ob Benutzende von einem leeren Blatt beginnen oder vorhandene Inhaltsfragmente oder Vorlagen nutzen. <br /> wichtigsten Funktionen sind:<br /> 
+   <td> Der neue Creative Designer von Adobe Campaign ermöglicht ein vollständig integriertes Erstellungserlebnis in Campaign und sorgt für die rasche und einfache Gestaltung attraktiver, individuell personalisierter E-Mails, ohne dass auch nur eine einzige Zeile Code geschrieben werden muss. Mit der leistungsstarken Drag-and-Drop-Oberfläche unterstützt der Creative Designer bei der Skalierung der E-Mail-Erstellung. Benutzende können entweder mit einer leeren Seite beginnen oder vorhandene Inhaltsfragmente oder Vorlagen verwenden. <br /> Zu den wichtigsten Funktionen zählen:<br /> 
     <ul> 
      <li> Optische Gestaltung und Erstellung vollständig personalisierter, responsiver E-Mails mithilfe einer Drag-and-Drop-Benutzeroberfläche optimiert durch native Creative Cloud-Integrationen </li> 
      <li> Erstellung und Speicherung einer E-Mail Inhaltsvorlage und Verwendung gespeicherter Vorlagen zur Vereinfachung der E-Mail-Erstellung </li> 
      <li> Erstellen und Speichern von Inhaltsfragmenten (z. B. Kopf- und Fußzeile, Artikel) zur Optimierung der Inhaltserstellung und Sicherstellung der Markenkonsistenz </li> 
      <li> Nahtloser Wechsel zwischen der Erstellung in der Drag &amp; Drop-Benutzeroberfläche und der direkten Bearbeitung von HTML-Code einer E-Mail per Tastendruck </li> 
-    </ul> Creative Designer für E-Mails ist nur auf Englisch verfügbar.<br /> Weitere Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaillierten Dokumentation</a> und in diesem <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">Video</a>.<br /> </td> 
+    </ul> Creative Designer für E-Mails ist nur auf Englisch verfügbar.<br /> Weitere Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaillierten Dokumentation</a> und in diesem <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">Video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Versand mehrsprachiger Push-Sendungen<br /> </td> 
@@ -342,7 +342,7 @@ _Benutzerdefinierte Ressourcen_
   </tr> 
   <tr> 
    <td> Verwendung von benutzerdefinierten Ressourcen in Transaktionsnachrichten<br /> </td> 
-   <td> Zusätzlich zu den vordefinierten Feldern können Sie mit Transaktionsnachrichten jetzt auch benutzerdefinierte Ressourcen verwenden, um den Inhalt Ihrer Nachrichten anzureichern.<br /> Beispiel:<br /> 
+   <td> Neben vorkonfigurierten Feldern können Sie beim Transaktions-Messaging nun auch benutzerdefinierte Ressourcen zur Inhaltsanreicherung Ihrer Nachrichten nutzen.<br /> Zum Beispiel:<br /> 
     <ul> 
      <li> Verwenden Sie benutzerdefinierte Felder als Abstimmungskriterien zwischen Transaktionsnachricht und Profil. </li> 
      <li> Verwenden Sie vollständige Profile, Dienste und verknüpfte Daten, um Transaktionsnachrichten stärker zu personalisieren. </li> 
@@ -482,7 +482,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
   </tr> 
   <tr> 
    <td> Neue Push-Funktionen<br /> </td> 
-   <td> Vorschau von Push-Benachrichtigungen : Zeigen Sie im Inhaltseditor für Push-Benachrichtigungen eine Vorschau von Push-Benachrichtigungen auf iOS- und Android-Geräten an, um genau zu sehen, was Ihre Empfängerinnen und Empfänger sehen werden, bevor Sie den Versand testen oder ausführen.<br /> Weitere Informationen finden Sie in der <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">ausführlichen Dokumentation</a>.<br /> Verfügbare Inhalte - Wenn Apps über einen längeren Zeitraum nicht geöffnet werden, können ihre Daten veraltet sein. Dies führt dazu, dass die Daten zu dem Zeitpunkt aktualisiert oder ersetzt werden müssen, zu dem ein Benutzer die App schließlich öffnet. Dies kann zu Verzögerungen bei der Verwendung der App führen. Mit der zusätzlichen Unterstützung verfügbarer Inhalte können Adobe Campaign-Benutzende ihre Mobile App aufwecken, um bei der Bereitstellung einer Push-Benachrichtigung im Hintergrund ihre Daten zu aktualisieren, was eine größere Konsistenz und Kontrolle über das In-App-Erlebnis eines Benutzenden ermöglicht.<br /> Veränderlicher Inhalt - Durch die zusätzliche Unterstützung veränderlicher Inhalte können Adobe Campaign-Benutzende jetzt ihre Mobile-App-Erweiterungen nutzen, um den Inhalt oder die Darstellung eintreffender Push-Benachrichtigungen, die von Adobe Campaign gesendet werden, weiter zu ändern. Beispielsweise können Benutzer veränderliche Inhalte nutzen, um: <br /> 
+   <td> Vorschau von Push-Benachrichtigungen: Zeigen Sie im Inhaltseditor für Push-Benachrichtigungen eine Vorschau von Push-Benachrichtigungen auf iOS- und Android-Geräten an, um genau zu sehen, was Ihre Empfängerinnen und Empfänger sehen, bevor Sie den Versand testen oder ausführen.<br /> Weitere Informationen finden Sie in der <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">ausführlichen Dokumentation</a>.<br /> Verfügbare Inhalte: Wenn Apps über einen längeren Zeitraum nicht geöffnet werden, können ihre Daten veraltet sein. Dies führt dazu, dass die Daten zu dem Zeitpunkt aktualisiert oder ersetzt werden müssen, zu dem eine Benutzerin oder ein Benutzer die App schließlich öffnet. Dies kann zu Verzögerungen bei der Verwendung der App führen. Mit der zusätzlichen Unterstützung verfügbarer Inhalte können Adobe Campaign-Benutzende ihre App „aufwecken“, damit bei der Bereitstellung einer Push-Benachrichtigung im Hintergrund die Daten aktualisiert werden, was eine größere Konsistenz und Kontrolle über das In-App-Erlebnis von Benutzenden ermöglicht.<br /> Veränderlicher Inhalt: Durch die zusätzliche Unterstützung veränderlicher Inhalte können Adobe Campaign-Benutzende jetzt ihre App-Erweiterungen nutzen, um den Inhalt oder die Darstellung eintreffender Push-Benachrichtigungen, die von Adobe Campaign gesendet werden, weiter zu ändern. Beispielsweise können Benutzende veränderliche Inhalte für Folgendes nutzen <br /> 
     <ul> 
      <li> In einem verschlüsselten Format gesendete Daten entschlüsseln </li> 
      <li> Bilder oder andere Mediendateien herunterladen und als Anhänge zu einer Benachrichtigung hinzufügen </li> 
