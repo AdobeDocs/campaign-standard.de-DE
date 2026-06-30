@@ -8,8 +8,8 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: ht
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+workflow-type: tm+mt
 source-wordcount: 450
 ht-degree: 100%
 
@@ -56,4 +56,5 @@ Sobald Sie die Liste der betroffenen Empfänger haben, können Sie diese entwede
 
 * [Ursachen für das Fehlschlagen von Sendungen](../../sending/using/understanding-delivery-failures.md)
 * [Bounce-Message-Qualifizierung](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
+
 

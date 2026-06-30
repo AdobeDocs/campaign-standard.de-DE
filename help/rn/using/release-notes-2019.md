@@ -25,8 +25,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: ht
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+workflow-type: tm+mt
 source-wordcount: 7898
 ht-degree: 100%
 
@@ -633,4 +633,5 @@ Am Transaktionsnachrichten-Kanal wurden mehrere Verbesserungen durchgeführt, um
 * Der Versanddurchsatz für SMS-Nachrichten wurde verbessert und ist jetzt stabiler.
 * Fehlerkorrektur – Das Zeichen &quot;~&quot; kann jetzt in SMS-Nachrichten verwendet werden. (CAMP-29172)
 * Fehlerkorrektur – Bei der Option zur Versandzeitoptimierung tritt bei Sendungen kein Fehler mehr auf. (CAMP-29231)
+
 

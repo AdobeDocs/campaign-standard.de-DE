@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: ht
-source-wordcount: 4605
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+workflow-type: tm+mt
+source-wordcount: 4688
 ht-degree: 100%
 
 ---
@@ -423,8 +423,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Manuelle Optimierung des Versandzeitpunkts<br /> </td> 
-   <td> Sie können jetzt manuell für jede Empfängerin bzw. jeden Empfänger einen Versandzeitpunkt festlegen – auf Versandebene oder mit einem Workflow. <br /> Zwei neue Optionen sind verfügbar: <br /> 
-    <ul> 
+   <td> Sie können jetzt manuell für jeden Empfänger bzw. jede Empfängerin einen Versandzeitpunkt festlegen – auf Versandebene oder mit einem Workflow. <br /> Es sind zwei neue Optionen verfügbar: <br /> <ul> 
      <li> Alle Empfangenden erhalten die Nachricht unter Berücksichtigung ihrer jeweiligen Zeitzone. </li> 
      <li> Jede Empfängerin und jeder Empfänger erhält die Nachricht zu einem in einer Formel festgelegten berechneten Zeitpunkt. </li> 
     </ul> Lesen Sie für weiterführende Informationen das <a href="../../sending/using/optimizing-the-sending-time.md">entsprechende Handbuch</a>.<br /> </td> 
@@ -442,8 +441,7 @@ _Push-Benachrichtigungen_
   </tr> 
   <tr> 
    <td> Workflows: Neue Aktivität „Signal“<br /> </td> 
-   <td> Lösen Sie mit der neuen Aktivität <span class="uicontrol">Signal</span> einen Workflow aus einem anderen Workflow aus.<br /> Mit der Möglichkeit, einen Workflow aus einem anderen Workflow zu starten, erhalten Sie Unterstützung für komplexere Customer Journeys. Sie können die Journeys der Kundschaft besser überwachen und bei Problemen reagieren.<br /> Mehrere Workflow-Aktivitäten wurden aktualisiert:<br /> 
-    <ul> 
+   <td> Mit der neuen Aktivität <span class="uicontrol">Signal</span> können Sie in einem Workflow einen anderen Workflow auslösen.<br /> Durch die Möglichkeit, einen Workflow über einen anderen zu starten, können Sie jetzt komplexere Customer Journeys unterstützen. Sie können die Customer Journeys besser überwachen und beim Auftreten von Problemen reagieren.<br /> Mehrere Workflow-Aktivitäten wurden aktualisiert:<br /> <ul> 
      <li> Aktivität <span class="uicontrol">Ende</span>: In einer neuen Registerkarte können Sie festlegen, welcher Workflow ausgelöst werden soll, nachdem eine Aktivität abgeschlossen ist. </li> 
      <li> Aktivität <span class="uicontrol">Daten-Update</span>: Über die neue leere ausgehende Transition kann eine Aktivität <strong>Ende</strong> hinzugefügt werden, die einen weiteren Workflow auslöst. Leere ausgehende Transitionen enthalten keine Daten und belegen auch keinen Speicherplatz im System. </li> 
     </ul> Lesen Sie für weiterführende Informationen das <a href="../../automating/using/external-signal.md">entsprechende Handbuch</a>.<br /> </td> 
@@ -498,16 +496,14 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Protokollexport für externes Reporting<br /> </td> 
-   <td> Exportieren Sie Protokolle wie Versand- und Trackinglogs, um sie in Ihren bevorzugten Reporting- oder BI-Tools zu verarbeiten. Sie können einfache Workflows mit inkrementellen Abfragen verwenden, um regelmäßige Exporte neuer Protokolle zu automatisieren.<br /> Zusätzlich zur Verfügbarkeit der Protokollressourcen in der Ressourcenauswahl wurden Verbesserungen an den Aktivitäten <a href="../../automating/using/incremental-query.md">Inkrementelle Abfrage</a> und <a href="../../automating/using/extract-file.md">Datei extrahieren</a> vorgenommen:<br /> 
-    <ul> 
+   <td> Exportieren Sie Logs, wie zum Beispiel Versandlogs und Trackinglogs, um sie in Ihren eigenen Reporting- oder Business Intelligence Tools zu verarbeiten. Mithilfe von einfachen Workflows mit inkrementellen Abfragen können Sie automatisch regelmäßige Exporte neuer Logs durchführen.<br /> Zusätzlich zur Verfügbarkeit der Log-Ressourcen in der Ressourcenauswahl wurden Verbesserungen an den Aktivitäten <a href="../../automating/using/incremental-query.md">Inkrementelle Abfrage</a> und <a href="../../automating/using/extract-file.md">Dateiextraktion</a> vorgenommen:<br /> <ul> 
      <li> Mit der Option <span class="uicontrol">Inkrementelle Abfrage</span> können Sie neue oder aktualisierte Daten nun über ein Datumsfeld abrufen. Zuvor waren alle Ergebnisse früherer Ausführungen automatisch ausgeschlossen, selbst wenn sie seit der letzten Ausführung aktualisiert worden waren. </li> 
      <li> Mit der Option <span class="uicontrol">Dateiextraktion</span> können jetzt Titel anstelle von Kennungen für Aufzählungswerte exportiert werden. </li> 
     </ul> Diese Aktivitäten stehen Admins zur Verfügung, die Zugriff auf alle geografischen und Organisationseinheiten haben.<br /> Weitere Informationen zum Exportieren von Logs finden Sie in der <a href="../../automating/using/exporting-logs.md">ausführlichen Dokumentation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Marketing-Funktionen für Transaktionsnachrichten<br /> </td> 
-   <td> Sie können nun Transaktionsnachrichten basierend auf Kunden-Marketing-Profilen versenden. Dies bietet folgende Möglichkeiten:<br /> 
-    <ul> 
+   <td> Sie können nun Transaktionsnachrichten basierend auf Kunden-Marketing-Profilen versenden. Damit haben Sie folgende Möglichkeiten:<br /> <ul> 
      <li> Marketing-Typologieregeln wie <span class="uicontrol">Adresse auf Blockierungsliste</span> anwenden </li> 
      <li> einen Abmelde-Link in die Nachricht einfügen </li> 
      <li> die Transaktionsnachrichten zum allgemeinen Versand-Reporting hinzufügen </li> 
@@ -559,4 +555,5 @@ _Integrationen_
 * Fehlerkorrektur – bei der Bereitstellung einer Ereignisauslösung in Adobe Campaign kommt es zu keinen Problemen mehr. Dieser Fehler trat auf, wenn die Metadaten &quot;Wahrscheinlichkeit eines erneuten Besuchs innerhalb von 30 Tagen&quot; zur Abbruchsauslösung in Adobe Experience Cloud hinzugefügt wurden.
 * Fehlerkorrektur – der technische Workflow löscht jetzt nicht mehr das Zieldimensionsfeld, wenn Zielgruppen von People Core Service importiert werden. Darauf folgende Abfragen konnten keine importierten Zielgruppen abrufen.
 * Fehlerkorrektur – durch die Aktivität **[!UICONTROL Zielgruppe speichern]** eines Workflows wird kein Fehler mehr erzeugt, wenn die Option **[!UICONTROL In der Adobe Experience Cloud freigeben]** aktiviert ist.
+
 
