@@ -28,7 +28,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
@@ -457,5 +457,3 @@ Im Folgenden finden Sie die in der kommenden Campaign Standard-Version enthalten
 * Fehlerkorrektur – Die Liste der Testprofile wird jetzt beim Suchen nach Profilen in der **Email Designer**-Vorschau aktualisiert. (CAMP-45265)
 * Fehlerkorrektur – Beim Suchen nach Profilen in der **Email Designer**-Vorschau werden jetzt benutzerdefinierte Testprofile in der Liste angezeigt. (CAMP-45589)
 * Fehlerkorrektur – Beim Erstellen von Trendgrafiken aus dem **Versandzusammenfassungsbericht** werden jetzt übereinstimmende Datumsangaben angezeigt. (CAMP-45521)
-
-

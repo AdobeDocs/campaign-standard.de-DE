@@ -33,10 +33,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
 workflow-type: tm+mt
 source-wordcount: 5533
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 **Sonstige Änderungen**
 
-* In den Broadlogs wird jetzt zwischen der maximalen Anzahl der Verbindungen und der maximalen Anzahl der Nachrichten pro Stunde unterschieden. Wenn das Limit erreicht wurde, wird jetzt der Grund für den beschränkten Durchsatz angegeben. Zuvor wurde in beiden Fällen dieselbe Meldung angezeigt (‘quota met’).
+* In den Broadlogs wird jetzt zwischen der maximalen Anzahl der Verbindungen und der maximalen Anzahl der Nachrichten pro Stunde unterschieden. Wenn das Limit erreicht wurde, wird jetzt der Grund für den beschränkten Durchsatz angegeben. Zuvor galt dieselbe Nachricht („Kontingent ausgeschöpft„) für beide Fälle.
 * Bei der Konfiguration einer Mobile App in Campaign ist es jetzt für den Benutzer ersichtlich, ob das iOS-Zertifikat und der Android-Server-Schlüssel erfolgreich hochgeladen wurden und wie ihr Ablaufdatum lautet.
 
   Weiterführende Informationen finden Sie im entsprechenden Handbuch zur Konfiguration einer Mobile App mit [SDK V4](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdkv4.html) und [SDK V5](https://helpx.adobe.com/de/campaign/kb/configuring-app-sdk.html).
@@ -144,8 +144,8 @@ ht-degree: 100%
 
 **Verbesserungen**
 
-* Die Integration von Adobe Campaign mit Adobe Target ermöglicht jetzt die Verwendung der [Berechtigungsfunktion](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=de) von Target. Beim Einfügen eines dynamischen Bildes von Adobe Target in eine E-Mail können Sie jetzt eine Target Property spezifizieren (at_property code).
-* Benutzerdefinierte Ressourcen, die über eine owncopy-Relation mit der Profilressource verbunden sind, werden jetzt von DSGVO-Zugriffs- bzw. Löschanfragen berücksichtigt. Für einfache Relationen mit Kardinalität 1 und Sammlungsrelationen mit Kardinalität N muss in der benutzerdefinierten Ressource die Option &quot;Beim Löschen/Duplizieren des Ziel-Datensatzes werden auch die von der Relation referenzierten Datensätze gelöscht/dupliziert&quot; ausgewählt werden. Für einfache Relationen mit Kardinalität 0 oder 1 muss die Option &quot;Beim Löschen/Duplizieren des Datensatzes wird auch der von der Relation referenzierte Ziel-Datensatz gelöscht/dupliziert&quot; ausgewählt werden.
+* Durch die Integration von Adobe Campaign und Adobe Target können Sie jetzt die Target-Funktion [Berechtigungen](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=de) nutzen. Beim Einfügen eines dynamischen Bildes von Adobe Target in eine E-Mail können Sie jetzt eine Target Property spezifizieren (at_property code).
+* Benutzerdefinierte Ressourcen, die über eine owncopy-Relation mit der Profilressource verbunden sind, werden jetzt von DSGVO-Zugriffs- bzw. Löschanfragen berücksichtigt. Für einfache Relationen mit Kardinalität 1 und Sammlungsrelationen mit Kardinalität N muss in der benutzerdefinierten Ressource die Option &quot;Beim Löschen/Duplizieren des Ziel-Datensatzes werden auch die von der Relation referenzierten Datensätze gelöscht/dupliziert&quot; ausgewählt werden. Wählen Sie für einfache Links mit Kardinalität 0 oder 1 die Option „Das Löschen/Duplizieren des Datensatzes zieht das Löschen/Duplizieren des Zieldatensatzes nach sich, auf den die Relation verweist“.
 
 **Sonstige Änderungen**
 
@@ -285,7 +285,7 @@ ht-degree: 100%
 
 _Plattform_
 
-* Fehlerkorrektur – DSGVO-Zugriff- oder Löschanfragen können jetzt korrekt verarbeitet werden. Dieser Fehler trat in seltenen Fällen auf, wenn die extrahierten Daten eines der folgenden Zeichen enthielten: &amp; &lt; > &quot; &#39;.
+* Fehlerkorrektur – DSGVO-Zugriff- oder Löschanfragen können jetzt korrekt verarbeitet werden. Dieses Verhalten wurde in einigen seltenen Fällen beobachtet, in denen die extrahierten Daten eines der folgenden Zeichen enthielten: `& < > " '`.
 
 _E-Mails, SMS und Briefpost_
 
@@ -319,7 +319,7 @@ _Benutzerdefinierte Ressourcen_
  <tbody> 
   <tr> 
    <td> EU-Datenschutz-Grundverordnung (DSGVO)<br /> </td> 
-   <td> Die DSGVO ist die neue Datenschutz-Grundverordnung der Europäischen Union (EU), die am 25. Mai 2018 in Kraft tritt und in der die Anforderungen an den Datenschutz harmonisiert und neu geregelt werden. Die DSGVO gilt für Adobe Campaign-Kundinnen und -Kunden, die Daten von betroffenen Personen erfassen, die in der EU wohnhaft sind.<br /> Aus diesem Grund möchten wir als Auftragsverarbeiter Ihnen als Datenverantwortlichen zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) weitere Funktionen bereitstellen, mit deren Hilfe Sie DSGVO-konformes Verhalten sicherstellen können:<br /> <ul> 
+   <td> Die DSGVO ist das neue Datenschutzgesetz der Europäischen Union (EU), das die Datenschutzanforderungen harmonisiert und modernisiert und ab dem 25. Mai 2018 in Kraft tritt. Die DSGVO gilt für Adobe Campaign-Kundinnen und -Kunden, die Daten von betroffenen Personen erfassen, die in der EU wohnhaft sind.<br /> Aus diesem Grund möchten wir als Auftragsverarbeiter Ihnen als Datenverantwortlichen zusätzlich zu den bereits in Adobe Campaign verfügbaren Datenschutzoptionen (Einverständnisverwaltung, Einstellungen für die Datenbeibehaltung und Benutzerrollen etc.) weitere Funktionen bereitstellen, mit deren Hilfe Sie DSGVO-konformes Verhalten sicherstellen können:<br /> <ul> 
      <li> Recht auf Zugriff: Die betroffene Person hat das Recht, eine Kopie ihrer personenbezogenen Daten zu erhalten, die vom Datenverantwortlichen erfasst werden. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
      <li> Recht auf Löschung: Die betroffene Person hat das Recht, seine personenbezogenen Daten, die vom Datenverantwortlichen erfasst werden, löschen zu lassen. Hierzu zählen unter Umständen auch die in Adobe Campaign gespeicherten Daten. </li> 
     </ul> Lesen Sie für weiterführende Informationen das <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=de">entsprechende Handbuch</a>.<br /> </td> 
@@ -331,7 +331,7 @@ _Benutzerdefinierte Ressourcen_
      <li> Erstellung und Speicherung einer E-Mail Inhaltsvorlage und Verwendung gespeicherter Vorlagen zur Vereinfachung der E-Mail-Erstellung </li> 
      <li> Erstellen und Speichern von Inhaltsfragmenten (z. B. Kopf- und Fußzeile, Artikel) zur Optimierung der Inhaltserstellung und Sicherstellung der Markenkonsistenz </li> 
      <li> Nahtloser Wechsel zwischen der Erstellung in der Drag &amp; Drop-Benutzeroberfläche und der direkten Bearbeitung von HTML-Code einer E-Mail per Tastendruck </li> 
-    </ul> Creative Designer für E-Mails ist nur auf Englisch verfügbar.<br /> Weitere Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaillierten Dokumentation</a> und in diesem <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">Video</a>.<br /> </td> 
+    </ul> Creative Designer für E-Mails ist nur auf Englisch verfügbar.<br /> Weitere Informationen finden Sie in der <a href="../../designing/using/designing-content-in-adobe-campaign.md">detaillierten Dokumentation</a> und in diesem <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">Video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Versand mehrsprachiger Push-Sendungen<br /> </td> 
@@ -384,7 +384,7 @@ _Integrationen_
 * Fehlerkorrektur – jetzt werden internationale Zeichen korrekt an Adobe Analytics gesendet.
 * Assets werden jetzt schneller geladen, wenn versucht wird, ein Bild aus der Asset-Bibliothek von Experience Cloud in eine Nachricht einzufügen.
 * Fehlerkorrektur – jetzt kann das Fenster für die Asset-Auswahl immer geschlossen werden.
-* Sie können jetzt von der Detailansicht einer Datenquelle direkt auf ihren Workflow zugreifen und den Status des Workflows überprüfen.
+* Über ein Datenquellendetail können Sie jetzt direkt auf den zugehörigen Workflow zugreifen, um den Status des Workflows zu überprüfen.
 * Sie können jetzt das Triggers-Schema direkt aktualisieren, wenn Sie ein Trigger-Ereignis definieren oder bearbeiten. Durch diese Änderung müssen Sie die Veröffentlichung des Triggers nicht mehr aufheben und keinen neuen erstellen.
 
 _Transaktionsnachrichten_
@@ -478,7 +478,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
   </tr> 
   <tr> 
    <td> Neue Push-Funktionen<br /> </td> 
-   <td> Push-Nachrichtenvorschau – Zeigen Sie Push-Benachrichtigungen auf iOS- und Android-Geräten im Inhaltseditor für Push-Benachrichtigungen in der Vorschau an, um genau zu sehen, was Ihren Empfangenden angezeigt wird, bevor Sie den Versand testen oder ausführen.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">entsprechende Handbuch</a>.<br /> Inhalt verfügbar – Wenn Apps über einen längeren Zeitraum hinweg nicht geöffnet werden, sind ihre Daten möglicherweise veraltet. Folglich müssen die Daten bei der nächsten Öffnung der App aktualisiert oder ersetzt werden, was zu einer Verzögerung bei der Verwendung der App führen kann. Mit der Funktion „Inhalt verfügbar“ können Adobe Campaign-Benutzende eine App aktivieren, damit ihre Daten beim Senden einer Push-Benachrichtigung im Hintergrund aktualisiert werden. So lässt sich die Konsistenz verbessern und die Kontrolle über das In-App-Erlebnis eines Benutzers bzw. einer Benutzerin erhöhen.<br /> Veränderlicher Inhalt – Dank der zusätzlichen Unterstützung von veränderlichen Inhalten können Adobe Campaign-Benutzende nun ihre App-Erweiterungen nutzen, um den Inhalt oder die Darstellung eingehender Push-Benachrichtigungen weiter anzupassen, die von Adobe Campaign gesendet wurden. Mit der Funktion „Veränderlicher Inhalt“ haben Sie beispielsweise folgende Möglichkeiten: <br /> <ul> 
+   <td> Push-Nachrichtenvorschau – Zeigen Sie Push-Benachrichtigungen auf iOS- und Android-Geräten im Inhaltseditor für Push-Benachrichtigungen in der Vorschau an, um genau zu sehen, was Ihren Empfangenden angezeigt wird, bevor Sie den Versand testen oder ausführen.<br /> Lesen Sie für weiterführende Informationen das <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">entsprechende Handbuch</a>.<br /> Inhalt verfügbar – Wenn Apps über einen längeren Zeitraum hinweg nicht geöffnet werden, sind ihre Daten möglicherweise veraltet. Folglich müssen die Daten bei der nächsten Öffnung der App aktualisiert oder ersetzt werden, was zu einer Verzögerung bei der Verwendung der App führen kann. Durch die zusätzliche Unterstützung verfügbarer Inhalte können Adobe Campaign-Benutzende ihre Mobile App aufwecken, um bei der Zustellung einer Push-Benachrichtigung die Daten im Hintergrund zu aktualisieren. Dies ermöglicht eine größere Konsistenz und Kontrolle über das In-App-Erlebnis eines Benutzenden.<br /> Veränderlicher Inhalt – Dank der zusätzlichen Unterstützung von veränderlichen Inhalten können Adobe Campaign-Benutzende nun ihre App-Erweiterungen nutzen, um den Inhalt oder die Darstellung eingehender Push-Benachrichtigungen weiter anzupassen, die von Adobe Campaign gesendet wurden. Mit der Funktion „Veränderlicher Inhalt“ haben Sie beispielsweise folgende Möglichkeiten: <br /> <ul> 
      <li> In einem verschlüsselten Format gesendete Daten entschlüsseln </li> 
      <li> Bilder oder andere Mediendateien herunterladen und als Anhänge zu einer Benachrichtigung hinzufügen </li> 
      <li> Den Text oder Titel einer Benachrichtigung ändern </li> 
@@ -487,7 +487,7 @@ Probleme könnten auftreten, wenn Links zur kontextuellen Hilfe auf der Campaign
   </tr> 
   <tr> 
    <td> Zeitzonenoptimierte Sendungen<br /> </td> 
-   <td> Sie können wiederkehrende E-Mails, SMS und Push-Benachrichtigungen so terminieren, dass sie zu einem bestimmten Datum und einer bestimmten Uhrzeit in der Zeitzone jedes Empfängers bzw. jeder Empfängerin gesendet werden, ohne dass Sie mehrere Sendungen einrichten müssen. <br /> Lesen Sie für weiterführende Informationen das <a href="../../automating/using/scheduler.md">entsprechende Handbuch</a>.<br /> </td> 
+   <td> Planen Sie den Versand von wiederkehrenden E-Mail-, SMS- und Push-Benachrichtigungen zu einem bestimmten Tag/zu einer bestimmten Uhrzeit in der Zeitzone jeder Empfängerin und jedes Empfängers, um sicherzustellen, dass Ihre Nachrichten zur richtigen Zeit gesendet werden, ohne dass mehrere Sendungen eingerichtet werden. <br /> Lesen Sie für weiterführende Informationen das <a href="../../automating/using/scheduler.md">entsprechende Handbuch</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Aktivierung der API-Signal-Aktivität<br /> </td> 
@@ -537,5 +537,3 @@ _Profile und Zielgruppen_
 * Eine QuickInfo wurde hinzugefügt, in dem nach der Zählung der Population einer Abfrage die exakte Anzahl dargestellt wird.
 * Fehlerkorrektur – jetzt tritt kein Fehler mehr auf, wenn Benutzer versuchen, eine Zielgruppe auszuwählen oder ein Zielgruppe-Auswahl-Fenster zu schließen.
 * Die Liste verfügbarer Funktionen wurde im Ausdruckseditor aktualisiert. Die Funktionen **FormatCurrency** und **ConvertCurrency** wurden entfernt.
-
-
