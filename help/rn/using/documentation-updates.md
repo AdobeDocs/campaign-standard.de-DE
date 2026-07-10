@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
 workflow-type: tm+mt
-source-wordcount: '7668'
-ht-degree: 100%
+source-wordcount: '7689'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
 
+
+## Juni 2026 {#doc-updates-june-2026}
+
+Es wurde eine Seite über CNIL-Anleitungen für E-Mail-Tracking-Pixel und die zugehörigen Adobe Campaign Standard-Funktionen hinzugefügt. [Weitere Informationen](../../administration/using/cnil-pixel-tracking.md)
 
 ## Version 24.1 – Winter 2024 {#release-24-1}
 
@@ -588,7 +592,7 @@ Das Automating-Benutzerhandbuch wurde mit Links zu verwandten Workflow-Aktivitä
 
 Der Abschnitt über die Indikatorberechnung für dynamische Berichte wurde aktualisiert – [Weitere Informationen](../../reporting/using/indicator-calculation.md)
 
-Eine Kompatibilitätstabelle für dynamische Berichte wurde hinzugefügt, um die Kompatibilität zwischen Dimensionen und Metriken zu veranschaulichen – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=de)
+Eine Kompatibilitätstabelle für dynamische Berichte wurde hinzugefügt, um die Kompatibilität zwischen Dimensionen und Metriken zu veranschaulichen – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Die Liste der Funktionen für Workflows wurde aktualisiert – [Weitere Informationen](../../automating/using/list-of-functions.md)
 
@@ -866,7 +870,7 @@ Die Aktivität **[!UICONTROL An-/Abmeldedienst]** wurde aktualisiert und unterst
 
 Eine schrittweise Anleitung zur Versandvorbereitung wurde hinzugefügt – [Weitere Informationen](../../sending/using/preparing-the-send.md)
 
-Ein Abschnitt mit der Liste der Berechtigungen wurde entfernt. – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de) (PDF)
+Ein Abschnitt mit der Liste der Berechtigungen wurde entfernt. – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)
 
 Eine schrittweise Anleitung zur Verwendung der automatischen SMS-Antwortfunktion wurde hinzugefügt – [Weitere Informationen](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1038,7 +1042,7 @@ Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with y
 
 Eine Anleitung zur Konfiguration der Integration von People Core Service oder Audience Manager mit Adobe Campaign wurde hinzugefügt – [Weitere Informationen](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
+Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 
