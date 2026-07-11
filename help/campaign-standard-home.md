@@ -20,10 +20,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: add46d6ff37deb4309146447f5a9026842368cf3
-workflow-type: ht
-source-wordcount: 238
-ht-degree: 100%
+source-git-commit: e6bc6cdc81a89cded1fa59e6a22c5a3bfaf84363
+workflow-type: tm+mt
+source-wordcount: 594
+ht-degree: 94%
 
 ---
 
@@ -94,11 +94,11 @@ Erfahren Sie, wie Sie Daten zwischen Campaign und der Echtzeit-Kundendatenplattf
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Konfigurationsadministration<br/></strong><br/><a href="administration/using/about-channel-configuration.md">Konfigurieren von Kanälen</a> – <a href="administration/using/about-campaign-standard-settings.md">Campaign Standard-Einstellungen</a> – <a href="administration/using/about-access-management.md">Zugriffsverwaltung</a> – <a href="administration/using/monitoring-guidelines.md">Monitoring-Richtlinien</a> – <a href="integrating/using/get-started-campaign-integrations.md">Integration von Campaign mit anderen Lösungen</a>
+      <strong>Konfigurationsverwaltung<br/></strong><br/><a href="administration/using/about-channel-configuration.md">Konfigurieren von Kanälen</a> – <a href="administration/using/about-campaign-standard-settings.md">Campaign Standard-Einstellungen</a> – <a href="administration/using/about-access-management.md">Zugriffsverwaltung</a> – <a href="administration/using/monitoring-guidelines.md">Überwachungsrichtlinien</a> – <a href="integrating/using/get-started-campaign-integrations.md">Integration von Campaign mit anderen Lösungen</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>Kommunikationskanäle</strong><br/><a href="channels/using/about-emails.md">E-Mail</a> – <a href="channels/using/about-sms-messages.md">SMS</a> – <a href="channels/using/about-in-app-messaging.md">In-App</a> – <a href="channels/using/about-push-notifications.md">Push-Benachrichtigungen</a> – <a href="channels/using/about-direct-mail.md">Briefpost</a> – <a href="channels/using/about-direct-mail.md">Web</a>
+      <strong>Kommunikationskanäle</strong><br/><a href="channels/using/about-emails.md">E-Mail</a> – <a href="channels/using/about-sms-messages.md">SMS</a> – <a href="channels/using/about-in-app-messaging.md">In-App</a> – <a href="channels/using/about-push-notifications.md">Push-Benachrichtigungen</a> – <a href="channels/using/about-direct-mail.md">Direktwerbung</a> – <a href="channels/using/about-direct-mail.md">Web</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -121,9 +121,7 @@ Erfahren Sie, wie Sie Daten zwischen Campaign und der Echtzeit-Kundendatenplattf
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Nützliche Seiten</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de" target="_blank">Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html" target="_blank">Produktbeschreibungen</a> – <a href="rn/using/deprecated-features.md">Veraltete und entfernte Funktionen</a> – <a href="rn/using/release-planning.md">Versionsplanung</a> – <a href="https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">E-Mail-Tracking-Pixel und CNIL-Anleitungen</a>
-</td>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=de" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/de/legal/product-descriptions/campaign-standard.html" target="_blank">Produktbeschreibung</a> - <a href="rn/using/deprecated-features.md">Eingestellte und entfernte Funktionen</a> - <a href="rn/using/release-planning.md">Versionsplanung</a> - <a href="administration/using/cnil-pixel-tracking.md">CNIL-Anleitung zu E-Mail-Tracking-Pixeln</a></td>
 <td><strong>Technische Ressourcen</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud-Trigger</a> – <a href="api/using/get-started-apis.md">Campaign-APIs</a> – <a href="https://helpx.adobe.com/de/campaign/kb/acs-article-list.html" target="blank">Technische Hinweise</a> – <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de" target="_blank">Dokumentation zum Control Panel</a> – <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=de">Liste der Fehlermeldungen</a>
-</td>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud-</a>: <a href="api/using/get-started-apis.md">Campaign-</a>: <a href="https://helpx.adobe.com/de/campaign/kb/acs-article-list.html" target="blank">Technische Hinweise</a>: <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de" target="_blank">Control Panel-Dokumentation</a>: <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=de">Liste der Fehlermeldungen</a></td>
 </tr></table>

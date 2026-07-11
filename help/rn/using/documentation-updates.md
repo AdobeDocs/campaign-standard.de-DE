@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
 workflow-type: tm+mt
-source-wordcount: '7668'
-ht-degree: 100%
+source-wordcount: '7689'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 Zusätzlich zu den [Versionshinweisen](../../rn/using/release-notes.md) von Adobe Campaign werden auf dieser Seite alle neuen Aktualisierungen in der Adobe Campaign Standard-Dokumentation aufgeführt.
 
+
+## Juni 2026 {#doc-updates-june-2026}
+
+Es wurde eine Seite über CNIL-Anleitungen für E-Mail-Tracking-Pixel und die zugehörigen Adobe Campaign Standard-Funktionen hinzugefügt. [Weitere Informationen](../../administration/using/cnil-pixel-tracking.md)
 
 ## Version 24.1 – Winter 2024 {#release-24-1}
 
@@ -620,7 +624,7 @@ Der Abschnitt zur Dreamweaver-Integration wurde aktualisiert und verbessert – 
 
 Verbesserungen bei Push-Kanal-Berichten – [mehr dazu](../../reporting/using/push-notification-report.md)
 
-Integration von Adobe Launch für Mobile Apps – [mehr dazu ](../../administration/using/configuring-a-mobile-application.md#using-adobe-experience-platform-sdk)
+Integration von Adobe Launch für Mobile Apps – [mehr dazu &#x200B;](../../administration/using/configuring-a-mobile-application.md#using-adobe-experience-platform-sdk)
 
 Mobile In-App-Nachrichten – [mehr dazu](../../channels/using/about-in-app-messaging.md)
 
@@ -716,7 +720,7 @@ Der Abschnitt zu den Typen von Benutzern wurde aktualisiert – [Weitere Informa
 
 Verbesserung von In-App-Messaging (Betaversion) – [mehr dazu](../../channels/using/about-in-app-messaging.md)
 
-Integration von Adobe Launch für Mobile Apps (Betaversion) – [mehr dazu ](../../sending/using/managing-typologies.md)
+Integration von Adobe Launch für Mobile Apps (Betaversion) – [mehr dazu &#x200B;](../../sending/using/managing-typologies.md)
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
