@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz---s3NRdSbweBFhTAMgSw4
+TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
@@ -17,7 +17,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 116306c9479f7094cb2cb78b7fe2df31a508c9cd
 workflow-type: tm+mt
 source-wordcount: 445
 ht-degree: 100%
@@ -43,8 +43,7 @@ Mit HTML-Breadcrumb können Sie einen Abstand hinzufügen.
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. Klicken Sie auf das Element, dem Sie einen Abstand hinzufügen möchten.
-1. Klicken Sie auf das übergeordnete Tag im HTML-Breadcrumb.
-Sie können diesem Element jetzt einen Abstand hinzufügen.
+1. Klicken Sie auf das übergeordnete Tag im HTML-Breadcrumb.Sie können diesem Element jetzt einen Abstand hinzufügen.
 
 ## Kann ich HTML-Inhalte in Email Designer importieren?
 
@@ -54,8 +53,7 @@ Weitere Informationen finden Sie unter [Kompatibilitätsmodus](../../designing/u
 
 ## Wie erstelle ich meinen ersten E-Mail-Inhalt?
 
-Erstellen Sie zunächst von der Startseite aus eine E-Mail.
-Um einer E-Mail dann Inhalte hinzuzufügen, müssen Sie eine Strukturkomponente hinzufügen und darin eine Inhaltskomponente einfügen.
+Erstellen Sie zunächst von der Startseite aus eine E-Mail.Um einer E-Mail dann Inhalte hinzuzufügen, müssen Sie eine Strukturkomponente hinzufügen und darin eine Inhaltskomponente einfügen.
 
 Weitere Informationen finden Sie unter [E-Mail neu erstellen](../../designing/using/quick-start.md#from-scratch-email)
 
