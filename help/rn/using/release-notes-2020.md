@@ -40,8 +40,8 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
-workflow-type: tm+mt
-source-wordcount: 5444
+workflow-type: ht
+source-wordcount: 5385
 ht-degree: 100%
 
 ---
@@ -64,7 +64,8 @@ ht-degree: 100%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Sie können jetzt <strong>Kontrollgruppen</strong> verwenden, um die Wirkung Ihrer Kampagnen zu messen, indem Sie einen Teil ihrer Zielgruppe ausschließen. Sie können dann das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielpopulation enthalten waren. Anhand der Versandlogs können Sie auch eine Kontrollgruppe in zukünftigen Kampagnen auswählen.</p>
+  <td> <p>Sie können jetzt <strong>Kontrollgruppen</strong> verwenden, um die Wirkung Ihrer Kampagnen zu messen, indem Sie einen Teil der Zielgruppe ausschließen. So können Sie das Verhalten der Zielpopulation, die die Nachricht erhalten hat, mit dem Verhalten der Kontakte vergleichen, die nicht in der Zielpopulation enthalten waren. Basierend auf den Versandlogs können Sie in künftigen Kampagnen auch Kontrollgruppen ansprechen.
+</p>
 <p>Weiterführende Informationen finden Sie im <a href="../../sending/using/control-group.md">entsprechenden Handbuch</a> und im <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=de">Anleitungsvideo</a>.
 </p>
 </td> 
@@ -80,7 +81,8 @@ ht-degree: 100%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign unterstützt jetzt OAuth zur Authentifizierung in der Workflow-Aktivität <strong>Externe API</strong>. Diese neue Funktion ermöglicht es dieser Aktivität, mit Systemen zu kommunizieren, die OAuth-Unterstützung benötigen.</p>
+  <td> <p>Adobe Campaign unterstützt jetzt OAuth-Authentifizierung in der Workflow-Aktivität <strong>Externe API</strong>. Dank dieser neuen Funktion kann die Aktivität mit Systemen kommunizieren, für die OAuth-Unterstützung erforderlich ist.
+</p>
 <p>Weitere Informationen finden Sie im <a href="../../automating/using/external-api.md">entsprechenden Handbuch</a>.
 </p>
 </td> 

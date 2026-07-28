@@ -18,8 +18,8 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 116306c9479f7094cb2cb78b7fe2df31a508c9cd
-workflow-type: tm+mt
-source-wordcount: 445
+workflow-type: ht
+source-wordcount: 415
 ht-degree: 100%
 
 ---
@@ -43,7 +43,8 @@ Mit HTML-Breadcrumb können Sie einen Abstand hinzufügen.
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. Klicken Sie auf das Element, dem Sie einen Abstand hinzufügen möchten.
-1. Klicken Sie auf das übergeordnete Tag im HTML-Breadcrumb.Sie können diesem Element jetzt einen Abstand hinzufügen.
+1. Klicken Sie im HTML-Breadcrumb auf das übergeordnete Tag.
+Sie können diesem Element nun einen Abstand hinzufügen.
 
 ## Kann ich HTML-Inhalte in Email Designer importieren?
 
@@ -53,7 +54,8 @@ Weitere Informationen finden Sie unter [Kompatibilitätsmodus](../../designing/u
 
 ## Wie erstelle ich meinen ersten E-Mail-Inhalt?
 
-Erstellen Sie zunächst von der Startseite aus eine E-Mail.Um einer E-Mail dann Inhalte hinzuzufügen, müssen Sie eine Strukturkomponente hinzufügen und darin eine Inhaltskomponente einfügen.
+Erstellen Sie zunächst auf der Startseite eine E-Mail.
+Um einer E-Mail dann Inhalte hinzuzufügen, müssen Sie eine Strukturkomponente hinzufügen und darin eine Inhaltskomponente einfügen.
 
 Weitere Informationen finden Sie unter [E-Mail neu erstellen](../../designing/using/quick-start.md#from-scratch-email)
 

@@ -9,8 +9,8 @@ product_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
-workflow-type: tm+mt
-source-wordcount: 450
+workflow-type: ht
+source-wordcount: 455
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Bei Ausfall eines ISP können über Campaign versendete E-Mails nicht erfolgreic
 
 Im Dezember 2020 führte ein globales Problem bei Gmail dazu, dass einige E-Mail-Nachrichten, die an gültige Gmail-Adressen gesendet wurden, von Gmail-Servern fälschlicherweise als ungültige E-Mail-Adressen mit der folgenden Bounce-Antwort zurückgewiesen wurden: *„550-5.1.1 Das E-Mail-Konto, das Sie zu erreichen versucht haben, existiert nicht“*.
 
-Google hat angegeben, dass die Ausfälle und Unterbrechungen von Gmail, die dieses Problem verursacht haben, am 14. Dezember um 6:55AM Uhr und am 15. Dezember um 6:09PM Uhr EST endeten. Unsere Datenanalyse zeigte auch einen sehr kurzen Anstieg der Gmail-Bounce-Nachrichten um 2:06AM Uhr EST am 16. Dezember, wobei der Großteil am 15. Dezember zwischen 14:00 Uhr EST und 18:30 Uhr EST stattfand.
+Google hat angegeben, dass die Ausfälle und Unterbrechungen von Gmail, die dieses Problem verursachten, am 14. Dezember um 6:55 Uhr begannen und am 15. Dezember um 18:09 Uhr EST endeten. Unsere Datenanalyse zeigte auch einen sehr kurzen Anstieg der Gmail-Bounces um 2:06 Uhr EST am 16. Dezember, wobei der Großteil am 15. Dezember zwischen 14:00 Uhr EST und 18:30 Uhr EST stattfand.
 
 >[!NOTE]
 >
