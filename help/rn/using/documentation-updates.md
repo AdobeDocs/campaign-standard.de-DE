@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
-workflow-type: ht
-source-wordcount: '7689'
+source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+workflow-type: tm+mt
+source-wordcount: '7607'
 ht-degree: 100%
 
 ---
@@ -452,8 +452,6 @@ Microsoft Dynamics 365-Integration (GA) – [mehr dazu](../../integrating/using/
 
 **Weitere Aktualisierungen der Dokumentation zu dieser Version**
 
-Die Liste der Fehlermeldungen für Adobe Campaign wurde aktualisiert – [Weitere Informationen](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=de)
-
 Die ersten Schritte zum Thema DSGVO wurden verbessert und erweitert. Es handelt sich nun um eine Dokumentation rund um die Gewährleistung von Datenschutz gemäß den Bestimmungen der DSGVO und des CCPA. [Weitere Informationen](https://helpx.adobe.com/content/help/de/campaign/kb/campaign-privacy.html)
 
 Eine neue Grafik wurde hinzugefügt, die den Veröffentlichungsprozess von Transaktionsnachrichten aufzeigt – [Weitere Informationen](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
@@ -534,8 +532,6 @@ Ein neuer Abschnitt zu empfohlenen Updates von E-Mail-Designer wurde hinzugefüg
 
 Ein neuer Abschnitt über Best Practices bei Workflows wurde hinzugefügt – [Weitere Informationen](../../automating/using/best-practices-workflows.md)
 
-Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [Weitere Informationen](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=de)
-
 Eine Warnung in der Dokumentation über benutzerdefinierte Ressourcen wurde hinzugefügt. Es wird empfohlen, für die Kennung benutzerdefinierter Ressourcen maximal 30 Zeichen zu verwenden. Dies gilt auch für Felder von benutzerdefinierten Ressourcen, Schlüsseln, Indizes und Links – [Weitere Informationen](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Juni – Juli 2019 {#doc-updates-2019}
@@ -545,8 +541,6 @@ Eine neue Seite zu Einschränkungen bei Landingpages wurde hinzugefügt – [Wei
 Ein Anwendungsbeispiel wurde hinzugefügt, das zeigt, wie ein Profil mithilfe eines zusammengesetzten Identifizierungsschlüssels aufgerufen werden kann – [Weitere Informationen](../../developing/using/uc-calling-resource-id-key.md)
 
 Eine Empfehlung bezüglich der Verwendung wiederkehrender Sendungen ohne Aggregat-Zeitraum beim Aufruf eines Workflows mit Parametern wurde hinzugefügt – [Weitere Informationen](../../automating/using/calling-a-workflow-with-external-parameters.md)
-
-Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [Weitere Informationen](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=de)
 
 Eine Warnung in der Dokumentation über benutzerdefinierte Ressourcen wurde hinzugefügt. Es wird empfohlen, für die Kennung benutzerdefinierter Ressourcen maximal 30 Zeichen zu verwenden. Dies gilt auch für Felder von benutzerdefinierten Ressourcen, Schlüsseln, Indizes und Links – [Weitere Informationen](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -592,7 +586,7 @@ Das Automating-Benutzerhandbuch wurde mit Links zu verwandten Workflow-Aktivitä
 
 Der Abschnitt über die Indikatorberechnung für dynamische Berichte wurde aktualisiert – [Weitere Informationen](../../reporting/using/indicator-calculation.md)
 
-Eine Kompatibilitätstabelle für dynamische Berichte wurde hinzugefügt, um die Kompatibilität zwischen Dimensionen und Metriken zu veranschaulichen – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=de)
+Eine Kompatibilitätstabelle für dynamische Berichte wurde hinzugefügt, um die Kompatibilität zwischen Dimensionen und Metriken zu veranschaulichen – [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Die Liste der Funktionen für Workflows wurde aktualisiert – [Weitere Informationen](../../automating/using/list-of-functions.md)
 
@@ -653,8 +647,6 @@ Eine Beschreibung zum Verknüpfen von benutzerdefinierten Ressourcen wurde hinzu
 Eine neue Technote wurde hinzugefügt, in der beschrieben wird, wie ein Bild in einer Push-Benachrichtigung in Adobe Campaign Standard angezeigt wird – [Weitere Informationen](../../administration/using/image-push-notification.md)
 
 Eine neue Technote zur Implementierung von Tracking von Push-Benachrichtigungen wurde hinzugefügt – [Weitere Informationen](../../administration/using/push-tracking.md)
-
-Die Liste der Fehlermeldungen für Campaign Standard und Classic wurde aktualisiert – [Weitere Informationen](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=de)
 
 Die Dokumentation zur Integration von Triggers mit Campaign wurde aktualisiert – [Weitere Informationen](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -870,7 +862,7 @@ Die Aktivität **[!UICONTROL An-/Abmeldedienst]** wurde aktualisiert und unterst
 
 Eine schrittweise Anleitung zur Versandvorbereitung wurde hinzugefügt – [Weitere Informationen](../../sending/using/preparing-the-send.md)
 
-Ein Abschnitt mit der Liste der Berechtigungen wurde entfernt. – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de) (PDF)
+Ein Abschnitt mit der Liste der Berechtigungen wurde entfernt. – [mehr dazu](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF)
 
 Eine schrittweise Anleitung zur Verwendung der automatischen SMS-Antwortfunktion wurde hinzugefügt – [Weitere Informationen](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1042,7 +1034,7 @@ Eine neue Technote ist verfügbar: &quot;Integrating the Adobe Mobile SDK with y
 
 Eine Anleitung zur Konfiguration der Integration von People Core Service oder Audience Manager mit Adobe Campaign wurde hinzugefügt – [Weitere Informationen](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=de)
+Die Tabelle mit Berechtigungen wurde überarbeitet, sodass die Funktion gewisser Rollen jetzt klarer ist. [Weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Die Links zur kontextuellen Hilfe, die direkt in Adobe Campaign verfügbar sind, wurden aktualisiert.
 
