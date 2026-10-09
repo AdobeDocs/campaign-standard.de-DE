@@ -11,17 +11,18 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 TQID: https://experienceleague.adobe.com/J9pNnea7LEzzIOs3B8lLWG7DhVI-iytVfpArC3Xdy94
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Beginner
+source-git-commit: 85ffa7d709dc970ab5315fb76577c457380b40f8
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 100%
-
+source-wordcount: '417'
+ht-degree: 94%
 ---
-
 # Versionsplanung {#release-planning}
 
 Adobe aktualisiert laufend seine Lösungen durch neue Funktionen, Verbesserungen und Fehlerkorrekturen.
@@ -30,39 +31,13 @@ Mit jeder neuen Version werden alle Adobe Campaign Standard-Instanzen aktualisie
 
 Aktualisierungen werden in zwei Schritten bereitgestellt. Zuerst werden Staging-Instanzen aktualisiert, damit Sie neue Funktionen testen und Ihre Konfiguration bei Bedarf anpassen können. Danach werden die Produktionsinstanzen aktualisiert.
 
-Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen. Aktualisierungen der Umgebung erfolgen während der unten angegebenen Zeiträume in einzelnen Phasen. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
+Alle Veröffentlichungsdaten können sich ändern: Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen. Umgebungsaktualisierungen erfolgen in mehreren Schüben. Details zu den Terminen werden Kunden per E-Mail mitgeteilt.
 
 ## Version 26.3 {#release-26-3-release}
 
 Weitere Informationen zu dieser Version werden den [Versionshinweisen](release-notes.md) hinzugefügt, sobald die Aktualisierungen der Staging-Umgebungen beginnen.
 
-<table>
- <thead>
-  <tr>
-   <th> Umgebungen </th>
-   <th> Datum</th>
-   <!--
-   <th> General Availability </th>
-   -->
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>Schritt </td>
-   <td>August </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
-  <tr>
-   <td>Produktion </td>
-   <td>September </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
- </tbody>
-</table>
+Die Upgrade-Daten für Version 26.3 sind noch nicht verfügbar. Besuchen Sie diese Seite regelmäßig, um nach Updates zu suchen.
 
 ## Fragen und Antworten {#questions-and-answers}
 

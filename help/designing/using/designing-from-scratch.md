@@ -11,19 +11,21 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 TQID: https://experienceleague.adobe.com/RK13F3Nw-2wxI9rKip-XKDJ3xi0hgpwI-F1uGcKoFKM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
 workflow-type: tm+mt
-source-wordcount: 1268
+source-wordcount: '1268'
 ht-degree: 100%
-
 ---
-
 # Erstellen neuer E-Mails {#designing-an-email-content-from-scratch}
 
 Erfahren Sie, wie Sie die Bearbeitung Ihrer E-Mail-Inhalte meistern. In Email Designer können Sie E-Mails und Vorlagen mit oder ohne eigene vordefinierte Inhalte erstellen.
@@ -39,7 +41,7 @@ Dies sind die wichtigsten Schritte zum Erstellen und Gestalten eines neuen E-Mai
 1. Sehen Sie sich die E-Mail in der Vorschau an.
 1. Speichern Sie den Inhalt und fahren Sie mit der Nachricht fort, nachdem Sie eine Zielgruppe definiert und den Versandzeitpunkt festgelegt haben.
 
-Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v/330101/?captions=ger&autoplay=true&hidetitle=true) an.
+Sehen Sie sich dazu auch dieses [Einführungsvideo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true) an.
 
 >[!NOTE]
 >
@@ -66,7 +68,7 @@ Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
 
    ![](assets/email_designer_structure.png)
 
-1. Wählen Sie die für Ihre E-Mail benötigten Strukturkomponenten per Drag-and-Drop aus.
+1. Wählen Sie die für Ihre E-Mail benötigten Strukturkomponenten mit Drag &amp; Drop aus.
 
    ![](assets/email_designer_structure_components.png)
 
